@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:stm32f4_Centaurus-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pic24fjxxgb:PIC24FJ64GB004 IC1
+L stm32f4_Centaurus-rescue:PIC24FJ64GB004-pic24fjxxgb IC1
 U 1 1 5C554825
 P 18250 14350
 F 0 "IC1" H 19825 17950 60  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 18250 14350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:USB_A P2
+L stm32f4_Centaurus-rescue:USB_A-conn P2
 U 1 1 5C554906
 P 22000 10450
 F 0 "P2" H 22026 10775 50  0000 C CNN
@@ -67,7 +67,7 @@ PGED1
 Text Label 21700 12150 0    50   ~ 0
 PGEC1
 $Comp
-L device:R R2
+L stm32f4_Centaurus-rescue:R-device R2
 U 1 1 5C554B8C
 P 22250 12550
 F 0 "R2" V 22058 12550 40  0000 C CNN
@@ -78,7 +78,7 @@ F 3 "" H 22250 12550 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R3
+L stm32f4_Centaurus-rescue:R-device R3
 U 1 1 5C554BD4
 P 22250 12650
 F 0 "R3" V 22058 12650 40  0000 C CNN
@@ -89,7 +89,7 @@ F 3 "" H 22250 12650 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D1
+L stm32f4_Centaurus-rescue:LED-device D1
 U 1 1 5C554C39
 P 21900 12550
 F 0 "D1" H 21900 12305 50  0000 C CNN
@@ -100,7 +100,7 @@ F 3 "" H 21900 12550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:LED D2
+L stm32f4_Centaurus-rescue:LED-device D2
 U 1 1 5C554C7F
 P 21900 12650
 F 0 "D2" H 21900 12405 50  0000 C CNN
@@ -135,7 +135,7 @@ Wire Wire Line
 Wire Wire Line
 	18950 14150 18950 14175
 $Comp
-L device:C C1
+L stm32f4_Centaurus-rescue:C-device C1
 U 1 1 5C554F6F
 P 17750 13650
 F 0 "C1" V 17521 13650 40  0000 C CNN
@@ -167,7 +167,7 @@ D-
 Text Label 17950 11950 2    50   ~ 0
 D+
 $Comp
-L device:R R1
+L stm32f4_Centaurus-rescue:R-device R1
 U 1 1 5C555465
 P 17750 11350
 F 0 "R1" V 17558 11350 40  0000 C CNN
@@ -200,7 +200,7 @@ F 3 "" H 18750 10925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C2
+L stm32f4_Centaurus-rescue:C-device C2
 U 1 1 5C5556DE
 P 17675 10250
 F 0 "C2" H 17575 10175 40  0000 L CNN
@@ -211,7 +211,7 @@ F 3 "" H 17675 10250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C3
+L stm32f4_Centaurus-rescue:C-device C3
 U 1 1 5C555714
 P 17900 10250
 F 0 "C3" H 17925 10325 40  0000 L CNN
@@ -222,7 +222,7 @@ F 3 "" H 17900 10250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C4
+L stm32f4_Centaurus-rescue:C-device C4
 U 1 1 5C55573C
 P 18125 10250
 F 0 "C4" H 18150 10325 40  0000 L CNN
@@ -316,7 +316,7 @@ Wire Wire Line
 	17950 11350 17925 11350
 Connection ~ 17925 11350
 $Comp
-L conn:CONN_01X06 P1
+L stm32f4_Centaurus-rescue:CONN_01X06-conn P1
 U 1 1 5C55A029
 P 20875 10075
 F 0 "P1" V 20840 9737 50  0000 R CNN
@@ -346,7 +346,7 @@ PGEC1
 NoConn ~ 21125 10275
 NoConn ~ 22300 10350
 $Comp
-L stm32:STM32F407VG U1
+L stm32f4_Centaurus-rescue:STM32F407VG-stm32 U1
 U 1 1 5C55B1A9
 P 8400 8675
 F 0 "U1" H 8400 5581 60  0000 C CNN
@@ -368,7 +368,7 @@ F 3 "" H 3350 5300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L myDevice:AZ1086H U2
+L stm32f4_Centaurus-rescue:AZ1086H-myDevice U2
 U 1 1 5C55CDA1
 P 10675 2250
 F 0 "U2" H 10675 2687 60  0000 C CNN
@@ -390,7 +390,7 @@ F 3 "" H 9225 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C6
+L stm32f4_Centaurus-rescue:C-device C6
 U 1 1 5C55CF80
 P 10225 2300
 F 0 "C6" H 10340 2338 40  0000 L CNN
@@ -412,7 +412,7 @@ F 3 "" H 11450 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C7
+L stm32f4_Centaurus-rescue:C-device C7
 U 1 1 5C55D704
 P 11125 2300
 F 0 "C7" H 11240 2338 40  0000 L CNN
@@ -423,7 +423,7 @@ F 3 "" H 11125 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C5
+L stm32f4_Centaurus-rescue:C-device C5
 U 1 1 5C55E033
 P 6400 3525
 F 0 "C5" H 6515 3563 40  0000 L CNN
@@ -456,7 +456,7 @@ F 3 "" H 18050 8675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R38
+L stm32f4_Centaurus-rescue:R-device R38
 U 1 1 5C55F903
 P 18800 7725
 F 0 "R38" V 18608 7725 40  0000 C CNN
@@ -467,7 +467,7 @@ F 3 "" H 18800 7725 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R39
+L stm32f4_Centaurus-rescue:R-device R39
 U 1 1 5C55F98B
 P 18800 8675
 F 0 "R39" V 18608 8675 40  0000 C CNN
@@ -491,7 +491,7 @@ F 3 "" H 17775 7850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C20
+L stm32f4_Centaurus-rescue:C-device C20
 U 1 1 5C560F99
 P 17550 7825
 F 0 "C20" V 17321 7825 40  0000 C CNN
@@ -502,7 +502,7 @@ F 3 "" H 17550 7825 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C21
+L stm32f4_Centaurus-rescue:C-device C21
 U 1 1 5C56101A
 P 17550 8775
 F 0 "C21" V 17321 8775 40  0000 C CNN
@@ -614,7 +614,7 @@ CAN1_H
 Text Label 18650 8875 0    50   ~ 0
 CAN1_L
 $Comp
-L device:JUMPER JP1
+L stm32f4_Centaurus-rescue:JUMPER-device JP1
 U 1 1 5C5698DB
 P 19650 7775
 F 0 "JP1" H 19650 8031 60  0000 C CNN
@@ -627,7 +627,7 @@ $EndComp
 Text Label 20250 7775 0    50   ~ 0
 CAN0_H
 $Comp
-L device:R R40
+L stm32f4_Centaurus-rescue:R-device R40
 U 1 1 5C569A27
 P 20100 7775
 F 0 "R40" V 19908 7775 40  0000 C CNN
@@ -640,7 +640,7 @@ $EndComp
 Text Label 19350 7775 2    50   ~ 0
 CAN0_L
 $Comp
-L device:JUMPER JP2
+L stm32f4_Centaurus-rescue:JUMPER-device JP2
 U 1 1 5C569C4C
 P 19950 8725
 F 0 "JP2" H 19950 8981 60  0000 C CNN
@@ -653,7 +653,7 @@ $EndComp
 Text Label 19350 8725 2    50   ~ 0
 CAN1_H
 $Comp
-L device:R R41
+L stm32f4_Centaurus-rescue:R-device R41
 U 1 1 5C569C53
 P 19500 8725
 F 0 "R41" V 19308 8725 40  0000 C CNN
@@ -666,7 +666,7 @@ $EndComp
 Text Label 20250 8725 0    50   ~ 0
 CAN1_L
 $Comp
-L conn:CONN_01X04 P11
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P11
 U 1 1 5C56AE92
 P 21275 7775
 F 0 "P11" H 21353 7816 50  0000 L CNN
@@ -688,7 +688,7 @@ F 3 "" H 21050 7650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C22
+L stm32f4_Centaurus-rescue:C-device C22
 U 1 1 5C56B337
 P 20825 7625
 F 0 "C22" V 20596 7625 40  0000 C CNN
@@ -712,7 +712,7 @@ CAN0_H
 Text Label 21075 7925 2    50   ~ 0
 CAN0_L
 $Comp
-L conn:CONN_01X04 P12
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P12
 U 1 1 5C57179A
 P 21275 8725
 F 0 "P12" H 21353 8766 50  0000 L CNN
@@ -734,7 +734,7 @@ F 3 "" H 21050 8600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C23
+L stm32f4_Centaurus-rescue:C-device C23
 U 1 1 5C5717A6
 P 20825 8575
 F 0 "C23" V 20596 8575 40  0000 C CNN
@@ -758,7 +758,7 @@ CAN1_H
 Text Label 21075 8875 2    50   ~ 0
 CAN1_L
 $Comp
-L conn:USB_OTG P5
+L stm32f4_Centaurus-rescue:USB_OTG-conn P5
 U 1 1 5C57899E
 P 2000 14450
 F 0 "P5" H 2076 14775 50  0000 C CNN
@@ -794,7 +794,7 @@ OSC_IN
 Text Label 3400 7125 2    50   ~ 0
 OSC_OUT
 $Comp
-L device:R R25
+L stm32f4_Centaurus-rescue:R-device R25
 U 1 1 5C587DB7
 P 3250 6125
 F 0 "R25" V 3058 6125 40  0000 C CNN
@@ -820,7 +820,7 @@ Wire Wire Line
 Wire Wire Line
 	3075 6125 3100 6125
 $Comp
-L conn:CONN_01X04 P8
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P8
 U 1 1 5C58AC48
 P 3350 14550
 F 0 "P8" H 3428 14591 50  0000 L CNN
@@ -831,7 +831,7 @@ F 3 "" H 3350 14550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X04 P9
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P9
 U 1 1 5C58ACC8
 P 4400 14550
 F 0 "P9" H 4478 14591 50  0000 L CNN
@@ -853,7 +853,7 @@ F 3 "" H 3125 14425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C16
+L stm32f4_Centaurus-rescue:C-device C16
 U 1 1 5C58C893
 P 2900 14400
 F 0 "C16" V 2671 14400 40  0000 C CNN
@@ -897,7 +897,7 @@ F 3 "" H 4175 14425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C17
+L stm32f4_Centaurus-rescue:C-device C17
 U 1 1 5C5914A1
 P 3950 14400
 F 0 "C17" V 3721 14400 40  0000 C CNN
@@ -945,7 +945,7 @@ GP0
 Text Label 1550 13450 2    50   ~ 0
 GP1
 $Comp
-L device:R R12
+L stm32f4_Centaurus-rescue:R-device R12
 U 1 1 5C599BAB
 P 1400 13525
 F 0 "R12" V 1208 13525 40  0000 C CNN
@@ -995,7 +995,7 @@ F 3 "" H 1525 13300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C10
+L stm32f4_Centaurus-rescue:C-device C10
 U 1 1 5C5A05C7
 P 1300 13300
 F 0 "C10" V 1071 13300 40  0000 C CNN
@@ -1036,7 +1036,7 @@ Text Label 1550 13750 2    50   ~ 0
 GP2
 NoConn ~ 2450 13750
 $Comp
-L device:R R22
+L stm32f4_Centaurus-rescue:R-device R22
 U 1 1 5C5A95E7
 P 3275 13350
 F 0 "R22" V 3083 13350 40  0000 C CNN
@@ -1047,7 +1047,7 @@ F 3 "" H 3275 13350 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R23
+L stm32f4_Centaurus-rescue:R-device R23
 U 1 1 5C5A96B6
 P 3275 13625
 F 0 "R23" V 3083 13625 40  0000 C CNN
@@ -1058,7 +1058,7 @@ F 3 "" H 3275 13625 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R24
+L stm32f4_Centaurus-rescue:R-device R24
 U 1 1 5C5A9769
 P 3275 13900
 F 0 "R24" V 3083 13900 40  0000 C CNN
@@ -1075,7 +1075,7 @@ GP1
 Text Label 3125 13900 2    50   ~ 0
 GP2
 $Comp
-L device:LED D3
+L stm32f4_Centaurus-rescue:LED-device D3
 U 1 1 5C5AC0ED
 P 3625 13350
 F 0 "D3" H 3625 13175 50  0000 C CNN
@@ -1086,7 +1086,7 @@ F 3 "" H 3625 13350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:LED D4
+L stm32f4_Centaurus-rescue:LED-device D4
 U 1 1 5C5AC173
 P 3625 13625
 F 0 "D4" H 3625 13450 50  0000 C CNN
@@ -1097,7 +1097,7 @@ F 3 "" H 3625 13625 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:LED D5
+L stm32f4_Centaurus-rescue:LED-device D5
 U 1 1 5C5AC201
 P 3625 13900
 F 0 "D5" H 3625 13725 50  0000 C CNN
@@ -1135,7 +1135,7 @@ USART3_TX
 Text Label 13400 10625 0    50   ~ 0
 TIM8_CH4
 $Comp
-L conn:CONN_01X04 P3
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P3
 U 1 1 5C5B531E
 P 12150 13850
 F 0 "P3" H 12227 13891 50  0000 L CNN
@@ -1157,7 +1157,7 @@ F 3 "" H 11925 13725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C8
+L stm32f4_Centaurus-rescue:C-device C8
 U 1 1 5C5B59F5
 P 11700 13700
 F 0 "C8" V 11471 13700 40  0000 C CNN
@@ -1190,7 +1190,7 @@ Wire Wire Line
 	11925 13700 11950 13700
 Connection ~ 11925 13700
 $Comp
-L device:R R4
+L stm32f4_Centaurus-rescue:R-device R4
 U 1 1 5C5C0582
 P 11625 13900
 F 0 "R4" V 11433 13900 40  0000 C CNN
@@ -1201,7 +1201,7 @@ F 3 "" H 11625 13900 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R5
+L stm32f4_Centaurus-rescue:R-device R5
 U 1 1 5C5C0739
 P 11625 14000
 F 0 "R5" V 11433 14000 40  0000 C CNN
@@ -1212,7 +1212,7 @@ F 3 "" H 11625 14000 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R10
+L stm32f4_Centaurus-rescue:R-device R10
 U 1 1 5C5C07D5
 P 11900 14175
 F 0 "R10" H 11978 14213 40  0000 L CNN
@@ -1223,7 +1223,7 @@ F 3 "" H 11900 14175 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L stm32f4_Centaurus-rescue:R-device R8
 U 1 1 5C5C08ED
 P 11800 14150
 F 0 "R8" H 11878 14188 40  0000 L CNN
@@ -1259,7 +1259,7 @@ Connection ~ 11800 14325
 Wire Wire Line
 	11800 14325 11900 14325
 $Comp
-L conn:CONN_01X04 P6
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P6
 U 1 1 5C5D47CC
 P 13450 13850
 F 0 "P6" H 13527 13891 50  0000 L CNN
@@ -1281,7 +1281,7 @@ F 3 "" H 13225 13725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C14
+L stm32f4_Centaurus-rescue:C-device C14
 U 1 1 5C5D47D8
 P 13000 13700
 F 0 "C14" V 12771 13700 40  0000 C CNN
@@ -1314,7 +1314,7 @@ Wire Wire Line
 	13225 13700 13250 13700
 Connection ~ 13225 13700
 $Comp
-L device:R R13
+L stm32f4_Centaurus-rescue:R-device R13
 U 1 1 5C5D47ED
 P 12925 13900
 F 0 "R13" V 12733 13900 40  0000 C CNN
@@ -1325,7 +1325,7 @@ F 3 "" H 12925 13900 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R14
+L stm32f4_Centaurus-rescue:R-device R14
 U 1 1 5C5D47F3
 P 12925 14000
 F 0 "R14" V 12733 14000 40  0000 C CNN
@@ -1336,7 +1336,7 @@ F 3 "" H 12925 14000 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R20
+L stm32f4_Centaurus-rescue:R-device R20
 U 1 1 5C5D47F9
 P 13200 14175
 F 0 "R20" H 13278 14213 40  0000 L CNN
@@ -1347,7 +1347,7 @@ F 3 "" H 13200 14175 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R18
+L stm32f4_Centaurus-rescue:R-device R18
 U 1 1 5C5D47FF
 P 13100 14150
 F 0 "R18" H 13178 14188 40  0000 L CNN
@@ -1383,7 +1383,7 @@ Connection ~ 13100 14325
 Wire Wire Line
 	13100 14325 13200 14325
 $Comp
-L conn:CONN_01X04 P4
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P4
 U 1 1 5C5D8BD1
 P 12150 14875
 F 0 "P4" H 12227 14916 50  0000 L CNN
@@ -1405,7 +1405,7 @@ F 3 "" H 11925 14750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C9
+L stm32f4_Centaurus-rescue:C-device C9
 U 1 1 5C5D8BDD
 P 11700 14725
 F 0 "C9" V 11471 14725 40  0000 C CNN
@@ -1438,7 +1438,7 @@ Wire Wire Line
 	11925 14725 11950 14725
 Connection ~ 11925 14725
 $Comp
-L device:R R6
+L stm32f4_Centaurus-rescue:R-device R6
 U 1 1 5C5D8BF2
 P 11625 14925
 F 0 "R6" V 11433 14925 40  0000 C CNN
@@ -1449,7 +1449,7 @@ F 3 "" H 11625 14925 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R7
+L stm32f4_Centaurus-rescue:R-device R7
 U 1 1 5C5D8BF8
 P 11625 15025
 F 0 "R7" V 11433 15025 40  0000 C CNN
@@ -1460,7 +1460,7 @@ F 3 "" H 11625 15025 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R11
+L stm32f4_Centaurus-rescue:R-device R11
 U 1 1 5C5D8BFE
 P 11900 15200
 F 0 "R11" H 11978 15238 40  0000 L CNN
@@ -1471,7 +1471,7 @@ F 3 "" H 11900 15200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R9
+L stm32f4_Centaurus-rescue:R-device R9
 U 1 1 5C5D8C04
 P 11800 15175
 F 0 "R9" H 11878 15213 40  0000 L CNN
@@ -1507,7 +1507,7 @@ Connection ~ 11800 15350
 Wire Wire Line
 	11800 15350 11900 15350
 $Comp
-L conn:CONN_01X04 P7
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P7
 U 1 1 5C5D8C1B
 P 13450 14875
 F 0 "P7" H 13527 14916 50  0000 L CNN
@@ -1529,7 +1529,7 @@ F 3 "" H 13225 14750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C15
+L stm32f4_Centaurus-rescue:C-device C15
 U 1 1 5C5D8C27
 P 13000 14725
 F 0 "C15" V 12771 14725 40  0000 C CNN
@@ -1562,7 +1562,7 @@ Wire Wire Line
 	13225 14725 13250 14725
 Connection ~ 13225 14725
 $Comp
-L device:R R15
+L stm32f4_Centaurus-rescue:R-device R15
 U 1 1 5C5D8C3C
 P 12925 14925
 F 0 "R15" V 12733 14925 40  0000 C CNN
@@ -1573,7 +1573,7 @@ F 3 "" H 12925 14925 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R16
+L stm32f4_Centaurus-rescue:R-device R16
 U 1 1 5C5D8C42
 P 12925 15025
 F 0 "R16" V 12733 15025 40  0000 C CNN
@@ -1584,7 +1584,7 @@ F 3 "" H 12925 15025 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R21
+L stm32f4_Centaurus-rescue:R-device R21
 U 1 1 5C5D8C48
 P 13200 15200
 F 0 "R21" H 13278 15238 40  0000 L CNN
@@ -1595,7 +1595,7 @@ F 3 "" H 13200 15200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R19
+L stm32f4_Centaurus-rescue:R-device R19
 U 1 1 5C5D8C4E
 P 13100 15175
 F 0 "R19" H 13178 15213 40  0000 L CNN
@@ -1631,7 +1631,7 @@ Connection ~ 13100 15350
 Wire Wire Line
 	13100 15350 13200 15350
 $Comp
-L device:CRYSTAL X1
+L stm32f4_Centaurus-rescue:CRYSTAL-device X1
 U 1 1 5C5DF725
 P 1825 7675
 F 0 "X1" H 1825 7967 60  0000 C CNN
@@ -1644,7 +1644,7 @@ $EndComp
 Text Label 1475 7675 2    50   ~ 0
 OSC_OUT
 $Comp
-L device:C C11
+L stm32f4_Centaurus-rescue:C-device C11
 U 1 1 5C5DFCF2
 P 1500 7875
 F 0 "C11" H 1615 7913 40  0000 L CNN
@@ -1655,7 +1655,7 @@ F 3 "" H 1500 7875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C13
+L stm32f4_Centaurus-rescue:C-device C13
 U 1 1 5C5DFDAC
 P 2150 7875
 F 0 "C13" H 2265 7913 40  0000 L CNN
@@ -1686,7 +1686,7 @@ Wire Wire Line
 	1825 8075 2150 8075
 Connection ~ 1825 8075
 $Comp
-L device:C C12
+L stm32f4_Centaurus-rescue:C-device C12
 U 1 1 5C603619
 P 1825 7200
 F 0 "C12" V 1596 7200 40  0000 C CNN
@@ -1718,7 +1718,7 @@ Wire Wire Line
 Wire Wire Line
 	1425 7200 1625 7200
 $Comp
-L device:R R17
+L stm32f4_Centaurus-rescue:R-device R17
 U 1 1 5C6298E3
 P 2375 6625
 F 0 "R17" V 2183 6625 40  0000 C CNN
@@ -1729,7 +1729,7 @@ F 3 "" H 2375 6625 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C18
+L stm32f4_Centaurus-rescue:C-device C18
 U 1 1 5C633E51
 P 4775 3125
 F 0 "C18" H 4775 3200 40  0000 L CNN
@@ -1764,7 +1764,7 @@ F 3 "" H 5825 3525 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C19
+L stm32f4_Centaurus-rescue:C-device C19
 U 1 1 5C634BD2
 P 5400 3925
 F 0 "C19" H 5515 3963 40  0000 L CNN
@@ -1804,7 +1804,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 3725 5375 3725
 $Comp
-L device:INDUCTOR_SMALL L1
+L stm32f4_Centaurus-rescue:INDUCTOR_SMALL-device L1
 U 1 1 5C6866C8
 P 5675 3325
 F 0 "L1" H 5675 3540 50  0000 C CNN
@@ -1815,7 +1815,7 @@ F 3 "" H 5675 3325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R35
+L stm32f4_Centaurus-rescue:R-device R35
 U 1 1 5C686E67
 P 5950 3475
 F 0 "R35" H 6028 3513 40  0000 L CNN
@@ -1826,7 +1826,7 @@ F 3 "" H 5950 3475 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R36
+L stm32f4_Centaurus-rescue:R-device R36
 U 1 1 5C687259
 P 5950 3825
 F 0 "R36" H 6028 3863 40  0000 L CNN
@@ -1911,7 +1911,7 @@ F 3 "" H 6400 3725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X04 P15
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P15
 U 1 1 5C842388
 P 3350 15225
 F 0 "P15" H 3428 15266 50  0000 L CNN
@@ -1922,7 +1922,7 @@ F 3 "" H 3350 15225 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X04 P16
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P16
 U 1 1 5C84238E
 P 4400 15225
 F 0 "P16" H 4478 15266 50  0000 L CNN
@@ -1944,7 +1944,7 @@ F 3 "" H 3125 15100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C24
+L stm32f4_Centaurus-rescue:C-device C24
 U 1 1 5C84239A
 P 2900 15075
 F 0 "C24" V 2671 15075 40  0000 C CNN
@@ -1988,7 +1988,7 @@ F 3 "" H 4175 15100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C25
+L stm32f4_Centaurus-rescue:C-device C25
 U 1 1 5C8423B3
 P 3950 15075
 F 0 "C25" V 3721 15075 40  0000 C CNN
@@ -2032,7 +2032,7 @@ F 3 "" H 21500 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R43
+L stm32f4_Centaurus-rescue:R-device R43
 U 1 1 5C850E36
 P 21250 5850
 F 0 "R43" H 21328 5888 40  0000 L CNN
@@ -2054,7 +2054,7 @@ F 3 "" H 21250 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R42
+L stm32f4_Centaurus-rescue:R-device R42
 U 1 1 5C8510F6
 P 20800 6200
 F 0 "R42" V 20608 6200 40  0000 C CNN
@@ -2066,7 +2066,7 @@ F 3 "" H 20800 6200 30  0000 C CNN
 $EndComp
 NoConn ~ 21250 4600
 $Comp
-L device:C C27
+L stm32f4_Centaurus-rescue:C-device C27
 U 1 1 5C869B4A
 P 9800 11875
 F 0 "C27" H 9915 11913 40  0000 L CNN
@@ -2077,7 +2077,7 @@ F 3 "" H 9800 11875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C26
+L stm32f4_Centaurus-rescue:C-device C26
 U 1 1 5C869C54
 P 9300 11875
 F 0 "C26" H 9415 11913 40  0000 L CNN
@@ -2169,7 +2169,7 @@ I2C1_SDA
 Text Label 20375 5300 2    50   ~ 0
 I2C1_SCL
 $Comp
-L device:C C28
+L stm32f4_Centaurus-rescue:C-device C28
 U 1 1 5C870F9A
 P 21000 5100
 F 0 "C28" V 20771 5100 40  0000 C CNN
@@ -2191,7 +2191,7 @@ F 3 "" H 21225 5125 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C30
+L stm32f4_Centaurus-rescue:C-device C30
 U 1 1 5C8956C0
 P 21050 4800
 F 0 "C30" V 20821 4800 40  0000 C CNN
@@ -2250,7 +2250,7 @@ F 3 "" H 6700 13225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:SW_PUSH SW2
+L stm32f4_Centaurus-rescue:SW_PUSH-device SW2
 U 1 1 5C96574B
 P 17075 6025
 F 0 "SW2" V 17121 5967 50  0000 R CNN
@@ -2272,7 +2272,7 @@ F 3 "" H 16725 6325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R45
+L stm32f4_Centaurus-rescue:R-device R45
 U 1 1 5C965EED
 P 17075 5525
 F 0 "R45" H 17153 5563 40  0000 L CNN
@@ -2298,7 +2298,7 @@ F 3 "" H 16725 5375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D19
+L stm32f4_Centaurus-rescue:LED-device D19
 U 1 1 5C98DD47
 P 18200 5825
 F 0 "D19" V 18154 5903 50  0000 L CNN
@@ -2320,7 +2320,7 @@ F 3 "" H 18200 6325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R49
+L stm32f4_Centaurus-rescue:R-device R49
 U 1 1 5C98E1D7
 P 18200 6175
 F 0 "R49" H 18278 6213 40  0000 L CNN
@@ -2346,7 +2346,7 @@ F 3 "" H 18725 4775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R46
+L stm32f4_Centaurus-rescue:R-device R46
 U 1 1 5C9A093D
 P 19425 4675
 F 0 "R46" V 19233 4675 40  0000 C CNN
@@ -2357,7 +2357,7 @@ F 3 "" H 19425 4675 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R47
+L stm32f4_Centaurus-rescue:R-device R47
 U 1 1 5C9A0AF0
 P 19425 4775
 F 0 "R47" V 19233 4775 40  0000 C CNN
@@ -2368,7 +2368,7 @@ F 3 "" H 19425 4775 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R48
+L stm32f4_Centaurus-rescue:R-device R48
 U 1 1 5C9A0C12
 P 19425 4875
 F 0 "R48" V 19233 4875 40  0000 C CNN
@@ -2419,7 +2419,7 @@ F 3 "" H 22100 8600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X04 P14
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P14
 U 1 1 5C5717BB
 P 22325 8725
 F 0 "P14" H 22403 8766 50  0000 L CNN
@@ -2445,7 +2445,7 @@ F 3 "" H 22100 7650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X04 P13
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P13
 U 1 1 5C56FD53
 P 22325 7775
 F 0 "P13" H 22403 7816 50  0000 L CNN
@@ -2464,7 +2464,7 @@ Wire Wire Line
 Wire Wire Line
 	22100 8575 22125 8575
 $Comp
-L conn:CONN_01X10 P24
+L stm32f4_Centaurus-rescue:CONN_01X10-conn P24
 U 1 1 5CA734BB
 P 8750 14925
 F 0 "P24" H 8827 14966 50  0000 L CNN
@@ -2475,7 +2475,7 @@ F 3 "" H 8750 14925 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_02X10 P26
+L stm32f4_Centaurus-rescue:CONN_02X10-conn P26
 U 1 1 5CA73B0D
 P 9550 14925
 F 0 "P26" H 9550 15590 50  0000 C CNN
@@ -2684,7 +2684,7 @@ TIM11_CH1
 Text Label 8550 15375 2    50   ~ 0
 TIM10_CH1
 $Comp
-L device:SPEAKER SP1
+L stm32f4_Centaurus-rescue:SPEAKER-device SP1
 U 1 1 5D0344E4
 P 21675 3400
 F 0 "SP1" H 21953 3461 70  0000 L CNN
@@ -2695,7 +2695,7 @@ F 3 "" H 21675 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R53
+L stm32f4_Centaurus-rescue:R-device R53
 U 1 1 5D035A88
 P 20925 3650
 F 0 "R53" H 21003 3688 40  0000 L CNN
@@ -2706,7 +2706,7 @@ F 3 "" H 20925 3650 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R51
+L stm32f4_Centaurus-rescue:R-device R51
 U 1 1 5D035C70
 P 20475 4000
 F 0 "R51" V 20283 4000 40  0000 C CNN
@@ -2817,7 +2817,7 @@ ADC12_IN3
 Text Label 8550 13750 2    50   ~ 0
 ADC12_IN4
 $Comp
-L conn:CONN_01X10 P23
+L stm32f4_Centaurus-rescue:CONN_01X10-conn P23
 U 1 1 5D846923
 P 8750 13700
 F 0 "P23" H 8828 13741 50  0000 L CNN
@@ -2828,7 +2828,7 @@ F 3 "" H 8750 13700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_02X10 P25
+L stm32f4_Centaurus-rescue:CONN_02X10-conn P25
 U 1 1 5D8472F7
 P 9525 13700
 F 0 "P25" H 9525 14365 50  0000 C CNN
@@ -2918,7 +2918,7 @@ I2C1_SCL
 Text Label 3400 10425 2    50   ~ 0
 I2C1_SDA
 $Comp
-L device:C C29
+L stm32f4_Centaurus-rescue:C-device C29
 U 1 1 5DABC5D5
 P 21050 4700
 F 0 "C29" V 20821 4700 40  0000 C CNN
@@ -2929,7 +2929,7 @@ F 3 "" H 21050 4700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R52
+L stm32f4_Centaurus-rescue:R-device R52
 U 1 1 5DABC72C
 P 20550 4950
 F 0 "R52" H 20628 4988 40  0000 L CNN
@@ -2940,7 +2940,7 @@ F 3 "" H 20550 4950 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R50
+L stm32f4_Centaurus-rescue:R-device R50
 U 1 1 5DABC890
 P 20400 5050
 F 0 "R50" H 20478 5088 40  0000 L CNN
@@ -3009,7 +3009,7 @@ SWDIO
 Text Label 3400 9325 2    50   ~ 0
 SWCLK
 $Comp
-L conn:CONN_01X05 P18
+L stm32f4_Centaurus-rescue:CONN_01X05-conn P18
 U 1 1 5DC0994C
 P 2600 6000
 F 0 "P18" H 2678 6041 50  0000 L CNN
@@ -3031,7 +3031,7 @@ F 3 "" H 2375 5825 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:JUMPER JP3
+L stm32f4_Centaurus-rescue:JUMPER-device JP3
 U 1 1 5DC0A546
 P 1700 5900
 F 0 "JP3" H 1700 6156 60  0000 C CNN
@@ -3174,7 +3174,7 @@ Connection ~ 9800 14050
 Wire Wire Line
 	9800 14050 9800 14150
 $Comp
-L device:SW_PUSH SW3
+L stm32f4_Centaurus-rescue:SW_PUSH-device SW3
 U 1 1 5DFC7B28
 P 16725 6025
 F 0 "SW3" V 16771 5967 50  0000 R CNN
@@ -3185,7 +3185,7 @@ F 3 "" H 16725 6025 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R54
+L stm32f4_Centaurus-rescue:R-device R54
 U 1 1 5DFC82EB
 P 16725 5525
 F 0 "R54" H 16803 5563 40  0000 L CNN
@@ -3207,7 +3207,7 @@ F 3 "" H 17075 6325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:SW_PUSH SW4
+L stm32f4_Centaurus-rescue:SW_PUSH-device SW4
 U 1 1 5DFC9DFB
 P 17425 6025
 F 0 "SW4" V 17471 5967 50  0000 R CNN
@@ -3218,7 +3218,7 @@ F 3 "" H 17425 6025 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R55
+L stm32f4_Centaurus-rescue:R-device R55
 U 1 1 5DFCACB5
 P 17425 5525
 F 0 "R55" H 17503 5563 40  0000 L CNN
@@ -3229,7 +3229,7 @@ F 3 "" H 17425 5525 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:SW_PUSH SW5
+L stm32f4_Centaurus-rescue:SW_PUSH-device SW5
 U 1 1 5DFCB1E7
 P 17775 6025
 F 0 "SW5" V 17821 5967 50  0000 R CNN
@@ -3240,7 +3240,7 @@ F 3 "" H 17775 6025 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R56
+L stm32f4_Centaurus-rescue:R-device R56
 U 1 1 5DFCB7A5
 P 17775 5525
 F 0 "R56" H 17853 5563 40  0000 L CNN
@@ -3273,7 +3273,7 @@ F 3 "" H 17775 6325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D21
+L stm32f4_Centaurus-rescue:LED-device D21
 U 1 1 5DFCC589
 P 18550 5825
 F 0 "D21" V 18504 5903 50  0000 L CNN
@@ -3284,7 +3284,7 @@ F 3 "" H 18550 5825 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D22
+L stm32f4_Centaurus-rescue:LED-device D22
 U 1 1 5DFCC6FD
 P 18900 5825
 F 0 "D22" V 18854 5903 50  0000 L CNN
@@ -3295,7 +3295,7 @@ F 3 "" H 18900 5825 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D23
+L stm32f4_Centaurus-rescue:LED-device D23
 U 1 1 5DFCC86F
 P 19250 5825
 F 0 "D23" V 19204 5903 50  0000 L CNN
@@ -3339,7 +3339,7 @@ F 3 "" H 19250 6325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R57
+L stm32f4_Centaurus-rescue:R-device R57
 U 1 1 5DFCCDEC
 P 18550 6175
 F 0 "R57" H 18628 6213 40  0000 L CNN
@@ -3350,7 +3350,7 @@ F 3 "" H 18550 6175 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R58
+L stm32f4_Centaurus-rescue:R-device R58
 U 1 1 5DFCCF62
 P 18900 6175
 F 0 "R58" H 18978 6213 40  0000 L CNN
@@ -3361,7 +3361,7 @@ F 3 "" H 18900 6175 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R59
+L stm32f4_Centaurus-rescue:R-device R59
 U 1 1 5DFCD0DA
 P 19250 6175
 F 0 "R59" H 19328 6213 40  0000 L CNN
@@ -3404,7 +3404,7 @@ TIM9_CH1
 Text Label 13400 6725 0    50   ~ 0
 TIM9_CH2
 $Comp
-L device:C C34
+L stm32f4_Centaurus-rescue:C-device C34
 U 1 1 5E051DD2
 P 3675 5500
 F 0 "C34" H 3790 5538 40  0000 L CNN
@@ -3415,7 +3415,7 @@ F 3 "" H 3675 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C33
+L stm32f4_Centaurus-rescue:C-device C33
 U 1 1 5E051F52
 P 3350 5500
 F 0 "C33" H 3465 5538 40  0000 L CNN
@@ -3426,7 +3426,7 @@ F 3 "" H 3350 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C35
+L stm32f4_Centaurus-rescue:C-device C35
 U 1 1 5E0520CE
 P 4000 5500
 F 0 "C35" H 4115 5538 40  0000 L CNN
@@ -3437,7 +3437,7 @@ F 3 "" H 4000 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C36
+L stm32f4_Centaurus-rescue:C-device C36
 U 1 1 5E052252
 P 4325 5500
 F 0 "C36" H 4440 5538 40  0000 L CNN
@@ -3448,7 +3448,7 @@ F 3 "" H 4325 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C37
+L stm32f4_Centaurus-rescue:C-device C37
 U 1 1 5E05251E
 P 4650 5500
 F 0 "C37" H 4765 5538 40  0000 L CNN
@@ -3459,7 +3459,7 @@ F 3 "" H 4650 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C38
+L stm32f4_Centaurus-rescue:C-device C38
 U 1 1 5E052692
 P 4975 5500
 F 0 "C38" H 5090 5538 40  0000 L CNN
@@ -3470,7 +3470,7 @@ F 3 "" H 4975 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C39
+L stm32f4_Centaurus-rescue:C-device C39
 U 1 1 5E052810
 P 5300 5500
 F 0 "C39" H 5415 5538 40  0000 L CNN
@@ -3481,7 +3481,7 @@ F 3 "" H 5300 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C40
+L stm32f4_Centaurus-rescue:C-device C40
 U 1 1 5E052E52
 P 5625 5500
 F 0 "C40" H 5740 5538 40  0000 L CNN
@@ -3593,7 +3593,7 @@ F 3 "" H 19100 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C41
+L stm32f4_Centaurus-rescue:C-device C41
 U 1 1 5E2EF89D
 P 19325 3300
 F 0 "C41" V 19096 3300 40  0000 C CNN
@@ -3655,7 +3655,7 @@ PC14
 Text Label 5975 13350 2    50   ~ 0
 PC14
 $Comp
-L device:LED D24
+L stm32f4_Centaurus-rescue:LED-device D24
 U 1 1 5E3DA150
 P 19600 5825
 F 0 "D24" V 19554 5903 50  0000 L CNN
@@ -3666,7 +3666,7 @@ F 3 "" H 19600 5825 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D25
+L stm32f4_Centaurus-rescue:LED-device D25
 U 1 1 5E3DA156
 P 19950 5825
 F 0 "D25" V 19904 5903 50  0000 L CNN
@@ -3699,7 +3699,7 @@ F 3 "" H 19950 6325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R60
+L stm32f4_Centaurus-rescue:R-device R60
 U 1 1 5E3DA168
 P 19600 6175
 F 0 "R60" H 19678 6213 40  0000 L CNN
@@ -3710,7 +3710,7 @@ F 3 "" H 19600 6175 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R61
+L stm32f4_Centaurus-rescue:R-device R61
 U 1 1 5E3DA16E
 P 19950 6175
 F 0 "R61" H 20028 6213 40  0000 L CNN
@@ -3797,7 +3797,7 @@ UART4_RX
 Text Label 3150 14600 2    50   ~ 0
 UART5_TX
 $Comp
-L device:R R62
+L stm32f4_Centaurus-rescue:R-device R62
 U 1 1 5E597D3A
 P 18025 3500
 F 0 "R62" V 17833 3500 40  0000 C CNN
@@ -3808,7 +3808,7 @@ F 3 "" H 18025 3500 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R63
+L stm32f4_Centaurus-rescue:R-device R63
 U 1 1 5E598585
 P 19225 3700
 F 0 "R63" V 19033 3700 40  0000 C CNN
@@ -3819,7 +3819,7 @@ F 3 "" H 19225 3700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R64
+L stm32f4_Centaurus-rescue:R-device R64
 U 1 1 5E59893E
 P 19225 3900
 F 0 "R64" V 19033 3900 40  0000 C CNN
@@ -3884,7 +3884,7 @@ PD0
 Text Label 18175 3700 2    50   ~ 0
 PE10
 $Comp
-L conn:CONN_01X04 P27
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P27
 U 1 1 5E640144
 P 16800 3600
 F 0 "P27" H 16877 3641 50  0000 L CNN
@@ -3906,7 +3906,7 @@ F 3 "" H 16575 3475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C42
+L stm32f4_Centaurus-rescue:C-device C42
 U 1 1 5E640D64
 P 16350 3450
 F 0 "C42" V 16121 3450 40  0000 C CNN
@@ -3928,7 +3928,7 @@ F 3 "" H 16400 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X04 P28
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P28
 U 1 1 5C66B73F
 P 6175 13400
 F 0 "P28" H 6253 13441 50  0000 L CNN
@@ -3939,7 +3939,7 @@ F 3 "" H 6175 13400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X04 P29
+L stm32f4_Centaurus-rescue:CONN_01X04-conn P29
 U 1 1 5C66BB39
 P 6175 14225
 F 0 "P29" H 6253 14266 50  0000 L CNN
@@ -3950,7 +3950,7 @@ F 3 "" H 6175 14225 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_02X04 P30
+L stm32f4_Centaurus-rescue:CONN_02X04-conn P30
 U 1 1 5C66C5A2
 P 6975 13400
 F 0 "P30" H 6975 13765 50  0000 C CNN
@@ -3961,7 +3961,7 @@ F 3 "" H 6975 12200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_02X04 P31
+L stm32f4_Centaurus-rescue:CONN_02X04-conn P31
 U 1 1 5C66C812
 P 6975 14225
 F 0 "P31" H 6975 14590 50  0000 C CNN
@@ -4035,7 +4035,7 @@ F 3 "" H 21875 8175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R67
+L stm32f4_Centaurus-rescue:R-device R67
 U 1 1 5C80B0A5
 P 20400 8175
 F 0 "R67" V 20208 8175 40  0000 C CNN
@@ -4046,7 +4046,7 @@ F 3 "" H 20400 8175 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D36
+L stm32f4_Centaurus-rescue:LED-device D36
 U 1 1 5C80B377
 P 20750 8175
 F 0 "D36" H 20750 8390 50  0000 C CNN
@@ -4089,7 +4089,7 @@ F 3 "" H 21875 9125 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D37
+L stm32f4_Centaurus-rescue:LED-device D37
 U 1 1 5C8C344B
 P 20750 9125
 F 0 "D37" H 20750 9340 50  0000 C CNN
@@ -4115,7 +4115,7 @@ Wire Wire Line
 Wire Wire Line
 	20975 9125 20950 9125
 $Comp
-L device:R R68
+L stm32f4_Centaurus-rescue:R-device R68
 U 1 1 5C8F1AEA
 P 20400 9125
 F 0 "R68" V 20208 9125 40  0000 C CNN
@@ -4130,7 +4130,7 @@ XA4_12V
 Text GLabel 15475 4200 0    50   Input ~ 0
 XA4_12V
 $Comp
-L device:R R66
+L stm32f4_Centaurus-rescue:R-device R66
 U 1 1 5CA9EC16
 P 15625 4200
 F 0 "R66" V 15433 4200 40  0000 C CNN
@@ -4165,7 +4165,7 @@ F 3 "" H 16200 4225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D35
+L stm32f4_Centaurus-rescue:LED-device D35
 U 1 1 5CACF7C4
 P 15975 4200
 F 0 "D35" V 15929 4278 50  0000 L CNN
@@ -4227,7 +4227,7 @@ Wire Wire Line
 Text GLabel 15475 4450 0    50   Input ~ 0
 XA4_12V
 $Comp
-L conn:CONN_01X02 P10
+L stm32f4_Centaurus-rescue:CONN_01X02-conn P10
 U 1 1 5CB392D7
 P 2250 1725
 F 0 "P10" H 2327 1766 50  0000 L CNN
@@ -4260,7 +4260,7 @@ F 3 "" H 2650 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X02 P17
+L stm32f4_Centaurus-rescue:CONN_01X02-conn P17
 U 1 1 5CB40275
 P 5400 2175
 F 0 "P17" H 5478 2216 50  0000 L CNN
@@ -4295,7 +4295,7 @@ $EndComp
 Text GLabel 12625 2150 0    50   Input ~ 0
 XA2_12V
 $Comp
-L device:R R33
+L stm32f4_Centaurus-rescue:R-device R33
 U 1 1 5CB463BB
 P 12775 2150
 F 0 "R33" V 12700 2150 40  0000 C CNN
@@ -4306,7 +4306,7 @@ F 3 "" H 12775 2150 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D13
+L stm32f4_Centaurus-rescue:LED-device D13
 U 1 1 5CB470DA
 P 13125 2150
 F 0 "D13" H 13125 2365 50  0000 C CNN
@@ -4339,7 +4339,7 @@ F 3 "transistors/mos/*.*" H 3427 2169 60  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R26
+L stm32f4_Centaurus-rescue:R-device R26
 U 1 1 5CB4C3BA
 P 2850 2425
 F 0 "R26" V 2775 2425 40  0000 C CNN
@@ -4387,7 +4387,7 @@ $EndComp
 Text GLabel 12625 2500 0    50   Input ~ 0
 XA2_5V
 $Comp
-L device:R R34
+L stm32f4_Centaurus-rescue:R-device R34
 U 1 1 5CCE994F
 P 12775 2500
 F 0 "R34" V 12700 2500 40  0000 C CNN
@@ -4398,7 +4398,7 @@ F 3 "" H 12775 2500 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D16
+L stm32f4_Centaurus-rescue:LED-device D16
 U 1 1 5CCE9ADF
 P 13125 2500
 F 0 "D16" H 13125 2715 50  0000 C CNN
@@ -4444,7 +4444,7 @@ $EndComp
 Text Label 6650 3325 0    50   ~ 0
 12V_TO_5V
 $Comp
-L device:R R28
+L stm32f4_Centaurus-rescue:R-device R28
 U 1 1 5CCEDA70
 P 6000 2875
 F 0 "R28" V 5925 2875 40  0000 C CNN
@@ -4459,7 +4459,7 @@ BUS_5V
 Text Label 12625 2850 2    50   ~ 0
 12V_TO_5V
 $Comp
-L device:R R37
+L stm32f4_Centaurus-rescue:R-device R37
 U 1 1 5CD4558A
 P 12775 2850
 F 0 "R37" V 12700 2850 40  0000 C CNN
@@ -4470,7 +4470,7 @@ F 3 "" H 12775 2850 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D17
+L stm32f4_Centaurus-rescue:LED-device D17
 U 1 1 5CD45724
 P 13125 2850
 F 0 "D17" H 13125 3065 50  0000 C CNN
@@ -4481,7 +4481,7 @@ F 3 "" H 13125 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D18
+L stm32f4_Centaurus-rescue:LED-device D18
 U 1 1 5CD46C52
 P 13125 3200
 F 0 "D18" H 13125 3415 50  0000 C CNN
@@ -4492,7 +4492,7 @@ F 3 "" H 13125 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R44
+L stm32f4_Centaurus-rescue:R-device R44
 U 1 1 5CD46EC6
 P 12775 3200
 F 0 "R44" V 12700 3200 40  0000 C CNN
@@ -4514,7 +4514,7 @@ F 3 "transistors/mos/*.*" H 8002 2594 60  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R30
+L stm32f4_Centaurus-rescue:R-device R30
 U 1 1 5CDF0D4E
 P 7300 2850
 F 0 "R30" V 7225 2850 40  0000 C CNN
@@ -4549,7 +4549,7 @@ $EndComp
 Text Label 7925 3300 0    50   ~ 0
 BUS_5V
 $Comp
-L device:SWITCH_INV SW1
+L stm32f4_Centaurus-rescue:SWITCH_INV-device SW1
 U 1 1 5CE466C4
 P 8425 2300
 F 0 "SW1" H 8425 1985 50  0000 C CNN
@@ -4582,7 +4582,7 @@ F 3 "" H 7925 2200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D30
+L stm32f4_Centaurus-rescue:LED-device D30
 U 1 1 5CE73A01
 P 13125 3550
 F 0 "D30" H 13125 3765 50  0000 C CNN
@@ -4593,7 +4593,7 @@ F 3 "" H 13125 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R65
+L stm32f4_Centaurus-rescue:R-device R65
 U 1 1 5CE73FA2
 P 12775 3550
 F 0 "R65" V 12700 3550 40  0000 C CNN
@@ -4668,7 +4668,7 @@ F 3 "" H 16000 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R69
+L stm32f4_Centaurus-rescue:R-device R69
 U 1 1 5C99F1F8
 P 16000 3350
 F 0 "R69" H 16078 3388 40  0000 L CNN
@@ -4690,7 +4690,7 @@ F 3 "" H 16000 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R71
+L stm32f4_Centaurus-rescue:R-device R71
 U 1 1 5C8BC422
 P 16575 3900
 F 0 "R71" H 16653 3938 40  0000 L CNN
@@ -4792,7 +4792,7 @@ F 3 "" H 21325 10675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:JUMPER JP4
+L stm32f4_Centaurus-rescue:JUMPER-device JP4
 U 1 1 5D3C989C
 P 21025 10675
 F 0 "JP4" H 21025 10931 60  0000 C CNN
@@ -4832,7 +4832,7 @@ F 3 "" H 12625 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D31
+L stm32f4_Centaurus-rescue:LED-device D31
 U 1 1 5C96B521
 P 13125 3900
 F 0 "D31" H 13125 4115 50  0000 C CNN
@@ -4843,7 +4843,7 @@ F 3 "" H 13125 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R72
+L stm32f4_Centaurus-rescue:R-device R72
 U 1 1 5C96B7CB
 P 12775 3900
 F 0 "R72" V 12700 3900 40  0000 C CNN
@@ -4861,7 +4861,7 @@ Wire Wire Line
 	13350 3550 13350 3900
 Connection ~ 13350 3900
 $Comp
-L device:C C31
+L stm32f4_Centaurus-rescue:C-device C31
 U 1 1 5CC6C1DB
 P 11450 2300
 F 0 "C31" H 11565 2338 40  0000 L CNN
@@ -4935,7 +4935,7 @@ Wire Wire Line
 	9225 2100 10225 2100
 Connection ~ 9225 2100
 $Comp
-L device:JUMPER3 JP5
+L stm32f4_Centaurus-rescue:JUMPER3-device JP5
 U 1 1 5CF666A0
 P 6700 13950
 F 0 "JP5" H 6700 14166 40  0000 C CNN
@@ -4969,9 +4969,9 @@ Wire Wire Line
 Wire Wire Line
 	13075 15025 13100 15025
 Wire Wire Line
-	2125 7675 2175 7675
+	2125 7675 2150 7675
 Wire Wire Line
-	1475 7675 1525 7675
+	1475 7675 1500 7675
 Wire Wire Line
 	1425 6625 1425 6825
 Wire Wire Line
@@ -5161,4 +5161,10 @@ Wire Wire Line
 Connection ~ 13100 15025
 Wire Wire Line
 	13100 15025 13250 15025
+Connection ~ 2150 7675
+Wire Wire Line
+	2150 7675 2175 7675
+Connection ~ 1500 7675
+Wire Wire Line
+	1500 7675 1525 7675
 $EndSCHEMATC

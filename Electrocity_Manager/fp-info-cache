@@ -1,4 +1,4 @@
-16572630956495137
+16597777464916055
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49644,6 +49644,34 @@ AXICOM IM-Series Relay SPDT
 8
 8
 Mizz_lib
+A.Mizuta_logo_8x4.9
+
+
+0
+0
+0
+Mizz_lib
+A.Mizuta_logo_10x6.1
+
+
+0
+0
+0
+Mizz_lib
+A.Mizuta_logo_15x9.1
+
+
+0
+0
+0
+Mizz_lib
+A.Mizuta_logo_15x9.1_F.CU
+
+
+0
+0
+0
+Mizz_lib
 ACS781
 
 
@@ -49692,6 +49720,20 @@ AZ1086H
 0
 4
 3
+Mizz_lib
+Amethyst_logo5x5.5_silk
+
+
+0
+0
+0
+Mizz_lib
+Amethyst_logo10x11_silk
+
+
+0
+0
+0
 Mizz_lib
 Battery_Killer_logo
 
@@ -49819,6 +49861,13 @@ DEANS_T_M_ver.Mizz
 2
 2
 Mizz_lib
+DFN-8-1EP_6x5mm_P1.27mm_EP2x2mm_CASE 506BT
+DD Package; 8-Lead Plastic DFN (6mm x 5mm) (see http://www.everspin.com/file/236/download)
+dfn 
+0
+10
+8
+Mizz_lib
 DIP-8_W7.62mm
 8-lead dip package, row spacing 7.62 mm (300 mils)
 dil dip 2.54 300
@@ -49834,6 +49883,13 @@ PowerDI diode vishay
 2
 Mizz_lib
 Dekopon_10x10
+
+
+0
+0
+0
+Mizz_lib
+Dodaitos_15x15_silk
 
 
 0
@@ -49916,6 +49972,20 @@ inductor taiyo-yuden nr smd
 0
 2
 2
+Mizz_lib
+Information_logo_3x3_silk
+
+
+0
+0
+0
+Mizz_lib
+Information_logo_5x5_silk
+
+
+0
+0
+0
 Mizz_lib
 Investigator_Logo
 
@@ -50533,6 +50603,13 @@ STM32F4-Child_Turtle
 66
 66
 Mizz_lib
+SW_28x11mm
+
+
+0
+0
+0
+Mizz_lib
 SW_Micro_SPST
 
 Switch Micro SPST
@@ -50693,6 +50770,13 @@ VYB20W-Q24-S5
 0
 6
 6
+Mizz_lib
+WSHP2818
+2818
+Resistor
+0
+2
+2
 Mizz_lib
 XA_2LC
 
@@ -67668,6 +67752,27 @@ rotary encoder
 0
 5
 4
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+NVMFD5C446NLWFT1G
+DFN8 5x6 (SO8FL) CASE 506BT
+MOSFET (N-Channel)
+0
+14
+14
+SamacSys_Parts
+RESC7146X175N
+2818
+Resistor
+0
+2
+2
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -74098,6 +74203,13 @@ Varistor
 RV_Disc_D21.5mm_W11.4mm_P10mm
 Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
+0
+2
+2
+WSHP28182L000FEB
+RESC7146X175N
+2818
+Resistor
 0
 2
 2
