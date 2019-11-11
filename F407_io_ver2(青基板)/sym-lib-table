@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name stm32f4_board_test-rescue)(type Legacy)(uri ${KIPRJMOD}/stm32f4_board_test-rescue.lib)(options "")(descr ""))
+)
