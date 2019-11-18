@@ -1,4 +1,4 @@
-16629267978268045
+16646581907892637
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49630,6 +49630,13 @@ Mizz_lib
 5
 3
 Mizz_lib
+7-1393302-7
+
+
+0
+4
+4
+Mizz_lib
 14_LD_LGAQFN
 
 
@@ -49769,6 +49776,13 @@ Beer_Hall
 0
 1
 0
+Mizz_lib
+BladeFuseHolderFused
+
+
+0
+4
+2
 Mizz_lib
 CCG30-24-xxS
 
@@ -50085,6 +50099,13 @@ inductor taiyo-yuden nr smd
 2
 2
 Mizz_lib
+Libra_15x15_silk
+
+
+0
+0
+0
+Mizz_lib
 MCW103
 
 
@@ -50092,12 +50113,26 @@ MCW103
 7
 7
 Mizz_lib
+MGFS402412
+
+
+0
+6
+6
+Mizz_lib
 MGS30
 
 
 0
 6
 6
+Mizz_lib
+Mega_Fusigibana_15x9_silk
+
+
+0
+0
+0
 Mizz_lib
 Mini_Monster
 
@@ -50196,6 +50231,13 @@ NVGB1306L
 0
 14
 6
+Mizz_lib
+NVMFD5C446NLWFT1G
+DFN8 5x6 (SO8FL) CASE 506BT
+MOSFET (N-Channel)
+0
+14
+14
 Mizz_lib
 NVMFS6H836N
 
@@ -50471,6 +50513,13 @@ RP_KIT_LOGO_10x10_silk
 0
 Mizz_lib
 RP_KIT_Logo_15.0x15.0
+
+
+0
+0
+0
+Mizz_lib
+RP_KIT_Logo_mask_15.0x15.0
 
 
 0
@@ -50778,6 +50827,13 @@ V23076-A3001-D142
 6
 4
 Mizz_lib
+V23086-C1001-A403
+
+
+0
+5
+5
+Mizz_lib
 V23134J1052D642
 
 
@@ -50939,6 +50995,13 @@ wafer connector horizontal
 7
 7
 Mizz_lib
+XT30_F
+
+
+0
+2
+2
+Mizz_lib
 XT60_F
 
 
@@ -51057,6 +51120,13 @@ rotary_0F
 0
 6
 6
+Mizz_lib
+volmeter01
+
+
+0
+3
+1
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -67891,6 +67961,13 @@ Alps rotary encoder, EC12E..., vertical shaft, mounting holes with circular dril
 rotary encoder
 0
 5
+4
+SamacSys_Parts
+3522-2
+3522-2
+Connector
+0
+4
 4
 SamacSys_Parts
 NE555DR
