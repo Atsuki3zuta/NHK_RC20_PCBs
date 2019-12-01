@@ -1,0 +1,5259 @@
+EESchema Schematic File Version 4
+LIBS:MD_Enbarr_x2-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MD_Enbarr_x2-rescue:STM32F405RG_excerpt-stm32f405rg_excerpt-Miz U3
+U 1 1 5E0DD671
+P 4700 5050
+F 0 "U3" H 2700 7025 60  0000 C CNN
+F 1 "STM32F405RG" H 2950 6950 60  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4700 2749 50  0001 C CIN
+F 3 "" H 4700 5050 60  0000 C CNN
+	1    4700 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR015
+U 1 1 5E0E08A5
+P 4200 3050
+F 0 "#PWR015" H 4200 2900 50  0001 C CNN
+F 1 "+3.3V" H 4215 3223 50  0000 C CNN
+F 2 "" H 4200 3050 50  0001 C CNN
+F 3 "" H 4200 3050 50  0001 C CNN
+	1    4200 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3050 4350 3050
+Connection ~ 4200 3050
+Connection ~ 4350 3050
+Wire Wire Line
+	4350 3050 4500 3050
+Connection ~ 4500 3050
+Wire Wire Line
+	4500 3050 4650 3050
+Connection ~ 4650 3050
+Wire Wire Line
+	4650 3050 5000 3050
+Connection ~ 5000 3050
+Wire Wire Line
+	5000 3050 5350 3050
+Text Label 2500 3450 2    50   ~ 0
+~RST
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R1
+U 1 1 5E0E16A3
+P 2100 3800
+F 0 "R1" H 2170 3846 50  0000 L CNN
+F 1 "10k" H 2170 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2030 3800 50  0001 C CNN
+F 3 "~" H 2100 3800 50  0001 C CNN
+	1    2100 3800
+	1    0    0    -1  
+$EndComp
+Text Label 2500 3950 2    50   ~ 0
+OSC_IN
+Text Label 2500 4150 2    50   ~ 0
+OSC_OUT
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR09
+U 1 1 5E0E238C
+P 2100 3950
+F 0 "#PWR09" H 2100 3700 50  0001 C CNN
+F 1 "GND" H 2105 3777 50  0000 C CNN
+F 2 "" H 2100 3950 50  0001 C CNN
+F 3 "" H 2100 3950 50  0001 C CNN
+	1    2100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3650 2500 3650
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X06-conn P1
+U 1 1 5E0E2709
+P 750 3300
+F 0 "P1" H 667 3765 50  0000 C CNN
+F 1 "SWD" H 667 3674 50  0000 C CNN
+F 2 "Mizz_lib:ZH_6P" H 750 3300 50  0001 C CNN
+F 3 "" H 750 3300 50  0000 C CNN
+	1    750  3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR01
+U 1 1 5E0E2A45
+P 950 3050
+F 0 "#PWR01" H 950 2800 50  0001 C CNN
+F 1 "GND" H 955 2877 50  0000 C CNN
+F 2 "" H 950 3050 50  0001 C CNN
+F 3 "" H 950 3050 50  0001 C CNN
+	1    950  3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D4
+U 1 1 5E0E3717
+P 1750 3150
+F 0 "D4" H 1750 3342 40  0000 C CNN
+F 1 "DIODE" H 1750 3266 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 1750 3150 60  0001 C CNN
+F 3 "" H 1750 3150 60  0000 C CNN
+	1    1750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR08
+U 1 1 5E0E5626
+P 1950 3150
+F 0 "#PWR08" H 1950 3000 50  0001 C CNN
+F 1 "+3.3V" H 1965 3323 50  0000 C CNN
+F 2 "" H 1950 3150 50  0001 C CNN
+F 3 "" H 1950 3150 50  0001 C CNN
+	1    1950 3150
+	1    0    0    -1  
+$EndComp
+Text Label 950  3450 0    50   ~ 0
+~RST
+NoConn ~ 950  3550
+Text Label 950  3250 0    50   ~ 0
+SWCLK
+Text Label 950  3350 0    50   ~ 0
+SWDIO
+Text Label 6900 4850 0    50   ~ 0
+SWCLK
+Text Label 6900 4750 0    50   ~ 0
+SWDIO
+$Comp
+L MD_Enbarr_x2-rescue:UCC20520-ucc20520-MD_Enbarr_x2-rescue U4
+U 1 1 5E0E6903
+P 10275 6525
+F 0 "U4" H 10275 7122 60  0000 C CNN
+F 1 "UCC20520" H 10275 7016 60  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 10275 6525 60  0001 C CNN
+F 3 "" H 10275 6525 60  0000 C CNN
+	1    10275 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X03-conn P6
+U 1 1 5E0E8FCA
+P 7125 9275
+F 0 "P6" H 7203 9316 50  0000 L CNN
+F 1 "I/O_0" H 7203 9225 50  0000 L CNN
+F 2 "Mizz_lib:XA_3LC" H 7125 9275 50  0001 C CNN
+F 3 "" H 7125 9275 50  0000 C CNN
+	1    7125 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C13
+U 1 1 5E0E93CD
+P 4500 7200
+F 0 "C13" H 4615 7246 50  0000 L CNN
+F 1 "2.2u" H 4615 7155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 7050 50  0001 C CNN
+F 3 "~" H 4500 7200 50  0001 C CNN
+	1    4500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C14
+U 1 1 5E0E988E
+P 4650 7200
+F 0 "C14" H 4765 7246 50  0000 L CNN
+F 1 "2.2u" H 4765 7155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 7050 50  0001 C CNN
+F 3 "~" H 4650 7200 50  0001 C CNN
+	1    4650 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR022
+U 1 1 5E0E9C47
+P 5000 7350
+F 0 "#PWR022" H 5000 7100 50  0001 C CNN
+F 1 "GND" H 5005 7177 50  0000 C CNN
+F 2 "" H 5000 7350 50  0001 C CNN
+F 3 "" H 5000 7350 50  0001 C CNN
+	1    5000 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7350 5000 7050
+Wire Wire Line
+	5000 7350 4650 7350
+Wire Wire Line
+	4200 7350 4200 7050
+Connection ~ 5000 7350
+Connection ~ 4500 7350
+Wire Wire Line
+	4500 7350 4350 7350
+Connection ~ 4650 7350
+Wire Wire Line
+	4650 7350 4500 7350
+Wire Wire Line
+	4350 7050 4350 7350
+Connection ~ 4350 7350
+Wire Wire Line
+	4350 7350 4200 7350
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C5
+U 1 1 5E0EA930
+P 2725 2475
+F 0 "C5" H 2840 2521 50  0000 L CNN
+F 1 "0.1u" H 2840 2430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2763 2325 50  0001 C CNN
+F 3 "~" H 2725 2475 50  0001 C CNN
+	1    2725 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C6
+U 1 1 5E0EB87A
+P 3075 2475
+F 0 "C6" H 3190 2521 50  0000 L CNN
+F 1 "0.1u" H 3190 2430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3113 2325 50  0001 C CNN
+F 3 "~" H 3075 2475 50  0001 C CNN
+	1    3075 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C8
+U 1 1 5E0EBADD
+P 3425 2475
+F 0 "C8" H 3540 2521 50  0000 L CNN
+F 1 "0.1u" H 3540 2430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3463 2325 50  0001 C CNN
+F 3 "~" H 3425 2475 50  0001 C CNN
+	1    3425 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C9
+U 1 1 5E0EBD0A
+P 3775 2475
+F 0 "C9" H 3890 2521 50  0000 L CNN
+F 1 "0.1u" H 3890 2430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3813 2325 50  0001 C CNN
+F 3 "~" H 3775 2475 50  0001 C CNN
+	1    3775 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C10
+U 1 1 5E0EBF6D
+P 4125 2475
+F 0 "C10" H 4240 2521 50  0000 L CNN
+F 1 "1u" H 4240 2430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4163 2325 50  0001 C CNN
+F 3 "~" H 4125 2475 50  0001 C CNN
+	1    4125 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C12
+U 1 1 5E0EC22C
+P 4475 2475
+F 0 "C12" H 4590 2521 50  0000 L CNN
+F 1 "4.7u" H 4590 2430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4513 2325 50  0001 C CNN
+F 3 "~" H 4475 2475 50  0001 C CNN
+	1    4475 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR018
+U 1 1 5E0EC63A
+P 4475 2625
+F 0 "#PWR018" H 4475 2375 50  0001 C CNN
+F 1 "GND" H 4480 2452 50  0000 C CNN
+F 2 "" H 4475 2625 50  0001 C CNN
+F 3 "" H 4475 2625 50  0001 C CNN
+	1    4475 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 2625 4125 2625
+Connection ~ 4475 2625
+Connection ~ 3075 2625
+Wire Wire Line
+	3075 2625 2725 2625
+Connection ~ 3425 2625
+Wire Wire Line
+	3425 2625 3075 2625
+Connection ~ 3775 2625
+Wire Wire Line
+	3775 2625 3425 2625
+Connection ~ 4125 2625
+Wire Wire Line
+	4125 2625 3775 2625
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR011
+U 1 1 5E0ED9F4
+P 2725 2325
+F 0 "#PWR011" H 2725 2175 50  0001 C CNN
+F 1 "+3.3V" H 2740 2498 50  0000 C CNN
+F 2 "" H 2725 2325 50  0001 C CNN
+F 3 "" H 2725 2325 50  0001 C CNN
+	1    2725 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 2325 3075 2325
+Connection ~ 2725 2325
+Connection ~ 3075 2325
+Wire Wire Line
+	3075 2325 3425 2325
+Connection ~ 3425 2325
+Wire Wire Line
+	3425 2325 3775 2325
+Connection ~ 3775 2325
+Wire Wire Line
+	3775 2325 4125 2325
+Connection ~ 4125 2325
+Wire Wire Line
+	4125 2325 4475 2325
+$Comp
+L MD_Enbarr_x2-rescue:SW_PUSH-device SW1
+U 1 1 5E0EEA17
+P 1250 4000
+F 0 "SW1" H 1250 4255 50  0000 C CNN
+F 1 "RESET" H 1250 4164 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 1250 4000 60  0001 C CNN
+F 3 "" H 1250 4000 60  0000 C CNN
+	1    1250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C2
+U 1 1 5E0EEE65
+P 1250 4325
+F 0 "C2" V 998 4325 50  0000 C CNN
+F 1 "0.1u" V 1089 4325 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1288 4175 50  0001 C CNN
+F 3 "~" H 1250 4325 50  0001 C CNN
+	1    1250 4325
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR05
+U 1 1 5E0EFCED
+P 1550 4325
+F 0 "#PWR05" H 1550 4075 50  0001 C CNN
+F 1 "GND" H 1555 4152 50  0000 C CNN
+F 2 "" H 1550 4325 50  0001 C CNN
+F 3 "" H 1550 4325 50  0001 C CNN
+	1    1550 4325
+	1    0    0    -1  
+$EndComp
+Text Label 900  4000 2    50   ~ 0
+~RST
+Wire Wire Line
+	900  4000 950  4000
+Wire Wire Line
+	950  4000 950  4325
+Wire Wire Line
+	950  4325 1100 4325
+Connection ~ 950  4000
+Wire Wire Line
+	1400 4325 1550 4325
+Wire Wire Line
+	1550 4325 1550 4000
+Connection ~ 1550 4325
+$Comp
+L MD_Enbarr_x2-rescue:Crystal-Device Y1
+U 1 1 5E0F254C
+P 1250 4850
+F 0 "Y1" H 1250 5118 50  0000 C CNN
+F 1 "8MHz" H 1250 5027 50  0000 C CNN
+F 2 "Mizz_lib:Crystal_SMD_5032_2Pads" H 1250 4850 50  0001 C CNN
+F 3 "~" H 1250 4850 50  0001 C CNN
+	1    1250 4850
+	1    0    0    -1  
+$EndComp
+Text Label 1025 4850 2    50   ~ 0
+OSC_IN
+Text Label 1475 4850 0    50   ~ 0
+OSC_OUT
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C1
+U 1 1 5E0F2D1A
+P 1075 5000
+F 0 "C1" H 960 4954 50  0000 R CNN
+F 1 "22p" H 960 5045 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1113 4850 50  0001 C CNN
+F 3 "~" H 1075 5000 50  0001 C CNN
+	1    1075 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C3
+U 1 1 5E0F33A8
+P 1425 5000
+F 0 "C3" H 1310 4954 50  0000 R CNN
+F 1 "22p" H 1310 5045 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1463 4850 50  0001 C CNN
+F 3 "~" H 1425 5000 50  0001 C CNN
+	1    1425 5000
+	-1   0    0    1   
+$EndComp
+Connection ~ 1425 4850
+Wire Wire Line
+	1425 4850 1400 4850
+Connection ~ 1075 4850
+Wire Wire Line
+	1075 4850 1100 4850
+Wire Wire Line
+	1025 4850 1075 4850
+Wire Wire Line
+	1425 4850 1475 4850
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR02
+U 1 1 5E0F60F6
+P 1250 5150
+F 0 "#PWR02" H 1250 4900 50  0001 C CNN
+F 1 "GND" H 1255 4977 50  0000 C CNN
+F 2 "" H 1250 5150 50  0001 C CNN
+F 3 "" H 1250 5150 50  0001 C CNN
+	1    1250 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1425 5150 1250 5150
+Connection ~ 1250 5150
+Wire Wire Line
+	1250 5150 1075 5150
+NoConn ~ 9725 6275
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR036
+U 1 1 5E0F8F49
+P 9725 6375
+F 0 "#PWR036" H 9725 6225 50  0001 C CNN
+F 1 "+3.3V" H 9740 6548 50  0000 C CNN
+F 2 "" H 9725 6375 50  0001 C CNN
+F 3 "" H 9725 6375 50  0001 C CNN
+	1    9725 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR038
+U 1 1 5E0F9533
+P 9725 6875
+F 0 "#PWR038" H 9725 6725 50  0001 C CNN
+F 1 "+3.3V" H 9740 7048 50  0000 C CNN
+F 2 "" H 9725 6875 50  0001 C CNN
+F 3 "" H 9725 6875 50  0001 C CNN
+	1    9725 6875
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9725 6775
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR037
+U 1 1 5E0FAC66
+P 9725 6475
+F 0 "#PWR037" H 9725 6225 50  0001 C CNN
+F 1 "GND" H 9730 6302 50  0000 C CNN
+F 2 "" H 9725 6475 50  0001 C CNN
+F 3 "" H 9725 6475 50  0001 C CNN
+	1    9725 6475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R11
+U 1 1 5E0FADC0
+P 9500 6825
+F 0 "R11" H 9570 6871 50  0000 L CNN
+F 1 "100k" H 9570 6780 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9430 6825 50  0001 C CNN
+F 3 "~" H 9500 6825 50  0001 C CNN
+	1    9500 6825
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R10
+U 1 1 5E0FB5FA
+P 9250 6725
+F 0 "R10" H 9320 6771 50  0000 L CNN
+F 1 "10k" H 9320 6680 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 6725 50  0001 C CNN
+F 3 "~" H 9250 6725 50  0001 C CNN
+	1    9250 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR035
+U 1 1 5E0FBEC9
+P 9500 6975
+F 0 "#PWR035" H 9500 6725 50  0001 C CNN
+F 1 "GND" H 9505 6802 50  0000 C CNN
+F 2 "" H 9500 6975 50  0001 C CNN
+F 3 "" H 9500 6975 50  0001 C CNN
+	1    9500 6975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 6975 9250 6975
+Wire Wire Line
+	9250 6975 9250 6875
+Connection ~ 9500 6975
+Wire Wire Line
+	9250 6575 9725 6575
+Wire Wire Line
+	9500 6675 9725 6675
+Text Label 9450 6175 2    50   ~ 0
+PWM0_L
+Text Label 9200 6575 2    50   ~ 0
+EN0
+Wire Wire Line
+	9200 6575 9250 6575
+Connection ~ 9250 6575
+$Comp
+L MD_Enbarr_x2-rescue:+12P-power #PWR052
+U 1 1 5E100999
+P 11625 6125
+F 0 "#PWR052" H 11625 5975 50  0001 C CNN
+F 1 "+12P" H 11640 6298 50  0000 C CNN
+F 2 "" H 11625 6125 50  0001 C CNN
+F 3 "" H 11625 6125 50  0001 C CNN
+	1    11625 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C19
+U 1 1 5E101500
+P 10925 6275
+F 0 "C19" H 11040 6321 50  0000 L CNN
+F 1 "4.7u" H 11040 6230 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 6125 50  0001 C CNN
+F 3 "~" H 10925 6275 50  0001 C CNN
+	1    10925 6275
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10825 6475
+NoConn ~ 10825 6575
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D13
+U 1 1 5E1032FE
+P 11125 6125
+F 0 "D13" H 11125 5933 40  0000 C CNN
+F 1 "DIODE" H 11125 6009 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 11125 6125 60  0001 C CNN
+F 3 "" H 11125 6125 60  0000 C CNN
+	1    11125 6125
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R19
+U 1 1 5E1036DE
+P 11475 6125
+F 0 "R19" V 11268 6125 50  0000 C CNN
+F 1 "1" V 11359 6125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11405 6125 50  0001 C CNN
+F 3 "~" H 11475 6125 50  0001 C CNN
+	1    11475 6125
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+12P-power #PWR053
+U 1 1 5E10430D
+P 11625 6625
+F 0 "#PWR053" H 11625 6475 50  0001 C CNN
+F 1 "+12P" H 11640 6798 50  0000 C CNN
+F 2 "" H 11625 6625 50  0001 C CNN
+F 3 "" H 11625 6625 50  0001 C CNN
+	1    11625 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C20
+U 1 1 5E104317
+P 10925 6775
+F 0 "C20" H 11040 6821 50  0000 L CNN
+F 1 "4.7u" H 11040 6730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 6625 50  0001 C CNN
+F 3 "~" H 10925 6775 50  0001 C CNN
+	1    10925 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D14
+U 1 1 5E104321
+P 11125 6625
+F 0 "D14" H 11125 6433 40  0000 C CNN
+F 1 "DIODE" H 11125 6509 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 11125 6625 60  0001 C CNN
+F 3 "" H 11125 6625 60  0000 C CNN
+	1    11125 6625
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R20
+U 1 1 5E10432B
+P 11475 6625
+F 0 "R20" V 11268 6625 50  0000 C CNN
+F 1 "1" V 11359 6625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11405 6625 50  0001 C CNN
+F 3 "~" H 11475 6625 50  0001 C CNN
+	1    11475 6625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10825 6375 10875 6375
+Wire Wire Line
+	10875 6375 10875 6425
+Wire Wire Line
+	10875 6425 10925 6425
+Wire Wire Line
+	10825 6175 10875 6175
+Wire Wire Line
+	10875 6175 10875 6125
+Wire Wire Line
+	10875 6125 10925 6125
+Connection ~ 10925 6125
+Wire Wire Line
+	10925 6625 10875 6625
+Wire Wire Line
+	10875 6625 10875 6675
+Wire Wire Line
+	10875 6675 10825 6675
+Connection ~ 10925 6625
+Wire Wire Line
+	10825 6875 10875 6875
+Wire Wire Line
+	10875 6875 10875 6925
+Wire Wire Line
+	10875 6925 10925 6925
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R17
+U 1 1 5E10D7BB
+P 11300 6275
+F 0 "R17" V 11093 6275 50  0000 C CNN
+F 1 "3" V 11184 6275 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 6275 50  0001 C CNN
+F 3 "~" H 11300 6275 50  0001 C CNN
+	1    11300 6275
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R18
+U 1 1 5E10E3CA
+P 11300 6775
+F 0 "R18" V 11093 6775 50  0000 C CNN
+F 1 "3" V 11184 6775 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 6775 50  0001 C CNN
+F 3 "~" H 11300 6775 50  0001 C CNN
+	1    11300 6775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10925 6425 11775 6425
+Wire Wire Line
+	11775 6425 11775 6525
+Wire Wire Line
+	11775 6525 11900 6525
+Wire Wire Line
+	11900 6525 11900 6475
+Connection ~ 10925 6425
+Wire Wire Line
+	11900 6525 11900 6575
+Connection ~ 11900 6525
+Wire Wire Line
+	11450 6275 11600 6275
+Wire Wire Line
+	11150 6275 10825 6275
+Wire Wire Line
+	10825 6775 11150 6775
+Wire Wire Line
+	11450 6775 11600 6775
+Wire Wire Line
+	10925 6925 11775 6925
+Wire Wire Line
+	11775 6925 11775 6975
+Connection ~ 10925 6925
+$Comp
+L MD_Enbarr_x2-rescue:UCC20520-ucc20520-MD_Enbarr_x2-rescue U10
+U 1 1 5E133028
+P 14625 6525
+F 0 "U10" H 14625 7122 60  0000 C CNN
+F 1 "UCC20520" H 14625 7016 60  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 14625 6525 60  0001 C CNN
+F 3 "" H 14625 6525 60  0000 C CNN
+	1    14625 6525
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 15175 6275
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR075
+U 1 1 5E13302F
+P 15175 6375
+F 0 "#PWR075" H 15175 6225 50  0001 C CNN
+F 1 "+3.3V" H 15190 6548 50  0000 C CNN
+F 2 "" H 15175 6375 50  0001 C CNN
+F 3 "" H 15175 6375 50  0001 C CNN
+	1    15175 6375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR077
+U 1 1 5E133035
+P 15175 6875
+F 0 "#PWR077" H 15175 6725 50  0001 C CNN
+F 1 "+3.3V" H 15190 7048 50  0000 C CNN
+F 2 "" H 15175 6875 50  0001 C CNN
+F 3 "" H 15175 6875 50  0001 C CNN
+	1    15175 6875
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 15175 6775
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR076
+U 1 1 5E13303C
+P 15400 6475
+F 0 "#PWR076" H 15400 6225 50  0001 C CNN
+F 1 "GND" H 15405 6302 50  0000 C CNN
+F 2 "" H 15400 6475 50  0001 C CNN
+F 3 "" H 15400 6475 50  0001 C CNN
+	1    15400 6475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R35
+U 1 1 5E133042
+P 15400 6825
+F 0 "R35" H 15470 6871 50  0000 L CNN
+F 1 "100k" H 15470 6780 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15330 6825 50  0001 C CNN
+F 3 "~" H 15400 6825 50  0001 C CNN
+	1    15400 6825
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R36
+U 1 1 5E133048
+P 15650 6725
+F 0 "R36" H 15720 6771 50  0000 L CNN
+F 1 "10k" H 15720 6680 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15580 6725 50  0001 C CNN
+F 3 "~" H 15650 6725 50  0001 C CNN
+	1    15650 6725
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR078
+U 1 1 5E13304E
+P 15400 6975
+F 0 "#PWR078" H 15400 6725 50  0001 C CNN
+F 1 "GND" H 15405 6802 50  0000 C CNN
+F 2 "" H 15400 6975 50  0001 C CNN
+F 3 "" H 15400 6975 50  0001 C CNN
+	1    15400 6975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15400 6975 15650 6975
+Wire Wire Line
+	15650 6975 15650 6875
+Connection ~ 15400 6975
+Wire Wire Line
+	15650 6575 15175 6575
+Wire Wire Line
+	15400 6675 15175 6675
+Text Label 15450 6175 0    50   ~ 0
+PWM0_R
+Text Label 15700 6575 0    50   ~ 0
+EN0
+Wire Wire Line
+	15700 6575 15650 6575
+Connection ~ 15650 6575
+$Comp
+L MD_Enbarr_x2-rescue:+12P-power #PWR063
+U 1 1 5E13305D
+P 13275 6125
+F 0 "#PWR063" H 13275 5975 50  0001 C CNN
+F 1 "+12P" H 13290 6298 50  0000 C CNN
+F 2 "" H 13275 6125 50  0001 C CNN
+F 3 "" H 13275 6125 50  0001 C CNN
+	1    13275 6125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C30
+U 1 1 5E133063
+P 13975 6275
+F 0 "C30" H 14090 6321 50  0000 L CNN
+F 1 "4.7u" H 14090 6230 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 6125 50  0001 C CNN
+F 3 "~" H 13975 6275 50  0001 C CNN
+	1    13975 6275
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 14075 6475
+NoConn ~ 14075 6575
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D19
+U 1 1 5E13306B
+P 13775 6125
+F 0 "D19" H 13775 5933 40  0000 C CNN
+F 1 "DIODE" H 13775 6009 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 13775 6125 60  0001 C CNN
+F 3 "" H 13775 6125 60  0000 C CNN
+	1    13775 6125
+	1    0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R28
+U 1 1 5E133071
+P 13425 6125
+F 0 "R28" V 13218 6125 50  0000 C CNN
+F 1 "1" V 13309 6125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13355 6125 50  0001 C CNN
+F 3 "~" H 13425 6125 50  0001 C CNN
+	1    13425 6125
+	0    -1   1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+12P-power #PWR064
+U 1 1 5E133077
+P 13275 6625
+F 0 "#PWR064" H 13275 6475 50  0001 C CNN
+F 1 "+12P" H 13290 6798 50  0000 C CNN
+F 2 "" H 13275 6625 50  0001 C CNN
+F 3 "" H 13275 6625 50  0001 C CNN
+	1    13275 6625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C31
+U 1 1 5E13307D
+P 13975 6775
+F 0 "C31" H 14090 6821 50  0000 L CNN
+F 1 "4.7u" H 14090 6730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 6625 50  0001 C CNN
+F 3 "~" H 13975 6775 50  0001 C CNN
+	1    13975 6775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D20
+U 1 1 5E133083
+P 13775 6625
+F 0 "D20" H 13775 6433 40  0000 C CNN
+F 1 "DIODE" H 13775 6509 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 13775 6625 60  0001 C CNN
+F 3 "" H 13775 6625 60  0000 C CNN
+	1    13775 6625
+	1    0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R29
+U 1 1 5E133089
+P 13425 6625
+F 0 "R29" V 13218 6625 50  0000 C CNN
+F 1 "1" V 13309 6625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13355 6625 50  0001 C CNN
+F 3 "~" H 13425 6625 50  0001 C CNN
+	1    13425 6625
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14075 6375 14025 6375
+Wire Wire Line
+	14025 6375 14025 6425
+Wire Wire Line
+	14025 6425 13975 6425
+Wire Wire Line
+	14075 6175 14025 6175
+Wire Wire Line
+	14025 6175 14025 6125
+Wire Wire Line
+	14025 6125 13975 6125
+Connection ~ 13975 6125
+Wire Wire Line
+	13975 6625 14025 6625
+Wire Wire Line
+	14025 6625 14025 6675
+Wire Wire Line
+	14025 6675 14075 6675
+Connection ~ 13975 6625
+Wire Wire Line
+	14075 6875 14025 6875
+Wire Wire Line
+	14025 6875 14025 6925
+Wire Wire Line
+	14025 6925 13975 6925
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R30
+U 1 1 5E1330A3
+P 13600 6275
+F 0 "R30" V 13393 6275 50  0000 C CNN
+F 1 "3" V 13484 6275 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 6275 50  0001 C CNN
+F 3 "~" H 13600 6275 50  0001 C CNN
+	1    13600 6275
+	0    -1   1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R31
+U 1 1 5E1330A9
+P 13600 6775
+F 0 "R31" V 13393 6775 50  0000 C CNN
+F 1 "3" V 13484 6775 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 6775 50  0001 C CNN
+F 3 "~" H 13600 6775 50  0001 C CNN
+	1    13600 6775
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	13975 6425 13125 6425
+Wire Wire Line
+	13125 6425 13125 6525
+Wire Wire Line
+	13125 6525 13000 6525
+Wire Wire Line
+	13000 6525 13000 6475
+Connection ~ 13975 6425
+Wire Wire Line
+	13000 6525 13000 6575
+Connection ~ 13000 6525
+Wire Wire Line
+	13450 6275 13300 6275
+Wire Wire Line
+	13750 6275 14075 6275
+Wire Wire Line
+	14075 6775 13750 6775
+Wire Wire Line
+	13450 6775 13300 6775
+Wire Wire Line
+	13975 6925 13125 6925
+Wire Wire Line
+	13125 6925 13125 6975
+Connection ~ 13975 6925
+Text Label 12100 6525 0    50   ~ 0
+OUT0_L
+Text Label 12800 6525 2    50   ~ 0
+OUT0_R
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR060
+U 1 1 5E14A983
+P 12450 6975
+F 0 "#PWR060" H 12450 6775 50  0001 C CNN
+F 1 "GNDPWR" H 12454 6821 50  0000 C CNN
+F 2 "" H 12450 6925 50  0001 C CNN
+F 3 "" H 12450 6925 50  0001 C CNN
+	1    12450 6975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 6975 12850 6975
+Connection ~ 12450 6975
+Wire Wire Line
+	11900 6075 12050 6075
+Text Label 12450 6025 0    50   ~ 0
+MOTOR0_BATT
+Wire Wire Line
+	12450 6025 12450 6075
+Connection ~ 12450 6075
+Wire Wire Line
+	12450 6075 12850 6075
+Text Label 12575 5425 0    50   ~ 0
+MOTOR0_BATT
+Text Label 4525 8750 0    50   ~ 0
+CAN_L
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R3
+U 1 1 5E19709D
+P 4375 8750
+F 0 "R3" V 4168 8750 50  0000 C CNN
+F 1 "120" V 4259 8750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4305 8750 50  0001 C CNN
+F 3 "~" H 4375 8750 50  0001 C CNN
+	1    4375 8750
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:Jumper-Device JP2
+U 1 1 5E196321
+P 3925 8750
+F 0 "JP2" H 3925 9014 50  0000 C CNN
+F 1 "CAN_JP" H 3925 8923 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3925 8750 50  0001 C CNN
+F 3 "~" H 3925 8750 50  0001 C CNN
+	1    3925 8750
+	1    0    0    -1  
+$EndComp
+Text Label 3625 8750 2    50   ~ 0
+CAN_H
+$Comp
+L MD_Enbarr_x2-rescue:+12V-power #PWR014
+U 1 1 5E18F2A3
+P 3275 8750
+F 0 "#PWR014" H 3275 8600 50  0001 C CNN
+F 1 "+12V" H 3290 8923 50  0000 C CNN
+F 2 "" H 3275 8750 50  0001 C CNN
+F 3 "" H 3275 8750 50  0001 C CNN
+	1    3275 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D5
+U 1 1 5E18DCC2
+P 3075 8750
+F 0 "D5" H 3075 8942 40  0000 C CNN
+F 1 "DIODE" H 3075 8866 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3075 8750 60  0001 C CNN
+F 3 "" H 3075 8750 60  0000 C CNN
+	1    3075 8750
+	1    0    0    -1  
+$EndComp
+Text Label 2875 8750 2    50   ~ 0
+CAN_Vdd
+Connection ~ 4125 9200
+Wire Wire Line
+	4125 9200 4075 9200
+Text Label 4075 9200 2    50   ~ 0
+CAN_Vdd
+Wire Wire Line
+	4450 9200 4425 9200
+Connection ~ 4450 9200
+Wire Wire Line
+	4475 9200 4450 9200
+Wire Wire Line
+	4125 9200 4125 9300
+Wire Wire Line
+	4125 9300 4475 9300
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C11
+U 1 1 5E186E88
+P 4275 9200
+F 0 "C11" V 4023 9200 50  0000 C CNN
+F 1 "0.1u" V 4114 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4313 9050 50  0001 C CNN
+F 3 "~" H 4275 9200 50  0001 C CNN
+	1    4275 9200
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR017
+U 1 1 5E186E7E
+P 4450 9200
+F 0 "#PWR017" H 4450 8950 50  0001 C CNN
+F 1 "GND" H 4455 9027 50  0000 C CNN
+F 2 "" H 4450 9200 50  0001 C CNN
+F 3 "" H 4450 9200 50  0001 C CNN
+	1    4450 9200
+	1    0    0    -1  
+$EndComp
+Text Label 4475 9500 2    50   ~ 0
+CAN_L
+Text Label 4475 9400 2    50   ~ 0
+CAN_H
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X04-conn P4
+U 1 1 5E186E72
+P 4675 9350
+F 0 "P4" H 4753 9391 50  0000 L CNN
+F 1 "CAN" H 4753 9300 50  0000 L CNN
+F 2 "Mizz_lib:XA_4LC" H 4675 9350 50  0001 C CNN
+F 3 "" H 4675 9350 50  0000 C CNN
+	1    4675 9350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 9200
+Wire Wire Line
+	3100 9200 3050 9200
+Text Label 3050 9200 2    50   ~ 0
+CAN_Vdd
+Wire Wire Line
+	3425 9200 3400 9200
+Connection ~ 3425 9200
+Wire Wire Line
+	3450 9200 3425 9200
+Wire Wire Line
+	3100 9200 3100 9300
+Wire Wire Line
+	3100 9300 3450 9300
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C7
+U 1 1 5E17398E
+P 3250 9200
+F 0 "C7" V 2998 9200 50  0000 C CNN
+F 1 "0.1u" V 3089 9200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3288 9050 50  0001 C CNN
+F 3 "~" H 3250 9200 50  0001 C CNN
+	1    3250 9200
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR013
+U 1 1 5E173169
+P 3425 9200
+F 0 "#PWR013" H 3425 8950 50  0001 C CNN
+F 1 "GND" H 3430 9027 50  0000 C CNN
+F 2 "" H 3425 9200 50  0001 C CNN
+F 3 "" H 3425 9200 50  0001 C CNN
+	1    3425 9200
+	1    0    0    -1  
+$EndComp
+Text Label 3450 9500 2    50   ~ 0
+CAN_L
+Text Label 3450 9400 2    50   ~ 0
+CAN_H
+Text Label 1425 8950 2    50   ~ 0
+CAN1_RX
+Text Label 1425 8850 2    50   ~ 0
+CAN1_TX
+Text Label 2425 9150 0    50   ~ 0
+CAN_L
+Text Label 2425 8950 0    50   ~ 0
+CAN_H
+Connection ~ 1425 9250
+Wire Wire Line
+	1425 9250 1425 9150
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR03
+U 1 1 5E16985C
+P 1425 9250
+F 0 "#PWR03" H 1425 9000 50  0001 C CNN
+F 1 "GND" H 1430 9077 50  0000 C CNN
+F 2 "" H 1425 9250 50  0001 C CNN
+F 3 "" H 1425 9250 50  0001 C CNN
+	1    1425 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR07
+U 1 1 5E168DD7
+P 1925 9450
+F 0 "#PWR07" H 1925 9200 50  0001 C CNN
+F 1 "GND" H 1930 9277 50  0000 C CNN
+F 2 "" H 1925 9450 50  0001 C CNN
+F 3 "" H 1925 9450 50  0001 C CNN
+	1    1925 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR06
+U 1 1 5E16806A
+P 1925 8650
+F 0 "#PWR06" H 1925 8500 50  0001 C CNN
+F 1 "+3.3V" H 1940 8823 50  0000 C CNN
+F 2 "" H 1925 8650 50  0001 C CNN
+F 3 "" H 1925 8650 50  0001 C CNN
+	1    1925 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:MAX3051-Interface_UART U1
+U 1 1 5E167425
+P 1925 9050
+F 0 "U1" H 1550 9475 50  0000 C CNN
+F 1 "MAX3051" H 1675 9400 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1925 9050 50  0001 C CIN
+F 3 "http://datasheets.maximintegrated.com/en/ds/MAX3051.pdf" H 1925 9050 50  0001 C CNN
+	1    1925 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X04-conn P3
+U 1 1 5E0E7B7D
+P 3650 9350
+F 0 "P3" H 3728 9391 50  0000 L CNN
+F 1 "CAN" H 3728 9300 50  0000 L CNN
+F 2 "Mizz_lib:XA_4LC" H 3650 9350 50  0001 C CNN
+F 3 "" H 3650 9350 50  0000 C CNN
+	1    3650 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR010
+U 1 1 5E1B29D6
+P 2325 10675
+F 0 "#PWR010" H 2325 10425 50  0001 C CNN
+F 1 "GND" H 2330 10502 50  0000 C CNN
+F 2 "" H 2325 10675 50  0001 C CNN
+F 3 "" H 2325 10675 50  0001 C CNN
+	1    2325 10675
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C4
+U 1 1 5E1B35E2
+P 2175 10675
+F 0 "C4" V 1923 10675 50  0000 C CNN
+F 1 "0.1u" V 2014 10675 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2213 10525 50  0001 C CNN
+F 3 "~" H 2175 10675 50  0001 C CNN
+	1    2175 10675
+	0    1    1    0   
+$EndComp
+Connection ~ 2325 10675
+Wire Wire Line
+	2325 10775 2025 10775
+Wire Wire Line
+	2025 10775 2025 10675
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D1
+U 1 1 5E1B8882
+P 1825 10975
+F 0 "D1" H 1825 10783 40  0000 C CNN
+F 1 "DIODE" H 1825 10859 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 1825 10975 60  0001 C CNN
+F 3 "" H 1825 10975 60  0000 C CNN
+	1    1825 10975
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2025 10025 2325 10025
+Wire Wire Line
+	2325 10125 2025 10125
+$Comp
+L MD_Enbarr_x2-rescue:+5V-power #PWR04
+U 1 1 5E1C4B54
+P 1625 10975
+F 0 "#PWR04" H 1625 10825 50  0001 C CNN
+F 1 "+5V" H 1640 11148 50  0000 C CNN
+F 2 "" H 1625 10975 50  0001 C CNN
+F 3 "" H 1625 10975 50  0001 C CNN
+	1    1625 10975
+	1    0    0    -1  
+$EndComp
+Text Label 1625 10125 2    50   ~ 0
+PWM0_R
+Text Label 1625 10025 2    50   ~ 0
+PWM0_L
+$Comp
+L MD_Enbarr_x2-rescue:SI8900-Hori_lib U5
+U 1 1 5E1CE2F1
+P 8575 2225
+F 0 "U5" H 8575 2862 60  0000 C CNN
+F 1 "SI8900" H 8575 2756 60  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 8575 2225 60  0001 C CNN
+F 3 "" H 8575 2225 60  0000 C CNN
+	1    8575 2225
+	-1   0    0    -1  
+$EndComp
+Text Label 9075 2075 0    50   ~ 0
+Voltage
+Text Label 9075 2175 0    50   ~ 0
+CounterVoltage0
+Text Label 9075 2475 0    50   ~ 0
+ADC_~RST
+Wire Wire Line
+	9075 1875 9075 1975
+Connection ~ 9075 1875
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR047
+U 1 1 5E1DE220
+P 9075 2575
+F 0 "#PWR047" H 9075 2375 50  0001 C CNN
+F 1 "GNDPWR" H 9079 2421 50  0000 C CNN
+F 2 "" H 9075 2525 50  0001 C CNN
+F 3 "" H 9075 2525 50  0001 C CNN
+	1    9075 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR040
+U 1 1 5E1DF4B8
+P 8075 2475
+F 0 "#PWR040" H 8075 2325 50  0001 C CNN
+F 1 "+3.3V" H 8090 2648 50  0000 C CNN
+F 2 "" H 8075 2475 50  0001 C CNN
+F 3 "" H 8075 2475 50  0001 C CNN
+	1    8075 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR039
+U 1 1 5E1E00CB
+P 8075 1875
+F 0 "#PWR039" H 8075 1725 50  0001 C CNN
+F 1 "+3.3V" H 8090 2048 50  0000 C CNN
+F 2 "" H 8075 1875 50  0001 C CNN
+F 3 "" H 8075 1875 50  0001 C CNN
+	1    8075 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR041
+U 1 1 5E1E1501
+P 8075 2575
+F 0 "#PWR041" H 8075 2325 50  0001 C CNN
+F 1 "GND" H 8080 2402 50  0000 C CNN
+F 2 "" H 8075 2575 50  0001 C CNN
+F 3 "" H 8075 2575 50  0001 C CNN
+	1    8075 2575
+	1    0    0    -1  
+$EndComp
+Text Label 8075 2175 2    50   ~ 0
+USART1_TX
+Text Label 8075 2275 2    50   ~ 0
+USART1_RX
+$Comp
+L MD_Enbarr_x2-rescue:TLP291-Isolator U6
+U 1 1 5E1E36BF
+P 8550 1000
+F 0 "U6" H 8550 1337 50  0000 C CNN
+F 1 "ADC_~RST" H 8550 1239 50  0000 C CNN
+F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 8350 800 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291" H 8550 1000 50  0001 L CNN
+	1    8550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3VP-power #PWR045
+U 1 1 5E1E4CFE
+P 9150 900
+F 0 "#PWR045" H 9300 850 50  0001 C CNN
+F 1 "+3.3VP" H 9170 1043 50  0000 C CNN
+F 2 "" H 9150 900 50  0001 C CNN
+F 3 "" H 9150 900 50  0001 C CNN
+	1    9150 900 
+	1    0    0    -1  
+$EndComp
+Text Label 8850 1025 0    50   ~ 0
+ADC_~RST
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR044
+U 1 1 5E1F12CD
+P 8850 1100
+F 0 "#PWR044" H 8850 900 50  0001 C CNN
+F 1 "GNDPWR" H 8854 946 50  0000 C CNN
+F 2 "" H 8850 1050 50  0001 C CNN
+F 3 "" H 8850 1050 50  0001 C CNN
+	1    8850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R12
+U 1 1 5E1F2655
+P 8250 1250
+F 0 "R12" H 8320 1296 50  0000 L CNN
+F 1 "330" H 8320 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 1250 50  0001 C CNN
+F 3 "~" H 8250 1250 50  0001 C CNN
+	1    8250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR042
+U 1 1 5E1F288F
+P 8250 1400
+F 0 "#PWR042" H 8250 1150 50  0001 C CNN
+F 1 "GND" H 8255 1227 50  0000 C CNN
+F 2 "" H 8250 1400 50  0001 C CNN
+F 3 "" H 8250 1400 50  0001 C CNN
+	1    8250 1400
+	1    0    0    -1  
+$EndComp
+Text Label 11225 5225 2    50   ~ 0
+Current0
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X02-conn P8
+U 1 1 5E2088D3
+P 13125 950
+F 0 "P8" H 13203 991 50  0000 L CNN
+F 1 "BATT_IN" H 13203 900 50  0000 L CNN
+F 2 "Mizz_lib:XT60_M" H 13125 950 50  0001 C CNN
+F 3 "" H 13125 950 50  0000 C CNN
+	1    13125 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR066
+U 1 1 5E20A0CA
+P 12925 900
+F 0 "#PWR066" H 12925 700 50  0001 C CNN
+F 1 "GNDPWR" H 12929 746 50  0000 C CNN
+F 2 "" H 12925 850 50  0001 C CNN
+F 3 "" H 12925 850 50  0001 C CNN
+	1    12925 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+BATT-power #PWR065
+U 1 1 5E20AB10
+P 12850 900
+F 0 "#PWR065" H 12850 750 50  0001 C CNN
+F 1 "+BATT" H 12865 1073 50  0000 C CNN
+F 2 "" H 12850 900 50  0001 C CNN
+F 3 "" H 12850 900 50  0001 C CNN
+	1    12850 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 900  12850 1000
+Wire Wire Line
+	12850 1000 12925 1000
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X02-conn P9
+U 1 1 5E2118A4
+P 13850 950
+F 0 "P9" H 13928 991 50  0000 L CNN
+F 1 "BATT_IN" H 13928 900 50  0000 L CNN
+F 2 "Mizz_lib:XT60_F" H 13850 950 50  0001 C CNN
+F 3 "" H 13850 950 50  0000 C CNN
+	1    13850 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR070
+U 1 1 5E2118AE
+P 13650 900
+F 0 "#PWR070" H 13650 700 50  0001 C CNN
+F 1 "GNDPWR" H 13654 746 50  0000 C CNN
+F 2 "" H 13650 850 50  0001 C CNN
+F 3 "" H 13650 850 50  0001 C CNN
+	1    13650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+BATT-power #PWR068
+U 1 1 5E2118B8
+P 13575 900
+F 0 "#PWR068" H 13575 750 50  0001 C CNN
+F 1 "+BATT" H 13590 1073 50  0000 C CNN
+F 2 "" H 13575 900 50  0001 C CNN
+F 3 "" H 13575 900 50  0001 C CNN
+	1    13575 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13575 900  13575 1000
+Wire Wire Line
+	13575 1000 13650 1000
+Text Label 13750 1350 2    50   ~ 0
+OUT1_L
+Text Label 13750 1450 2    50   ~ 0
+OUT1_R
+$Comp
+L MD_Enbarr_x2-rescue:+BATT-power #PWR054
+U 1 1 5E2271AA
+P 11800 775
+F 0 "#PWR054" H 11800 625 50  0001 C CNN
+F 1 "+BATT" H 11815 948 50  0000 C CNN
+F 2 "" H 11800 775 50  0001 C CNN
+F 3 "" H 11800 775 50  0001 C CNN
+	1    11800 775 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R22
+U 1 1 5E227641
+P 11800 925
+F 0 "R22" H 11870 971 50  0000 L CNN
+F 1 "10k" H 11870 880 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11730 925 50  0001 C CNN
+F 3 "~" H 11800 925 50  0001 C CNN
+	1    11800 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R23
+U 1 1 5E2286A9
+P 11800 1225
+F 0 "R23" H 11870 1271 50  0000 L CNN
+F 1 "1k" H 11870 1180 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11730 1225 50  0001 C CNN
+F 3 "~" H 11800 1225 50  0001 C CNN
+	1    11800 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR055
+U 1 1 5E228D67
+P 12075 1375
+F 0 "#PWR055" H 12075 1175 50  0001 C CNN
+F 1 "GNDPWR" H 12079 1221 50  0000 C CNN
+F 2 "" H 12075 1325 50  0001 C CNN
+F 3 "" H 12075 1325 50  0001 C CNN
+	1    12075 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C24
+U 1 1 5E22A278
+P 12075 1225
+F 0 "C24" H 12190 1271 50  0000 L CNN
+F 1 "0.1u" H 12190 1180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12113 1075 50  0001 C CNN
+F 3 "~" H 12075 1225 50  0001 C CNN
+	1    12075 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12075 1375 11800 1375
+Connection ~ 12075 1375
+Wire Wire Line
+	12075 1075 11800 1075
+Connection ~ 11800 1075
+Text Label 12125 1075 0    50   ~ 0
+Voltage
+Wire Wire Line
+	12125 1075 12075 1075
+Connection ~ 12075 1075
+Text Label 10550 1550 2    50   ~ 0
+OUT0_L
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D17
+U 1 1 5E244676
+P 10750 2200
+F 0 "D17" H 10750 2392 40  0000 C CNN
+F 1 "DIODE" H 10750 2316 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 10750 2200 60  0001 C CNN
+F 3 "" H 10750 2200 60  0000 C CNN
+	1    10750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R26
+U 1 1 5E24AE77
+P 10550 1700
+F 0 "R26" H 10620 1746 50  0000 L CNN
+F 1 "10k" H 10620 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 1700 50  0001 C CNN
+F 3 "~" H 10550 1700 50  0001 C CNN
+	1    10550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R27
+U 1 1 5E24B418
+P 10550 2050
+F 0 "R27" H 10620 2096 50  0000 L CNN
+F 1 "1k" H 10620 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 2050 50  0001 C CNN
+F 3 "~" H 10550 2050 50  0001 C CNN
+	1    10550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C27
+U 1 1 5E24BD2B
+P 11250 2050
+F 0 "C27" H 11365 2096 50  0000 L CNN
+F 1 "0.1u" H 11365 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11288 1900 50  0001 C CNN
+F 3 "~" H 11250 2050 50  0001 C CNN
+	1    11250 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 1900 10550 1875
+Connection ~ 10550 1875
+Wire Wire Line
+	10550 1875 10550 1850
+Text Label 11300 1875 0    50   ~ 0
+CounterVoltage0
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR033
+U 1 1 5E28303A
+P 7475 1875
+F 0 "#PWR033" H 7475 1725 50  0001 C CNN
+F 1 "+3.3V" H 7490 2048 50  0000 C CNN
+F 2 "" H 7475 1875 50  0001 C CNN
+F 3 "" H 7475 1875 50  0001 C CNN
+	1    7475 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C17
+U 1 1 5E28316F
+P 7475 2025
+F 0 "C17" H 7590 2071 50  0000 L CNN
+F 1 "0.1u" H 7590 1980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7513 1875 50  0001 C CNN
+F 3 "~" H 7475 2025 50  0001 C CNN
+	1    7475 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR034
+U 1 1 5E28A425
+P 7475 2175
+F 0 "#PWR034" H 7475 1925 50  0001 C CNN
+F 1 "GND" H 7480 2002 50  0000 C CNN
+F 2 "" H 7475 2175 50  0001 C CNN
+F 3 "" H 7475 2175 50  0001 C CNN
+	1    7475 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C22
+U 1 1 5E28B089
+P 9800 2025
+F 0 "C22" H 9915 2071 50  0000 L CNN
+F 1 "0.1u" H 9915 1980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9838 1875 50  0001 C CNN
+F 3 "~" H 9800 2025 50  0001 C CNN
+	1    9800 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3VP-power #PWR049
+U 1 1 5E28B87C
+P 9800 1875
+F 0 "#PWR049" H 9950 1825 50  0001 C CNN
+F 1 "+3.3VP" H 9820 2018 50  0000 C CNN
+F 2 "" H 9800 1875 50  0001 C CNN
+F 3 "" H 9800 1875 50  0001 C CNN
+	1    9800 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR050
+U 1 1 5E28BBDB
+P 9800 2175
+F 0 "#PWR050" H 9800 1975 50  0001 C CNN
+F 1 "GNDPWR" H 9804 2021 50  0000 C CNN
+F 2 "" H 9800 2125 50  0001 C CNN
+F 3 "" H 9800 2125 50  0001 C CNN
+	1    9800 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5675 9175 5650 9175
+Connection ~ 5675 9175
+Wire Wire Line
+	5700 9175 5675 9175
+Wire Wire Line
+	5350 9175 5350 9275
+Wire Wire Line
+	5350 9275 5700 9275
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C15
+U 1 1 5E2A7C16
+P 5500 9175
+F 0 "C15" V 5248 9175 50  0000 C CNN
+F 1 "0.1u" V 5339 9175 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5538 9025 50  0001 C CNN
+F 3 "~" H 5500 9175 50  0001 C CNN
+	1    5500 9175
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR026
+U 1 1 5E2A7C20
+P 5675 9175
+F 0 "#PWR026" H 5675 8925 50  0001 C CNN
+F 1 "GND" H 5680 9002 50  0000 C CNN
+F 2 "" H 5675 9175 50  0001 C CNN
+F 3 "" H 5675 9175 50  0001 C CNN
+	1    5675 9175
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+5V-power #PWR021
+U 1 1 5E2B0233
+P 4950 9275
+F 0 "#PWR021" H 4950 9125 50  0001 C CNN
+F 1 "+5V" H 4965 9448 50  0000 C CNN
+F 2 "" H 4950 9275 50  0001 C CNN
+F 3 "" H 4950 9275 50  0001 C CNN
+	1    4950 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D6
+U 1 1 5E2B130C
+P 5150 9275
+F 0 "D6" H 5150 9467 40  0000 C CNN
+F 1 "DIODE" H 5150 9391 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5150 9275 60  0001 C CNN
+F 3 "" H 5150 9275 60  0000 C CNN
+	1    5150 9275
+	1    0    0    -1  
+$EndComp
+Text Label 6900 5950 0    50   ~ 0
+CAN1_RX
+Text Label 6900 6050 0    50   ~ 0
+CAN1_TX
+Text Label 6900 4350 0    50   ~ 0
+USART1_TX
+Text Label 6900 4450 0    50   ~ 0
+USART1_RX
+Text Label 6900 4550 0    50   ~ 0
+PA11
+Text Label 8250 900  2    50   ~ 0
+PA11
+Text Label 7300 6450 0    50   ~ 0
+PWM1_R
+Text Label 7300 6650 0    50   ~ 0
+PWM1_L
+Text Label 6900 6550 0    50   ~ 0
+EN1
+Text Label 6900 3650 0    50   ~ 0
+USART2_TX
+Text Label 6900 3750 0    50   ~ 0
+USART2_RX
+Text Label 5700 9375 2    50   ~ 0
+USART2_TX
+Text Label 5700 9475 2    50   ~ 0
+USART2_RX
+Wire Wire Line
+	6900 9175 6875 9175
+Connection ~ 6900 9175
+Wire Wire Line
+	6925 9175 6900 9175
+Wire Wire Line
+	6575 9175 6575 9275
+Wire Wire Line
+	6575 9275 6925 9275
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C16
+U 1 1 5E2F6491
+P 6725 9175
+F 0 "C16" V 6473 9175 50  0000 C CNN
+F 1 "0.1u" V 6564 9175 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6763 9025 50  0001 C CNN
+F 3 "~" H 6725 9175 50  0001 C CNN
+	1    6725 9175
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR030
+U 1 1 5E2F649B
+P 6900 9175
+F 0 "#PWR030" H 6900 8925 50  0001 C CNN
+F 1 "GND" H 6905 9002 50  0000 C CNN
+F 2 "" H 6900 9175 50  0001 C CNN
+F 3 "" H 6900 9175 50  0001 C CNN
+	1    6900 9175
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+5V-power #PWR028
+U 1 1 5E2F64A5
+P 6175 9275
+F 0 "#PWR028" H 6175 9125 50  0001 C CNN
+F 1 "+5V" H 6190 9448 50  0000 C CNN
+F 2 "" H 6175 9275 50  0001 C CNN
+F 3 "" H 6175 9275 50  0001 C CNN
+	1    6175 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D10
+U 1 1 5E2F64AF
+P 6375 9275
+F 0 "D10" H 6375 9467 40  0000 C CNN
+F 1 "DIODE" H 6375 9391 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6375 9275 60  0001 C CNN
+F 3 "" H 6375 9275 60  0000 C CNN
+	1    6375 9275
+	1    0    0    -1  
+$EndComp
+Connection ~ 6575 9275
+Connection ~ 5350 9275
+Text Label 6900 3850 0    50   ~ 0
+PA4
+Text Label 6925 9375 2    50   ~ 0
+PA4
+Text Label 6900 4950 0    50   ~ 0
+PA15
+Text Label 3125 10225 2    50   ~ 0
+MODE
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R2
+U 1 1 5E31F434
+P 3175 10075
+F 0 "R2" H 3245 10121 50  0000 L CNN
+F 1 "10k" H 3245 10030 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3105 10075 50  0001 C CNN
+F 3 "~" H 3175 10075 50  0001 C CNN
+	1    3175 10075
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:SWITCH_INV-device SW2
+U 1 1 5E320C05
+P 3700 10225
+F 0 "SW2" H 3700 10561 50  0000 C CNN
+F 1 "MODE_SW" H 3700 10470 50  0000 C CNN
+F 2 "Mizz_lib:SW_Micro_SPST" H 3700 10225 60  0001 C CNN
+F 3 "" H 3700 10225 60  0000 C CNN
+	1    3700 10225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR016
+U 1 1 5E322CE6
+P 4200 10325
+F 0 "#PWR016" H 4200 10075 50  0001 C CNN
+F 1 "GND" H 4205 10152 50  0000 C CNN
+F 2 "" H 4200 10325 50  0001 C CNN
+F 3 "" H 4200 10325 50  0001 C CNN
+	1    4200 10325
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4200 10125
+$Comp
+L MD_Enbarr_x2-rescue:+5V-power #PWR012
+U 1 1 5E32B71D
+P 3175 9925
+F 0 "#PWR012" H 3175 9775 50  0001 C CNN
+F 1 "+5V" H 3190 10098 50  0000 C CNN
+F 2 "" H 3175 9925 50  0001 C CNN
+F 3 "" H 3175 9925 50  0001 C CNN
+	1    3175 9925
+	1    0    0    -1  
+$EndComp
+Connection ~ 3175 10225
+Wire Wire Line
+	3175 10225 3200 10225
+Wire Wire Line
+	3125 10225 3175 10225
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R4
+U 1 1 5E3488F0
+P 4800 10150
+F 0 "R4" H 4870 10196 50  0000 L CNN
+F 1 "10k" H 4870 10105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 10150 50  0001 C CNN
+F 3 "~" H 4800 10150 50  0001 C CNN
+	1    4800 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+5V-power #PWR019
+U 1 1 5E34912C
+P 4800 10000
+F 0 "#PWR019" H 4800 9850 50  0001 C CNN
+F 1 "+5V" H 4815 10173 50  0000 C CNN
+F 2 "" H 4800 10000 50  0001 C CNN
+F 3 "" H 4800 10000 50  0001 C CNN
+	1    4800 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:SW_PUSH-device SW3
+U 1 1 5E34A602
+P 4800 10650
+F 0 "SW3" V 4846 10592 50  0000 R CNN
+F 1 "SW0" V 4755 10592 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 4800 10650 60  0001 C CNN
+F 3 "" H 4800 10650 60  0000 C CNN
+	1    4800 10650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR020
+U 1 1 5E34AC59
+P 4800 10950
+F 0 "#PWR020" H 4800 10700 50  0001 C CNN
+F 1 "GND" H 4805 10777 50  0000 C CNN
+F 2 "" H 4800 10950 50  0001 C CNN
+F 3 "" H 4800 10950 50  0001 C CNN
+	1    4800 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R5
+U 1 1 5E34B28D
+P 5175 10150
+F 0 "R5" H 5245 10196 50  0000 L CNN
+F 1 "10k" H 5245 10105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5105 10150 50  0001 C CNN
+F 3 "~" H 5175 10150 50  0001 C CNN
+	1    5175 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+5V-power #PWR023
+U 1 1 5E34B297
+P 5175 10000
+F 0 "#PWR023" H 5175 9850 50  0001 C CNN
+F 1 "+5V" H 5190 10173 50  0000 C CNN
+F 2 "" H 5175 10000 50  0001 C CNN
+F 3 "" H 5175 10000 50  0001 C CNN
+	1    5175 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:SW_PUSH-device SW4
+U 1 1 5E34B2A1
+P 5175 10650
+F 0 "SW4" V 5221 10592 50  0000 R CNN
+F 1 "SW1" V 5130 10592 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 5175 10650 60  0001 C CNN
+F 3 "" H 5175 10650 60  0000 C CNN
+	1    5175 10650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR024
+U 1 1 5E34B2AB
+P 5175 10950
+F 0 "#PWR024" H 5175 10700 50  0001 C CNN
+F 1 "GND" H 5180 10777 50  0000 C CNN
+F 2 "" H 5175 10950 50  0001 C CNN
+F 3 "" H 5175 10950 50  0001 C CNN
+	1    5175 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D7
+U 1 1 5E3557C3
+P 5575 10150
+F 0 "D7" V 5614 10032 50  0000 R CNN
+F 1 "EMG1" V 5523 10032 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5575 10150 50  0001 C CNN
+F 3 "~" H 5575 10150 50  0001 C CNN
+	1    5575 10150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR025
+U 1 1 5E3569D6
+P 5575 10600
+F 0 "#PWR025" H 5575 10350 50  0001 C CNN
+F 1 "GND" H 5580 10427 50  0000 C CNN
+F 2 "" H 5575 10600 50  0001 C CNN
+F 3 "" H 5575 10600 50  0001 C CNN
+	1    5575 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R7
+U 1 1 5E356E52
+P 5950 10450
+F 0 "R7" H 6020 10496 50  0000 L CNN
+F 1 "330" H 6020 10405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 10450 50  0001 C CNN
+F 3 "~" H 5950 10450 50  0001 C CNN
+	1    5950 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D8
+U 1 1 5E356E5C
+P 5950 10150
+F 0 "D8" V 5989 10033 50  0000 R CNN
+F 1 "BUS1" V 5898 10033 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5950 10150 50  0001 C CNN
+F 3 "~" H 5950 10150 50  0001 C CNN
+	1    5950 10150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR027
+U 1 1 5E356E66
+P 5950 10600
+F 0 "#PWR027" H 5950 10350 50  0001 C CNN
+F 1 "GND" H 5955 10427 50  0000 C CNN
+F 2 "" H 5950 10600 50  0001 C CNN
+F 3 "" H 5950 10600 50  0001 C CNN
+	1    5950 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R8
+U 1 1 5E35F947
+P 6300 10450
+F 0 "R8" H 6370 10496 50  0000 L CNN
+F 1 "330" H 6370 10405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 10450 50  0001 C CNN
+F 3 "~" H 6300 10450 50  0001 C CNN
+	1    6300 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D9
+U 1 1 5E35F951
+P 6300 10150
+F 0 "D9" V 6339 10032 50  0000 R CNN
+F 1 "EMG0" V 6248 10032 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6300 10150 50  0001 C CNN
+F 3 "~" H 6300 10150 50  0001 C CNN
+	1    6300 10150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR029
+U 1 1 5E35F95B
+P 6300 10600
+F 0 "#PWR029" H 6300 10350 50  0001 C CNN
+F 1 "GND" H 6305 10427 50  0000 C CNN
+F 2 "" H 6300 10600 50  0001 C CNN
+F 3 "" H 6300 10600 50  0001 C CNN
+	1    6300 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R9
+U 1 1 5E368D60
+P 7250 5200
+F 0 "R9" H 7320 5246 50  0000 L CNN
+F 1 "10k" H 7320 5155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7180 5200 50  0001 C CNN
+F 3 "~" H 7250 5200 50  0001 C CNN
+	1    7250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR031
+U 1 1 5E369F0D
+P 7250 5050
+F 0 "#PWR031" H 7250 4900 50  0001 C CNN
+F 1 "+3.3V" H 7265 5223 50  0000 C CNN
+F 2 "" H 7250 5050 50  0001 C CNN
+F 3 "" H 7250 5050 50  0001 C CNN
+	1    7250 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5350 6900 5350
+$Comp
+L MD_Enbarr_x2-rescue:+BATT-power #PWR072
+U 1 1 5E37AE6D
+P 13450 2100
+F 0 "#PWR072" H 13450 1950 50  0001 C CNN
+F 1 "+BATT" H 13465 2273 50  0000 C CNN
+F 2 "" H 13450 2100 50  0001 C CNN
+F 3 "" H 13450 2100 50  0001 C CNN
+	1    13450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R32
+U 1 1 5E37B386
+P 13600 2100
+F 0 "R32" V 13393 2100 50  0000 C CNN
+F 1 "4.7k" V 13484 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 2100 50  0001 C CNN
+F 3 "~" H 13600 2100 50  0001 C CNN
+	1    13600 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D21
+U 1 1 5E37DCCE
+P 13900 2100
+F 0 "D21" H 13893 1845 50  0000 C CNN
+F 1 "BATT" H 13893 1936 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 13900 2100 50  0001 C CNN
+F 3 "~" H 13900 2100 50  0001 C CNN
+	1    13900 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+BATT-power #PWR051
+U 1 1 5E37EC72
+P 12350 1875
+F 0 "#PWR051" H 12350 1725 50  0001 C CNN
+F 1 "+BATT" H 12365 2048 50  0000 C CNN
+F 2 "" H 12350 1875 50  0001 C CNN
+F 3 "" H 12350 1875 50  0001 C CNN
+	1    12350 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D15
+U 1 1 5E387400
+P 12550 1875
+F 0 "D15" H 12550 2067 40  0000 C CNN
+F 1 "DIODE" H 12550 1991 40  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 12550 1875 60  0001 C CNN
+F 3 "" H 12550 1875 60  0000 C CNN
+	1    12550 1875
+	1    0    0    -1  
+$EndComp
+Text Label 10950 2200 0    50   ~ 0
+OUT0_R
+Text Label 12750 1875 0    50   ~ 0
+batt
+Text Label 12200 2250 2    50   ~ 0
+batt
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R25
+U 1 1 5E39B0F3
+P 12350 2250
+F 0 "R25" V 12143 2250 50  0000 C CNN
+F 1 "47" V 12234 2250 50  0000 C CNN
+F 2 "Mizz_lib:R_2812" V 12280 2250 50  0001 C CNN
+F 3 "~" H 12350 2250 50  0001 C CNN
+	1    12350 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X02-conn P7
+U 1 1 5E39BA90
+P 12825 2200
+F 0 "P7" H 12903 2241 50  0000 L CNN
+F 1 "FAN" H 12903 2150 50  0000 L CNN
+F 2 "Mizz_lib:XA_2P" H 12825 2200 50  0001 C CNN
+F 3 "" H 12825 2200 50  0000 C CNN
+	1    12825 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR061
+U 1 1 5E39D7C4
+P 12625 2150
+F 0 "#PWR061" H 12625 1950 50  0001 C CNN
+F 1 "GNDPWR" H 12629 1996 50  0000 C CNN
+F 2 "" H 12625 2100 50  0001 C CNN
+F 3 "" H 12625 2100 50  0001 C CNN
+	1    12625 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12625 2250 12500 2250
+Text Label 12675 4100 0    50   ~ 0
+batt
+$Comp
+L MD_Enbarr_x2-rescue:BD9G101G-myDevice U7
+U 1 1 5E3C7EFA
+P 11925 4100
+F 0 "U7" H 11925 4487 60  0000 C CNN
+F 1 "BD9G101G" H 11925 4381 60  0000 C CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 11975 4450 60  0001 C CNN
+F 3 "" H 11975 4450 60  0000 C CNN
+	1    11925 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:CP1-Device C25
+U 1 1 5E3C9F1A
+P 12625 4250
+F 0 "C25" H 12740 4296 50  0000 L CNN
+F 1 "100u" H 12740 4205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 12625 4250 50  0001 C CNN
+F 3 "~" H 12625 4250 50  0001 C CNN
+	1    12625 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 12625 4100
+Wire Wire Line
+	12625 4100 12675 4100
+$Comp
+L MD_Enbarr_x2-rescue:INDUCTOR-pspice L1
+U 1 1 5E4021AF
+P 13250 4000
+F 0 "L1" H 13250 4215 50  0000 C CNN
+F 1 "22uH" H 13250 4124 50  0000 C CNN
+F 2 "Mizz_lib:Inductor_Taiyo-Yuden_NR-60xx_HandSoldering" H 13250 4000 50  0001 C CNN
+F 3 "~" H 13250 4000 50  0001 C CNN
+	1    13250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D16
+U 1 1 5E40DFA3
+P 13000 4200
+F 0 "D16" V 13038 4122 40  0000 R CNN
+F 1 "DIODE" V 12962 4122 40  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13000 4200 60  0001 C CNN
+F 3 "" H 13000 4200 60  0000 C CNN
+	1    13000 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR048
+U 1 1 5E40E2F5
+P 11525 4100
+F 0 "#PWR048" H 11525 3900 50  0001 C CNN
+F 1 "GNDPWR" H 11529 3946 50  0000 C CNN
+F 2 "" H 11525 4050 50  0001 C CNN
+F 3 "" H 11525 4050 50  0001 C CNN
+	1    11525 4100
+	1    0    0    -1  
+$EndComp
+Text Label 11525 4200 2    50   ~ 0
+FB_PWR
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C23
+U 1 1 5E413972
+P 11925 3575
+F 0 "C23" V 11673 3575 50  0000 C CNN
+F 1 "0.1u" V 11764 3575 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11963 3425 50  0001 C CNN
+F 3 "~" H 11925 3575 50  0001 C CNN
+	1    11925 3575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12075 3575 12325 3575
+Wire Wire Line
+	11775 3575 11525 3575
+Wire Wire Line
+	11525 3575 11525 4000
+Connection ~ 13000 4000
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C28
+U 1 1 5E438B9D
+P 13525 4200
+F 0 "C28" H 13640 4246 50  0000 L CNN
+F 1 "10u" H 13640 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 13563 4050 50  0001 C CNN
+F 3 "~" H 13525 4200 50  0001 C CNN
+	1    13525 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D18
+U 1 1 5E43A548
+P 13750 4000
+F 0 "D18" H 13750 4192 40  0000 C CNN
+F 1 "DIODE" H 13750 4116 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 13750 4000 60  0001 C CNN
+F 3 "" H 13750 4000 60  0000 C CNN
+	1    13750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+12P-power #PWR067
+U 1 1 5E43C009
+P 13950 4000
+F 0 "#PWR067" H 13950 3850 50  0001 C CNN
+F 1 "+12P" H 13965 4173 50  0000 C CNN
+F 2 "" H 13950 4000 50  0001 C CNN
+F 3 "" H 13950 4000 50  0001 C CNN
+	1    13950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R14
+U 1 1 5E4547E9
+P 10575 4075
+F 0 "R14" H 10645 4121 50  0000 L CNN
+F 1 "7.5k" H 10645 4030 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10505 4075 50  0001 C CNN
+F 3 "~" H 10575 4075 50  0001 C CNN
+	1    10575 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R15
+U 1 1 5E454AB2
+P 10575 4425
+F 0 "R15" H 10645 4471 50  0000 L CNN
+F 1 "510" H 10645 4380 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10505 4425 50  0001 C CNN
+F 3 "~" H 10575 4425 50  0001 C CNN
+	1    10575 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C18
+U 1 1 5E45702D
+P 10875 4075
+F 0 "C18" H 10990 4121 50  0000 L CNN
+F 1 "0.1u" H 10990 4030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10913 3925 50  0001 C CNN
+F 3 "~" H 10875 4075 50  0001 C CNN
+	1    10875 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR043
+U 1 1 5E460DCF
+P 10575 4575
+F 0 "#PWR043" H 10575 4375 50  0001 C CNN
+F 1 "GNDPWR" H 10579 4421 50  0000 C CNN
+F 2 "" H 10575 4525 50  0001 C CNN
+F 3 "" H 10575 4525 50  0001 C CNN
+	1    10575 4575
+	1    0    0    -1  
+$EndComp
+Text Label 10925 4250 0    50   ~ 0
+FB_PWR
+Wire Wire Line
+	10575 4275 10575 4250
+Connection ~ 10575 4250
+Wire Wire Line
+	10575 4250 10575 4225
+Text Label 10575 3925 2    50   ~ 0
+FB_PWR_OUT
+Text Label 13525 3775 0    50   ~ 0
+FB_PWR_OUT
+Wire Wire Line
+	13525 3775 13525 4000
+Wire Wire Line
+	13550 4000 13525 4000
+Connection ~ 13525 4000
+Wire Wire Line
+	13525 4000 13500 4000
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR062
+U 1 1 5E4A8200
+P 13525 4400
+F 0 "#PWR062" H 13525 4200 50  0001 C CNN
+F 1 "GNDPWR" H 13529 4246 50  0000 C CNN
+F 2 "" H 13525 4350 50  0001 C CNN
+F 3 "" H 13525 4350 50  0001 C CNN
+	1    13525 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13525 4400 13000 4400
+Connection ~ 13000 4400
+Wire Wire Line
+	13000 4400 12625 4400
+Wire Wire Line
+	13525 4400 13525 4350
+Connection ~ 13525 4400
+Wire Wire Line
+	13525 4050 13525 4000
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C29
+U 1 1 5E4C8A81
+P 14025 4225
+F 0 "C29" H 14140 4271 50  0000 L CNN
+F 1 "4.7u" H 14140 4180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 14063 4075 50  0001 C CNN
+F 3 "~" H 14025 4225 50  0001 C CNN
+	1    14025 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Miz:BD33FA1 U9
+U 1 1 5E4CACF9
+P 14625 4050
+F 0 "U9" H 14625 4465 50  0000 C CNN
+F 1 "BD33FA1" H 14625 4374 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 14625 4150 50  0001 C CNN
+F 3 "" H 14625 4150 50  0001 C CNN
+	1    14625 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 4000 14025 4000
+Connection ~ 13950 4000
+Connection ~ 14025 4000
+Wire Wire Line
+	14025 4000 14125 4000
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C32
+U 1 1 5E4E0B6F
+P 15125 4225
+F 0 "C32" H 15240 4271 50  0000 L CNN
+F 1 "4.7u" H 15240 4180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 15163 4075 50  0001 C CNN
+F 3 "~" H 15125 4225 50  0001 C CNN
+	1    15125 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3VP-power #PWR071
+U 1 1 5E4E26F2
+P 15125 4000
+F 0 "#PWR071" H 15275 3950 50  0001 C CNN
+F 1 "+3.3VP" H 15145 4143 50  0000 C CNN
+F 2 "" H 15125 4000 50  0001 C CNN
+F 3 "" H 15125 4000 50  0001 C CNN
+	1    15125 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 15125 4000
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR069
+U 1 1 5E4ED781
+P 14625 4450
+F 0 "#PWR069" H 14625 4250 50  0001 C CNN
+F 1 "GNDPWR" H 14629 4296 50  0000 C CNN
+F 2 "" H 14625 4400 50  0001 C CNN
+F 3 "" H 14625 4400 50  0001 C CNN
+	1    14625 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14625 4450 14475 4450
+Wire Wire Line
+	15125 4000 15125 4075
+Wire Wire Line
+	15125 4375 15125 4450
+Wire Wire Line
+	15125 4450 14775 4450
+Connection ~ 14625 4450
+Connection ~ 14775 4450
+Wire Wire Line
+	14775 4450 14625 4450
+Wire Wire Line
+	14025 4000 14025 4075
+Wire Wire Line
+	14025 4375 14025 4450
+Wire Wire Line
+	14025 4450 14475 4450
+Connection ~ 14475 4450
+$Comp
+L MD_Enbarr_x2-rescue:+12P-power #PWR073
+U 1 1 5E53285F
+P 13450 2800
+F 0 "#PWR073" H 13450 2650 50  0001 C CNN
+F 1 "+12P" H 13465 2973 50  0000 C CNN
+F 2 "" H 13450 2800 50  0001 C CNN
+F 3 "" H 13450 2800 50  0001 C CNN
+	1    13450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R33
+U 1 1 5E532C88
+P 13600 2800
+F 0 "R33" V 13393 2800 50  0000 C CNN
+F 1 "2.2k" V 13484 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 2800 50  0001 C CNN
+F 3 "~" H 13600 2800 50  0001 C CNN
+	1    13600 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D22
+U 1 1 5E5330A5
+P 13900 2800
+F 0 "D22" H 13893 2545 50  0000 C CNN
+F 1 "12VP" H 13893 2636 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 13900 2800 50  0001 C CNN
+F 3 "~" H 13900 2800 50  0001 C CNN
+	1    13900 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R34
+U 1 1 5E5499B4
+P 13600 3150
+F 0 "R34" V 13393 3150 50  0000 C CNN
+F 1 "510" V 13484 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 3150 50  0001 C CNN
+F 3 "~" H 13600 3150 50  0001 C CNN
+	1    13600 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D23
+U 1 1 5E5499BE
+P 13900 3150
+F 0 "D23" H 13893 2895 50  0000 C CNN
+F 1 "3V3P" H 13893 2986 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 13900 3150 50  0001 C CNN
+F 3 "~" H 13900 3150 50  0001 C CNN
+	1    13900 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3VP-power #PWR074
+U 1 1 5E555A78
+P 13450 3150
+F 0 "#PWR074" H 13600 3100 50  0001 C CNN
+F 1 "+3.3VP" H 13470 3293 50  0000 C CNN
+F 2 "" H 13450 3150 50  0001 C CNN
+F 3 "" H 13450 3150 50  0001 C CNN
+	1    13450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR079
+U 1 1 5E555E54
+P 14050 3150
+F 0 "#PWR079" H 14050 2950 50  0001 C CNN
+F 1 "GNDPWR" H 14054 2996 50  0000 C CNN
+F 2 "" H 14050 3100 50  0001 C CNN
+F 3 "" H 14050 3100 50  0001 C CNN
+	1    14050 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 3150 14050 2800
+Connection ~ 14050 3150
+Connection ~ 14050 2800
+Wire Wire Line
+	14050 2800 14050 2450
+$Comp
+L Miz:AP3211 U2
+U 1 1 5E588240
+P 2250 1500
+F 0 "U2" H 2250 1965 50  0000 C CNN
+F 1 "AP3211" H 2250 1874 50  0000 C CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 2250 1500 50  0001 C CNN
+F 3 "" H 2250 1500 50  0001 C CNN
+	1    2250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:SW_Coded_SH-7080-Switch SW5
+U 1 1 5E58A00B
+P 7925 10175
+F 0 "SW5" H 7982 10642 50  0000 C CNN
+F 1 "ADRESS" H 7982 10551 50  0000 C CNN
+F 2 "Button_Switch_THT:Nidec_Copal_SH-7010C" H 7625 9725 50  0001 L CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 7925 10175 50  0001 C CNN
+	1    7925 10175
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR032
+U 1 1 5E58AE1F
+P 8325 9975
+F 0 "#PWR032" H 8325 9725 50  0001 C CNN
+F 1 "GND" H 8330 9802 50  0000 C CNN
+F 2 "" H 8325 9975 50  0001 C CNN
+F 3 "" H 8325 9975 50  0001 C CNN
+	1    8325 9975
+	1    0    0    -1  
+$EndComp
+Text Label 8325 10075 0    50   ~ 0
+ADR_1
+Text Label 8325 10175 0    50   ~ 0
+ADR_2
+Text Label 8325 10275 0    50   ~ 0
+ADR_4
+Text Label 8325 10375 0    50   ~ 0
+ADR_8
+Text Label 4850 10325 0    50   ~ 0
+SW0
+Wire Wire Line
+	4850 10325 4800 10325
+Wire Wire Line
+	4800 10325 4800 10300
+Wire Wire Line
+	4800 10325 4800 10350
+Connection ~ 4800 10325
+Text Label 5225 10325 0    50   ~ 0
+SW1
+Wire Wire Line
+	5225 10325 5175 10325
+Wire Wire Line
+	5175 10325 5175 10300
+Wire Wire Line
+	5175 10350 5175 10325
+Connection ~ 5175 10325
+Text Label 6900 5250 0    50   ~ 0
+SW0
+Text Label 6900 5150 0    50   ~ 0
+LED4
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R6
+U 1 1 5E354377
+P 5575 10450
+F 0 "R6" H 5645 10496 50  0000 L CNN
+F 1 "330" H 5645 10405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5505 10450 50  0001 C CNN
+F 3 "~" H 5575 10450 50  0001 C CNN
+	1    5575 10450
+	1    0    0    -1  
+$EndComp
+Text Label 5575 10000 2    50   ~ 0
+LED0
+Text Label 5950 10000 2    50   ~ 0
+LED1
+Text Label 6900 4050 0    50   ~ 0
+LED0
+Text Label 6900 4150 0    50   ~ 0
+LED1
+Text Label 2500 5550 2    50   ~ 0
+LED2
+$Comp
+L MD_Enbarr_x2-rescue:+BATT-power #PWR0101
+U 1 1 5E659E27
+P 10550 775
+F 0 "#PWR0101" H 10550 625 50  0001 C CNN
+F 1 "+BATT" H 10565 948 50  0000 C CNN
+F 2 "" H 10550 775 50  0001 C CNN
+F 3 "" H 10550 775 50  0001 C CNN
+	1    10550 775 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:CP1-Device C34
+U 1 1 5E65A105
+P 10550 925
+F 0 "C34" H 10665 971 50  0000 L CNN
+F 1 "1500u" H 10665 880 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 10550 925 50  0001 C CNN
+F 3 "~" H 10550 925 50  0001 C CNN
+	1    10550 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR0102
+U 1 1 5E65B6E1
+P 11325 1075
+F 0 "#PWR0102" H 11325 875 50  0001 C CNN
+F 1 "GNDPWR" H 11329 921 50  0000 C CNN
+F 2 "" H 11325 1025 50  0001 C CNN
+F 3 "" H 11325 1025 50  0001 C CNN
+	1    11325 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:INDUCTOR-pspice L2
+U 1 1 5E6A4839
+P 2900 1300
+F 0 "L2" H 2900 1515 50  0000 C CNN
+F 1 "22uH" H 2900 1424 50  0000 C CNN
+F 2 "Mizz_lib:Inductor_Taiyo-Yuden_NR-60xx_HandSoldering" H 2900 1300 50  0001 C CNN
+F 3 "~" H 2900 1300 50  0001 C CNN
+	1    2900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D24
+U 1 1 5E6A74E3
+P 2850 950
+F 0 "D24" H 2850 758 40  0000 C CNN
+F 1 "DIODE" H 2850 834 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2850 950 60  0001 C CNN
+F 3 "" H 2850 950 60  0000 C CNN
+	1    2850 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0103
+U 1 1 5E6A7F0B
+P 3150 950
+F 0 "#PWR0103" H 3150 700 50  0001 C CNN
+F 1 "GND" H 3155 777 50  0000 C CNN
+F 2 "" H 3150 950 50  0001 C CNN
+F 3 "" H 3150 950 50  0001 C CNN
+	1    3150 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 950  3050 950 
+$Comp
+L MD_Enbarr_x2-rescue:CP1-Device C33
+U 1 1 5E6B9297
+P 2950 1700
+F 0 "C33" H 3065 1746 50  0000 L CNN
+F 1 "100u" H 3065 1655 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2950 1700 50  0001 C CNN
+F 3 "~" H 2950 1700 50  0001 C CNN
+	1    2950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D26
+U 1 1 5E6BA369
+P 3475 1300
+F 0 "D26" H 3475 1492 40  0000 C CNN
+F 1 "DIODE" H 3475 1416 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3475 1300 60  0001 C CNN
+F 3 "" H 3475 1300 60  0000 C CNN
+	1    3475 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+12V-power #PWR0104
+U 1 1 5E6BA895
+P 2950 1500
+F 0 "#PWR0104" H 2950 1350 50  0001 C CNN
+F 1 "+12V" H 2965 1673 50  0000 C CNN
+F 2 "" H 2950 1500 50  0001 C CNN
+F 3 "" H 2950 1500 50  0001 C CNN
+	1    2950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R37
+U 1 1 5E6BC6BC
+P 3275 1450
+F 0 "R37" H 3345 1496 50  0000 L CNN
+F 1 "50k" H 3345 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3205 1450 50  0001 C CNN
+F 3 "~" H 3275 1450 50  0001 C CNN
+	1    3275 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 1300 3150 1300
+Connection ~ 3275 1300
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R38
+U 1 1 5E6C97AF
+P 3275 1800
+F 0 "R38" H 3345 1846 50  0000 L CNN
+F 1 "10k" H 3345 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3205 1800 50  0001 C CNN
+F 3 "~" H 3275 1800 50  0001 C CNN
+	1    3275 1800
+	1    0    0    -1  
+$EndComp
+Text Label 3225 1625 2    50   ~ 0
+FB
+Wire Wire Line
+	3225 1625 3275 1625
+Wire Wire Line
+	3275 1625 3275 1650
+Wire Wire Line
+	3275 1625 3275 1600
+Connection ~ 3275 1625
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0105
+U 1 1 5E6E5F10
+P 3275 1950
+F 0 "#PWR0105" H 3275 1700 50  0001 C CNN
+F 1 "GND" H 3280 1777 50  0000 C CNN
+F 2 "" H 3275 1950 50  0001 C CNN
+F 3 "" H 3275 1950 50  0001 C CNN
+	1    3275 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+5V-power #PWR0106
+U 1 1 5E6E637E
+P 3700 1300
+F 0 "#PWR0106" H 3700 1150 50  0001 C CNN
+F 1 "+5V" H 3715 1473 50  0000 C CNN
+F 2 "" H 3700 1300 50  0001 C CNN
+F 3 "" H 3700 1300 50  0001 C CNN
+	1    3700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 1950 2950 1950
+Wire Wire Line
+	2775 1950 2775 1850
+Wire Wire Line
+	2775 1550 2775 1500
+Wire Wire Line
+	2775 1500 2650 1500
+Wire Wire Line
+	2650 1500 2650 1700
+Connection ~ 2650 1500
+Connection ~ 3275 1950
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0107
+U 1 1 5E71FB59
+P 1850 1500
+F 0 "#PWR0107" H 1850 1250 50  0001 C CNN
+F 1 "GND" H 1855 1327 50  0000 C CNN
+F 2 "" H 1850 1500 50  0001 C CNN
+F 3 "" H 1850 1500 50  0001 C CNN
+	1    1850 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1300 1850 950 
+Wire Wire Line
+	2650 950  2650 1300
+Connection ~ 2650 1300
+Text Label 1850 1700 2    50   ~ 0
+FB
+$Comp
+L MD_Enbarr_x2-rescue:Jumper-Device JP1
+U 1 1 5E0E3056
+P 1250 3150
+F 0 "JP1" H 1250 3414 50  0000 C CNN
+F 1 "SWD_3V3" H 1250 3323 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1250 3150 50  0001 C CNN
+F 3 "~" H 1250 3150 50  0001 C CNN
+	1    1250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R40
+U 1 1 5E84916E
+P 8850 3625
+F 0 "R40" H 8920 3671 50  0000 L CNN
+F 1 "4.7k" H 8920 3580 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8780 3625 50  0001 C CNN
+F 3 "~" H 8850 3625 50  0001 C CNN
+	1    8850 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR083
+U 1 1 5E849439
+P 8850 3775
+F 0 "#PWR083" H 8850 3575 50  0001 C CNN
+F 1 "GNDPWR" H 8854 3621 50  0000 C CNN
+F 2 "" H 8850 3725 50  0001 C CNN
+F 3 "" H 8850 3725 50  0001 C CNN
+	1    8850 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+BATT-power #PWR082
+U 1 1 5E84A16E
+P 8850 3275
+F 0 "#PWR082" H 8850 3125 50  0001 C CNN
+F 1 "+BATT" H 8865 3448 50  0000 C CNN
+F 2 "" H 8850 3275 50  0001 C CNN
+F 3 "" H 8850 3275 50  0001 C CNN
+	1    8850 3275
+	1    0    0    -1  
+$EndComp
+Text Label 6900 4250 0    50   ~ 0
+PA8
+Text Label 8200 3475 2    50   ~ 0
+PA8
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R39
+U 1 1 5E84CF96
+P 8225 3625
+F 0 "R39" H 8295 3671 50  0000 L CNN
+F 1 "10k" H 8295 3580 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8155 3625 50  0001 C CNN
+F 3 "~" H 8225 3625 50  0001 C CNN
+	1    8225 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR080
+U 1 1 5E84DC80
+P 8225 3775
+F 0 "#PWR080" H 8225 3525 50  0001 C CNN
+F 1 "GND" H 8230 3602 50  0000 C CNN
+F 2 "" H 8225 3775 50  0001 C CNN
+F 3 "" H 8225 3775 50  0001 C CNN
+	1    8225 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3475 8225 3475
+Connection ~ 8225 3475
+Wire Wire Line
+	8225 3475 8250 3475
+$Comp
+L MD_Enbarr_x2-rescue:TLP291-Isolator U11
+U 1 1 5E85E06C
+P 8550 3375
+F 0 "U11" H 8550 3700 50  0000 C CNN
+F 1 "POWER_ON" H 8550 3609 50  0000 C CNN
+F 2 "Package_SO:SO-4_4.4x2.3mm_P1.27mm" H 8350 3175 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291" H 8550 3375 50  0001 L CNN
+	1    8550 3375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C36
+U 1 1 5E95492A
+P 10575 5300
+F 0 "C36" H 10690 5346 50  0000 L CNN
+F 1 "0.1u" H 10690 5255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10613 5150 50  0001 C CNN
+F 3 "~" H 10575 5300 50  0001 C CNN
+	1    10575 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C37
+U 1 1 5E979341
+P 12425 4250
+F 0 "C37" H 12540 4296 50  0000 L CNN
+F 1 "4.7u" H 12540 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 12463 4100 50  0001 C CNN
+F 3 "~" H 12425 4250 50  0001 C CNN
+	1    12425 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12325 4100 12425 4100
+Connection ~ 12425 4100
+Wire Wire Line
+	12425 4100 12625 4100
+Wire Wire Line
+	12325 4100 12325 4200
+Connection ~ 12325 4100
+Wire Wire Line
+	12325 3575 12325 4000
+Wire Wire Line
+	12325 4000 13000 4000
+Connection ~ 12325 4000
+Wire Wire Line
+	12425 4400 12625 4400
+Connection ~ 12625 4400
+Text Label 13450 2450 2    50   ~ 0
+batt
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R41
+U 1 1 5D8A000E
+P 13600 2450
+F 0 "R41" V 13393 2450 50  0000 C CNN
+F 1 "4.7k" V 13484 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 2450 50  0001 C CNN
+F 3 "~" H 13600 2450 50  0001 C CNN
+	1    13600 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D27
+U 1 1 5D8A02D0
+P 13900 2450
+F 0 "D27" H 13893 2195 50  0000 C CNN
+F 1 "Main_BATT" H 13893 2286 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 13900 2450 50  0001 C CNN
+F 3 "~" H 13900 2450 50  0001 C CNN
+	1    13900 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14050 2100 14050 2450
+Connection ~ 14050 2450
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X04-conn P5
+U 1 1 5D9B21C2
+P 5900 9325
+F 0 "P5" H 5978 9366 50  0000 L CNN
+F 1 "SERIAL" H 5978 9275 50  0000 L CNN
+F 2 "Mizz_lib:XA_4LC" H 5900 9325 50  0001 C CNN
+F 3 "" H 5900 9325 50  0000 C CNN
+	1    5900 9325
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X04-conn P11
+U 1 1 5D9B82DF
+P 7125 7750
+F 0 "P11" H 7203 7791 50  0000 L CNN
+F 1 "ENC_0" H 7203 7700 50  0000 L CNN
+F 2 "Mizz_lib:XA_4LC" H 7125 7750 50  0001 C CNN
+F 3 "" H 7125 7750 50  0000 C CNN
+	1    7125 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 7600 6875 7600
+Connection ~ 6900 7600
+Wire Wire Line
+	6925 7600 6900 7600
+Wire Wire Line
+	6575 7600 6575 7700
+Wire Wire Line
+	6575 7700 6925 7700
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C26
+U 1 1 5D9B92A9
+P 6725 7600
+F 0 "C26" V 6473 7600 50  0000 C CNN
+F 1 "0.1u" V 6564 7600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6763 7450 50  0001 C CNN
+F 3 "~" H 6725 7600 50  0001 C CNN
+	1    6725 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0108
+U 1 1 5D9B92B3
+P 6900 7600
+F 0 "#PWR0108" H 6900 7350 50  0001 C CNN
+F 1 "GND" H 6905 7427 50  0000 C CNN
+F 2 "" H 6900 7600 50  0001 C CNN
+F 3 "" H 6900 7600 50  0001 C CNN
+	1    6900 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+5V-power #PWR0109
+U 1 1 5D9B92BD
+P 6175 7700
+F 0 "#PWR0109" H 6175 7550 50  0001 C CNN
+F 1 "+5V" H 6190 7873 50  0000 C CNN
+F 2 "" H 6175 7700 50  0001 C CNN
+F 3 "" H 6175 7700 50  0001 C CNN
+	1    6175 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D28
+U 1 1 5D9B92C7
+P 6375 7700
+F 0 "D28" H 6375 7892 40  0000 C CNN
+F 1 "DIODE" H 6375 7816 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6375 7700 60  0001 C CNN
+F 3 "" H 6375 7700 60  0000 C CNN
+	1    6375 7700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6575 7700
+Text Label 6900 5650 0    50   ~ 0
+TIM3_CH2
+Text Label 6900 5550 0    50   ~ 0
+TIM3_CH1
+Text Label 5125 7800 2    50   ~ 0
+TIM3_CH2
+Text Label 5125 7900 2    50   ~ 0
+TIM3_CH1
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R43
+U 1 1 5D9DC91F
+P 5975 7650
+F 0 "R43" H 6045 7696 50  0000 L CNN
+F 1 "1k" H 6045 7605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5905 7650 50  0001 C CNN
+F 3 "~" H 5975 7650 50  0001 C CNN
+	1    5975 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R42
+U 1 1 5D9DD967
+P 5775 7750
+F 0 "R42" H 5845 7796 50  0000 L CNN
+F 1 "1k" H 5845 7705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5705 7750 50  0001 C CNN
+F 3 "~" H 5775 7750 50  0001 C CNN
+	1    5775 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R45
+U 1 1 5D9ECDF9
+P 5550 7800
+F 0 "R45" V 5343 7800 50  0000 C CNN
+F 1 "100" V 5434 7800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5480 7800 50  0001 C CNN
+F 3 "~" H 5550 7800 50  0001 C CNN
+	1    5550 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R44
+U 1 1 5D9EDEBF
+P 5350 7900
+F 0 "R44" V 5143 7900 50  0000 C CNN
+F 1 "100" V 5234 7900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5280 7900 50  0001 C CNN
+F 3 "~" H 5350 7900 50  0001 C CNN
+	1    5350 7900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5125 7900 5200 7900
+Wire Wire Line
+	5125 7800 5400 7800
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0110
+U 1 1 5DA44F3A
+P 5775 7500
+F 0 "#PWR0110" H 5775 7350 50  0001 C CNN
+F 1 "+3.3V" H 5790 7673 50  0000 C CNN
+F 2 "" H 5775 7500 50  0001 C CNN
+F 3 "" H 5775 7500 50  0001 C CNN
+	1    5775 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5775 7500 5975 7500
+Wire Wire Line
+	5775 7600 5775 7500
+Connection ~ 5775 7500
+Connection ~ 2775 1500
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C38
+U 1 1 5DB11ADB
+P 2775 1700
+F 0 "C38" H 2890 1746 50  0000 L CNN
+F 1 "0.1u" H 2890 1655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2813 1550 50  0001 C CNN
+F 3 "~" H 2775 1700 50  0001 C CNN
+	1    2775 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1500 2775 1500
+Wire Wire Line
+	2950 1550 2950 1500
+Connection ~ 2950 1500
+Wire Wire Line
+	2950 1850 2950 1950
+Connection ~ 2950 1950
+Wire Wire Line
+	2950 1950 2775 1950
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C39
+U 1 1 5DB59512
+P 2250 950
+F 0 "C39" V 1998 950 50  0000 C CNN
+F 1 "0.1u" V 2089 950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2288 800 50  0001 C CNN
+F 3 "~" H 2250 950 50  0001 C CNN
+	1    2250 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 950  1850 950 
+Wire Wire Line
+	2400 950  2650 950 
+Connection ~ 2650 950 
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0111
+U 1 1 5DB86EF2
+P 9675 5475
+F 0 "#PWR0111" H 9675 5325 50  0001 C CNN
+F 1 "+3.3V" H 9690 5648 50  0000 C CNN
+F 2 "" H 9675 5475 50  0001 C CNN
+F 3 "" H 9675 5475 50  0001 C CNN
+	1    9675 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C40
+U 1 1 5DB8720C
+P 9675 5625
+F 0 "C40" H 9790 5671 50  0000 L CNN
+F 1 "0.1u" H 9790 5580 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9713 5475 50  0001 C CNN
+F 3 "~" H 9675 5625 50  0001 C CNN
+	1    9675 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0112
+U 1 1 5DB982C3
+P 9675 5775
+F 0 "#PWR0112" H 9675 5525 50  0001 C CNN
+F 1 "GND" H 9680 5602 50  0000 C CNN
+F 2 "" H 9675 5775 50  0001 C CNN
+F 3 "" H 9675 5775 50  0001 C CNN
+	1    9675 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0113
+U 1 1 5DBAD181
+P 15300 5550
+F 0 "#PWR0113" H 15300 5400 50  0001 C CNN
+F 1 "+3.3V" H 15315 5723 50  0000 C CNN
+F 2 "" H 15300 5550 50  0001 C CNN
+F 3 "" H 15300 5550 50  0001 C CNN
+	1    15300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C41
+U 1 1 5DBAD18B
+P 15300 5700
+F 0 "C41" H 15415 5746 50  0000 L CNN
+F 1 "0.1u" H 15415 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15338 5550 50  0001 C CNN
+F 3 "~" H 15300 5700 50  0001 C CNN
+	1    15300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0114
+U 1 1 5DBAD195
+P 15300 5850
+F 0 "#PWR0114" H 15300 5600 50  0001 C CNN
+F 1 "GND" H 15305 5677 50  0000 C CNN
+F 2 "" H 15300 5850 50  0001 C CNN
+F 3 "" H 15300 5850 50  0001 C CNN
+	1    15300 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C42
+U 1 1 5DAC379A
+P 1400 8250
+F 0 "C42" H 1515 8296 50  0000 L CNN
+F 1 "0.1u" H 1515 8205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1438 8100 50  0001 C CNN
+F 3 "~" H 1400 8250 50  0001 C CNN
+	1    1400 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0115
+U 1 1 5DAC3E79
+P 1400 8100
+F 0 "#PWR0115" H 1400 7950 50  0001 C CNN
+F 1 "+3.3V" H 1415 8273 50  0000 C CNN
+F 2 "" H 1400 8100 50  0001 C CNN
+F 3 "" H 1400 8100 50  0001 C CNN
+	1    1400 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0116
+U 1 1 5DAC4AA8
+P 1400 8400
+F 0 "#PWR0116" H 1400 8150 50  0001 C CNN
+F 1 "GND" H 1405 8227 50  0000 C CNN
+F 2 "" H 1400 8400 50  0001 C CNN
+F 3 "" H 1400 8400 50  0001 C CNN
+	1    1400 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R16
+U 1 1 5DB882B3
+P 9000 900
+F 0 "R16" V 8793 900 50  0000 C CNN
+F 1 "4.7k" V 8884 900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8930 900 50  0001 C CNN
+F 3 "~" H 9000 900 50  0001 C CNN
+	1    9000 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3VP-power #PWR046
+U 1 1 5E1D8B06
+P 9075 1875
+F 0 "#PWR046" H 9225 1825 50  0001 C CNN
+F 1 "+3.3VP" H 9095 2018 50  0000 C CNN
+F 2 "" H 9075 1875 50  0001 C CNN
+F 3 "" H 9075 1875 50  0001 C CNN
+	1    9075 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 1025 8850 900 
+Connection ~ 8850 900 
+Connection ~ 12050 6075
+Wire Wire Line
+	12050 6075 12450 6075
+Wire Wire Line
+	12050 6100 12050 6075
+Wire Wire Line
+	12050 6500 12050 6525
+Wire Wire Line
+	11900 6525 12050 6525
+Wire Wire Line
+	12050 6525 12100 6525
+Connection ~ 12050 6525
+Wire Wire Line
+	12050 6550 12050 6525
+Wire Wire Line
+	12050 6950 12050 6975
+Connection ~ 12050 6975
+Wire Wire Line
+	12050 6975 12450 6975
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D31
+U 1 1 5DC5CE11
+P 12850 6750
+F 0 "D31" V 12888 6672 40  0000 R CNN
+F 1 "DIODE" V 12812 6672 40  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12850 6750 60  0001 C CNN
+F 3 "" H 12850 6750 60  0000 C CNN
+	1    12850 6750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D30
+U 1 1 5DC5D330
+P 12850 6300
+F 0 "D30" V 12888 6222 40  0000 R CNN
+F 1 "DIODE" V 12812 6222 40  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12850 6300 60  0001 C CNN
+F 3 "" H 12850 6300 60  0000 C CNN
+	1    12850 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12850 6100 12850 6075
+Connection ~ 12850 6075
+Wire Wire Line
+	12850 6075 13000 6075
+Wire Wire Line
+	12850 6500 12850 6525
+Wire Wire Line
+	12850 6525 13000 6525
+Wire Wire Line
+	12850 6525 12850 6550
+Connection ~ 12850 6525
+Wire Wire Line
+	12850 6525 12800 6525
+Wire Wire Line
+	12850 6950 12850 6975
+Connection ~ 12850 6975
+$Comp
+L MD_Enbarr_x2-rescue:+12V-power #PWR0117
+U 1 1 5DFBF1BA
+P 5825 925
+F 0 "#PWR0117" H 5825 775 50  0001 C CNN
+F 1 "+12V" H 5840 1098 50  0000 C CNN
+F 2 "" H 5825 925 50  0001 C CNN
+F 3 "" H 5825 925 50  0001 C CNN
+	1    5825 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R47
+U 1 1 5DFC2C5A
+P 5975 925
+F 0 "R47" V 5768 925 50  0000 C CNN
+F 1 "1.2k" V 5859 925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5905 925 50  0001 C CNN
+F 3 "~" H 5975 925 50  0001 C CNN
+	1    5975 925 
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D32
+U 1 1 5DFC384F
+P 6275 925
+F 0 "D32" H 6268 670 50  0000 C CNN
+F 1 "12V" H 6268 761 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6275 925 50  0001 C CNN
+F 3 "~" H 6275 925 50  0001 C CNN
+	1    6275 925 
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+5V-power #PWR0118
+U 1 1 5DFC5309
+P 5825 1275
+F 0 "#PWR0118" H 5825 1125 50  0001 C CNN
+F 1 "+5V" H 5840 1448 50  0000 C CNN
+F 2 "" H 5825 1275 50  0001 C CNN
+F 3 "" H 5825 1275 50  0001 C CNN
+	1    5825 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R48
+U 1 1 5DFC5AB2
+P 5975 1275
+F 0 "R48" V 5768 1275 50  0000 C CNN
+F 1 "510" V 5859 1275 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5905 1275 50  0001 C CNN
+F 3 "~" H 5975 1275 50  0001 C CNN
+	1    5975 1275
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D33
+U 1 1 5DFC7705
+P 6275 1275
+F 0 "D33" H 6268 1020 50  0000 C CNN
+F 1 "5V" H 6268 1111 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6275 1275 50  0001 C CNN
+F 3 "~" H 6275 1275 50  0001 C CNN
+	1    6275 1275
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R49
+U 1 1 5DFDC3A6
+P 5975 1625
+F 0 "R49" V 5768 1625 50  0000 C CNN
+F 1 "330" V 5859 1625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5905 1625 50  0001 C CNN
+F 3 "~" H 5975 1625 50  0001 C CNN
+	1    5975 1625
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D34
+U 1 1 5DFDC3B0
+P 6275 1625
+F 0 "D34" H 6268 1370 50  0000 C CNN
+F 1 "3.3V" H 6268 1461 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6275 1625 50  0001 C CNN
+F 3 "~" H 6275 1625 50  0001 C CNN
+	1    6275 1625
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0119
+U 1 1 5DFF003E
+P 5825 1625
+F 0 "#PWR0119" H 5825 1475 50  0001 C CNN
+F 1 "+3.3V" H 5840 1798 50  0000 C CNN
+F 2 "" H 5825 1625 50  0001 C CNN
+F 3 "" H 5825 1625 50  0001 C CNN
+	1    5825 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0120
+U 1 1 5DFF0554
+P 6425 1625
+F 0 "#PWR0120" H 6425 1375 50  0001 C CNN
+F 1 "GND" H 6430 1452 50  0000 C CNN
+F 2 "" H 6425 1625 50  0001 C CNN
+F 3 "" H 6425 1625 50  0001 C CNN
+	1    6425 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 1625 6425 1275
+Connection ~ 6425 1625
+Connection ~ 6425 1275
+Wire Wire Line
+	6425 1275 6425 925 
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D29
+U 1 1 5DC3709D
+P 12050 6750
+F 0 "D29" V 12088 6672 40  0000 R CNN
+F 1 "DIODE" V 12012 6672 40  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12050 6750 60  0001 C CNN
+F 3 "" H 12050 6750 60  0000 C CNN
+	1    12050 6750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D25
+U 1 1 5DBFEC8A
+P 12050 6300
+F 0 "D25" V 12088 6222 40  0000 R CNN
+F 1 "DIODE" V 12012 6222 40  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12050 6300 60  0001 C CNN
+F 3 "" H 12050 6300 60  0000 C CNN
+	1    12050 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12850 6975 13000 6975
+Wire Wire Line
+	13125 6975 13000 6975
+Connection ~ 13000 6975
+$Comp
+L MD_Enbarr_x2-rescue:BSC014N06-Miz Q4
+U 1 1 5E1330AF
+P 13100 6775
+F 0 "Q4" H 13306 6821 50  0000 L CNN
+F 1 "BSC014N06" H 13306 6730 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 13300 6700 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd17578q5a" V 13100 6775 50  0001 L CNN
+	1    13100 6775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:BSC014N06-Miz Q3
+U 1 1 5E13309D
+P 13100 6275
+F 0 "Q3" H 13306 6321 50  0000 L CNN
+F 1 "BSC014N06" H 13306 6230 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 13300 6200 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd17578q5a" V 13100 6275 50  0001 L CNN
+	1    13100 6275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 6975 12050 6975
+Wire Wire Line
+	11775 6975 11900 6975
+Connection ~ 11900 6975
+$Comp
+L MD_Enbarr_x2-rescue:BSC014N06-Miz Q2
+U 1 1 5E10E6BC
+P 11800 6775
+F 0 "Q2" H 12006 6821 50  0000 L CNN
+F 1 "BSC014N06" H 12006 6730 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 12000 6700 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd17578q5a" V 11800 6775 50  0001 L CNN
+	1    11800 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:BSC014N06-Miz Q1
+U 1 1 5E10D028
+P 11800 6275
+F 0 "Q1" H 12006 6321 50  0000 L CNN
+F 1 "BSC014N06" H 12006 6230 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 12000 6200 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd17578q5a" V 11800 6275 50  0001 L CNN
+	1    11800 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C35
+U 1 1 5D95FCBE
+P 10975 925
+F 0 "C35" H 11090 971 50  0000 L CNN
+F 1 "4.7u" H 11090 880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11013 775 50  0001 C CNN
+F 3 "~" H 10975 925 50  0001 C CNN
+	1    10975 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C43
+U 1 1 5D960A04
+P 11325 925
+F 0 "C43" H 11440 971 50  0000 L CNN
+F 1 "4.7u" H 11440 880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11363 775 50  0001 C CNN
+F 3 "~" H 11325 925 50  0001 C CNN
+	1    11325 925 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11325 1075 10975 1075
+Connection ~ 11325 1075
+Connection ~ 10975 1075
+Wire Wire Line
+	10975 1075 10550 1075
+Wire Wire Line
+	10550 775  10975 775 
+Connection ~ 10550 775 
+Connection ~ 10975 775 
+Wire Wire Line
+	10975 775  11325 775 
+$Comp
+L Miz:ACS781 U13
+U 1 1 5D8D48B0
+P 12125 5325
+F 0 "U13" H 12125 5712 60  0000 C CNN
+F 1 "ACS781" H 12125 5606 60  0000 C CNN
+F 2 "Mizz_lib:ACS781_No_side_mask" H 12125 5325 60  0001 C CNN
+F 3 "" H 12125 5325 60  0000 C CNN
+	1    12125 5325
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0121
+U 1 1 5D8D6E37
+P 10575 5150
+F 0 "#PWR0121" H 10575 5000 50  0001 C CNN
+F 1 "+3.3V" H 10590 5323 50  0000 C CNN
+F 2 "" H 10575 5150 50  0001 C CNN
+F 3 "" H 10575 5150 50  0001 C CNN
+	1    10575 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0122
+U 1 1 5D8D7117
+P 10575 5450
+F 0 "#PWR0122" H 10575 5200 50  0001 C CNN
+F 1 "GND" H 10580 5277 50  0000 C CNN
+F 2 "" H 10575 5450 50  0001 C CNN
+F 3 "" H 10575 5450 50  0001 C CNN
+	1    10575 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+BATT-power #PWR0123
+U 1 1 5D8D752B
+P 12575 5225
+F 0 "#PWR0123" H 12575 5075 50  0001 C CNN
+F 1 "+BATT" H 12590 5398 50  0000 C CNN
+F 2 "" H 12575 5225 50  0001 C CNN
+F 3 "" H 12575 5225 50  0001 C CNN
+	1    12575 5225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R60
+U 1 1 5D8DB011
+P 11525 5225
+F 0 "R60" V 11318 5225 50  0000 C CNN
+F 1 "100" V 11409 5225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11455 5225 50  0001 C CNN
+F 3 "~" H 11525 5225 50  0001 C CNN
+	1    11525 5225
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C50
+U 1 1 5D8DBF51
+P 11275 5375
+F 0 "C50" H 11390 5421 50  0000 L CNN
+F 1 "0.1u" H 11390 5330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11313 5225 50  0001 C CNN
+F 3 "~" H 11275 5375 50  0001 C CNN
+	1    11275 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0124
+U 1 1 5D8DC56D
+P 11575 5525
+F 0 "#PWR0124" H 11575 5275 50  0001 C CNN
+F 1 "GND" H 11580 5352 50  0000 C CNN
+F 2 "" H 11575 5525 50  0001 C CNN
+F 3 "" H 11575 5525 50  0001 C CNN
+	1    11575 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0125
+U 1 1 5D8DCA9C
+P 11675 5425
+F 0 "#PWR0125" H 11675 5275 50  0001 C CNN
+F 1 "+3.3V" H 11690 5598 50  0000 C CNN
+F 2 "" H 11675 5425 50  0001 C CNN
+F 3 "" H 11675 5425 50  0001 C CNN
+	1    11675 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11575 5325 11675 5325
+Wire Wire Line
+	11375 5225 11275 5225
+Wire Wire Line
+	11275 5225 11225 5225
+Connection ~ 11275 5225
+Text Label 10550 2450 2    50   ~ 0
+OUT1_L
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D47
+U 1 1 5D9763FC
+P 10750 3100
+F 0 "D47" H 10750 3292 40  0000 C CNN
+F 1 "DIODE" H 10750 3216 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 10750 3100 60  0001 C CNN
+F 3 "" H 10750 3100 60  0000 C CNN
+	1    10750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R61
+U 1 1 5D976406
+P 10550 2600
+F 0 "R61" H 10620 2646 50  0000 L CNN
+F 1 "10k" H 10620 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 2600 50  0001 C CNN
+F 3 "~" H 10550 2600 50  0001 C CNN
+	1    10550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R62
+U 1 1 5D976410
+P 10550 2950
+F 0 "R62" H 10620 2996 50  0000 L CNN
+F 1 "1k" H 10620 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 2950 50  0001 C CNN
+F 3 "~" H 10550 2950 50  0001 C CNN
+	1    10550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C51
+U 1 1 5D97641A
+P 11250 2950
+F 0 "C51" H 11365 2996 50  0000 L CNN
+F 1 "0.1u" H 11365 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11288 2800 50  0001 C CNN
+F 3 "~" H 11250 2950 50  0001 C CNN
+	1    11250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 2800 10550 2775
+Connection ~ 10550 2775
+Wire Wire Line
+	10550 2775 10550 2750
+Text Label 11300 2775 0    50   ~ 0
+CounterVoltage1
+Text Label 10950 3100 0    50   ~ 0
+OUT1_R
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D39
+U 1 1 5DA17808
+P 6675 10150
+F 0 "D39" V 6714 10032 50  0000 R CNN
+F 1 "BUS0" V 6623 10032 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6675 10150 50  0001 C CNN
+F 3 "~" H 6675 10150 50  0001 C CNN
+	1    6675 10150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0126
+U 1 1 5DA17812
+P 6675 10600
+F 0 "#PWR0126" H 6675 10350 50  0001 C CNN
+F 1 "GND" H 6680 10427 50  0000 C CNN
+F 2 "" H 6675 10600 50  0001 C CNN
+F 3 "" H 6675 10600 50  0001 C CNN
+	1    6675 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R52
+U 1 1 5DA1781C
+P 7050 10450
+F 0 "R52" H 7120 10496 50  0000 L CNN
+F 1 "330" H 7120 10405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6980 10450 50  0001 C CNN
+F 3 "~" H 7050 10450 50  0001 C CNN
+	1    7050 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LED-Device D40
+U 1 1 5DA17826
+P 7050 10150
+F 0 "D40" V 7089 10033 50  0000 R CNN
+F 1 "MODE" V 6998 10033 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7050 10150 50  0001 C CNN
+F 3 "~" H 7050 10150 50  0001 C CNN
+	1    7050 10150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0127
+U 1 1 5DA17830
+P 7050 10600
+F 0 "#PWR0127" H 7050 10350 50  0001 C CNN
+F 1 "GND" H 7055 10427 50  0000 C CNN
+F 2 "" H 7050 10600 50  0001 C CNN
+F 3 "" H 7050 10600 50  0001 C CNN
+	1    7050 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R51
+U 1 1 5DA1783A
+P 6675 10450
+F 0 "R51" H 6745 10496 50  0000 L CNN
+F 1 "330" H 6745 10405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6605 10450 50  0001 C CNN
+F 3 "~" H 6675 10450 50  0001 C CNN
+	1    6675 10450
+	1    0    0    -1  
+$EndComp
+Text Label 9075 2275 0    50   ~ 0
+CounterVoltage1
+Wire Wire Line
+	11575 5525 11275 5525
+Wire Wire Line
+	11575 5325 11575 5525
+Connection ~ 11575 5525
+$Comp
+L MD_Enbarr_x2-rescue:UCC20520-ucc20520-MD_Enbarr_x2-rescue U8
+U 1 1 5DAB7AB6
+P 10275 9175
+F 0 "U8" H 10275 9772 60  0000 C CNN
+F 1 "UCC20520" H 10275 9666 60  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 10275 9175 60  0001 C CNN
+F 3 "" H 10275 9175 60  0000 C CNN
+	1    10275 9175
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9725 8925
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0128
+U 1 1 5DAB7AC1
+P 9725 9025
+F 0 "#PWR0128" H 9725 8875 50  0001 C CNN
+F 1 "+3.3V" H 9740 9198 50  0000 C CNN
+F 2 "" H 9725 9025 50  0001 C CNN
+F 3 "" H 9725 9025 50  0001 C CNN
+	1    9725 9025
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0129
+U 1 1 5DAB7ACB
+P 9725 9525
+F 0 "#PWR0129" H 9725 9375 50  0001 C CNN
+F 1 "+3.3V" H 9740 9698 50  0000 C CNN
+F 2 "" H 9725 9525 50  0001 C CNN
+F 3 "" H 9725 9525 50  0001 C CNN
+	1    9725 9525
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9725 9425
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0130
+U 1 1 5DAB7AD6
+P 9725 9125
+F 0 "#PWR0130" H 9725 8875 50  0001 C CNN
+F 1 "GND" H 9730 8952 50  0000 C CNN
+F 2 "" H 9725 9125 50  0001 C CNN
+F 3 "" H 9725 9125 50  0001 C CNN
+	1    9725 9125
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R54
+U 1 1 5DAB7AE0
+P 9500 9475
+F 0 "R54" H 9570 9521 50  0000 L CNN
+F 1 "100k" H 9570 9430 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9430 9475 50  0001 C CNN
+F 3 "~" H 9500 9475 50  0001 C CNN
+	1    9500 9475
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R53
+U 1 1 5DAB7AEA
+P 9250 9375
+F 0 "R53" H 9320 9421 50  0000 L CNN
+F 1 "10k" H 9320 9330 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 9375 50  0001 C CNN
+F 3 "~" H 9250 9375 50  0001 C CNN
+	1    9250 9375
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0131
+U 1 1 5DAB7AF4
+P 9500 9625
+F 0 "#PWR0131" H 9500 9375 50  0001 C CNN
+F 1 "GND" H 9505 9452 50  0000 C CNN
+F 2 "" H 9500 9625 50  0001 C CNN
+F 3 "" H 9500 9625 50  0001 C CNN
+	1    9500 9625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 9625 9250 9625
+Wire Wire Line
+	9250 9625 9250 9525
+Connection ~ 9500 9625
+Wire Wire Line
+	9250 9225 9725 9225
+Wire Wire Line
+	9500 9325 9725 9325
+Text Label 9450 8825 2    50   ~ 0
+PWM1_L
+Text Label 9200 9225 2    50   ~ 0
+EN1
+Wire Wire Line
+	9200 9225 9250 9225
+Connection ~ 9250 9225
+$Comp
+L MD_Enbarr_x2-rescue:+12P-power #PWR0132
+U 1 1 5DAB7B07
+P 11625 8775
+F 0 "#PWR0132" H 11625 8625 50  0001 C CNN
+F 1 "+12P" H 11640 8948 50  0000 C CNN
+F 2 "" H 11625 8775 50  0001 C CNN
+F 3 "" H 11625 8775 50  0001 C CNN
+	1    11625 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C47
+U 1 1 5DAB7B11
+P 10925 8925
+F 0 "C47" H 11040 8971 50  0000 L CNN
+F 1 "4.7u" H 11040 8880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 8775 50  0001 C CNN
+F 3 "~" H 10925 8925 50  0001 C CNN
+	1    10925 8925
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10825 9125
+NoConn ~ 10825 9225
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D43
+U 1 1 5DAB7B1D
+P 11125 8775
+F 0 "D43" H 11125 8583 40  0000 C CNN
+F 1 "DIODE" H 11125 8659 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 11125 8775 60  0001 C CNN
+F 3 "" H 11125 8775 60  0000 C CNN
+	1    11125 8775
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R58
+U 1 1 5DAB7B27
+P 11475 8775
+F 0 "R58" V 11268 8775 50  0000 C CNN
+F 1 "1" V 11359 8775 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11405 8775 50  0001 C CNN
+F 3 "~" H 11475 8775 50  0001 C CNN
+	1    11475 8775
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+12P-power #PWR0133
+U 1 1 5DAB7B31
+P 11625 9275
+F 0 "#PWR0133" H 11625 9125 50  0001 C CNN
+F 1 "+12P" H 11640 9448 50  0000 C CNN
+F 2 "" H 11625 9275 50  0001 C CNN
+F 3 "" H 11625 9275 50  0001 C CNN
+	1    11625 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C48
+U 1 1 5DAB7B3B
+P 10925 9425
+F 0 "C48" H 11040 9471 50  0000 L CNN
+F 1 "4.7u" H 11040 9380 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 9275 50  0001 C CNN
+F 3 "~" H 10925 9425 50  0001 C CNN
+	1    10925 9425
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D44
+U 1 1 5DAB7B45
+P 11125 9275
+F 0 "D44" H 11125 9083 40  0000 C CNN
+F 1 "DIODE" H 11125 9159 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 11125 9275 60  0001 C CNN
+F 3 "" H 11125 9275 60  0000 C CNN
+	1    11125 9275
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R59
+U 1 1 5DAB7B4F
+P 11475 9275
+F 0 "R59" V 11268 9275 50  0000 C CNN
+F 1 "1" V 11359 9275 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11405 9275 50  0001 C CNN
+F 3 "~" H 11475 9275 50  0001 C CNN
+	1    11475 9275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10825 9025 10875 9025
+Wire Wire Line
+	10875 9025 10875 9075
+Wire Wire Line
+	10875 9075 10925 9075
+Wire Wire Line
+	10825 8825 10875 8825
+Wire Wire Line
+	10875 8825 10875 8775
+Wire Wire Line
+	10875 8775 10925 8775
+Connection ~ 10925 8775
+Wire Wire Line
+	10925 9275 10875 9275
+Wire Wire Line
+	10875 9275 10875 9325
+Wire Wire Line
+	10875 9325 10825 9325
+Connection ~ 10925 9275
+Wire Wire Line
+	10825 9525 10875 9525
+Wire Wire Line
+	10875 9525 10875 9575
+Wire Wire Line
+	10875 9575 10925 9575
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R55
+U 1 1 5DAB7B67
+P 11300 8925
+F 0 "R55" V 11093 8925 50  0000 C CNN
+F 1 "3" V 11184 8925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 8925 50  0001 C CNN
+F 3 "~" H 11300 8925 50  0001 C CNN
+	1    11300 8925
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R56
+U 1 1 5DAB7B71
+P 11300 9425
+F 0 "R56" V 11093 9425 50  0000 C CNN
+F 1 "3" V 11184 9425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 9425 50  0001 C CNN
+F 3 "~" H 11300 9425 50  0001 C CNN
+	1    11300 9425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10925 9075 11775 9075
+Wire Wire Line
+	11775 9075 11775 9175
+Wire Wire Line
+	11775 9175 11900 9175
+Wire Wire Line
+	11900 9175 11900 9125
+Connection ~ 10925 9075
+Wire Wire Line
+	11900 9175 11900 9225
+Connection ~ 11900 9175
+Wire Wire Line
+	11450 8925 11600 8925
+Wire Wire Line
+	11150 8925 10825 8925
+Wire Wire Line
+	10825 9425 11150 9425
+Wire Wire Line
+	11450 9425 11600 9425
+Wire Wire Line
+	10925 9575 11775 9575
+Wire Wire Line
+	11775 9575 11775 9625
+Connection ~ 10925 9575
+$Comp
+L MD_Enbarr_x2-rescue:UCC20520-ucc20520-MD_Enbarr_x2-rescue U14
+U 1 1 5DAB7B89
+P 14625 9175
+F 0 "U14" H 14625 9772 60  0000 C CNN
+F 1 "UCC20520" H 14625 9666 60  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 14625 9175 60  0001 C CNN
+F 3 "" H 14625 9175 60  0000 C CNN
+	1    14625 9175
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 15175 8925
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0134
+U 1 1 5DAB7B94
+P 15175 9025
+F 0 "#PWR0134" H 15175 8875 50  0001 C CNN
+F 1 "+3.3V" H 15190 9198 50  0000 C CNN
+F 2 "" H 15175 9025 50  0001 C CNN
+F 3 "" H 15175 9025 50  0001 C CNN
+	1    15175 9025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0135
+U 1 1 5DAB7B9E
+P 15175 9525
+F 0 "#PWR0135" H 15175 9375 50  0001 C CNN
+F 1 "+3.3V" H 15190 9698 50  0000 C CNN
+F 2 "" H 15175 9525 50  0001 C CNN
+F 3 "" H 15175 9525 50  0001 C CNN
+	1    15175 9525
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 15175 9425
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0136
+U 1 1 5DAB7BA9
+P 15400 9125
+F 0 "#PWR0136" H 15400 8875 50  0001 C CNN
+F 1 "GND" H 15405 8952 50  0000 C CNN
+F 2 "" H 15400 9125 50  0001 C CNN
+F 3 "" H 15400 9125 50  0001 C CNN
+	1    15400 9125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R67
+U 1 1 5DAB7BB3
+P 15400 9475
+F 0 "R67" H 15470 9521 50  0000 L CNN
+F 1 "100k" H 15470 9430 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15330 9475 50  0001 C CNN
+F 3 "~" H 15400 9475 50  0001 C CNN
+	1    15400 9475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R68
+U 1 1 5DAB7BBD
+P 15650 9375
+F 0 "R68" H 15720 9421 50  0000 L CNN
+F 1 "10k" H 15720 9330 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15580 9375 50  0001 C CNN
+F 3 "~" H 15650 9375 50  0001 C CNN
+	1    15650 9375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0137
+U 1 1 5DAB7BC7
+P 15400 9625
+F 0 "#PWR0137" H 15400 9375 50  0001 C CNN
+F 1 "GND" H 15405 9452 50  0000 C CNN
+F 2 "" H 15400 9625 50  0001 C CNN
+F 3 "" H 15400 9625 50  0001 C CNN
+	1    15400 9625
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15400 9625 15650 9625
+Wire Wire Line
+	15650 9625 15650 9525
+Connection ~ 15400 9625
+Wire Wire Line
+	15650 9225 15175 9225
+Wire Wire Line
+	15400 9325 15175 9325
+Text Label 15450 8825 0    50   ~ 0
+PWM1_R
+Text Label 15700 9225 0    50   ~ 0
+EN1
+Wire Wire Line
+	15700 9225 15650 9225
+Connection ~ 15650 9225
+$Comp
+L MD_Enbarr_x2-rescue:+12P-power #PWR0138
+U 1 1 5DAB7BDA
+P 13275 8775
+F 0 "#PWR0138" H 13275 8625 50  0001 C CNN
+F 1 "+12P" H 13290 8948 50  0000 C CNN
+F 2 "" H 13275 8775 50  0001 C CNN
+F 3 "" H 13275 8775 50  0001 C CNN
+	1    13275 8775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C52
+U 1 1 5DAB7BE4
+P 13975 8925
+F 0 "C52" H 14090 8971 50  0000 L CNN
+F 1 "4.7u" H 14090 8880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 8775 50  0001 C CNN
+F 3 "~" H 13975 8925 50  0001 C CNN
+	1    13975 8925
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 14075 9125
+NoConn ~ 14075 9225
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D50
+U 1 1 5DAB7BF0
+P 13775 8775
+F 0 "D50" H 13775 8583 40  0000 C CNN
+F 1 "DIODE" H 13775 8659 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 13775 8775 60  0001 C CNN
+F 3 "" H 13775 8775 60  0000 C CNN
+	1    13775 8775
+	1    0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R63
+U 1 1 5DAB7BFA
+P 13425 8775
+F 0 "R63" V 13218 8775 50  0000 C CNN
+F 1 "1" V 13309 8775 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13355 8775 50  0001 C CNN
+F 3 "~" H 13425 8775 50  0001 C CNN
+	1    13425 8775
+	0    -1   1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+12P-power #PWR0139
+U 1 1 5DAB7C04
+P 13275 9275
+F 0 "#PWR0139" H 13275 9125 50  0001 C CNN
+F 1 "+12P" H 13290 9448 50  0000 C CNN
+F 2 "" H 13275 9275 50  0001 C CNN
+F 3 "" H 13275 9275 50  0001 C CNN
+	1    13275 9275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C53
+U 1 1 5DAB7C0E
+P 13975 9425
+F 0 "C53" H 14090 9471 50  0000 L CNN
+F 1 "4.7u" H 14090 9380 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 9275 50  0001 C CNN
+F 3 "~" H 13975 9425 50  0001 C CNN
+	1    13975 9425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D51
+U 1 1 5DAB7C18
+P 13775 9275
+F 0 "D51" H 13775 9083 40  0000 C CNN
+F 1 "DIODE" H 13775 9159 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 13775 9275 60  0001 C CNN
+F 3 "" H 13775 9275 60  0000 C CNN
+	1    13775 9275
+	1    0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R64
+U 1 1 5DAB7C22
+P 13425 9275
+F 0 "R64" V 13218 9275 50  0000 C CNN
+F 1 "1" V 13309 9275 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13355 9275 50  0001 C CNN
+F 3 "~" H 13425 9275 50  0001 C CNN
+	1    13425 9275
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14075 9025 14025 9025
+Wire Wire Line
+	14025 9025 14025 9075
+Wire Wire Line
+	14025 9075 13975 9075
+Wire Wire Line
+	14075 8825 14025 8825
+Wire Wire Line
+	14025 8825 14025 8775
+Wire Wire Line
+	14025 8775 13975 8775
+Connection ~ 13975 8775
+Wire Wire Line
+	13975 9275 14025 9275
+Wire Wire Line
+	14025 9275 14025 9325
+Wire Wire Line
+	14025 9325 14075 9325
+Connection ~ 13975 9275
+Wire Wire Line
+	14075 9525 14025 9525
+Wire Wire Line
+	14025 9525 14025 9575
+Wire Wire Line
+	14025 9575 13975 9575
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R65
+U 1 1 5DAB7C3A
+P 13600 8925
+F 0 "R65" V 13393 8925 50  0000 C CNN
+F 1 "3" V 13484 8925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 8925 50  0001 C CNN
+F 3 "~" H 13600 8925 50  0001 C CNN
+	1    13600 8925
+	0    -1   1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R66
+U 1 1 5DAB7C44
+P 13600 9425
+F 0 "R66" V 13393 9425 50  0000 C CNN
+F 1 "3" V 13484 9425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 9425 50  0001 C CNN
+F 3 "~" H 13600 9425 50  0001 C CNN
+	1    13600 9425
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	13975 9075 13125 9075
+Wire Wire Line
+	13125 9075 13125 9175
+Wire Wire Line
+	13125 9175 13000 9175
+Wire Wire Line
+	13000 9175 13000 9125
+Connection ~ 13975 9075
+Wire Wire Line
+	13000 9175 13000 9225
+Connection ~ 13000 9175
+Wire Wire Line
+	13450 8925 13300 8925
+Wire Wire Line
+	13750 8925 14075 8925
+Wire Wire Line
+	14075 9425 13750 9425
+Wire Wire Line
+	13450 9425 13300 9425
+Wire Wire Line
+	13975 9575 13125 9575
+Wire Wire Line
+	13125 9575 13125 9625
+Connection ~ 13975 9575
+Text Label 12100 9175 0    50   ~ 0
+OUT1_L
+Text Label 12800 9175 2    50   ~ 0
+OUT1_R
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR0140
+U 1 1 5DAB7C5E
+P 12450 9625
+F 0 "#PWR0140" H 12450 9425 50  0001 C CNN
+F 1 "GNDPWR" H 12454 9471 50  0000 C CNN
+F 2 "" H 12450 9575 50  0001 C CNN
+F 3 "" H 12450 9575 50  0001 C CNN
+	1    12450 9625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 9625 12850 9625
+Connection ~ 12450 9625
+Wire Wire Line
+	11900 8725 12050 8725
+Text Label 12450 8675 0    50   ~ 0
+MOTOR1_BATT
+Wire Wire Line
+	12450 8675 12450 8725
+Connection ~ 12450 8725
+Wire Wire Line
+	12450 8725 12850 8725
+Text Label 12475 8050 0    50   ~ 0
+MOTOR1_BATT
+Text Label 11125 7850 2    50   ~ 0
+Current1
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C46
+U 1 1 5DAB7C71
+P 10575 8025
+F 0 "C46" H 10690 8071 50  0000 L CNN
+F 1 "0.1u" H 10690 7980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10613 7875 50  0001 C CNN
+F 3 "~" H 10575 8025 50  0001 C CNN
+	1    10575 8025
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0141
+U 1 1 5DAB7C7B
+P 9700 8225
+F 0 "#PWR0141" H 9700 8075 50  0001 C CNN
+F 1 "+3.3V" H 9715 8398 50  0000 C CNN
+F 2 "" H 9700 8225 50  0001 C CNN
+F 3 "" H 9700 8225 50  0001 C CNN
+	1    9700 8225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C45
+U 1 1 5DAB7C85
+P 9700 8375
+F 0 "C45" H 9815 8421 50  0000 L CNN
+F 1 "0.1u" H 9815 8330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9738 8225 50  0001 C CNN
+F 3 "~" H 9700 8375 50  0001 C CNN
+	1    9700 8375
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0142
+U 1 1 5DAB7C8F
+P 9700 8525
+F 0 "#PWR0142" H 9700 8275 50  0001 C CNN
+F 1 "GND" H 9705 8352 50  0000 C CNN
+F 2 "" H 9700 8525 50  0001 C CNN
+F 3 "" H 9700 8525 50  0001 C CNN
+	1    9700 8525
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0143
+U 1 1 5DAB7C99
+P 15350 8200
+F 0 "#PWR0143" H 15350 8050 50  0001 C CNN
+F 1 "+3.3V" H 15365 8373 50  0000 C CNN
+F 2 "" H 15350 8200 50  0001 C CNN
+F 3 "" H 15350 8200 50  0001 C CNN
+	1    15350 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C54
+U 1 1 5DAB7CA3
+P 15350 8350
+F 0 "C54" H 15465 8396 50  0000 L CNN
+F 1 "0.1u" H 15465 8305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15388 8200 50  0001 C CNN
+F 3 "~" H 15350 8350 50  0001 C CNN
+	1    15350 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0144
+U 1 1 5DAB7CAD
+P 15350 8500
+F 0 "#PWR0144" H 15350 8250 50  0001 C CNN
+F 1 "GND" H 15355 8327 50  0000 C CNN
+F 2 "" H 15350 8500 50  0001 C CNN
+F 3 "" H 15350 8500 50  0001 C CNN
+	1    15350 8500
+	1    0    0    -1  
+$EndComp
+Connection ~ 12050 8725
+Wire Wire Line
+	12050 8725 12450 8725
+Wire Wire Line
+	12050 8750 12050 8725
+Wire Wire Line
+	12050 9150 12050 9175
+Wire Wire Line
+	11900 9175 12050 9175
+Wire Wire Line
+	12050 9175 12100 9175
+Connection ~ 12050 9175
+Wire Wire Line
+	12050 9200 12050 9175
+Wire Wire Line
+	12050 9600 12050 9625
+Connection ~ 12050 9625
+Wire Wire Line
+	12050 9625 12450 9625
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D49
+U 1 1 5DAB7CC2
+P 12850 9400
+F 0 "D49" V 12888 9322 40  0000 R CNN
+F 1 "DIODE" V 12812 9322 40  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12850 9400 60  0001 C CNN
+F 3 "" H 12850 9400 60  0000 C CNN
+	1    12850 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D48
+U 1 1 5DAB7CCC
+P 12850 8950
+F 0 "D48" V 12888 8872 40  0000 R CNN
+F 1 "DIODE" V 12812 8872 40  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12850 8950 60  0001 C CNN
+F 3 "" H 12850 8950 60  0000 C CNN
+	1    12850 8950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12850 8750 12850 8725
+Connection ~ 12850 8725
+Wire Wire Line
+	12850 8725 13000 8725
+Wire Wire Line
+	12850 9150 12850 9175
+Wire Wire Line
+	12850 9175 13000 9175
+Wire Wire Line
+	12850 9175 12850 9200
+Connection ~ 12850 9175
+Wire Wire Line
+	12850 9175 12800 9175
+Wire Wire Line
+	12850 9600 12850 9625
+Connection ~ 12850 9625
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D46
+U 1 1 5DAB7CE0
+P 12050 9400
+F 0 "D46" V 12088 9322 40  0000 R CNN
+F 1 "DIODE" V 12012 9322 40  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12050 9400 60  0001 C CNN
+F 3 "" H 12050 9400 60  0000 C CNN
+	1    12050 9400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12850 9625 13000 9625
+Wire Wire Line
+	13125 9625 13000 9625
+Connection ~ 13000 9625
+$Comp
+L MD_Enbarr_x2-rescue:BSC014N06-Miz Q8
+U 1 1 5DAB7CF7
+P 13100 9425
+F 0 "Q8" H 13306 9471 50  0000 L CNN
+F 1 "BSC014N06" H 13306 9380 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 13300 9350 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd17578q5a" V 13100 9425 50  0001 L CNN
+	1    13100 9425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:BSC014N06-Miz Q7
+U 1 1 5DAB7D01
+P 13100 8925
+F 0 "Q7" H 13306 8971 50  0000 L CNN
+F 1 "BSC014N06" H 13306 8880 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 13300 8850 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd17578q5a" V 13100 8925 50  0001 L CNN
+	1    13100 8925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 9625 12050 9625
+Wire Wire Line
+	11775 9625 11900 9625
+Connection ~ 11900 9625
+$Comp
+L MD_Enbarr_x2-rescue:BSC014N06-Miz Q6
+U 1 1 5DAB7D0E
+P 11800 9425
+F 0 "Q6" H 12006 9471 50  0000 L CNN
+F 1 "BSC014N06" H 12006 9380 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 12000 9350 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd17578q5a" V 11800 9425 50  0001 L CNN
+	1    11800 9425
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:BSC014N06-Miz Q5
+U 1 1 5DAB7D18
+P 11800 8925
+F 0 "Q5" H 12006 8971 50  0000 L CNN
+F 1 "BSC014N06" H 12006 8880 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 12000 8850 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd17578q5a" V 11800 8925 50  0001 L CNN
+	1    11800 8925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Miz:ACS781 U12
+U 1 1 5DAB7D22
+P 12025 7950
+F 0 "U12" H 12025 8337 60  0000 C CNN
+F 1 "ACS781" H 12025 8231 60  0000 C CNN
+F 2 "Mizz_lib:ACS781_No_side_mask" H 12025 7950 60  0001 C CNN
+F 3 "" H 12025 7950 60  0000 C CNN
+	1    12025 7950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0145
+U 1 1 5DAB7D2C
+P 10575 7875
+F 0 "#PWR0145" H 10575 7725 50  0001 C CNN
+F 1 "+3.3V" H 10590 8048 50  0000 C CNN
+F 2 "" H 10575 7875 50  0001 C CNN
+F 3 "" H 10575 7875 50  0001 C CNN
+	1    10575 7875
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0146
+U 1 1 5DAB7D36
+P 10575 8175
+F 0 "#PWR0146" H 10575 7925 50  0001 C CNN
+F 1 "GND" H 10580 8002 50  0000 C CNN
+F 2 "" H 10575 8175 50  0001 C CNN
+F 3 "" H 10575 8175 50  0001 C CNN
+	1    10575 8175
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+BATT-power #PWR0147
+U 1 1 5DAB7D40
+P 12475 7850
+F 0 "#PWR0147" H 12475 7700 50  0001 C CNN
+F 1 "+BATT" H 12490 8023 50  0000 C CNN
+F 2 "" H 12475 7850 50  0001 C CNN
+F 3 "" H 12475 7850 50  0001 C CNN
+	1    12475 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R57
+U 1 1 5DAB7D4A
+P 11425 7850
+F 0 "R57" V 11218 7850 50  0000 C CNN
+F 1 "100" V 11309 7850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11355 7850 50  0001 C CNN
+F 3 "~" H 11425 7850 50  0001 C CNN
+	1    11425 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C49
+U 1 1 5DAB7D54
+P 11175 8000
+F 0 "C49" H 11290 8046 50  0000 L CNN
+F 1 "0.1u" H 11290 7955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11213 7850 50  0001 C CNN
+F 3 "~" H 11175 8000 50  0001 C CNN
+	1    11175 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0148
+U 1 1 5DAB7D5E
+P 11475 8150
+F 0 "#PWR0148" H 11475 7900 50  0001 C CNN
+F 1 "GND" H 11480 7977 50  0000 C CNN
+F 2 "" H 11475 8150 50  0001 C CNN
+F 3 "" H 11475 8150 50  0001 C CNN
+	1    11475 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0149
+U 1 1 5DAB7D68
+P 11575 8050
+F 0 "#PWR0149" H 11575 7900 50  0001 C CNN
+F 1 "+3.3V" H 11590 8223 50  0000 C CNN
+F 2 "" H 11575 8050 50  0001 C CNN
+F 3 "" H 11575 8050 50  0001 C CNN
+	1    11575 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11475 7950 11575 7950
+Wire Wire Line
+	11275 7850 11175 7850
+Wire Wire Line
+	11175 7850 11125 7850
+Connection ~ 11175 7850
+Wire Wire Line
+	11475 8150 11175 8150
+Wire Wire Line
+	11475 7950 11475 8150
+Connection ~ 11475 8150
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D42
+U 1 1 5DC869CD
+P 7100 6650
+F 0 "D42" H 7100 6842 40  0000 C CNN
+F 1 "DIODE" H 7100 6766 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 7100 6650 60  0001 C CNN
+F 3 "" H 7100 6650 60  0000 C CNN
+	1    7100 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D41
+U 1 1 5DC86B0D
+P 7100 6450
+F 0 "D41" H 7100 6642 40  0000 C CNN
+F 1 "DIODE" H 7100 6566 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 7100 6450 60  0001 C CNN
+F 3 "" H 7100 6450 60  0000 C CNN
+	1    7100 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D3
+U 1 1 5DC887CA
+P 1825 10125
+F 0 "D3" H 1825 9933 40  0000 C CNN
+F 1 "DIODE" H 1825 10009 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1825 10125 60  0001 C CNN
+F 3 "" H 1825 10125 60  0000 C CNN
+	1    1825 10125
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D2
+U 1 1 5DC88D3A
+P 1825 10025
+F 0 "D2" H 1825 9833 40  0000 C CNN
+F 1 "DIODE" H 1825 9909 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1825 10025 60  0001 C CNN
+F 3 "" H 1825 10025 60  0000 C CNN
+	1    1825 10025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2025 10225 2325 10225
+Wire Wire Line
+	2325 10325 2025 10325
+Text Label 1625 10325 2    50   ~ 0
+PWM1_R
+Text Label 1625 10225 2    50   ~ 0
+PWM1_L
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D35
+U 1 1 5DC8AD14
+P 1825 10325
+F 0 "D35" H 1825 10133 40  0000 C CNN
+F 1 "DIODE" H 1825 10209 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1825 10325 60  0001 C CNN
+F 3 "" H 1825 10325 60  0000 C CNN
+	1    1825 10325
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D12
+U 1 1 5DC8AD1E
+P 1825 10225
+F 0 "D12" H 1825 10033 40  0000 C CNN
+F 1 "DIODE" H 1825 10109 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1825 10225 60  0001 C CNN
+F 3 "" H 1825 10225 60  0000 C CNN
+	1    1825 10225
+	-1   0    0    1   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X04-conn P13
+U 1 1 5DD2B244
+P 7125 8550
+F 0 "P13" H 7203 8591 50  0000 L CNN
+F 1 "ENC_1" H 7203 8500 50  0000 L CNN
+F 2 "Mizz_lib:XA_4LC" H 7125 8550 50  0001 C CNN
+F 3 "" H 7125 8550 50  0000 C CNN
+	1    7125 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 8400 6875 8400
+Connection ~ 6900 8400
+Wire Wire Line
+	6925 8400 6900 8400
+Wire Wire Line
+	6575 8400 6575 8500
+Wire Wire Line
+	6575 8500 6925 8500
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C44
+U 1 1 5DD2B253
+P 6725 8400
+F 0 "C44" V 6473 8400 50  0000 C CNN
+F 1 "0.1u" V 6564 8400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6763 8250 50  0001 C CNN
+F 3 "~" H 6725 8400 50  0001 C CNN
+	1    6725 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0152
+U 1 1 5DD2B25D
+P 6900 8400
+F 0 "#PWR0152" H 6900 8150 50  0001 C CNN
+F 1 "GND" H 6905 8227 50  0000 C CNN
+F 2 "" H 6900 8400 50  0001 C CNN
+F 3 "" H 6900 8400 50  0001 C CNN
+	1    6900 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+5V-power #PWR0153
+U 1 1 5DD2B267
+P 6175 8500
+F 0 "#PWR0153" H 6175 8350 50  0001 C CNN
+F 1 "+5V" H 6190 8673 50  0000 C CNN
+F 2 "" H 6175 8500 50  0001 C CNN
+F 3 "" H 6175 8500 50  0001 C CNN
+	1    6175 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D38
+U 1 1 5DD2B271
+P 6375 8500
+F 0 "D38" H 6375 8692 40  0000 C CNN
+F 1 "DIODE" H 6375 8616 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6375 8500 60  0001 C CNN
+F 3 "" H 6375 8500 60  0000 C CNN
+	1    6375 8500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6575 8500
+Text Label 5125 8600 2    50   ~ 0
+TIM5_CH2
+Text Label 5125 8700 2    50   ~ 0
+TIM5_CH1
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R24
+U 1 1 5DD2B27E
+P 5975 8450
+F 0 "R24" H 6045 8496 50  0000 L CNN
+F 1 "1k" H 6045 8405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5905 8450 50  0001 C CNN
+F 3 "~" H 5975 8450 50  0001 C CNN
+	1    5975 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R21
+U 1 1 5DD2B288
+P 5775 8550
+F 0 "R21" H 5845 8596 50  0000 L CNN
+F 1 "1k" H 5845 8505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5705 8550 50  0001 C CNN
+F 3 "~" H 5775 8550 50  0001 C CNN
+	1    5775 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R50
+U 1 1 5DD2B292
+P 5575 8600
+F 0 "R50" V 5368 8600 50  0000 C CNN
+F 1 "100" V 5459 8600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5505 8600 50  0001 C CNN
+F 3 "~" H 5575 8600 50  0001 C CNN
+	1    5575 8600
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R46
+U 1 1 5DD2B29C
+P 5375 8700
+F 0 "R46" V 5168 8700 50  0000 C CNN
+F 1 "100" V 5259 8700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5305 8700 50  0001 C CNN
+F 3 "~" H 5375 8700 50  0001 C CNN
+	1    5375 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0154
+U 1 1 5DD2B2AE
+P 5775 8300
+F 0 "#PWR0154" H 5775 8150 50  0001 C CNN
+F 1 "+3.3V" H 5790 8473 50  0000 C CNN
+F 2 "" H 5775 8300 50  0001 C CNN
+F 3 "" H 5775 8300 50  0001 C CNN
+	1    5775 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5775 8300 5975 8300
+Wire Wire Line
+	5775 8400 5775 8300
+Connection ~ 5775 8300
+Text Notes 7700 6525 0    50   ~ 0
+TIM1CH
+Text Label 2100 5750 2    50   ~ 0
+PWM0_R
+Text Label 2500 5850 2    50   ~ 0
+EN0
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D36
+U 1 1 5DD56D4F
+P 2300 5750
+F 0 "D36" H 2300 5942 40  0000 C CNN
+F 1 "DIODE" H 2300 5866 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 2300 5750 60  0001 C CNN
+F 3 "" H 2300 5750 60  0000 C CNN
+	1    2300 5750
+	-1   0    0    -1  
+$EndComp
+Text Notes 1475 5850 0    50   ~ 0
+TIM8CH
+Text Label 2500 5650 2    50   ~ 0
+LED3
+Text Label 6900 6150 0    50   ~ 0
+SW1
+Text Label 6900 3450 0    50   ~ 0
+TIM5_CH1
+Text Label 6900 3550 0    50   ~ 0
+TIM5_CH2
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D45
+U 1 1 5DAB7CEA
+P 12050 8950
+F 0 "D45" V 12088 8872 40  0000 R CNN
+F 1 "DIODE" V 12012 8872 40  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12050 8950 60  0001 C CNN
+F 3 "" H 12050 8950 60  0000 C CNN
+	1    12050 8950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X03-conn P14
+U 1 1 5D8C37FE
+P 8375 9275
+F 0 "P14" H 8453 9316 50  0000 L CNN
+F 1 "I/O_1" H 8453 9225 50  0000 L CNN
+F 2 "Mizz_lib:XA_3LC" H 8375 9275 50  0001 C CNN
+F 3 "" H 8375 9275 50  0000 C CNN
+	1    8375 9275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 9175 8125 9175
+Connection ~ 8150 9175
+Wire Wire Line
+	8175 9175 8150 9175
+Wire Wire Line
+	7825 9175 7825 9275
+Wire Wire Line
+	7825 9275 8175 9275
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C55
+U 1 1 5D8C380D
+P 7975 9175
+F 0 "C55" V 7723 9175 50  0000 C CNN
+F 1 "0.1u" V 7814 9175 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8013 9025 50  0001 C CNN
+F 3 "~" H 7975 9175 50  0001 C CNN
+	1    7975 9175
+	0    1    1    0   
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0155
+U 1 1 5D8C3817
+P 8150 9175
+F 0 "#PWR0155" H 8150 8925 50  0001 C CNN
+F 1 "GND" H 8155 9002 50  0000 C CNN
+F 2 "" H 8150 9175 50  0001 C CNN
+F 3 "" H 8150 9175 50  0001 C CNN
+	1    8150 9175
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+5V-power #PWR0156
+U 1 1 5D8C3821
+P 7425 9275
+F 0 "#PWR0156" H 7425 9125 50  0001 C CNN
+F 1 "+5V" H 7440 9448 50  0000 C CNN
+F 2 "" H 7425 9275 50  0001 C CNN
+F 3 "" H 7425 9275 50  0001 C CNN
+	1    7425 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D52
+U 1 1 5D8C382B
+P 7625 9275
+F 0 "D52" H 7625 9467 40  0000 C CNN
+F 1 "DIODE" H 7625 9391 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7625 9275 60  0001 C CNN
+F 3 "" H 7625 9275 60  0000 C CNN
+	1    7625 9275
+	1    0    0    -1  
+$EndComp
+Connection ~ 7825 9275
+Text Label 8175 9375 2    50   ~ 0
+PA5
+Text Label 6900 3950 0    50   ~ 0
+PA5
+Text Label 13000 1325 2    50   ~ 0
+OUT0_L
+Text Label 13000 1425 2    50   ~ 0
+OUT0_R
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X04-conn P2
+U 1 1 5E1B0BF6
+P 2525 10825
+F 0 "P2" H 2603 10866 50  0000 L CNN
+F 1 "5V_IN" H 2603 10775 50  0000 L CNN
+F 2 "Mizz_lib:XA_4LC" H 2525 10825 50  0001 C CNN
+F 3 "" H 2525 10825 50  0000 C CNN
+	1    2525 10825
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X02-conn P15
+U 1 1 5DC1ECD1
+P 13200 1375
+F 0 "P15" H 13278 1416 50  0000 L CNN
+F 1 "OUT_0" H 13278 1325 50  0000 L CNN
+F 2 "Mizz_lib:XT60_F" H 13200 1375 50  0001 C CNN
+F 3 "" H 13200 1375 50  0000 C CNN
+	1    13200 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X02-conn P10
+U 1 1 5E21F3C0
+P 13950 1400
+F 0 "P10" H 14028 1441 50  0000 L CNN
+F 1 "OUT_1" H 14028 1350 50  0000 L CNN
+F 2 "Mizz_lib:XT60_F" H 13950 1400 50  0001 C CNN
+F 3 "" H 13950 1400 50  0000 C CNN
+	1    13950 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5775 7900
+Wire Wire Line
+	5775 7900 5500 7900
+Wire Wire Line
+	5700 7800 5975 7800
+Connection ~ 5975 7800
+Wire Wire Line
+	5975 7800 6925 7800
+Wire Wire Line
+	5775 7900 6925 7900
+Wire Wire Line
+	5725 8600 5975 8600
+Wire Wire Line
+	5525 8700 5775 8700
+Connection ~ 5775 8700
+Wire Wire Line
+	5775 8700 6925 8700
+Wire Wire Line
+	5975 8600 6925 8600
+Connection ~ 5975 8600
+Wire Wire Line
+	5425 8600 5125 8600
+Wire Wire Line
+	5225 8700 5125 8700
+Text Label 6300 10000 2    50   ~ 0
+LED2
+Text Label 7050 10000 2    50   ~ 0
+LED4
+Text Label 6675 10000 2    50   ~ 0
+LED3
+$Comp
+L MD_Enbarr_x2-rescue:AZ1086H-myDevice U15
+U 1 1 5DA2F8A1
+P 4175 1450
+F 0 "U15" H 4175 1887 60  0000 C CNN
+F 1 "AZ1086H" H 4175 1781 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4175 1450 60  0001 C CNN
+F 3 "" H 4175 1450 60  0000 C CNN
+	1    4175 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3675 1300 3700 1300
+Connection ~ 3700 1300
+Wire Wire Line
+	3700 1300 3725 1300
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C56
+U 1 1 5DA5A3F4
+P 3700 1525
+F 0 "C56" H 3815 1571 50  0000 L CNN
+F 1 "10u" H 3815 1480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 1375 50  0001 C CNN
+F 3 "~" H 3700 1525 50  0001 C CNN
+	1    3700 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C57
+U 1 1 5DA5B5B4
+P 4625 1525
+F 0 "C57" H 4740 1571 50  0000 L CNN
+F 1 "22u" H 4740 1480 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4663 1375 50  0001 C CNN
+F 3 "~" H 4625 1525 50  0001 C CNN
+	1    4625 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0157
+U 1 1 5DA5C9A5
+P 4625 1300
+F 0 "#PWR0157" H 4625 1150 50  0001 C CNN
+F 1 "+3.3V" H 4640 1473 50  0000 C CNN
+F 2 "" H 4625 1300 50  0001 C CNN
+F 3 "" H 4625 1300 50  0001 C CNN
+	1    4625 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 1300 4625 1375
+Connection ~ 4625 1300
+Wire Wire Line
+	4625 1675 4625 1750
+Wire Wire Line
+	4625 1750 4175 1750
+Wire Wire Line
+	3700 1750 3700 1675
+Connection ~ 4175 1750
+Wire Wire Line
+	4175 1750 3700 1750
+Wire Wire Line
+	3700 1375 3700 1300
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0158
+U 1 1 5DAD98FD
+P 4175 1750
+F 0 "#PWR0158" H 4175 1500 50  0001 C CNN
+F 1 "GND" H 4180 1577 50  0000 C CNN
+F 2 "" H 4175 1750 50  0001 C CNN
+F 3 "" H 4175 1750 50  0001 C CNN
+	1    4175 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 2775 11250 2775
+Wire Wire Line
+	11250 2775 11250 2800
+Connection ~ 11250 2775
+Wire Wire Line
+	11250 2775 11300 2775
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR0159
+U 1 1 5DE04827
+P 11250 3100
+F 0 "#PWR0159" H 11250 2900 50  0001 C CNN
+F 1 "GNDPWR" H 11254 2946 50  0000 C CNN
+F 2 "" H 11250 3050 50  0001 C CNN
+F 3 "" H 11250 3050 50  0001 C CNN
+	1    11250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 1875 11250 1875
+Wire Wire Line
+	11250 1900 11250 1875
+Connection ~ 11250 1875
+Wire Wire Line
+	11250 1875 11300 1875
+$Comp
+L MD_Enbarr_x2-rescue:GNDPWR-power #PWR0160
+U 1 1 5DE7C668
+P 11250 2200
+F 0 "#PWR0160" H 11250 2000 50  0001 C CNN
+F 1 "GNDPWR" H 11254 2046 50  0000 C CNN
+F 2 "" H 11250 2150 50  0001 C CNN
+F 3 "" H 11250 2150 50  0001 C CNN
+	1    11250 2200
+	1    0    0    -1  
+$EndComp
+Text Label 2500 5350 2    50   ~ 0
+Current1
+Text Label 2500 5450 2    50   ~ 0
+Current0
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R69
+U 1 1 5D90D559
+P 9500 6325
+F 0 "R69" H 9570 6371 50  0000 L CNN
+F 1 "10k" H 9570 6280 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9430 6325 50  0001 C CNN
+F 3 "~" H 9500 6325 50  0001 C CNN
+	1    9500 6325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 6175 9500 6175
+Connection ~ 9500 6175
+Wire Wire Line
+	9500 6175 9725 6175
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R70
+U 1 1 5D936D09
+P 9500 8975
+F 0 "R70" H 9570 9021 50  0000 L CNN
+F 1 "10k" H 9570 8930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9430 8975 50  0001 C CNN
+F 3 "~" H 9500 8975 50  0001 C CNN
+	1    9500 8975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 9125 9725 9125
+Connection ~ 9725 9125
+Wire Wire Line
+	9725 8825 9500 8825
+Connection ~ 9500 8825
+Wire Wire Line
+	9500 8825 9450 8825
+Wire Wire Line
+	9500 6475 9725 6475
+Connection ~ 9725 6475
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R71
+U 1 1 5D9D95ED
+P 15400 6325
+F 0 "R71" H 15470 6371 50  0000 L CNN
+F 1 "10k" H 15470 6280 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15330 6325 50  0001 C CNN
+F 3 "~" H 15400 6325 50  0001 C CNN
+	1    15400 6325
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15450 6175 15400 6175
+Connection ~ 15400 6175
+Wire Wire Line
+	15400 6175 15175 6175
+Wire Wire Line
+	15175 6475 15400 6475
+Connection ~ 15400 6475
+$Comp
+L MD_Enbarr_x2-rescue:R-Device R72
+U 1 1 5DA56BA4
+P 15400 8975
+F 0 "R72" H 15470 9021 50  0000 L CNN
+F 1 "10k" H 15470 8930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15330 8975 50  0001 C CNN
+F 3 "~" H 15400 8975 50  0001 C CNN
+	1    15400 8975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15450 8825 15400 8825
+Connection ~ 15400 8825
+Wire Wire Line
+	15400 8825 15175 8825
+Wire Wire Line
+	15400 9125 15175 9125
+Connection ~ 15400 9125
+$Comp
+L MD_Enbarr_x2-rescue:LOGO-myDevice U16
+U 1 1 5D9F257F
+P 15550 2150
+F 0 "U16" H 15828 2203 60  0000 L CNN
+F 1 "LOGO" H 15828 2097 60  0000 L CNN
+F 2 "Mizz_lib:Mini_Monster" H 15550 2150 60  0001 C CNN
+F 3 "" H 15550 2150 60  0000 C CNN
+	1    15550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Miz:LOGO #G1
+U 1 1 5D9F5106
+P 15525 1300
+F 0 "#G1" H 15506 2016 60  0000 C CNN
+F 1 "LOGO" H 15506 1910 60  0000 C CNN
+F 2 "" H 15525 1300 50  0001 C CNN
+F 3 "" H 15525 1300 50  0001 C CNN
+	1    15525 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LOGO-myDevice U17
+U 1 1 5D9F7A9F
+P 15550 2725
+F 0 "U17" H 15828 2778 60  0000 L CNN
+F 1 "LOGO" H 15828 2672 60  0000 L CNN
+F 2 "Mizz_lib:C3PO_silk_11.3x15.0" H 15550 2725 60  0001 C CNN
+F 3 "" H 15550 2725 60  0000 C CNN
+	1    15550 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:LOGO-myDevice U18
+U 1 1 5D9F7DC6
+P 15550 3300
+F 0 "U18" H 15828 3353 60  0000 L CNN
+F 1 "LOGO" H 15828 3247 60  0000 L CNN
+F 2 "Mizz_lib:NT_2019_Logo_10.0x10.0_Silk" H 15550 3300 60  0001 C CNN
+F 3 "" H 15550 3300 60  0000 C CNN
+	1    15550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:DIODE-device D37
+U 1 1 5DD56D45
+P 2300 5950
+F 0 "D37" H 2300 6142 40  0000 C CNN
+F 1 "DIODE" H 2300 6066 40  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 2300 5950 60  0001 C CNN
+F 3 "" H 2300 5950 60  0000 C CNN
+	1    2300 5950
+	-1   0    0    -1  
+$EndComp
+Text Label 2100 5950 2    50   ~ 0
+PWM0_L
+Text Label 6900 6350 0    50   ~ 0
+MODE
+$Comp
+L MD_Enbarr_x2-rescue:+3.3V-power #PWR0161
+U 1 1 5D94A49B
+P 8250 3275
+F 0 "#PWR0161" H 8250 3125 50  0001 C CNN
+F 1 "+3.3V" H 8265 3448 50  0000 C CNN
+F 2 "" H 8250 3275 50  0001 C CNN
+F 3 "" H 8250 3275 50  0001 C CNN
+	1    8250 3275
+	1    0    0    -1  
+$EndComp
+Text Label 2500 6650 2    50   ~ 0
+ADR_1
+Text Label 2500 6450 2    50   ~ 0
+ADR_2
+Text Label 2500 6550 2    50   ~ 0
+ADR_4
+Text Label 6900 5750 0    50   ~ 0
+ADR_8
+$Comp
+L MD_Enbarr_x2-rescue:CONN_01X04-conn P12
+U 1 1 5DC8ACDA
+P 2525 10175
+F 0 "P12" H 2603 10216 50  0000 L CNN
+F 1 "SIGNAL" H 2603 10125 50  0000 L CNN
+F 2 "Mizz_lib:XA_4LC" H 2525 10175 50  0001 C CNN
+F 3 "" H 2525 10175 50  0000 C CNN
+	1    2525 10175
+	1    0    0    -1  
+$EndComp
+Connection ~ 2025 10775
+$Comp
+L MD_Enbarr_x2-rescue:GND-power #PWR0150
+U 1 1 5DA02142
+P 2325 10875
+F 0 "#PWR0150" H 2325 10625 50  0001 C CNN
+F 1 "GND" H 2330 10702 50  0000 C CNN
+F 2 "" H 2325 10875 50  0001 C CNN
+F 3 "" H 2325 10875 50  0001 C CNN
+	1    2325 10875
+	1    0    0    -1  
+$EndComp
+$Comp
+L MD_Enbarr_x2-rescue:C-Device C21
+U 1 1 5DA0214C
+P 2175 10875
+F 0 "C21" V 1923 10875 50  0000 C CNN
+F 1 "0.1u" V 2014 10875 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2213 10725 50  0001 C CNN
+F 3 "~" H 2175 10875 50  0001 C CNN
+	1    2175 10875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2325 10975 2025 10975
+Wire Wire Line
+	2025 10975 2025 10875
+Connection ~ 2325 10875
+Wire Wire Line
+	2025 10775 2025 10875
+Connection ~ 2025 10875
+Connection ~ 2025 10975
+Wire Wire Line
+	10575 4250 10875 4250
+Wire Wire Line
+	10575 3925 10875 3925
+Wire Wire Line
+	10875 4250 10875 4225
+Connection ~ 10875 4250
+Wire Wire Line
+	10875 4250 10925 4250
+$EndSCHEMATC
