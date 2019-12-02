@@ -321,7 +321,7 @@ L SteerMD-rescue:SW_PUSH-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue SW1
 U 1 1 5E0EEA17
 P 1250 4000
 F 0 "SW1" H 1250 4255 50  0000 C CNN
-F 1 "RESET" H 1250 4164 50  0000 C CNN
+F 1 "RST" H 1250 4164 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 1250 4000 60  0001 C CNN
 F 3 "" H 1250 4000 60  0000 C CNN
 	1    1250 4000
@@ -2666,26 +2666,14 @@ $EndComp
 $Comp
 L SteerMD-rescue:+5V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0109
 U 1 1 5D9B92BD
-P 6175 7700
-F 0 "#PWR0109" H 6175 7550 50  0001 C CNN
-F 1 "+5V" H 6190 7873 50  0000 C CNN
-F 2 "" H 6175 7700 50  0001 C CNN
-F 3 "" H 6175 7700 50  0001 C CNN
-	1    6175 7700
+P 6575 7600
+F 0 "#PWR0109" H 6575 7450 50  0001 C CNN
+F 1 "+5V" H 6590 7773 50  0000 C CNN
+F 2 "" H 6575 7600 50  0001 C CNN
+F 3 "" H 6575 7600 50  0001 C CNN
+	1    6575 7600
 	1    0    0    -1  
 $EndComp
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D28
-U 1 1 5D9B92C7
-P 6375 7700
-F 0 "D28" H 6375 7892 40  0000 C CNN
-F 1 "DIODE" H 6375 7816 40  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 6375 7700 60  0001 C CNN
-F 3 "" H 6375 7700 60  0000 C CNN
-	1    6375 7700
-	1    0    0    -1  
-$EndComp
-Connection ~ 6575 7700
 Text Label 6900 5650 0    50   ~ 0
 TIM3_CH2
 Text Label 6900 5550 0    50   ~ 0
@@ -3367,8 +3355,6 @@ Text Label 2500 5850 2    50   ~ 0
 EN0
 Text Notes 1475 5850 0    50   ~ 0
 TIM8CH
-Text Label 2500 5650 2    50   ~ 0
-LED3
 Text Label 6900 6150 0    50   ~ 0
 SW1
 Text Label 6900 3450 0    50   ~ 0
@@ -3603,23 +3589,12 @@ Current0
 $Comp
 L SteerMD-rescue:LOGO-myDevice-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue U16
 U 1 1 5D9F257F
-P 15550 2150
-F 0 "U16" H 15828 2203 60  0000 L CNN
-F 1 "LOGO" H 15828 2097 60  0000 L CNN
-F 2 "Mizz_lib:Mini_Monster" H 15550 2150 60  0001 C CNN
-F 3 "" H 15550 2150 60  0000 C CNN
-	1    15550 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:LOGO-myDevice-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue U18
-U 1 1 5D9F7DC6
-P 15550 3300
-F 0 "U18" H 15828 3353 60  0000 L CNN
-F 1 "LOGO" H 15828 3247 60  0000 L CNN
-F 2 "Mizz_lib:NT_2019_Logo_10.0x10.0_Silk" H 15550 3300 60  0001 C CNN
-F 3 "" H 15550 3300 60  0000 C CNN
-	1    15550 3300
+P 15550 2100
+F 0 "U16" H 15828 2153 60  0000 L CNN
+F 1 "LOGO" H 15828 2047 60  0000 L CNN
+F 2 "Mizz_lib:Mini_Monster" H 15550 2100 60  0001 C CNN
+F 3 "" H 15550 2100 60  0000 C CNN
+	1    15550 2100
 	1    0    0    -1  
 $EndComp
 Text Label 6900 6350 0    50   ~ 0
@@ -4174,8 +4149,6 @@ F 3 "~" H 13425 9300 50  0001 C CNN
 	1    13425 9300
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	13975 9300 14025 9300
 Connection ~ 13975 9300
 $Comp
 L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R63
@@ -4201,10 +4174,6 @@ F 3 "~" H 13600 9450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13450 8700 13300 8700
-Wire Wire Line
-	13750 8700 14075 8700
-Wire Wire Line
-	14075 9450 13750 9450
 Wire Wire Line
 	13450 9450 13300 9450
 Text Label 12100 9050 0    50   ~ 0
@@ -4731,4 +4700,27 @@ Wire Wire Line
 Wire Wire Line
 	11500 7875 11500 8025
 Connection ~ 11500 8025
+Text Label 2500 5650 2    50   ~ 0
+LED3
+Connection ~ 6575 7600
+$Comp
+L Miz:LOGO_Monster #G1
+U 1 1 5E034095
+P 15525 1275
+F 0 "#G1" H 15506 1991 60  0000 C CNN
+F 1 "LOGO_Monster" H 15506 1885 60  0000 C CNN
+F 2 "" H 15525 1275 50  0001 C CNN
+F 3 "" H 15525 1275 50  0001 C CNN
+	1    15525 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13975 9300 14100 9300
+Wire Wire Line
+	13750 9450 14100 9450
+Wire Wire Line
+	13750 8700 14100 8700
+Wire Wire Line
+	13975 8550 14100 8550
+Connection ~ 13975 8550
 $EndSCHEMATC
