@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SteerMD-rescue)(type Legacy)(uri ${KIPRJMOD}/SteerMD-rescue.lib)(options "")(descr ""))
+  (lib (name CAN_DCMD-rescue)(type Legacy)(uri ${KIPRJMOD}/CAN_DCMD-rescue.lib)(options "")(descr ""))
+)
