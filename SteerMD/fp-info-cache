@@ -1,4 +1,4 @@
-16624558162435045
+16660762916384928
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49630,6 +49630,13 @@ Mizz_lib
 5
 3
 Mizz_lib
+7-1393302-7
+
+
+0
+4
+4
+Mizz_lib
 14_LD_LGAQFN
 
 
@@ -49679,12 +49686,26 @@ ACS781
 7
 5
 Mizz_lib
+ACS785xCB
+
+
+0
+5
+5
+Mizz_lib
 ALLEGRO_ACS70331EESATR-005U3
 
 
 0
 12
 12
+Mizz_lib
+AQM0802
+
+
+0
+9
+9
 Mizz_lib
 AQM0802_BackLight
 
@@ -49721,6 +49742,13 @@ AZ1086H
 4
 3
 Mizz_lib
+AloeSetMeal_Mask_50x5.8
+
+
+0
+0
+0
+Mizz_lib
 Amethyst_logo5x5.5_silk
 
 
@@ -49729,6 +49757,27 @@ Amethyst_logo5x5.5_silk
 0
 Mizz_lib
 Amethyst_logo10x11_silk
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_30x7
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_40x9.4
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_50x12
 
 
 0
@@ -49769,6 +49818,20 @@ Beer_Hall
 0
 1
 0
+Mizz_lib
+BladeFuseHolderFused
+
+
+0
+4
+2
+Mizz_lib
+CAPAE1300X1400N
+EMVH500ARA101MKE0S
+Capacitor
+0
+2
+2
 Mizz_lib
 CCG30-24-xxS
 
@@ -50085,6 +50148,13 @@ inductor taiyo-yuden nr smd
 2
 2
 Mizz_lib
+Libra_15x15_silk
+
+
+0
+0
+0
+Mizz_lib
 MCW103
 
 
@@ -50092,12 +50162,26 @@ MCW103
 7
 7
 Mizz_lib
+MGFS402412
+
+
+0
+6
+6
+Mizz_lib
 MGS30
 
 
 0
 6
 6
+Mizz_lib
+Mega_Fusigibana_15x9_silk
+
+
+0
+0
+0
 Mizz_lib
 Mini_Monster
 
@@ -50196,6 +50280,13 @@ NVGB1306L
 0
 14
 6
+Mizz_lib
+NVMFD5C446NLWFT1G
+DFN8 5x6 (SO8FL) CASE 506BT
+MOSFET (N-Channel)
+0
+14
+14
 Mizz_lib
 NVMFS6H836N
 
@@ -50477,6 +50568,13 @@ RP_KIT_Logo_15.0x15.0
 0
 0
 Mizz_lib
+RP_KIT_Logo_mask_15.0x15.0
+
+
+0
+0
+0
+Mizz_lib
 RP_TroughHole_Button
 
 
@@ -50736,6 +50834,13 @@ USB USB_A
 6
 5
 Mizz_lib
+USB_A_Vertical
+USB A vertical female connector, right angle
+USB_A_Vertical female connector angled 73725-0110BLF
+0
+8
+5
+Mizz_lib
 USB_A_noSilk
 USB A connector
 USB USB_A
@@ -50778,6 +50883,13 @@ V23076-A3001-D142
 6
 4
 Mizz_lib
+V23086-C1001-A403
+
+
+0
+5
+5
+Mizz_lib
 V23134J1052D642
 
 
@@ -50813,6 +50925,13 @@ XA_2LC
 3
 2
 Mizz_lib
+XA_2P
+
+
+0
+2
+2
+Mizz_lib
 XA_2T
 
 
@@ -50845,7 +50964,7 @@ XA_4L
 
 
 0
-4
+5
 4
 Mizz_lib
 XA_4LC
@@ -50853,6 +50972,13 @@ XA_4LC
 
 0
 5
+4
+Mizz_lib
+XA_4P
+
+
+0
+4
 4
 Mizz_lib
 XA_4PR
@@ -50925,6 +51051,13 @@ wafer connector horizontal
 7
 7
 Mizz_lib
+XT30_F
+
+
+0
+2
+2
+Mizz_lib
 XT60_F
 
 
@@ -50961,6 +51094,13 @@ ZH_2T
 2
 Mizz_lib
 ZH_6P
+
+
+0
+6
+6
+Mizz_lib
+ZH_6T
 
 
 0
@@ -51036,6 +51176,13 @@ rotary_0F
 0
 6
 6
+Mizz_lib
+volmeter01
+
+
+0
+3
+1
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -67872,6 +68019,13 @@ rotary encoder
 5
 4
 SamacSys_Parts
+3522-2
+3522-2
+Connector
+0
+4
+4
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -67892,6 +68046,13 @@ Resistor
 0
 2
 2
+SamacSys_Parts
+V23086C1001A403EVBLBOX
+V23086C1001A403-EV-BLBOX
+Relay or Contactor
+0
+5
+5
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
