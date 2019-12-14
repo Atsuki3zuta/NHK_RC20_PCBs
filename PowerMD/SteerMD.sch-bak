@@ -2258,11 +2258,11 @@ Text Label 5575 10000 2    50   ~ 0
 LED0
 Text Label 5950 10000 2    50   ~ 0
 LED1
-Text Label 6900 4050 0    50   ~ 0
+Text Label 1500 6250 2    50   ~ 0
 LED0
-Text Label 6900 4150 0    50   ~ 0
+Text Label 1500 6350 2    50   ~ 0
 LED1
-Text Label 2075 5875 2    50   ~ 0
+Text Label 1500 6450 2    50   ~ 0
 LED2
 $Comp
 L SteerMD-rescue:+BATT-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0101
@@ -4672,7 +4672,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 7875 11500 8025
 Connection ~ 11500 8025
-Text Label 2075 5975 2    50   ~ 0
+Text Label 1500 6550 2    50   ~ 0
 LED3
 Connection ~ 6575 7600
 $Comp
