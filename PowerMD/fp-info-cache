@@ -1,4 +1,4 @@
-16662339378332571
+16671799756059821
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49791,6 +49791,34 @@ Aqualius_Sadalsuud_silk_40x9.4
 0
 0
 Mizz_lib
+Aqualius_silk_20.3x15.2
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20.3x15.2_onlyStar
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20x20
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_30x30
+
+
+0
+0
+0
+Mizz_lib
 Battery_Killer_logo
 
 
@@ -49944,6 +49972,13 @@ dfn
 0
 10
 8
+Mizz_lib
+DFPlayer
+
+
+0
+16
+16
 Mizz_lib
 DIP-8_W7.62mm
 8-lead dip package, row spacing 7.62 mm (300 mils)
@@ -50910,6 +50945,13 @@ VYB20W-Q24-S5
 0
 6
 6
+Mizz_lib
+V_BattMeter
+
+
+0
+2
+2
 Mizz_lib
 WSHP2818
 2818
