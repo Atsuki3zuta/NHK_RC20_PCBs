@@ -1,4 +1,4 @@
-16652880993242292
+16671799756059821
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49742,6 +49742,13 @@ AZ1086H
 4
 3
 Mizz_lib
+AloeSetMeal_Mask_50x5.8
+
+
+0
+0
+0
+Mizz_lib
 Amethyst_logo5x5.5_silk
 
 
@@ -49750,6 +49757,62 @@ Amethyst_logo5x5.5_silk
 0
 Mizz_lib
 Amethyst_logo10x11_silk
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_30x7
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_40x9.4
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_50x12
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalsuud_silk_40x9.4
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20.3x15.2
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20.3x15.2_onlyStar
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20x20
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_30x30
 
 
 0
@@ -49909,6 +49972,13 @@ dfn
 0
 10
 8
+Mizz_lib
+DFPlayer
+
+
+0
+16
+16
 Mizz_lib
 DIP-8_W7.62mm
 8-lead dip package, row spacing 7.62 mm (300 mils)
@@ -50806,6 +50876,13 @@ USB USB_A
 6
 5
 Mizz_lib
+USB_A_Vertical
+USB A vertical female connector, right angle
+USB_A_Vertical female connector angled 73725-0110BLF
+0
+8
+5
+Mizz_lib
 USB_A_noSilk
 USB A connector
 USB USB_A
@@ -50869,6 +50946,13 @@ VYB20W-Q24-S5
 6
 6
 Mizz_lib
+V_BattMeter
+
+
+0
+2
+2
+Mizz_lib
 WSHP2818
 2818
 Resistor
@@ -50929,7 +51013,7 @@ XA_4L
 
 
 0
-4
+5
 4
 Mizz_lib
 XA_4LC

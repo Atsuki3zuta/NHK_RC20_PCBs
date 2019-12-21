@@ -1475,10 +1475,6 @@ Text Label 6900 4650 0    50   ~ 0
 PA12
 Text Label 8250 900  2    50   ~ 0
 PA12
-Text Label 6900 6450 0    50   ~ 0
-PWM1_R
-Text Label 6900 6650 0    50   ~ 0
-PWM1_L
 Text Label 6900 6550 0    50   ~ 0
 EN1
 Text Label 6900 3650 0    50   ~ 0
@@ -3275,10 +3271,6 @@ F 3 "" H 6450 9400 50  0001 C CNN
 	1    6450 9400
 	1    0    0    -1  
 $EndComp
-Text Label 5350 9600 2    50   ~ 0
-TIM5_CH2
-Text Label 5350 9700 2    50   ~ 0
-TIM5_CH1
 $Comp
 L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R24
 U 1 1 5DD2B27E
@@ -3347,10 +3339,6 @@ Text Notes 1475 5850 0    50   ~ 0
 TIM8CH
 Text Label 8125 4850 0    50   ~ 0
 SW1
-Text Label 6900 3450 0    50   ~ 0
-TIM5_CH1
-Text Label 6900 3550 0    50   ~ 0
-TIM5_CH2
 $Comp
 L SteerMD-rescue:CONN_01X03-conn-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue P14
 U 1 1 5D8C37FE
@@ -3594,7 +3582,7 @@ Text Label 6900 4150 0    50   ~ 0
 ADR_2
 Text Label 6900 4050 0    50   ~ 0
 ADR_4
-Text Label 1825 6925 0    50   ~ 0
+Text Label 6900 5250 0    50   ~ 0
 ADR_8
 Wire Wire Line
 	10575 4250 10875 4250
@@ -4893,9 +4881,9 @@ Motor0R_Tmp
 Text Label 2500 5250 2    50   ~ 0
 Motor0L_Tmp
 Text Label 2500 5650 2    50   ~ 0
-Motor1L_Tmp
-Text Label 6900 5150 0    50   ~ 0
 Motor1R_Tmp
+Text Label 6900 5150 0    50   ~ 0
+Motor1l_Tmp
 $Comp
 L Device:Thermistor TH5
 U 1 1 5DFC7B8C
@@ -4971,4 +4959,93 @@ Text Notes 10675 5750 0    50   ~ 0
 Filter:3ohm
 Text Notes 7675 6050 0    50   ~ 0
 Filter:10kohm
+Text Label 6900 5850 0    50   ~ 0
+TIM4_CH2
+Text Label 6900 5750 0    50   ~ 0
+TIM4_CH1
+Text Label 5350 9600 2    50   ~ 0
+TIM4_CH2
+Text Label 5350 9700 2    50   ~ 0
+TIM4_CH1
+Text Label 6900 6450 0    50   ~ 0
+PWM1_R
+Text Label 6900 6650 0    50   ~ 0
+PWM1_L
+$Comp
+L SteerMD-rescue:+12V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0166
+U 1 1 5E004D06
+P 7450 9500
+F 0 "#PWR0166" H 7450 9350 50  0001 C CNN
+F 1 "+12V" H 7465 9673 50  0000 C CNN
+F 2 "" H 7450 9500 50  0001 C CNN
+F 3 "" H 7450 9500 50  0001 C CNN
+	1    7450 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R71
+U 1 1 5E00731A
+P 7600 9500
+F 0 "R71" V 7393 9500 50  0000 C CNN
+F 1 "12" V 7484 9500 50  0000 C CNN
+F 2 "Mizz_lib:R_2812" V 7530 9500 50  0001 C CNN
+F 3 "~" H 7600 9500 50  0001 C CNN
+	1    7600 9500
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0167
+U 1 1 5E008AB5
+P 7775 9400
+F 0 "#PWR0167" H 7775 9150 50  0001 C CNN
+F 1 "GND" H 7780 9227 50  0000 C CNN
+F 2 "" H 7775 9400 50  0001 C CNN
+F 3 "" H 7775 9400 50  0001 C CNN
+	1    7775 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 9500 7750 9500
+Wire Wire Line
+	7775 9400 7800 9400
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R72
+U 1 1 5E080808
+P 7600 9700
+F 0 "R72" V 7393 9700 50  0000 C CNN
+F 1 "12" V 7484 9700 50  0000 C CNN
+F 2 "Mizz_lib:R_2812" V 7530 9700 50  0001 C CNN
+F 3 "~" H 7600 9700 50  0001 C CNN
+	1    7600 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0169
+U 1 1 5E080812
+P 7775 9600
+F 0 "#PWR0169" H 7775 9350 50  0001 C CNN
+F 1 "GND" H 7780 9427 50  0000 C CNN
+F 2 "" H 7775 9600 50  0001 C CNN
+F 3 "" H 7775 9600 50  0001 C CNN
+	1    7775 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 9700 7750 9700
+Wire Wire Line
+	7775 9600 7800 9600
+$Comp
+L SteerMD-rescue:CONN_01X04-conn-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue P?
+U 1 1 5E199ED6
+P 8000 9550
+F 0 "P?" H 8078 9591 50  0000 L CNN
+F 1 "MOTOR_COOLING" H 8078 9500 50  0000 L CNN
+F 2 "Mizz_lib:XA_4L" H 8000 9550 50  0001 C CNN
+F 3 "" H 8000 9550 50  0000 C CNN
+	1    8000 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 9500 7450 9700
+Connection ~ 7450 9500
 $EndSCHEMATC
