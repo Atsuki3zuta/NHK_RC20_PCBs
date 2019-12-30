@@ -1,4 +1,4 @@
-16671799756059821
+16674954200174791
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49651,6 +49651,13 @@ AXICOM IM-Series Relay SPDT
 8
 8
 Mizz_lib
+1608_WP
+<b>CAPACITOR</b>
+
+0
+2
+2
+Mizz_lib
 A.Mizuta_logo_8x4.9
 
 
@@ -49720,6 +49727,13 @@ AQM0802_LED
 0
 11
 11
+Mizz_lib
+AQM0802_original
+
+
+0
+9
+9
 Mizz_lib
 AQM1602
 

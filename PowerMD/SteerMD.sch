@@ -426,404 +426,6 @@ Wire Wire Line
 Connection ~ 1250 5150
 Wire Wire Line
 	1250 5150 1075 5150
-NoConn ~ 9800 6225
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR036
-U 1 1 5E0F8F49
-P 9650 6375
-F 0 "#PWR036" H 9650 6225 50  0001 C CNN
-F 1 "+3.3V" H 9665 6548 50  0000 C CNN
-F 2 "" H 9650 6375 50  0001 C CNN
-F 3 "" H 9650 6375 50  0001 C CNN
-	1    9650 6375
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR038
-U 1 1 5E0F9533
-P 9650 7125
-F 0 "#PWR038" H 9650 6975 50  0001 C CNN
-F 1 "+3.3V" H 9665 7298 50  0000 C CNN
-F 2 "" H 9650 7125 50  0001 C CNN
-F 3 "" H 9650 7125 50  0001 C CNN
-	1    9650 7125
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9800 6975
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR037
-U 1 1 5E0FAC66
-P 9800 6525
-F 0 "#PWR037" H 9800 6275 50  0001 C CNN
-F 1 "GND" H 9805 6352 50  0000 C CNN
-F 2 "" H 9800 6525 50  0001 C CNN
-F 3 "" H 9800 6525 50  0001 C CNN
-	1    9800 6525
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R11
-U 1 1 5E0FADC0
-P 9325 6975
-F 0 "R11" H 9395 7021 50  0000 L CNN
-F 1 "100k" H 9395 6930 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9255 6975 50  0001 C CNN
-F 3 "~" H 9325 6975 50  0001 C CNN
-	1    9325 6975
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R10
-U 1 1 5E0FB5FA
-P 9075 6875
-F 0 "R10" H 9145 6921 50  0000 L CNN
-F 1 "10k" H 9145 6830 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9005 6875 50  0001 C CNN
-F 3 "~" H 9075 6875 50  0001 C CNN
-	1    9075 6875
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR035
-U 1 1 5E0FBEC9
-P 9325 7125
-F 0 "#PWR035" H 9325 6875 50  0001 C CNN
-F 1 "GND" H 9330 6952 50  0000 C CNN
-F 2 "" H 9325 7125 50  0001 C CNN
-F 3 "" H 9325 7125 50  0001 C CNN
-	1    9325 7125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9075 7125 9075 7025
-Text Label 9800 6075 2    50   ~ 0
-PWM0_L
-Text Label 9075 6675 2    50   ~ 0
-EN0
-$Comp
-L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR052
-U 1 1 5E100999
-P 11625 6075
-F 0 "#PWR052" H 11625 5925 50  0001 C CNN
-F 1 "+12P" H 11640 6248 50  0000 C CNN
-F 2 "" H 11625 6075 50  0001 C CNN
-F 3 "" H 11625 6075 50  0001 C CNN
-	1    11625 6075
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C19
-U 1 1 5E101500
-P 10925 6225
-F 0 "C19" H 11040 6271 50  0000 L CNN
-F 1 "4.7u" H 11040 6180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 6075 50  0001 C CNN
-F 3 "~" H 10925 6225 50  0001 C CNN
-	1    10925 6225
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10800 6525
-NoConn ~ 10800 6675
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D13
-U 1 1 5E1032FE
-P 11125 6075
-F 0 "D13" H 11125 5883 40  0000 C CNN
-F 1 "DIODE" H 11125 5959 40  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 11125 6075 60  0001 C CNN
-F 3 "" H 11125 6075 60  0000 C CNN
-	1    11125 6075
-	-1   0    0    1   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R19
-U 1 1 5E1036DE
-P 11475 6075
-F 0 "R19" V 11268 6075 50  0000 C CNN
-F 1 "1" V 11359 6075 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11405 6075 50  0001 C CNN
-F 3 "~" H 11475 6075 50  0001 C CNN
-	1    11475 6075
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR053
-U 1 1 5E10430D
-P 11625 6825
-F 0 "#PWR053" H 11625 6675 50  0001 C CNN
-F 1 "+12P" H 11640 6998 50  0000 C CNN
-F 2 "" H 11625 6825 50  0001 C CNN
-F 3 "" H 11625 6825 50  0001 C CNN
-	1    11625 6825
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C20
-U 1 1 5E104317
-P 10925 6975
-F 0 "C20" H 11040 7021 50  0000 L CNN
-F 1 "4.7u" H 11040 6930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 6825 50  0001 C CNN
-F 3 "~" H 10925 6975 50  0001 C CNN
-	1    10925 6975
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D14
-U 1 1 5E104321
-P 11125 6825
-F 0 "D14" H 11125 6633 40  0000 C CNN
-F 1 "DIODE" H 11125 6709 40  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 11125 6825 60  0001 C CNN
-F 3 "" H 11125 6825 60  0000 C CNN
-	1    11125 6825
-	-1   0    0    1   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R20
-U 1 1 5E10432B
-P 11475 6825
-F 0 "R20" V 11268 6825 50  0000 C CNN
-F 1 "1" V 11359 6825 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11405 6825 50  0001 C CNN
-F 3 "~" H 11475 6825 50  0001 C CNN
-	1    11475 6825
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R17
-U 1 1 5E10D7BB
-P 11300 6225
-F 0 "R17" V 11093 6225 50  0000 C CNN
-F 1 "FILTER" V 11184 6225 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 6225 50  0001 C CNN
-F 3 "~" H 11300 6225 50  0001 C CNN
-	1    11300 6225
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R18
-U 1 1 5E10E3CA
-P 11300 6975
-F 0 "R18" V 11093 6975 50  0000 C CNN
-F 1 "FILTER" V 11184 6975 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 6975 50  0001 C CNN
-F 3 "~" H 11300 6975 50  0001 C CNN
-	1    11300 6975
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	11450 6975 11600 6975
-NoConn ~ 15100 6225
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR075
-U 1 1 5E13302F
-P 15250 6375
-F 0 "#PWR075" H 15250 6225 50  0001 C CNN
-F 1 "+3.3V" H 15265 6548 50  0000 C CNN
-F 2 "" H 15250 6375 50  0001 C CNN
-F 3 "" H 15250 6375 50  0001 C CNN
-	1    15250 6375
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR077
-U 1 1 5E133035
-P 15250 7125
-F 0 "#PWR077" H 15250 6975 50  0001 C CNN
-F 1 "+3.3V" H 15265 7298 50  0000 C CNN
-F 2 "" H 15250 7125 50  0001 C CNN
-F 3 "" H 15250 7125 50  0001 C CNN
-	1    15250 7125
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 15100 6975
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR076
-U 1 1 5E13303C
-P 15100 6525
-F 0 "#PWR076" H 15100 6275 50  0001 C CNN
-F 1 "GND" H 15105 6352 50  0000 C CNN
-F 2 "" H 15100 6525 50  0001 C CNN
-F 3 "" H 15100 6525 50  0001 C CNN
-	1    15100 6525
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R35
-U 1 1 5E133042
-P 15575 6975
-F 0 "R35" H 15645 7021 50  0000 L CNN
-F 1 "100k" H 15645 6930 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15505 6975 50  0001 C CNN
-F 3 "~" H 15575 6975 50  0001 C CNN
-	1    15575 6975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R36
-U 1 1 5E133048
-P 15825 6875
-F 0 "R36" H 15895 6921 50  0000 L CNN
-F 1 "10k" H 15895 6830 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15755 6875 50  0001 C CNN
-F 3 "~" H 15825 6875 50  0001 C CNN
-	1    15825 6875
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR078
-U 1 1 5E13304E
-P 15575 7125
-F 0 "#PWR078" H 15575 6875 50  0001 C CNN
-F 1 "GND" H 15580 6952 50  0000 C CNN
-F 2 "" H 15575 7125 50  0001 C CNN
-F 3 "" H 15575 7125 50  0001 C CNN
-	1    15575 7125
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	15575 7125 15825 7125
-Wire Wire Line
-	15825 7125 15825 7025
-Text Label 15100 6075 0    50   ~ 0
-PWM0_R
-$Comp
-L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR063
-U 1 1 5E13305D
-P 13275 6075
-F 0 "#PWR063" H 13275 5925 50  0001 C CNN
-F 1 "+12P" H 13290 6248 50  0000 C CNN
-F 2 "" H 13275 6075 50  0001 C CNN
-F 3 "" H 13275 6075 50  0001 C CNN
-	1    13275 6075
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C30
-U 1 1 5E133063
-P 13975 6225
-F 0 "C30" H 14090 6271 50  0000 L CNN
-F 1 "4.7u" H 14090 6180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 6075 50  0001 C CNN
-F 3 "~" H 13975 6225 50  0001 C CNN
-	1    13975 6225
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 14100 6525
-NoConn ~ 14100 6675
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D19
-U 1 1 5E13306B
-P 13775 6075
-F 0 "D19" H 13775 5883 40  0000 C CNN
-F 1 "DIODE" H 13775 5959 40  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 13775 6075 60  0001 C CNN
-F 3 "" H 13775 6075 60  0000 C CNN
-	1    13775 6075
-	1    0    0    1   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R28
-U 1 1 5E133071
-P 13425 6075
-F 0 "R28" V 13218 6075 50  0000 C CNN
-F 1 "1" V 13309 6075 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13355 6075 50  0001 C CNN
-F 3 "~" H 13425 6075 50  0001 C CNN
-	1    13425 6075
-	0    -1   1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR064
-U 1 1 5E133077
-P 13275 6825
-F 0 "#PWR064" H 13275 6675 50  0001 C CNN
-F 1 "+12P" H 13290 6998 50  0000 C CNN
-F 2 "" H 13275 6825 50  0001 C CNN
-F 3 "" H 13275 6825 50  0001 C CNN
-	1    13275 6825
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C31
-U 1 1 5E13307D
-P 13975 6975
-F 0 "C31" H 14090 7021 50  0000 L CNN
-F 1 "4.7u" H 14090 6930 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 6825 50  0001 C CNN
-F 3 "~" H 13975 6975 50  0001 C CNN
-	1    13975 6975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D20
-U 1 1 5E133083
-P 13775 6825
-F 0 "D20" H 13775 6633 40  0000 C CNN
-F 1 "DIODE" H 13775 6709 40  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 13775 6825 60  0001 C CNN
-F 3 "" H 13775 6825 60  0000 C CNN
-	1    13775 6825
-	1    0    0    1   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R29
-U 1 1 5E133089
-P 13425 6825
-F 0 "R29" V 13218 6825 50  0000 C CNN
-F 1 "1" V 13309 6825 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13355 6825 50  0001 C CNN
-F 3 "~" H 13425 6825 50  0001 C CNN
-	1    13425 6825
-	0    -1   1    0   
-$EndComp
-Connection ~ 13975 6825
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R30
-U 1 1 5E1330A3
-P 13600 6225
-F 0 "R30" V 13393 6225 50  0000 C CNN
-F 1 "FILTER" V 13484 6225 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 6225 50  0001 C CNN
-F 3 "~" H 13600 6225 50  0001 C CNN
-	1    13600 6225
-	0    -1   1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R31
-U 1 1 5E1330A9
-P 13600 6975
-F 0 "R31" V 13393 6975 50  0000 C CNN
-F 1 "FILTER" V 13484 6975 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 6975 50  0001 C CNN
-F 3 "~" H 13600 6975 50  0001 C CNN
-	1    13600 6975
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	13450 6225 13300 6225
-Wire Wire Line
-	13450 6975 13300 6975
-Text Label 12100 6575 0    50   ~ 0
-OUT0_L
-Text Label 12800 6575 2    50   ~ 0
-OUT0_R
-$Comp
-L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR060
-U 1 1 5E14A983
-P 12450 7175
-F 0 "#PWR060" H 12450 6975 50  0001 C CNN
-F 1 "GNDPWR" H 12454 7021 50  0000 C CNN
-F 2 "" H 12450 7125 50  0001 C CNN
-F 3 "" H 12450 7125 50  0001 C CNN
-	1    12450 7175
-	1    0    0    -1  
-$EndComp
-Text Label 12450 5950 0    50   ~ 0
-MOTOR0_BATT
-Text Label 12650 5475 0    50   ~ 0
-MOTOR0_BATT
 Text Label 4525 8750 0    50   ~ 0
 CAN_L
 $Comp
@@ -1156,8 +758,6 @@ F 3 "" H 8250 1400 50  0001 C CNN
 	1    8250 1400
 	1    0    0    -1  
 $EndComp
-Text Label 11150 5175 2    50   ~ 0
-Current0
 $Comp
 L SteerMD-rescue:CONN_01X02-conn-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue P8
 U 1 1 5E2088D3
@@ -1302,59 +902,6 @@ Voltage
 Wire Wire Line
 	12125 1075 12075 1075
 Connection ~ 12075 1075
-Text Label 10550 1550 2    50   ~ 0
-OUT0_L
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D17
-U 1 1 5E244676
-P 10750 2200
-F 0 "D17" H 10750 2392 40  0000 C CNN
-F 1 "DIODE" H 10750 2316 40  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 10750 2200 60  0001 C CNN
-F 3 "" H 10750 2200 60  0000 C CNN
-	1    10750 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R26
-U 1 1 5E24AE77
-P 10550 1700
-F 0 "R26" H 10620 1746 50  0000 L CNN
-F 1 "10k" H 10620 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 1700 50  0001 C CNN
-F 3 "~" H 10550 1700 50  0001 C CNN
-	1    10550 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R27
-U 1 1 5E24B418
-P 10550 2050
-F 0 "R27" H 10620 2096 50  0000 L CNN
-F 1 "1k" H 10620 2005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 2050 50  0001 C CNN
-F 3 "~" H 10550 2050 50  0001 C CNN
-	1    10550 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C27
-U 1 1 5E24BD2B
-P 11250 2050
-F 0 "C27" H 11365 2096 50  0000 L CNN
-F 1 "0.1u" H 11365 2005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 11288 1900 50  0001 C CNN
-F 3 "~" H 11250 2050 50  0001 C CNN
-	1    11250 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10550 1900 10550 1875
-Connection ~ 10550 1875
-Wire Wire Line
-	10550 1875 10550 1850
-Text Label 11300 1875 0    50   ~ 0
-CounterVoltage0
 $Comp
 L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR033
 U 1 1 5E28303A
@@ -1732,39 +1279,6 @@ $EndComp
 Wire Wire Line
 	7250 5350 6900 5350
 $Comp
-L SteerMD-rescue:+BATT-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR072
-U 1 1 5E37AE6D
-P 13450 2100
-F 0 "#PWR072" H 13450 1950 50  0001 C CNN
-F 1 "+BATT" H 13465 2273 50  0000 C CNN
-F 2 "" H 13450 2100 50  0001 C CNN
-F 3 "" H 13450 2100 50  0001 C CNN
-	1    13450 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R32
-U 1 1 5E37B386
-P 13600 2100
-F 0 "R32" V 13393 2100 50  0000 C CNN
-F 1 "4.7k" V 13484 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 2100 50  0001 C CNN
-F 3 "~" H 13600 2100 50  0001 C CNN
-	1    13600 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:LED-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D21
-U 1 1 5E37DCCE
-P 13900 2100
-F 0 "D21" H 13893 1845 50  0000 C CNN
-F 1 "BATT" H 13893 1936 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 13900 2100 50  0001 C CNN
-F 3 "~" H 13900 2100 50  0001 C CNN
-	1    13900 2100
-	-1   0    0    1   
-$EndComp
-$Comp
 L SteerMD-rescue:+BATT-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR051
 U 1 1 5E37EC72
 P 12350 1875
@@ -1786,8 +1300,6 @@ F 3 "" H 12550 1875 60  0000 C CNN
 	1    12550 1875
 	1    0    0    -1  
 $EndComp
-Text Label 10950 2200 0    50   ~ 0
-OUT0_R
 Text Label 12750 1875 0    50   ~ 0
 batt
 Text Label 12200 2250 2    50   ~ 0
@@ -1827,366 +1339,6 @@ F 3 "" H 12625 2100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12625 2250 12500 2250
-Text Label 12675 4100 0    50   ~ 0
-batt
-$Comp
-L SteerMD-rescue:BD9G101G-myDevice-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue U7
-U 1 1 5E3C7EFA
-P 11925 4100
-F 0 "U7" H 11925 4487 60  0000 C CNN
-F 1 "BD9G101G" H 11925 4381 60  0000 C CNN
-F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 11975 4450 60  0001 C CNN
-F 3 "" H 11975 4450 60  0000 C CNN
-	1    11925 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:CP1-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C25
-U 1 1 5E3C9F1A
-P 12625 4250
-F 0 "C25" H 12740 4296 50  0000 L CNN
-F 1 "100u" H 12740 4205 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 12625 4250 50  0001 C CNN
-F 3 "~" H 12625 4250 50  0001 C CNN
-	1    12625 4250
-	1    0    0    -1  
-$EndComp
-Connection ~ 12625 4100
-Wire Wire Line
-	12625 4100 12675 4100
-$Comp
-L SteerMD-rescue:INDUCTOR-pspice-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue L1
-U 1 1 5E4021AF
-P 13250 4000
-F 0 "L1" H 13250 4215 50  0000 C CNN
-F 1 "22uH" H 13250 4124 50  0000 C CNN
-F 2 "Mizz_lib:Inductor_Taiyo-Yuden_NR-60xx_HandSoldering" H 13250 4000 50  0001 C CNN
-F 3 "~" H 13250 4000 50  0001 C CNN
-	1    13250 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D16
-U 1 1 5E40DFA3
-P 13000 4200
-F 0 "D16" V 13038 4122 40  0000 R CNN
-F 1 "DIODE" V 12962 4122 40  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 13000 4200 60  0001 C CNN
-F 3 "" H 13000 4200 60  0000 C CNN
-	1    13000 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR048
-U 1 1 5E40E2F5
-P 11525 4100
-F 0 "#PWR048" H 11525 3900 50  0001 C CNN
-F 1 "GNDPWR" H 11529 3946 50  0000 C CNN
-F 2 "" H 11525 4050 50  0001 C CNN
-F 3 "" H 11525 4050 50  0001 C CNN
-	1    11525 4100
-	1    0    0    -1  
-$EndComp
-Text Label 11525 4200 2    50   ~ 0
-FB_PWR
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C23
-U 1 1 5E413972
-P 11925 3575
-F 0 "C23" V 11673 3575 50  0000 C CNN
-F 1 "0.1u" V 11764 3575 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 11963 3425 50  0001 C CNN
-F 3 "~" H 11925 3575 50  0001 C CNN
-	1    11925 3575
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	12075 3575 12325 3575
-Wire Wire Line
-	11775 3575 11525 3575
-Wire Wire Line
-	11525 3575 11525 4000
-Connection ~ 13000 4000
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C28
-U 1 1 5E438B9D
-P 13525 4200
-F 0 "C28" H 13640 4246 50  0000 L CNN
-F 1 "10u" H 13640 4155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 13563 4050 50  0001 C CNN
-F 3 "~" H 13525 4200 50  0001 C CNN
-	1    13525 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D18
-U 1 1 5E43A548
-P 13750 4000
-F 0 "D18" H 13750 4192 40  0000 C CNN
-F 1 "DIODE" H 13750 4116 40  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 13750 4000 60  0001 C CNN
-F 3 "" H 13750 4000 60  0000 C CNN
-	1    13750 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR067
-U 1 1 5E43C009
-P 13950 4000
-F 0 "#PWR067" H 13950 3850 50  0001 C CNN
-F 1 "+12P" H 13965 4173 50  0000 C CNN
-F 2 "" H 13950 4000 50  0001 C CNN
-F 3 "" H 13950 4000 50  0001 C CNN
-	1    13950 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R14
-U 1 1 5E4547E9
-P 10575 4075
-F 0 "R14" H 10645 4121 50  0000 L CNN
-F 1 "7.5k" H 10645 4030 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 10505 4075 50  0001 C CNN
-F 3 "~" H 10575 4075 50  0001 C CNN
-	1    10575 4075
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R15
-U 1 1 5E454AB2
-P 10575 4425
-F 0 "R15" H 10645 4471 50  0000 L CNN
-F 1 "510" H 10645 4380 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 10505 4425 50  0001 C CNN
-F 3 "~" H 10575 4425 50  0001 C CNN
-	1    10575 4425
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C18
-U 1 1 5E45702D
-P 10875 4075
-F 0 "C18" H 10990 4121 50  0000 L CNN
-F 1 "0.1u" H 10990 4030 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10913 3925 50  0001 C CNN
-F 3 "~" H 10875 4075 50  0001 C CNN
-	1    10875 4075
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR043
-U 1 1 5E460DCF
-P 10575 4575
-F 0 "#PWR043" H 10575 4375 50  0001 C CNN
-F 1 "GNDPWR" H 10579 4421 50  0000 C CNN
-F 2 "" H 10575 4525 50  0001 C CNN
-F 3 "" H 10575 4525 50  0001 C CNN
-	1    10575 4575
-	1    0    0    -1  
-$EndComp
-Text Label 10925 4250 0    50   ~ 0
-FB_PWR
-Wire Wire Line
-	10575 4275 10575 4250
-Connection ~ 10575 4250
-Wire Wire Line
-	10575 4250 10575 4225
-Text Label 10575 3925 2    50   ~ 0
-FB_PWR_OUT
-Text Label 13525 3775 0    50   ~ 0
-FB_PWR_OUT
-Wire Wire Line
-	13525 3775 13525 4000
-Wire Wire Line
-	13550 4000 13525 4000
-Connection ~ 13525 4000
-Wire Wire Line
-	13525 4000 13500 4000
-$Comp
-L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR062
-U 1 1 5E4A8200
-P 13525 4400
-F 0 "#PWR062" H 13525 4200 50  0001 C CNN
-F 1 "GNDPWR" H 13529 4246 50  0000 C CNN
-F 2 "" H 13525 4350 50  0001 C CNN
-F 3 "" H 13525 4350 50  0001 C CNN
-	1    13525 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13525 4400 13000 4400
-Connection ~ 13000 4400
-Wire Wire Line
-	13000 4400 12625 4400
-Wire Wire Line
-	13525 4400 13525 4350
-Connection ~ 13525 4400
-Wire Wire Line
-	13525 4050 13525 4000
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C29
-U 1 1 5E4C8A81
-P 14025 4225
-F 0 "C29" H 14140 4271 50  0000 L CNN
-F 1 "4.7u" H 14140 4180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 14063 4075 50  0001 C CNN
-F 3 "~" H 14025 4225 50  0001 C CNN
-	1    14025 4225
-	1    0    0    -1  
-$EndComp
-$Comp
-L Miz:BD33FA1 U9
-U 1 1 5E4CACF9
-P 14625 4050
-F 0 "U9" H 14625 4465 50  0000 C CNN
-F 1 "BD33FA1" H 14625 4374 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 14625 4150 50  0001 C CNN
-F 3 "" H 14625 4150 50  0001 C CNN
-	1    14625 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13950 4000 14025 4000
-Connection ~ 13950 4000
-Connection ~ 14025 4000
-Wire Wire Line
-	14025 4000 14125 4000
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C32
-U 1 1 5E4E0B6F
-P 15125 4225
-F 0 "C32" H 15240 4271 50  0000 L CNN
-F 1 "4.7u" H 15240 4180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 15163 4075 50  0001 C CNN
-F 3 "~" H 15125 4225 50  0001 C CNN
-	1    15125 4225
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3VP-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR071
-U 1 1 5E4E26F2
-P 15125 4000
-F 0 "#PWR071" H 15275 3950 50  0001 C CNN
-F 1 "+3.3VP" H 15145 4143 50  0000 C CNN
-F 2 "" H 15125 4000 50  0001 C CNN
-F 3 "" H 15125 4000 50  0001 C CNN
-	1    15125 4000
-	1    0    0    -1  
-$EndComp
-Connection ~ 15125 4000
-$Comp
-L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR069
-U 1 1 5E4ED781
-P 14625 4450
-F 0 "#PWR069" H 14625 4250 50  0001 C CNN
-F 1 "GNDPWR" H 14629 4296 50  0000 C CNN
-F 2 "" H 14625 4400 50  0001 C CNN
-F 3 "" H 14625 4400 50  0001 C CNN
-	1    14625 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14625 4450 14475 4450
-Wire Wire Line
-	15125 4000 15125 4075
-Wire Wire Line
-	15125 4375 15125 4450
-Wire Wire Line
-	15125 4450 14775 4450
-Connection ~ 14625 4450
-Connection ~ 14775 4450
-Wire Wire Line
-	14775 4450 14625 4450
-Wire Wire Line
-	14025 4000 14025 4075
-Wire Wire Line
-	14025 4375 14025 4450
-Wire Wire Line
-	14025 4450 14475 4450
-Connection ~ 14475 4450
-$Comp
-L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR073
-U 1 1 5E53285F
-P 13450 2800
-F 0 "#PWR073" H 13450 2650 50  0001 C CNN
-F 1 "+12P" H 13465 2973 50  0000 C CNN
-F 2 "" H 13450 2800 50  0001 C CNN
-F 3 "" H 13450 2800 50  0001 C CNN
-	1    13450 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R33
-U 1 1 5E532C88
-P 13600 2800
-F 0 "R33" V 13393 2800 50  0000 C CNN
-F 1 "2.2k" V 13484 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 2800 50  0001 C CNN
-F 3 "~" H 13600 2800 50  0001 C CNN
-	1    13600 2800
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:LED-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D22
-U 1 1 5E5330A5
-P 13900 2800
-F 0 "D22" H 13893 2545 50  0000 C CNN
-F 1 "12VP" H 13893 2636 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 13900 2800 50  0001 C CNN
-F 3 "~" H 13900 2800 50  0001 C CNN
-	1    13900 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R34
-U 1 1 5E5499B4
-P 13600 3150
-F 0 "R34" V 13393 3150 50  0000 C CNN
-F 1 "510" V 13484 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 3150 50  0001 C CNN
-F 3 "~" H 13600 3150 50  0001 C CNN
-	1    13600 3150
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:LED-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D23
-U 1 1 5E5499BE
-P 13900 3150
-F 0 "D23" H 13893 2895 50  0000 C CNN
-F 1 "3V3P" H 13893 2986 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 13900 3150 50  0001 C CNN
-F 3 "~" H 13900 3150 50  0001 C CNN
-	1    13900 3150
-	-1   0    0    1   
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3VP-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR074
-U 1 1 5E555A78
-P 13450 3150
-F 0 "#PWR074" H 13600 3100 50  0001 C CNN
-F 1 "+3.3VP" H 13470 3293 50  0000 C CNN
-F 2 "" H 13450 3150 50  0001 C CNN
-F 3 "" H 13450 3150 50  0001 C CNN
-	1    13450 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR079
-U 1 1 5E555E54
-P 14050 3150
-F 0 "#PWR079" H 14050 2950 50  0001 C CNN
-F 1 "GNDPWR" H 14054 2996 50  0000 C CNN
-F 2 "" H 14050 3100 50  0001 C CNN
-F 3 "" H 14050 3100 50  0001 C CNN
-	1    14050 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14050 3150 14050 2800
-Connection ~ 14050 3150
-Connection ~ 14050 2800
-Wire Wire Line
-	14050 2800 14050 2450
 $Comp
 L Miz:AP3211 U2
 U 1 1 5E588240
@@ -2532,71 +1684,6 @@ F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP2
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C36
-U 1 1 5E95492A
-P 10575 5225
-F 0 "C36" H 10690 5271 50  0000 L CNN
-F 1 "0.1u" H 10690 5180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10613 5075 50  0001 C CNN
-F 3 "~" H 10575 5225 50  0001 C CNN
-	1    10575 5225
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C37
-U 1 1 5E979341
-P 12425 4250
-F 0 "C37" H 12540 4296 50  0000 L CNN
-F 1 "4.7u" H 12540 4205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 12463 4100 50  0001 C CNN
-F 3 "~" H 12425 4250 50  0001 C CNN
-	1    12425 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12325 4100 12425 4100
-Connection ~ 12425 4100
-Wire Wire Line
-	12425 4100 12625 4100
-Wire Wire Line
-	12325 4100 12325 4200
-Connection ~ 12325 4100
-Wire Wire Line
-	12325 3575 12325 4000
-Wire Wire Line
-	12325 4000 13000 4000
-Connection ~ 12325 4000
-Wire Wire Line
-	12425 4400 12625 4400
-Connection ~ 12625 4400
-Text Label 13450 2450 2    50   ~ 0
-batt
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R41
-U 1 1 5D8A000E
-P 13600 2450
-F 0 "R41" V 13393 2450 50  0000 C CNN
-F 1 "4.7k" V 13484 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 2450 50  0001 C CNN
-F 3 "~" H 13600 2450 50  0001 C CNN
-	1    13600 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:LED-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D27
-U 1 1 5D8A02D0
-P 13900 2450
-F 0 "D27" H 13893 2195 50  0000 C CNN
-F 1 "Main_BATT" H 13893 2286 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 13900 2450 50  0001 C CNN
-F 3 "~" H 13900 2450 50  0001 C CNN
-	1    13900 2450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14050 2100 14050 2450
-Connection ~ 14050 2450
-$Comp
 L SteerMD-rescue:CONN_01X04-conn-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue P5
 U 1 1 5D9B21C2
 P 5200 10425
@@ -2770,72 +1857,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 950  2650 950 
 Connection ~ 2650 950 
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0111
-U 1 1 5DB86EF2
-P 9675 5400
-F 0 "#PWR0111" H 9675 5250 50  0001 C CNN
-F 1 "+3.3V" H 9690 5573 50  0000 C CNN
-F 2 "" H 9675 5400 50  0001 C CNN
-F 3 "" H 9675 5400 50  0001 C CNN
-	1    9675 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C40
-U 1 1 5DB8720C
-P 9675 5550
-F 0 "C40" H 9790 5596 50  0000 L CNN
-F 1 "0.1u" H 9790 5505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9713 5400 50  0001 C CNN
-F 3 "~" H 9675 5550 50  0001 C CNN
-	1    9675 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0112
-U 1 1 5DB982C3
-P 9675 5700
-F 0 "#PWR0112" H 9675 5450 50  0001 C CNN
-F 1 "GND" H 9680 5527 50  0000 C CNN
-F 2 "" H 9675 5700 50  0001 C CNN
-F 3 "" H 9675 5700 50  0001 C CNN
-	1    9675 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0113
-U 1 1 5DBAD181
-P 15300 5475
-F 0 "#PWR0113" H 15300 5325 50  0001 C CNN
-F 1 "+3.3V" H 15315 5648 50  0000 C CNN
-F 2 "" H 15300 5475 50  0001 C CNN
-F 3 "" H 15300 5475 50  0001 C CNN
-	1    15300 5475
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C41
-U 1 1 5DBAD18B
-P 15300 5625
-F 0 "C41" H 15415 5671 50  0000 L CNN
-F 1 "0.1u" H 15415 5580 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 15338 5475 50  0001 C CNN
-F 3 "~" H 15300 5625 50  0001 C CNN
-	1    15300 5625
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0114
-U 1 1 5DBAD195
-P 15300 5775
-F 0 "#PWR0114" H 15300 5525 50  0001 C CNN
-F 1 "GND" H 15305 5602 50  0000 C CNN
-F 2 "" H 15300 5775 50  0001 C CNN
-F 3 "" H 15300 5775 50  0001 C CNN
-	1    15300 5775
-	1    0    0    -1  
-$EndComp
 $Comp
 L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C42
 U 1 1 5DAC379A
@@ -3045,143 +2066,6 @@ Connection ~ 10975 775
 Wire Wire Line
 	10975 775  11325 775 
 $Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0121
-U 1 1 5D8D6E37
-P 10575 5075
-F 0 "#PWR0121" H 10575 4925 50  0001 C CNN
-F 1 "+3.3V" H 10590 5248 50  0000 C CNN
-F 2 "" H 10575 5075 50  0001 C CNN
-F 3 "" H 10575 5075 50  0001 C CNN
-	1    10575 5075
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0122
-U 1 1 5D8D7117
-P 10575 5375
-F 0 "#PWR0122" H 10575 5125 50  0001 C CNN
-F 1 "GND" H 10580 5202 50  0000 C CNN
-F 2 "" H 10575 5375 50  0001 C CNN
-F 3 "" H 10575 5375 50  0001 C CNN
-	1    10575 5375
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+BATT-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0123
-U 1 1 5D8D752B
-P 12650 5175
-F 0 "#PWR0123" H 12650 5025 50  0001 C CNN
-F 1 "+BATT" H 12665 5348 50  0000 C CNN
-F 2 "" H 12650 5175 50  0001 C CNN
-F 3 "" H 12650 5175 50  0001 C CNN
-	1    12650 5175
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R60
-U 1 1 5D8DB011
-P 11450 5175
-F 0 "R60" V 11243 5175 50  0000 C CNN
-F 1 "4.7k" V 11334 5175 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11380 5175 50  0001 C CNN
-F 3 "~" H 11450 5175 50  0001 C CNN
-	1    11450 5175
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C50
-U 1 1 5D8DBF51
-P 11200 5325
-F 0 "C50" H 11315 5371 50  0000 L CNN
-F 1 "470n" H 11315 5280 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 11238 5175 50  0001 C CNN
-F 3 "~" H 11200 5325 50  0001 C CNN
-	1    11200 5325
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0124
-U 1 1 5D8DC56D
-P 11500 5475
-F 0 "#PWR0124" H 11500 5225 50  0001 C CNN
-F 1 "GND" H 11505 5302 50  0000 C CNN
-F 2 "" H 11500 5475 50  0001 C CNN
-F 3 "" H 11500 5475 50  0001 C CNN
-	1    11500 5475
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0125
-U 1 1 5D8DCA9C
-P 11600 5475
-F 0 "#PWR0125" H 11600 5325 50  0001 C CNN
-F 1 "+3.3V" H 11615 5648 50  0000 C CNN
-F 2 "" H 11600 5475 50  0001 C CNN
-F 3 "" H 11600 5475 50  0001 C CNN
-	1    11600 5475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11300 5175 11200 5175
-Wire Wire Line
-	11200 5175 11150 5175
-Connection ~ 11200 5175
-Text Label 10550 2450 2    50   ~ 0
-OUT1_L
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D47
-U 1 1 5D9763FC
-P 10750 3100
-F 0 "D47" H 10750 3292 40  0000 C CNN
-F 1 "DIODE" H 10750 3216 40  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 10750 3100 60  0001 C CNN
-F 3 "" H 10750 3100 60  0000 C CNN
-	1    10750 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R61
-U 1 1 5D976406
-P 10550 2600
-F 0 "R61" H 10620 2646 50  0000 L CNN
-F 1 "10k" H 10620 2555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 2600 50  0001 C CNN
-F 3 "~" H 10550 2600 50  0001 C CNN
-	1    10550 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R62
-U 1 1 5D976410
-P 10550 2950
-F 0 "R62" H 10620 2996 50  0000 L CNN
-F 1 "1k" H 10620 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 2950 50  0001 C CNN
-F 3 "~" H 10550 2950 50  0001 C CNN
-	1    10550 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C51
-U 1 1 5D97641A
-P 11250 2950
-F 0 "C51" H 11365 2996 50  0000 L CNN
-F 1 "0.1u" H 11365 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 11288 2800 50  0001 C CNN
-F 3 "~" H 11250 2950 50  0001 C CNN
-	1    11250 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10550 2800 10550 2775
-Connection ~ 10550 2775
-Wire Wire Line
-	10550 2775 10550 2750
-Text Label 11300 2775 0    50   ~ 0
-CounterVoltage1
-Text Label 10950 3100 0    50   ~ 0
-OUT1_R
-$Comp
 L SteerMD-rescue:LED-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D39
 U 1 1 5DA17808
 P 2700 10125
@@ -3216,8 +2100,6 @@ F 3 "~" H 2700 10425 50  0001 C CNN
 $EndComp
 Text Label 9075 2275 0    50   ~ 0
 CounterVoltage1
-Wire Wire Line
-	11500 5475 11200 5475
 $Comp
 L SteerMD-rescue:CONN_01X04-conn-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue P13
 U 1 1 5DD2B244
@@ -3512,42 +2394,6 @@ F 3 "" H 4175 1750 50  0001 C CNN
 	1    4175 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10550 2775 11250 2775
-Wire Wire Line
-	11250 2775 11250 2800
-Connection ~ 11250 2775
-Wire Wire Line
-	11250 2775 11300 2775
-$Comp
-L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0159
-U 1 1 5DE04827
-P 11250 3100
-F 0 "#PWR0159" H 11250 2900 50  0001 C CNN
-F 1 "GNDPWR" H 11254 2946 50  0000 C CNN
-F 2 "" H 11250 3050 50  0001 C CNN
-F 3 "" H 11250 3050 50  0001 C CNN
-	1    11250 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10550 1875 11250 1875
-Wire Wire Line
-	11250 1900 11250 1875
-Connection ~ 11250 1875
-Wire Wire Line
-	11250 1875 11300 1875
-$Comp
-L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0160
-U 1 1 5DE7C668
-P 11250 2200
-F 0 "#PWR0160" H 11250 2000 50  0001 C CNN
-F 1 "GNDPWR" H 11254 2046 50  0000 C CNN
-F 2 "" H 11250 2150 50  0001 C CNN
-F 3 "" H 11250 2150 50  0001 C CNN
-	1    11250 2200
-	1    0    0    -1  
-$EndComp
 Text Label 2500 5550 2    50   ~ 0
 Current1
 Text Label 2500 5350 2    50   ~ 0
@@ -3584,850 +2430,6 @@ Text Label 6900 4050 0    50   ~ 0
 ADR_4
 Text Label 6900 5250 0    50   ~ 0
 ADR_8
-Wire Wire Line
-	10575 4250 10875 4250
-Wire Wire Line
-	10575 3925 10875 3925
-Wire Wire Line
-	10875 4250 10875 4225
-Connection ~ 10875 4250
-Wire Wire Line
-	10875 4250 10925 4250
-$Comp
-L SteerMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue U4
-U 1 1 5DD10035
-P 10300 6625
-F 0 "U4" H 10300 7462 60  0000 C CNN
-F 1 "SI8274" H 10300 7356 60  0000 C CNN
-F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 10300 6625 60  0001 C CNN
-F 3 "" H 10300 6625 60  0000 C CNN
-	1    10300 6625
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q2
-U 1 1 5DD192A7
-P 11800 6975
-F 0 "Q2" H 11944 7028 60  0000 L CNN
-F 1 "MOSFET_N" H 11944 6922 60  0000 L CNN
-F 2 "Mizz_lib:HSOF-8-1" H 11800 6975 60  0001 C CNN
-F 3 "" H 11800 6975 60  0000 C CNN
-	1    11800 6975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 6375 9800 6375
-Wire Wire Line
-	9650 7125 9800 7125
-Wire Wire Line
-	9075 7125 9325 7125
-Connection ~ 9325 7125
-Wire Wire Line
-	9075 6725 9075 6675
-Wire Wire Line
-	9075 6675 9800 6675
-Wire Wire Line
-	9325 6825 9800 6825
-Wire Wire Line
-	10925 6075 10800 6075
-Connection ~ 10925 6075
-Wire Wire Line
-	11150 6225 10800 6225
-Wire Wire Line
-	10800 6375 10925 6375
-Wire Wire Line
-	10925 6825 10800 6825
-Connection ~ 10925 6825
-Wire Wire Line
-	10800 6975 11150 6975
-Wire Wire Line
-	10800 7125 10925 7125
-Wire Wire Line
-	11600 7125 11600 7175
-Wire Wire Line
-	11600 7175 11900 7175
-Connection ~ 10925 7125
-Wire Wire Line
-	10925 7125 11600 7125
-$Comp
-L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q1
-U 1 1 5DF47111
-P 11800 6225
-F 0 "Q1" H 11944 6278 60  0000 L CNN
-F 1 "MOSFET_N" H 11944 6172 60  0000 L CNN
-F 2 "Mizz_lib:HSOF-8-1" H 11800 6225 60  0001 C CNN
-F 3 "" H 11800 6225 60  0000 C CNN
-	1    11800 6225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10925 6375 11625 6375
-Wire Wire Line
-	11625 6375 11625 6425
-Wire Wire Line
-	11625 6425 11900 6425
-Connection ~ 10925 6375
-Wire Wire Line
-	11450 6225 11600 6225
-$Comp
-L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q5
-U 1 1 5DF92975
-P 13100 6225
-F 0 "Q5" H 13243 6278 60  0000 L CNN
-F 1 "MOSFET_N" H 13243 6172 60  0000 L CNN
-F 2 "Mizz_lib:HSOF-8-1" H 13100 6225 60  0001 C CNN
-F 3 "" H 13100 6225 60  0000 C CNN
-	1    13100 6225
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q6
-U 1 1 5DF933DA
-P 13100 6975
-F 0 "Q6" H 13243 7028 60  0000 L CNN
-F 1 "MOSFET_N" H 13243 6922 60  0000 L CNN
-F 2 "Mizz_lib:HSOF-8-1" H 13100 6975 60  0001 C CNN
-F 3 "" H 13100 6975 60  0000 C CNN
-	1    13100 6975
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	11900 7175 12450 7175
-Connection ~ 11900 7175
-Connection ~ 12450 7175
-Wire Wire Line
-	12450 7175 13000 7175
-$Comp
-L SteerMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue U12
-U 1 1 5DFB7F6D
-P 14600 6625
-F 0 "U12" H 14600 7462 60  0000 C CNN
-F 1 "SI8274" H 14600 7356 60  0000 C CNN
-F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 14600 6625 60  0001 C CNN
-F 3 "" H 14600 6625 60  0000 C CNN
-	1    14600 6625
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	15100 7125 15250 7125
-Connection ~ 15575 7125
-Wire Wire Line
-	15100 6825 15575 6825
-Text Label 15825 6675 0    50   ~ 0
-EN0
-Wire Wire Line
-	15100 6675 15825 6675
-Wire Wire Line
-	15825 6725 15825 6675
-Wire Wire Line
-	15250 6375 15100 6375
-Wire Wire Line
-	12450 6025 11900 6025
-Wire Wire Line
-	12450 5950 12450 6025
-Wire Wire Line
-	12450 6025 13000 6025
-Connection ~ 12450 6025
-Wire Wire Line
-	11900 6425 11900 6575
-Connection ~ 11900 6425
-Wire Wire Line
-	11900 6575 12100 6575
-Connection ~ 11900 6575
-Wire Wire Line
-	11900 6575 11900 6775
-Wire Wire Line
-	12800 6575 13000 6575
-Wire Wire Line
-	13000 6575 13000 6425
-Wire Wire Line
-	13000 6575 13000 6775
-Connection ~ 13000 6575
-Wire Wire Line
-	14100 7125 13975 7125
-Wire Wire Line
-	13000 7175 13300 7175
-Wire Wire Line
-	13300 7175 13300 7125
-Wire Wire Line
-	13300 7125 13975 7125
-Connection ~ 13000 7175
-Connection ~ 13975 7125
-Wire Wire Line
-	14100 6375 13975 6375
-Wire Wire Line
-	13275 6375 13275 6425
-Wire Wire Line
-	13275 6425 13000 6425
-Connection ~ 13975 6375
-Wire Wire Line
-	13975 6375 13275 6375
-Connection ~ 13000 6425
-NoConn ~ 9800 8700
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0128
-U 1 1 5E2F3B2B
-P 9650 8850
-F 0 "#PWR0128" H 9650 8700 50  0001 C CNN
-F 1 "+3.3V" H 9665 9023 50  0000 C CNN
-F 2 "" H 9650 8850 50  0001 C CNN
-F 3 "" H 9650 8850 50  0001 C CNN
-	1    9650 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0129
-U 1 1 5E2F3B35
-P 9650 9600
-F 0 "#PWR0129" H 9650 9450 50  0001 C CNN
-F 1 "+3.3V" H 9665 9773 50  0000 C CNN
-F 2 "" H 9650 9600 50  0001 C CNN
-F 3 "" H 9650 9600 50  0001 C CNN
-	1    9650 9600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9800 9450
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0130
-U 1 1 5E2F3B40
-P 9800 9000
-F 0 "#PWR0130" H 9800 8750 50  0001 C CNN
-F 1 "GND" H 9805 8827 50  0000 C CNN
-F 2 "" H 9800 9000 50  0001 C CNN
-F 3 "" H 9800 9000 50  0001 C CNN
-	1    9800 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R13
-U 1 1 5E2F3B4A
-P 9325 9450
-F 0 "R13" H 9395 9496 50  0000 L CNN
-F 1 "100k" H 9395 9405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9255 9450 50  0001 C CNN
-F 3 "~" H 9325 9450 50  0001 C CNN
-	1    9325 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R2
-U 1 1 5E2F3B54
-P 9075 9350
-F 0 "R2" H 9145 9396 50  0000 L CNN
-F 1 "10k" H 9145 9305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9005 9350 50  0001 C CNN
-F 3 "~" H 9075 9350 50  0001 C CNN
-	1    9075 9350
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0131
-U 1 1 5E2F3B5E
-P 9325 9600
-F 0 "#PWR0131" H 9325 9350 50  0001 C CNN
-F 1 "GND" H 9330 9427 50  0000 C CNN
-F 2 "" H 9325 9600 50  0001 C CNN
-F 3 "" H 9325 9600 50  0001 C CNN
-	1    9325 9600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9075 9600 9075 9500
-Text Label 9800 8550 2    50   ~ 0
-PWM1_L
-Text Label 9075 9150 2    50   ~ 0
-EN1
-$Comp
-L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0132
-U 1 1 5E2F3B6B
-P 11625 8550
-F 0 "#PWR0132" H 11625 8400 50  0001 C CNN
-F 1 "+12P" H 11640 8723 50  0000 C CNN
-F 2 "" H 11625 8550 50  0001 C CNN
-F 3 "" H 11625 8550 50  0001 C CNN
-	1    11625 8550
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C45
-U 1 1 5E2F3B75
-P 10925 8700
-F 0 "C45" H 11040 8746 50  0000 L CNN
-F 1 "4.7u" H 11040 8655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 8550 50  0001 C CNN
-F 3 "~" H 10925 8700 50  0001 C CNN
-	1    10925 8700
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10800 9000
-NoConn ~ 10800 9150
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D1
-U 1 1 5E2F3B81
-P 11125 8550
-F 0 "D1" H 11125 8358 40  0000 C CNN
-F 1 "DIODE" H 11125 8434 40  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 11125 8550 60  0001 C CNN
-F 3 "" H 11125 8550 60  0000 C CNN
-	1    11125 8550
-	-1   0    0    1   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R55
-U 1 1 5E2F3B8B
-P 11475 8550
-F 0 "R55" V 11268 8550 50  0000 C CNN
-F 1 "1" V 11359 8550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11405 8550 50  0001 C CNN
-F 3 "~" H 11475 8550 50  0001 C CNN
-	1    11475 8550
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0133
-U 1 1 5E2F3B95
-P 11625 9300
-F 0 "#PWR0133" H 11625 9150 50  0001 C CNN
-F 1 "+12P" H 11640 9473 50  0000 C CNN
-F 2 "" H 11625 9300 50  0001 C CNN
-F 3 "" H 11625 9300 50  0001 C CNN
-	1    11625 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C46
-U 1 1 5E2F3B9F
-P 10925 9450
-F 0 "C46" H 11040 9496 50  0000 L CNN
-F 1 "4.7u" H 11040 9405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 9300 50  0001 C CNN
-F 3 "~" H 10925 9450 50  0001 C CNN
-	1    10925 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D2
-U 1 1 5E2F3BA9
-P 11125 9300
-F 0 "D2" H 11125 9108 40  0000 C CNN
-F 1 "DIODE" H 11125 9184 40  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 11125 9300 60  0001 C CNN
-F 3 "" H 11125 9300 60  0000 C CNN
-	1    11125 9300
-	-1   0    0    1   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R56
-U 1 1 5E2F3BB3
-P 11475 9300
-F 0 "R56" V 11268 9300 50  0000 C CNN
-F 1 "1" V 11359 9300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11405 9300 50  0001 C CNN
-F 3 "~" H 11475 9300 50  0001 C CNN
-	1    11475 9300
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R53
-U 1 1 5E2F3BBD
-P 11300 8700
-F 0 "R53" V 11093 8700 50  0000 C CNN
-F 1 "FILTER" V 11184 8700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 8700 50  0001 C CNN
-F 3 "~" H 11300 8700 50  0001 C CNN
-	1    11300 8700
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R54
-U 1 1 5E2F3BC7
-P 11300 9450
-F 0 "R54" V 11093 9450 50  0000 C CNN
-F 1 "FILTER" V 11184 9450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 9450 50  0001 C CNN
-F 3 "~" H 11300 9450 50  0001 C CNN
-	1    11300 9450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	11450 9450 11600 9450
-NoConn ~ 15100 8700
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0134
-U 1 1 5E2F3BD3
-P 15250 8850
-F 0 "#PWR0134" H 15250 8700 50  0001 C CNN
-F 1 "+3.3V" H 15265 9023 50  0000 C CNN
-F 2 "" H 15250 8850 50  0001 C CNN
-F 3 "" H 15250 8850 50  0001 C CNN
-	1    15250 8850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0135
-U 1 1 5E2F3BDD
-P 15250 9600
-F 0 "#PWR0135" H 15250 9450 50  0001 C CNN
-F 1 "+3.3V" H 15265 9773 50  0000 C CNN
-F 2 "" H 15250 9600 50  0001 C CNN
-F 3 "" H 15250 9600 50  0001 C CNN
-	1    15250 9600
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 15100 9450
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0136
-U 1 1 5E2F3BE8
-P 15100 9000
-F 0 "#PWR0136" H 15100 8750 50  0001 C CNN
-F 1 "GND" H 15105 8827 50  0000 C CNN
-F 2 "" H 15100 9000 50  0001 C CNN
-F 3 "" H 15100 9000 50  0001 C CNN
-	1    15100 9000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R65
-U 1 1 5E2F3BF2
-P 15575 9450
-F 0 "R65" H 15645 9496 50  0000 L CNN
-F 1 "100k" H 15645 9405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15505 9450 50  0001 C CNN
-F 3 "~" H 15575 9450 50  0001 C CNN
-	1    15575 9450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R66
-U 1 1 5E2F3BFC
-P 15825 9350
-F 0 "R66" H 15895 9396 50  0000 L CNN
-F 1 "10k" H 15895 9305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15755 9350 50  0001 C CNN
-F 3 "~" H 15825 9350 50  0001 C CNN
-	1    15825 9350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0137
-U 1 1 5E2F3C06
-P 15575 9600
-F 0 "#PWR0137" H 15575 9350 50  0001 C CNN
-F 1 "GND" H 15580 9427 50  0000 C CNN
-F 2 "" H 15575 9600 50  0001 C CNN
-F 3 "" H 15575 9600 50  0001 C CNN
-	1    15575 9600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	15575 9600 15825 9600
-Wire Wire Line
-	15825 9600 15825 9500
-Text Label 15100 8550 0    50   ~ 0
-PWM1_R
-$Comp
-L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0138
-U 1 1 5E2F3C13
-P 13275 8550
-F 0 "#PWR0138" H 13275 8400 50  0001 C CNN
-F 1 "+12P" H 13290 8723 50  0000 C CNN
-F 2 "" H 13275 8550 50  0001 C CNN
-F 3 "" H 13275 8550 50  0001 C CNN
-	1    13275 8550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C48
-U 1 1 5E2F3C1D
-P 13975 8700
-F 0 "C48" H 14090 8746 50  0000 L CNN
-F 1 "4.7u" H 14090 8655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 8550 50  0001 C CNN
-F 3 "~" H 13975 8700 50  0001 C CNN
-	1    13975 8700
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 14100 9000
-NoConn ~ 14100 9150
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D3
-U 1 1 5E2F3C29
-P 13775 8550
-F 0 "D3" H 13775 8358 40  0000 C CNN
-F 1 "DIODE" H 13775 8434 40  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 13775 8550 60  0001 C CNN
-F 3 "" H 13775 8550 60  0000 C CNN
-	1    13775 8550
-	1    0    0    1   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R58
-U 1 1 5E2F3C33
-P 13425 8550
-F 0 "R58" V 13218 8550 50  0000 C CNN
-F 1 "1" V 13309 8550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13355 8550 50  0001 C CNN
-F 3 "~" H 13425 8550 50  0001 C CNN
-	1    13425 8550
-	0    -1   1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0139
-U 1 1 5E2F3C3D
-P 13275 9300
-F 0 "#PWR0139" H 13275 9150 50  0001 C CNN
-F 1 "+12P" H 13290 9473 50  0000 C CNN
-F 2 "" H 13275 9300 50  0001 C CNN
-F 3 "" H 13275 9300 50  0001 C CNN
-	1    13275 9300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C49
-U 1 1 5E2F3C47
-P 13975 9450
-F 0 "C49" H 14090 9496 50  0000 L CNN
-F 1 "4.7u" H 14090 9405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 9300 50  0001 C CNN
-F 3 "~" H 13975 9450 50  0001 C CNN
-	1    13975 9450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D11
-U 1 1 5E2F3C51
-P 13775 9300
-F 0 "D11" H 13775 9108 40  0000 C CNN
-F 1 "DIODE" H 13775 9184 40  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 13775 9300 60  0001 C CNN
-F 3 "" H 13775 9300 60  0000 C CNN
-	1    13775 9300
-	1    0    0    1   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R59
-U 1 1 5E2F3C5B
-P 13425 9300
-F 0 "R59" V 13218 9300 50  0000 C CNN
-F 1 "1" V 13309 9300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13355 9300 50  0001 C CNN
-F 3 "~" H 13425 9300 50  0001 C CNN
-	1    13425 9300
-	0    -1   1    0   
-$EndComp
-Connection ~ 13975 9300
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R63
-U 1 1 5E2F3C67
-P 13600 8700
-F 0 "R63" V 13393 8700 50  0000 C CNN
-F 1 "FILTER" V 13484 8700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 8700 50  0001 C CNN
-F 3 "~" H 13600 8700 50  0001 C CNN
-	1    13600 8700
-	0    -1   1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R64
-U 1 1 5E2F3C71
-P 13600 9450
-F 0 "R64" V 13393 9450 50  0000 C CNN
-F 1 "FILTER" V 13484 9450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 9450 50  0001 C CNN
-F 3 "~" H 13600 9450 50  0001 C CNN
-	1    13600 9450
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	13450 8700 13300 8700
-Wire Wire Line
-	13450 9450 13300 9450
-Text Label 12100 9050 0    50   ~ 0
-OUT1_L
-Text Label 12800 9050 2    50   ~ 0
-OUT1_R
-$Comp
-L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0140
-U 1 1 5E2F3C81
-P 12450 9650
-F 0 "#PWR0140" H 12450 9450 50  0001 C CNN
-F 1 "GNDPWR" H 12454 9496 50  0000 C CNN
-F 2 "" H 12450 9600 50  0001 C CNN
-F 3 "" H 12450 9600 50  0001 C CNN
-	1    12450 9650
-	1    0    0    -1  
-$EndComp
-Text Label 12450 8425 0    50   ~ 0
-MOTOR1_BATT
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C21
-U 1 1 5E2F3C8E
-P 10575 7775
-F 0 "C21" H 10690 7821 50  0000 L CNN
-F 1 "0.1u" H 10690 7730 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10613 7625 50  0001 C CNN
-F 3 "~" H 10575 7775 50  0001 C CNN
-	1    10575 7775
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0141
-U 1 1 5E2F3C98
-P 9675 7875
-F 0 "#PWR0141" H 9675 7725 50  0001 C CNN
-F 1 "+3.3V" H 9690 8048 50  0000 C CNN
-F 2 "" H 9675 7875 50  0001 C CNN
-F 3 "" H 9675 7875 50  0001 C CNN
-	1    9675 7875
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C4
-U 1 1 5E2F3CA2
-P 9675 8025
-F 0 "C4" H 9790 8071 50  0000 L CNN
-F 1 "0.1u" H 9790 7980 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9713 7875 50  0001 C CNN
-F 3 "~" H 9675 8025 50  0001 C CNN
-	1    9675 8025
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0142
-U 1 1 5E2F3CAC
-P 9675 8175
-F 0 "#PWR0142" H 9675 7925 50  0001 C CNN
-F 1 "GND" H 9680 8002 50  0000 C CNN
-F 2 "" H 9675 8175 50  0001 C CNN
-F 3 "" H 9675 8175 50  0001 C CNN
-	1    9675 8175
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0143
-U 1 1 5E2F3CB6
-P 15300 7950
-F 0 "#PWR0143" H 15300 7800 50  0001 C CNN
-F 1 "+3.3V" H 15315 8123 50  0000 C CNN
-F 2 "" H 15300 7950 50  0001 C CNN
-F 3 "" H 15300 7950 50  0001 C CNN
-	1    15300 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C52
-U 1 1 5E2F3CC0
-P 15300 8100
-F 0 "C52" H 15415 8146 50  0000 L CNN
-F 1 "0.1u" H 15415 8055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 15338 7950 50  0001 C CNN
-F 3 "~" H 15300 8100 50  0001 C CNN
-	1    15300 8100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0144
-U 1 1 5E2F3CCA
-P 15300 8250
-F 0 "#PWR0144" H 15300 8000 50  0001 C CNN
-F 1 "GND" H 15305 8077 50  0000 C CNN
-F 2 "" H 15300 8250 50  0001 C CNN
-F 3 "" H 15300 8250 50  0001 C CNN
-	1    15300 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0145
-U 1 1 5E2F3CDE
-P 10575 7625
-F 0 "#PWR0145" H 10575 7475 50  0001 C CNN
-F 1 "+3.3V" H 10590 7798 50  0000 C CNN
-F 2 "" H 10575 7625 50  0001 C CNN
-F 3 "" H 10575 7625 50  0001 C CNN
-	1    10575 7625
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0146
-U 1 1 5E2F3CE8
-P 10575 7925
-F 0 "#PWR0146" H 10575 7675 50  0001 C CNN
-F 1 "GND" H 10580 7752 50  0000 C CNN
-F 2 "" H 10575 7925 50  0001 C CNN
-F 3 "" H 10575 7925 50  0001 C CNN
-	1    10575 7925
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue U8
-U 1 1 5E2F3D2B
-P 10300 9100
-F 0 "U8" H 10300 9937 60  0000 C CNN
-F 1 "SI8274" H 10300 9831 60  0000 C CNN
-F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 10300 9100 60  0001 C CNN
-F 3 "" H 10300 9100 60  0000 C CNN
-	1    10300 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q4
-U 1 1 5E2F3D35
-P 11800 9450
-F 0 "Q4" H 11944 9503 60  0000 L CNN
-F 1 "MOSFET_N" H 11944 9397 60  0000 L CNN
-F 2 "Mizz_lib:HSOF-8-1" H 11800 9450 60  0001 C CNN
-F 3 "" H 11800 9450 60  0000 C CNN
-	1    11800 9450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9650 8850 9800 8850
-Wire Wire Line
-	9650 9600 9800 9600
-Wire Wire Line
-	9075 9600 9325 9600
-Connection ~ 9325 9600
-Wire Wire Line
-	9075 9200 9075 9150
-Wire Wire Line
-	9075 9150 9800 9150
-Wire Wire Line
-	9325 9300 9800 9300
-Wire Wire Line
-	10925 8550 10800 8550
-Connection ~ 10925 8550
-Wire Wire Line
-	11150 8700 10800 8700
-Wire Wire Line
-	10800 8850 10925 8850
-Wire Wire Line
-	10925 9300 10800 9300
-Connection ~ 10925 9300
-Wire Wire Line
-	10800 9450 11150 9450
-Wire Wire Line
-	10800 9600 10925 9600
-Wire Wire Line
-	11600 9600 11600 9650
-Wire Wire Line
-	11600 9650 11900 9650
-Connection ~ 10925 9600
-Wire Wire Line
-	10925 9600 11600 9600
-$Comp
-L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q3
-U 1 1 5E2F3D52
-P 11800 8700
-F 0 "Q3" H 11944 8753 60  0000 L CNN
-F 1 "MOSFET_N" H 11944 8647 60  0000 L CNN
-F 2 "Mizz_lib:HSOF-8-1" H 11800 8700 60  0001 C CNN
-F 3 "" H 11800 8700 60  0000 C CNN
-	1    11800 8700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10925 8850 11625 8850
-Wire Wire Line
-	11625 8850 11625 8900
-Wire Wire Line
-	11625 8900 11900 8900
-Connection ~ 10925 8850
-Wire Wire Line
-	11450 8700 11600 8700
-$Comp
-L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q7
-U 1 1 5E2F3D61
-P 13100 8700
-F 0 "Q7" H 13243 8753 60  0000 L CNN
-F 1 "MOSFET_N" H 13243 8647 60  0000 L CNN
-F 2 "Mizz_lib:HSOF-8-1" H 13100 8700 60  0001 C CNN
-F 3 "" H 13100 8700 60  0000 C CNN
-	1    13100 8700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q8
-U 1 1 5E2F3D6B
-P 13100 9450
-F 0 "Q8" H 13243 9503 60  0000 L CNN
-F 1 "MOSFET_N" H 13243 9397 60  0000 L CNN
-F 2 "Mizz_lib:HSOF-8-1" H 13100 9450 60  0001 C CNN
-F 3 "" H 13100 9450 60  0000 C CNN
-	1    13100 9450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	11900 9650 12450 9650
-Connection ~ 11900 9650
-Connection ~ 12450 9650
-Wire Wire Line
-	12450 9650 13000 9650
-$Comp
-L SteerMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue U14
-U 1 1 5E2F3D79
-P 14600 9100
-F 0 "U14" H 14600 9937 60  0000 C CNN
-F 1 "SI8274" H 14600 9831 60  0000 C CNN
-F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 14600 9100 60  0001 C CNN
-F 3 "" H 14600 9100 60  0000 C CNN
-	1    14600 9100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	15100 9600 15250 9600
-Connection ~ 15575 9600
-Wire Wire Line
-	15100 9300 15575 9300
-Text Label 15825 9150 0    50   ~ 0
-EN1
-Wire Wire Line
-	15100 9150 15825 9150
-Wire Wire Line
-	15825 9200 15825 9150
-Wire Wire Line
-	15250 8850 15100 8850
-Wire Wire Line
-	12450 8500 11900 8500
-Wire Wire Line
-	12450 8425 12450 8500
-Wire Wire Line
-	12450 8500 13000 8500
-Connection ~ 12450 8500
-Wire Wire Line
-	11900 8900 11900 9050
-Connection ~ 11900 8900
-Wire Wire Line
-	11900 9050 12100 9050
-Connection ~ 11900 9050
-Wire Wire Line
-	11900 9050 11900 9250
-Wire Wire Line
-	12800 9050 13000 9050
-Wire Wire Line
-	13000 9050 13000 8900
-Wire Wire Line
-	13000 9050 13000 9250
-Connection ~ 13000 9050
-Wire Wire Line
-	14100 9600 13975 9600
-Wire Wire Line
-	13000 9650 13300 9650
-Wire Wire Line
-	13300 9650 13300 9600
-Wire Wire Line
-	13300 9600 13975 9600
-Connection ~ 13000 9650
-Connection ~ 13975 9600
-Wire Wire Line
-	14100 8850 13975 8850
-Wire Wire Line
-	13275 8850 13275 8900
-Wire Wire Line
-	13275 8900 13000 8900
-Connection ~ 13975 8850
-Wire Wire Line
-	13975 8850 13275 8850
-Connection ~ 13000 8900
 $Comp
 L SteerMD-rescue:SW_ROTARY_16-Miz-F4_CAN_DCMD-rescue U19
 U 1 1 5E3AE28F
@@ -4560,104 +2562,6 @@ F 3 "" H 7925 8625 50  0001 C CNN
 	1    7925 8625
 	1    0    0    -1  
 $EndComp
-$Comp
-L Miz:ACS758 U10
-U 1 1 5DF097BE
-P 11800 5325
-F 0 "U10" V 12237 5650 60  0000 C CNN
-F 1 "ACS758" V 12131 5650 60  0000 C CNN
-F 2 "Mizz_lib:ACS785xCB" H 11800 5325 60  0001 C CNN
-F 3 "" H 11800 5325 60  0001 C CNN
-	1    11800 5325
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	11600 5325 11500 5325
-Wire Wire Line
-	11500 5325 11500 5475
-Connection ~ 11500 5475
-Text Label 12650 8025 0    50   ~ 0
-MOTOR1_BATT
-Text Label 11150 7725 2    50   ~ 0
-Current1
-$Comp
-L SteerMD-rescue:+BATT-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0147
-U 1 1 5DF91B83
-P 12650 7725
-F 0 "#PWR0147" H 12650 7575 50  0001 C CNN
-F 1 "+BATT" H 12665 7898 50  0000 C CNN
-F 2 "" H 12650 7725 50  0001 C CNN
-F 3 "" H 12650 7725 50  0001 C CNN
-	1    12650 7725
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R57
-U 1 1 5DF91B8D
-P 11450 7725
-F 0 "R57" V 11243 7725 50  0000 C CNN
-F 1 "4.7k" V 11334 7725 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11380 7725 50  0001 C CNN
-F 3 "~" H 11450 7725 50  0001 C CNN
-	1    11450 7725
-	0    1    1    0   
-$EndComp
-$Comp
-L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C47
-U 1 1 5DF91B97
-P 11200 7875
-F 0 "C47" H 11315 7921 50  0000 L CNN
-F 1 "470n" H 11315 7830 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 11238 7725 50  0001 C CNN
-F 3 "~" H 11200 7875 50  0001 C CNN
-	1    11200 7875
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0148
-U 1 1 5DF91BA1
-P 11500 8025
-F 0 "#PWR0148" H 11500 7775 50  0001 C CNN
-F 1 "GND" H 11505 7852 50  0000 C CNN
-F 2 "" H 11500 8025 50  0001 C CNN
-F 3 "" H 11500 8025 50  0001 C CNN
-	1    11500 8025
-	1    0    0    -1  
-$EndComp
-$Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0149
-U 1 1 5DF91BAB
-P 11600 8025
-F 0 "#PWR0149" H 11600 7875 50  0001 C CNN
-F 1 "+3.3V" H 11615 8198 50  0000 C CNN
-F 2 "" H 11600 8025 50  0001 C CNN
-F 3 "" H 11600 8025 50  0001 C CNN
-	1    11600 8025
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11300 7725 11200 7725
-Wire Wire Line
-	11200 7725 11150 7725
-Connection ~ 11200 7725
-Wire Wire Line
-	11500 8025 11200 8025
-$Comp
-L Miz:ACS758 U13
-U 1 1 5DF91BB9
-P 11800 7875
-F 0 "U13" V 12237 8200 60  0000 C CNN
-F 1 "ACS758" V 12131 8200 60  0000 C CNN
-F 2 "Mizz_lib:ACS785xCB" H 11800 7875 60  0001 C CNN
-F 3 "" H 11800 7875 60  0001 C CNN
-	1    11800 7875
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	11600 7875 11500 7875
-Wire Wire Line
-	11500 7875 11500 8025
-Connection ~ 11500 8025
 Text Label 2500 6350 2    50   ~ 0
 LED3
 Connection ~ 6450 8600
@@ -4672,24 +2576,6 @@ F 3 "" H 15525 1275 50  0001 C CNN
 	1    15525 1275
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13975 9300 14100 9300
-Wire Wire Line
-	13750 9450 14100 9450
-Wire Wire Line
-	13750 8700 14100 8700
-Wire Wire Line
-	13975 8550 14100 8550
-Connection ~ 13975 8550
-Wire Wire Line
-	13975 6825 14100 6825
-Wire Wire Line
-	13750 6975 14100 6975
-Wire Wire Line
-	13750 6225 14100 6225
-Wire Wire Line
-	13975 6075 14100 6075
-Connection ~ 13975 6075
 $Comp
 L Device:Thermistor TH3
 U 1 1 5DF94716
@@ -4955,8 +2841,6 @@ Wire Wire Line
 Connection ~ 8675 6175
 Text Label 6900 3850 0    50   ~ 0
 Substrate_Temp
-Text Notes 10675 5750 0    50   ~ 0
-Filter:3ohm
 Text Notes 7675 6050 0    50   ~ 0
 Filter:10kohm
 Text Label 6900 5850 0    50   ~ 0
@@ -5048,4 +2932,2249 @@ $EndComp
 Wire Wire Line
 	7450 9500 7450 9700
 Connection ~ 7450 9500
+Wire Wire Line
+	10875 4250 10925 4250
+Connection ~ 10875 4250
+Wire Wire Line
+	10875 4250 10875 4225
+Wire Wire Line
+	10575 3925 10875 3925
+Wire Wire Line
+	10575 4250 10875 4250
+Connection ~ 12625 4400
+Wire Wire Line
+	12425 4400 12625 4400
+Connection ~ 12325 4000
+Wire Wire Line
+	12325 4000 13000 4000
+Wire Wire Line
+	12325 3575 12325 4000
+Connection ~ 12325 4100
+Wire Wire Line
+	12325 4100 12325 4200
+Wire Wire Line
+	12425 4100 12625 4100
+Connection ~ 12425 4100
+Wire Wire Line
+	12325 4100 12425 4100
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C37
+U 1 1 5E979341
+P 12425 4250
+F 0 "C37" H 12540 4296 50  0000 L CNN
+F 1 "4.7u" H 12540 4205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 12463 4100 50  0001 C CNN
+F 3 "~" H 12425 4250 50  0001 C CNN
+	1    12425 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 14475 4450
+Wire Wire Line
+	14025 4450 14475 4450
+Wire Wire Line
+	14025 4375 14025 4450
+Wire Wire Line
+	14025 4000 14025 4075
+Wire Wire Line
+	14775 4450 14625 4450
+Connection ~ 14775 4450
+Connection ~ 14625 4450
+Wire Wire Line
+	15125 4450 14775 4450
+Wire Wire Line
+	15125 4375 15125 4450
+Wire Wire Line
+	15125 4000 15125 4075
+Wire Wire Line
+	14625 4450 14475 4450
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR069
+U 1 1 5E4ED781
+P 14625 4450
+F 0 "#PWR069" H 14625 4250 50  0001 C CNN
+F 1 "GNDPWR" H 14629 4296 50  0000 C CNN
+F 2 "" H 14625 4400 50  0001 C CNN
+F 3 "" H 14625 4400 50  0001 C CNN
+	1    14625 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 15125 4000
+$Comp
+L SteerMD-rescue:+3.3VP-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR071
+U 1 1 5E4E26F2
+P 15125 4000
+F 0 "#PWR071" H 15275 3950 50  0001 C CNN
+F 1 "+3.3VP" H 15145 4143 50  0000 C CNN
+F 2 "" H 15125 4000 50  0001 C CNN
+F 3 "" H 15125 4000 50  0001 C CNN
+	1    15125 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C32
+U 1 1 5E4E0B6F
+P 15125 4225
+F 0 "C32" H 15240 4271 50  0000 L CNN
+F 1 "4.7u" H 15240 4180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 15163 4075 50  0001 C CNN
+F 3 "~" H 15125 4225 50  0001 C CNN
+	1    15125 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14025 4000 14125 4000
+Connection ~ 14025 4000
+Connection ~ 13950 4000
+Wire Wire Line
+	13950 4000 14025 4000
+$Comp
+L Miz:BD33FA1 U9
+U 1 1 5E4CACF9
+P 14625 4050
+F 0 "U9" H 14625 4465 50  0000 C CNN
+F 1 "BD33FA1" H 14625 4374 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 14625 4150 50  0001 C CNN
+F 3 "" H 14625 4150 50  0001 C CNN
+	1    14625 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C29
+U 1 1 5E4C8A81
+P 14025 4225
+F 0 "C29" H 14140 4271 50  0000 L CNN
+F 1 "4.7u" H 14140 4180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 14063 4075 50  0001 C CNN
+F 3 "~" H 14025 4225 50  0001 C CNN
+	1    14025 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13525 4050 13525 4000
+Connection ~ 13525 4400
+Wire Wire Line
+	13525 4400 13525 4350
+Wire Wire Line
+	13000 4400 12625 4400
+Connection ~ 13000 4400
+Wire Wire Line
+	13525 4400 13000 4400
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR062
+U 1 1 5E4A8200
+P 13525 4400
+F 0 "#PWR062" H 13525 4200 50  0001 C CNN
+F 1 "GNDPWR" H 13529 4246 50  0000 C CNN
+F 2 "" H 13525 4350 50  0001 C CNN
+F 3 "" H 13525 4350 50  0001 C CNN
+	1    13525 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13525 4000 13500 4000
+Connection ~ 13525 4000
+Wire Wire Line
+	13550 4000 13525 4000
+Wire Wire Line
+	13525 3775 13525 4000
+Text Label 13525 3775 0    50   ~ 0
+FB_PWR_OUT
+Text Label 10575 3925 2    50   ~ 0
+FB_PWR_OUT
+Wire Wire Line
+	10575 4250 10575 4225
+Connection ~ 10575 4250
+Wire Wire Line
+	10575 4275 10575 4250
+Text Label 10925 4250 0    50   ~ 0
+FB_PWR
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR043
+U 1 1 5E460DCF
+P 10575 4575
+F 0 "#PWR043" H 10575 4375 50  0001 C CNN
+F 1 "GNDPWR" H 10579 4421 50  0000 C CNN
+F 2 "" H 10575 4525 50  0001 C CNN
+F 3 "" H 10575 4525 50  0001 C CNN
+	1    10575 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C18
+U 1 1 5E45702D
+P 10875 4075
+F 0 "C18" H 10990 4121 50  0000 L CNN
+F 1 "0.1u" H 10990 4030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10913 3925 50  0001 C CNN
+F 3 "~" H 10875 4075 50  0001 C CNN
+	1    10875 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R15
+U 1 1 5E454AB2
+P 10575 4425
+F 0 "R15" H 10645 4471 50  0000 L CNN
+F 1 "510" H 10645 4380 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10505 4425 50  0001 C CNN
+F 3 "~" H 10575 4425 50  0001 C CNN
+	1    10575 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R14
+U 1 1 5E4547E9
+P 10575 4075
+F 0 "R14" H 10645 4121 50  0000 L CNN
+F 1 "7.5k" H 10645 4030 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10505 4075 50  0001 C CNN
+F 3 "~" H 10575 4075 50  0001 C CNN
+	1    10575 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR067
+U 1 1 5E43C009
+P 13950 4000
+F 0 "#PWR067" H 13950 3850 50  0001 C CNN
+F 1 "+12P" H 13965 4173 50  0000 C CNN
+F 2 "" H 13950 4000 50  0001 C CNN
+F 3 "" H 13950 4000 50  0001 C CNN
+	1    13950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D18
+U 1 1 5E43A548
+P 13750 4000
+F 0 "D18" H 13750 4192 40  0000 C CNN
+F 1 "DIODE" H 13750 4116 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 13750 4000 60  0001 C CNN
+F 3 "" H 13750 4000 60  0000 C CNN
+	1    13750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C28
+U 1 1 5E438B9D
+P 13525 4200
+F 0 "C28" H 13640 4246 50  0000 L CNN
+F 1 "10u" H 13640 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 13563 4050 50  0001 C CNN
+F 3 "~" H 13525 4200 50  0001 C CNN
+	1    13525 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 13000 4000
+Wire Wire Line
+	11525 3575 11525 4000
+Wire Wire Line
+	11775 3575 11525 3575
+Wire Wire Line
+	12075 3575 12325 3575
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C23
+U 1 1 5E413972
+P 11925 3575
+F 0 "C23" V 11673 3575 50  0000 C CNN
+F 1 "0.1u" V 11764 3575 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11963 3425 50  0001 C CNN
+F 3 "~" H 11925 3575 50  0001 C CNN
+	1    11925 3575
+	0    1    1    0   
+$EndComp
+Text Label 11525 4200 2    50   ~ 0
+FB_PWR
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR048
+U 1 1 5E40E2F5
+P 11525 4100
+F 0 "#PWR048" H 11525 3900 50  0001 C CNN
+F 1 "GNDPWR" H 11529 3946 50  0000 C CNN
+F 2 "" H 11525 4050 50  0001 C CNN
+F 3 "" H 11525 4050 50  0001 C CNN
+	1    11525 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D16
+U 1 1 5E40DFA3
+P 13000 4200
+F 0 "D16" V 13038 4122 40  0000 R CNN
+F 1 "DIODE" V 12962 4122 40  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13000 4200 60  0001 C CNN
+F 3 "" H 13000 4200 60  0000 C CNN
+	1    13000 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SteerMD-rescue:INDUCTOR-pspice-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue L1
+U 1 1 5E4021AF
+P 13250 4000
+F 0 "L1" H 13250 4215 50  0000 C CNN
+F 1 "22uH" H 13250 4124 50  0000 C CNN
+F 2 "Mizz_lib:Inductor_Taiyo-Yuden_NR-60xx_HandSoldering" H 13250 4000 50  0001 C CNN
+F 3 "~" H 13250 4000 50  0001 C CNN
+	1    13250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12625 4100 12675 4100
+Connection ~ 12625 4100
+$Comp
+L SteerMD-rescue:CP1-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C25
+U 1 1 5E3C9F1A
+P 12625 4250
+F 0 "C25" H 12740 4296 50  0000 L CNN
+F 1 "100u" H 12740 4205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 12625 4250 50  0001 C CNN
+F 3 "~" H 12625 4250 50  0001 C CNN
+	1    12625 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:BD9G101G-myDevice-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue U7
+U 1 1 5E3C7EFA
+P 11925 4100
+F 0 "U7" H 11925 4487 60  0000 C CNN
+F 1 "BD9G101G" H 11925 4381 60  0000 C CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 11975 4450 60  0001 C CNN
+F 3 "" H 11975 4450 60  0000 C CNN
+	1    11925 4100
+	1    0    0    -1  
+$EndComp
+Text Label 12675 4100 0    50   ~ 0
+batt
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0160
+U 1 1 5DE7C668
+P 11250 2200
+F 0 "#PWR0160" H 11250 2000 50  0001 C CNN
+F 1 "GNDPWR" H 11254 2046 50  0000 C CNN
+F 2 "" H 11250 2150 50  0001 C CNN
+F 3 "" H 11250 2150 50  0001 C CNN
+	1    11250 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 1875 11300 1875
+Connection ~ 11250 1875
+Wire Wire Line
+	11250 1900 11250 1875
+Wire Wire Line
+	10550 1875 11250 1875
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0159
+U 1 1 5DE04827
+P 11250 3100
+F 0 "#PWR0159" H 11250 2900 50  0001 C CNN
+F 1 "GNDPWR" H 11254 2946 50  0000 C CNN
+F 2 "" H 11250 3050 50  0001 C CNN
+F 3 "" H 11250 3050 50  0001 C CNN
+	1    11250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 2775 11300 2775
+Connection ~ 11250 2775
+Wire Wire Line
+	11250 2775 11250 2800
+Wire Wire Line
+	10550 2775 11250 2775
+Text Label 10950 3100 0    50   ~ 0
+OUT1_R
+Text Label 11300 2775 0    50   ~ 0
+CounterVoltage1
+Wire Wire Line
+	10550 2775 10550 2750
+Connection ~ 10550 2775
+Wire Wire Line
+	10550 2800 10550 2775
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C51
+U 1 1 5D97641A
+P 11250 2950
+F 0 "C51" H 11365 2996 50  0000 L CNN
+F 1 "0.1u" H 11365 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11288 2800 50  0001 C CNN
+F 3 "~" H 11250 2950 50  0001 C CNN
+	1    11250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R62
+U 1 1 5D976410
+P 10550 2950
+F 0 "R62" H 10620 2996 50  0000 L CNN
+F 1 "1k" H 10620 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 2950 50  0001 C CNN
+F 3 "~" H 10550 2950 50  0001 C CNN
+	1    10550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R61
+U 1 1 5D976406
+P 10550 2600
+F 0 "R61" H 10620 2646 50  0000 L CNN
+F 1 "10k" H 10620 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 2600 50  0001 C CNN
+F 3 "~" H 10550 2600 50  0001 C CNN
+	1    10550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D47
+U 1 1 5D9763FC
+P 10750 3100
+F 0 "D47" H 10750 3292 40  0000 C CNN
+F 1 "DIODE" H 10750 3216 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 10750 3100 60  0001 C CNN
+F 3 "" H 10750 3100 60  0000 C CNN
+	1    10750 3100
+	1    0    0    -1  
+$EndComp
+Text Label 10550 2450 2    50   ~ 0
+OUT1_L
+Text Label 10950 2200 0    50   ~ 0
+OUT0_R
+Text Label 11300 1875 0    50   ~ 0
+CounterVoltage0
+Wire Wire Line
+	10550 1875 10550 1850
+Connection ~ 10550 1875
+Wire Wire Line
+	10550 1900 10550 1875
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C27
+U 1 1 5E24BD2B
+P 11250 2050
+F 0 "C27" H 11365 2096 50  0000 L CNN
+F 1 "0.1u" H 11365 2005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11288 1900 50  0001 C CNN
+F 3 "~" H 11250 2050 50  0001 C CNN
+	1    11250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R27
+U 1 1 5E24B418
+P 10550 2050
+F 0 "R27" H 10620 2096 50  0000 L CNN
+F 1 "1k" H 10620 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 2050 50  0001 C CNN
+F 3 "~" H 10550 2050 50  0001 C CNN
+	1    10550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R26
+U 1 1 5E24AE77
+P 10550 1700
+F 0 "R26" H 10620 1746 50  0000 L CNN
+F 1 "10k" H 10620 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 1700 50  0001 C CNN
+F 3 "~" H 10550 1700 50  0001 C CNN
+	1    10550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D17
+U 1 1 5E244676
+P 10750 2200
+F 0 "D17" H 10750 2392 40  0000 C CNN
+F 1 "DIODE" H 10750 2316 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 10750 2200 60  0001 C CNN
+F 3 "" H 10750 2200 60  0000 C CNN
+	1    10750 2200
+	1    0    0    -1  
+$EndComp
+Text Label 10550 1550 2    50   ~ 0
+OUT0_L
+Connection ~ 14050 2450
+Wire Wire Line
+	14050 2100 14050 2450
+$Comp
+L SteerMD-rescue:LED-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D27
+U 1 1 5D8A02D0
+P 13900 2450
+F 0 "D27" H 13893 2195 50  0000 C CNN
+F 1 "Main_BATT" H 13893 2286 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 13900 2450 50  0001 C CNN
+F 3 "~" H 13900 2450 50  0001 C CNN
+	1    13900 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R41
+U 1 1 5D8A000E
+P 13600 2450
+F 0 "R41" V 13393 2450 50  0000 C CNN
+F 1 "4.7k" V 13484 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 2450 50  0001 C CNN
+F 3 "~" H 13600 2450 50  0001 C CNN
+	1    13600 2450
+	0    1    1    0   
+$EndComp
+Text Label 13450 2450 2    50   ~ 0
+batt
+Wire Wire Line
+	14050 2800 14050 2450
+Connection ~ 14050 2800
+Connection ~ 14050 3150
+Wire Wire Line
+	14050 3150 14050 2800
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR079
+U 1 1 5E555E54
+P 14050 3150
+F 0 "#PWR079" H 14050 2950 50  0001 C CNN
+F 1 "GNDPWR" H 14054 2996 50  0000 C CNN
+F 2 "" H 14050 3100 50  0001 C CNN
+F 3 "" H 14050 3100 50  0001 C CNN
+	1    14050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+3.3VP-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR074
+U 1 1 5E555A78
+P 13450 3150
+F 0 "#PWR074" H 13600 3100 50  0001 C CNN
+F 1 "+3.3VP" H 13470 3293 50  0000 C CNN
+F 2 "" H 13450 3150 50  0001 C CNN
+F 3 "" H 13450 3150 50  0001 C CNN
+	1    13450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:LED-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D23
+U 1 1 5E5499BE
+P 13900 3150
+F 0 "D23" H 13893 2895 50  0000 C CNN
+F 1 "3V3P" H 13893 2986 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 13900 3150 50  0001 C CNN
+F 3 "~" H 13900 3150 50  0001 C CNN
+	1    13900 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R34
+U 1 1 5E5499B4
+P 13600 3150
+F 0 "R34" V 13393 3150 50  0000 C CNN
+F 1 "510" V 13484 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 3150 50  0001 C CNN
+F 3 "~" H 13600 3150 50  0001 C CNN
+	1    13600 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:LED-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D22
+U 1 1 5E5330A5
+P 13900 2800
+F 0 "D22" H 13893 2545 50  0000 C CNN
+F 1 "12VP" H 13893 2636 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 13900 2800 50  0001 C CNN
+F 3 "~" H 13900 2800 50  0001 C CNN
+	1    13900 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R33
+U 1 1 5E532C88
+P 13600 2800
+F 0 "R33" V 13393 2800 50  0000 C CNN
+F 1 "2.2k" V 13484 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 2800 50  0001 C CNN
+F 3 "~" H 13600 2800 50  0001 C CNN
+	1    13600 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR073
+U 1 1 5E53285F
+P 13450 2800
+F 0 "#PWR073" H 13450 2650 50  0001 C CNN
+F 1 "+12P" H 13465 2973 50  0000 C CNN
+F 2 "" H 13450 2800 50  0001 C CNN
+F 3 "" H 13450 2800 50  0001 C CNN
+	1    13450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:LED-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D21
+U 1 1 5E37DCCE
+P 13900 2100
+F 0 "D21" H 13893 1845 50  0000 C CNN
+F 1 "BATT" H 13893 1936 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 13900 2100 50  0001 C CNN
+F 3 "~" H 13900 2100 50  0001 C CNN
+	1    13900 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R32
+U 1 1 5E37B386
+P 13600 2100
+F 0 "R32" V 13393 2100 50  0000 C CNN
+F 1 "4.7k" V 13484 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 2100 50  0001 C CNN
+F 3 "~" H 13600 2100 50  0001 C CNN
+	1    13600 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:+BATT-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR072
+U 1 1 5E37AE6D
+P 13450 2100
+F 0 "#PWR072" H 13450 1950 50  0001 C CNN
+F 1 "+BATT" H 13465 2273 50  0000 C CNN
+F 2 "" H 13450 2100 50  0001 C CNN
+F 3 "" H 13450 2100 50  0001 C CNN
+	1    13450 2100
+	1    0    0    -1  
+$EndComp
+Text Notes 10675 5750 0    50   ~ 0
+Filter:3ohm
+Connection ~ 13975 6075
+Wire Wire Line
+	13975 6075 14100 6075
+Wire Wire Line
+	13750 6225 14100 6225
+Wire Wire Line
+	13750 6975 14100 6975
+Wire Wire Line
+	13975 6825 14100 6825
+Connection ~ 13975 8550
+Wire Wire Line
+	13975 8550 14100 8550
+Wire Wire Line
+	13750 8700 14100 8700
+Wire Wire Line
+	13750 9450 14100 9450
+Wire Wire Line
+	13975 9300 14100 9300
+Connection ~ 11500 8025
+Wire Wire Line
+	11500 7875 11500 8025
+Wire Wire Line
+	11600 7875 11500 7875
+$Comp
+L Miz:ACS758 U13
+U 1 1 5DF91BB9
+P 11800 7875
+F 0 "U13" V 12237 8200 60  0000 C CNN
+F 1 "ACS758" V 12131 8200 60  0000 C CNN
+F 2 "Mizz_lib:ACS785xCB" H 11800 7875 60  0001 C CNN
+F 3 "" H 11800 7875 60  0001 C CNN
+	1    11800 7875
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	11500 8025 11200 8025
+Connection ~ 11200 7725
+Wire Wire Line
+	11200 7725 11150 7725
+Wire Wire Line
+	11300 7725 11200 7725
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0149
+U 1 1 5DF91BAB
+P 11600 8025
+F 0 "#PWR0149" H 11600 7875 50  0001 C CNN
+F 1 "+3.3V" H 11615 8198 50  0000 C CNN
+F 2 "" H 11600 8025 50  0001 C CNN
+F 3 "" H 11600 8025 50  0001 C CNN
+	1    11600 8025
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0148
+U 1 1 5DF91BA1
+P 11500 8025
+F 0 "#PWR0148" H 11500 7775 50  0001 C CNN
+F 1 "GND" H 11505 7852 50  0000 C CNN
+F 2 "" H 11500 8025 50  0001 C CNN
+F 3 "" H 11500 8025 50  0001 C CNN
+	1    11500 8025
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C47
+U 1 1 5DF91B97
+P 11200 7875
+F 0 "C47" H 11315 7921 50  0000 L CNN
+F 1 "470n" H 11315 7830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11238 7725 50  0001 C CNN
+F 3 "~" H 11200 7875 50  0001 C CNN
+	1    11200 7875
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R57
+U 1 1 5DF91B8D
+P 11450 7725
+F 0 "R57" V 11243 7725 50  0000 C CNN
+F 1 "4.7k" V 11334 7725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11380 7725 50  0001 C CNN
+F 3 "~" H 11450 7725 50  0001 C CNN
+	1    11450 7725
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:+BATT-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0147
+U 1 1 5DF91B83
+P 12650 7725
+F 0 "#PWR0147" H 12650 7575 50  0001 C CNN
+F 1 "+BATT" H 12665 7898 50  0000 C CNN
+F 2 "" H 12650 7725 50  0001 C CNN
+F 3 "" H 12650 7725 50  0001 C CNN
+	1    12650 7725
+	1    0    0    -1  
+$EndComp
+Text Label 11150 7725 2    50   ~ 0
+Current1
+Text Label 12650 8025 0    50   ~ 0
+MOTOR1_BATT
+Connection ~ 11500 5475
+Wire Wire Line
+	11500 5325 11500 5475
+Wire Wire Line
+	11600 5325 11500 5325
+$Comp
+L Miz:ACS758 U10
+U 1 1 5DF097BE
+P 11800 5325
+F 0 "U10" V 12237 5650 60  0000 C CNN
+F 1 "ACS758" V 12131 5650 60  0000 C CNN
+F 2 "Mizz_lib:ACS785xCB" H 11800 5325 60  0001 C CNN
+F 3 "" H 11800 5325 60  0001 C CNN
+	1    11800 5325
+	0    1    -1   0   
+$EndComp
+Connection ~ 13000 8900
+Wire Wire Line
+	13975 8850 13275 8850
+Connection ~ 13975 8850
+Wire Wire Line
+	13275 8900 13000 8900
+Wire Wire Line
+	13275 8850 13275 8900
+Wire Wire Line
+	14100 8850 13975 8850
+Connection ~ 13975 9600
+Connection ~ 13000 9650
+Wire Wire Line
+	13300 9600 13975 9600
+Wire Wire Line
+	13300 9650 13300 9600
+Wire Wire Line
+	13000 9650 13300 9650
+Wire Wire Line
+	14100 9600 13975 9600
+Connection ~ 13000 9050
+Wire Wire Line
+	13000 9050 13000 9250
+Wire Wire Line
+	13000 9050 13000 8900
+Wire Wire Line
+	12800 9050 13000 9050
+Wire Wire Line
+	11900 9050 11900 9250
+Connection ~ 11900 9050
+Wire Wire Line
+	11900 9050 12100 9050
+Connection ~ 11900 8900
+Wire Wire Line
+	11900 8900 11900 9050
+Connection ~ 12450 8500
+Wire Wire Line
+	12450 8500 13000 8500
+Wire Wire Line
+	12450 8425 12450 8500
+Wire Wire Line
+	12450 8500 11900 8500
+Wire Wire Line
+	15250 8850 15100 8850
+Wire Wire Line
+	15825 9200 15825 9150
+Wire Wire Line
+	15100 9150 15825 9150
+Text Label 15825 9150 0    50   ~ 0
+EN1
+Wire Wire Line
+	15100 9300 15575 9300
+Connection ~ 15575 9600
+Wire Wire Line
+	15100 9600 15250 9600
+$Comp
+L SteerMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue U14
+U 1 1 5E2F3D79
+P 14600 9100
+F 0 "U14" H 14600 9937 60  0000 C CNN
+F 1 "SI8274" H 14600 9831 60  0000 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 14600 9100 60  0001 C CNN
+F 3 "" H 14600 9100 60  0000 C CNN
+	1    14600 9100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 9650 13000 9650
+Connection ~ 12450 9650
+Connection ~ 11900 9650
+Wire Wire Line
+	11900 9650 12450 9650
+$Comp
+L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q8
+U 1 1 5E2F3D6B
+P 13100 9450
+F 0 "Q8" H 13243 9503 60  0000 L CNN
+F 1 "MOSFET_N" H 13243 9397 60  0000 L CNN
+F 2 "Mizz_lib:HSOF-8-1" H 13100 9450 60  0001 C CNN
+F 3 "" H 13100 9450 60  0000 C CNN
+	1    13100 9450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q7
+U 1 1 5E2F3D61
+P 13100 8700
+F 0 "Q7" H 13243 8753 60  0000 L CNN
+F 1 "MOSFET_N" H 13243 8647 60  0000 L CNN
+F 2 "Mizz_lib:HSOF-8-1" H 13100 8700 60  0001 C CNN
+F 3 "" H 13100 8700 60  0000 C CNN
+	1    13100 8700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 8700 11600 8700
+Connection ~ 10925 8850
+Wire Wire Line
+	11625 8900 11900 8900
+Wire Wire Line
+	11625 8850 11625 8900
+Wire Wire Line
+	10925 8850 11625 8850
+$Comp
+L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q3
+U 1 1 5E2F3D52
+P 11800 8700
+F 0 "Q3" H 11944 8753 60  0000 L CNN
+F 1 "MOSFET_N" H 11944 8647 60  0000 L CNN
+F 2 "Mizz_lib:HSOF-8-1" H 11800 8700 60  0001 C CNN
+F 3 "" H 11800 8700 60  0000 C CNN
+	1    11800 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10925 9600 11600 9600
+Connection ~ 10925 9600
+Wire Wire Line
+	11600 9650 11900 9650
+Wire Wire Line
+	11600 9600 11600 9650
+Wire Wire Line
+	10800 9600 10925 9600
+Wire Wire Line
+	10800 9450 11150 9450
+Connection ~ 10925 9300
+Wire Wire Line
+	10925 9300 10800 9300
+Wire Wire Line
+	10800 8850 10925 8850
+Wire Wire Line
+	11150 8700 10800 8700
+Connection ~ 10925 8550
+Wire Wire Line
+	10925 8550 10800 8550
+Wire Wire Line
+	9325 9300 9800 9300
+Wire Wire Line
+	9075 9150 9800 9150
+Wire Wire Line
+	9075 9200 9075 9150
+Connection ~ 9325 9600
+Wire Wire Line
+	9075 9600 9325 9600
+Wire Wire Line
+	9650 9600 9800 9600
+Wire Wire Line
+	9650 8850 9800 8850
+$Comp
+L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q4
+U 1 1 5E2F3D35
+P 11800 9450
+F 0 "Q4" H 11944 9503 60  0000 L CNN
+F 1 "MOSFET_N" H 11944 9397 60  0000 L CNN
+F 2 "Mizz_lib:HSOF-8-1" H 11800 9450 60  0001 C CNN
+F 3 "" H 11800 9450 60  0000 C CNN
+	1    11800 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue U8
+U 1 1 5E2F3D2B
+P 10300 9100
+F 0 "U8" H 10300 9937 60  0000 C CNN
+F 1 "SI8274" H 10300 9831 60  0000 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 10300 9100 60  0001 C CNN
+F 3 "" H 10300 9100 60  0000 C CNN
+	1    10300 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0146
+U 1 1 5E2F3CE8
+P 10575 7925
+F 0 "#PWR0146" H 10575 7675 50  0001 C CNN
+F 1 "GND" H 10580 7752 50  0000 C CNN
+F 2 "" H 10575 7925 50  0001 C CNN
+F 3 "" H 10575 7925 50  0001 C CNN
+	1    10575 7925
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0145
+U 1 1 5E2F3CDE
+P 10575 7625
+F 0 "#PWR0145" H 10575 7475 50  0001 C CNN
+F 1 "+3.3V" H 10590 7798 50  0000 C CNN
+F 2 "" H 10575 7625 50  0001 C CNN
+F 3 "" H 10575 7625 50  0001 C CNN
+	1    10575 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0144
+U 1 1 5E2F3CCA
+P 15300 8250
+F 0 "#PWR0144" H 15300 8000 50  0001 C CNN
+F 1 "GND" H 15305 8077 50  0000 C CNN
+F 2 "" H 15300 8250 50  0001 C CNN
+F 3 "" H 15300 8250 50  0001 C CNN
+	1    15300 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C52
+U 1 1 5E2F3CC0
+P 15300 8100
+F 0 "C52" H 15415 8146 50  0000 L CNN
+F 1 "0.1u" H 15415 8055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15338 7950 50  0001 C CNN
+F 3 "~" H 15300 8100 50  0001 C CNN
+	1    15300 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0143
+U 1 1 5E2F3CB6
+P 15300 7950
+F 0 "#PWR0143" H 15300 7800 50  0001 C CNN
+F 1 "+3.3V" H 15315 8123 50  0000 C CNN
+F 2 "" H 15300 7950 50  0001 C CNN
+F 3 "" H 15300 7950 50  0001 C CNN
+	1    15300 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0142
+U 1 1 5E2F3CAC
+P 9675 8175
+F 0 "#PWR0142" H 9675 7925 50  0001 C CNN
+F 1 "GND" H 9680 8002 50  0000 C CNN
+F 2 "" H 9675 8175 50  0001 C CNN
+F 3 "" H 9675 8175 50  0001 C CNN
+	1    9675 8175
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C4
+U 1 1 5E2F3CA2
+P 9675 8025
+F 0 "C4" H 9790 8071 50  0000 L CNN
+F 1 "0.1u" H 9790 7980 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9713 7875 50  0001 C CNN
+F 3 "~" H 9675 8025 50  0001 C CNN
+	1    9675 8025
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0141
+U 1 1 5E2F3C98
+P 9675 7875
+F 0 "#PWR0141" H 9675 7725 50  0001 C CNN
+F 1 "+3.3V" H 9690 8048 50  0000 C CNN
+F 2 "" H 9675 7875 50  0001 C CNN
+F 3 "" H 9675 7875 50  0001 C CNN
+	1    9675 7875
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C21
+U 1 1 5E2F3C8E
+P 10575 7775
+F 0 "C21" H 10690 7821 50  0000 L CNN
+F 1 "0.1u" H 10690 7730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10613 7625 50  0001 C CNN
+F 3 "~" H 10575 7775 50  0001 C CNN
+	1    10575 7775
+	1    0    0    -1  
+$EndComp
+Text Label 12450 8425 0    50   ~ 0
+MOTOR1_BATT
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0140
+U 1 1 5E2F3C81
+P 12450 9650
+F 0 "#PWR0140" H 12450 9450 50  0001 C CNN
+F 1 "GNDPWR" H 12454 9496 50  0000 C CNN
+F 2 "" H 12450 9600 50  0001 C CNN
+F 3 "" H 12450 9600 50  0001 C CNN
+	1    12450 9650
+	1    0    0    -1  
+$EndComp
+Text Label 12800 9050 2    50   ~ 0
+OUT1_R
+Text Label 12100 9050 0    50   ~ 0
+OUT1_L
+Wire Wire Line
+	13450 9450 13300 9450
+Wire Wire Line
+	13450 8700 13300 8700
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R64
+U 1 1 5E2F3C71
+P 13600 9450
+F 0 "R64" V 13393 9450 50  0000 C CNN
+F 1 "FILTER" V 13484 9450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 9450 50  0001 C CNN
+F 3 "~" H 13600 9450 50  0001 C CNN
+	1    13600 9450
+	0    -1   1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R63
+U 1 1 5E2F3C67
+P 13600 8700
+F 0 "R63" V 13393 8700 50  0000 C CNN
+F 1 "FILTER" V 13484 8700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 8700 50  0001 C CNN
+F 3 "~" H 13600 8700 50  0001 C CNN
+	1    13600 8700
+	0    -1   1    0   
+$EndComp
+Connection ~ 13975 9300
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R59
+U 1 1 5E2F3C5B
+P 13425 9300
+F 0 "R59" V 13218 9300 50  0000 C CNN
+F 1 "1" V 13309 9300 50  0000 C CNN
+F 2 "Mizz_lib:1608_WP" V 13355 9300 50  0001 C CNN
+F 3 "~" H 13425 9300 50  0001 C CNN
+	1    13425 9300
+	0    -1   1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D11
+U 1 1 5E2F3C51
+P 13775 9300
+F 0 "D11" H 13775 9108 40  0000 C CNN
+F 1 "DIODE" H 13775 9184 40  0000 C CNN
+F 2 "Mizz_lib:1608_WP" H 13775 9300 60  0001 C CNN
+F 3 "" H 13775 9300 60  0000 C CNN
+	1    13775 9300
+	1    0    0    1   
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C49
+U 1 1 5E2F3C47
+P 13975 9450
+F 0 "C49" H 14090 9496 50  0000 L CNN
+F 1 "4.7u" H 14090 9405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 9300 50  0001 C CNN
+F 3 "~" H 13975 9450 50  0001 C CNN
+	1    13975 9450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0139
+U 1 1 5E2F3C3D
+P 13275 9300
+F 0 "#PWR0139" H 13275 9150 50  0001 C CNN
+F 1 "+12P" H 13290 9473 50  0000 C CNN
+F 2 "" H 13275 9300 50  0001 C CNN
+F 3 "" H 13275 9300 50  0001 C CNN
+	1    13275 9300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R58
+U 1 1 5E2F3C33
+P 13425 8550
+F 0 "R58" V 13218 8550 50  0000 C CNN
+F 1 "1" V 13309 8550 50  0000 C CNN
+F 2 "Mizz_lib:1608_WP" V 13355 8550 50  0001 C CNN
+F 3 "~" H 13425 8550 50  0001 C CNN
+	1    13425 8550
+	0    -1   1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D3
+U 1 1 5E2F3C29
+P 13775 8550
+F 0 "D3" H 13775 8358 40  0000 C CNN
+F 1 "DIODE" H 13775 8434 40  0000 C CNN
+F 2 "Mizz_lib:1608_WP" H 13775 8550 60  0001 C CNN
+F 3 "" H 13775 8550 60  0000 C CNN
+	1    13775 8550
+	1    0    0    1   
+$EndComp
+NoConn ~ 14100 9150
+NoConn ~ 14100 9000
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C48
+U 1 1 5E2F3C1D
+P 13975 8700
+F 0 "C48" H 14090 8746 50  0000 L CNN
+F 1 "4.7u" H 14090 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 8550 50  0001 C CNN
+F 3 "~" H 13975 8700 50  0001 C CNN
+	1    13975 8700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0138
+U 1 1 5E2F3C13
+P 13275 8550
+F 0 "#PWR0138" H 13275 8400 50  0001 C CNN
+F 1 "+12P" H 13290 8723 50  0000 C CNN
+F 2 "" H 13275 8550 50  0001 C CNN
+F 3 "" H 13275 8550 50  0001 C CNN
+	1    13275 8550
+	-1   0    0    -1  
+$EndComp
+Text Label 15100 8550 0    50   ~ 0
+PWM1_R
+Wire Wire Line
+	15825 9600 15825 9500
+Wire Wire Line
+	15575 9600 15825 9600
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0137
+U 1 1 5E2F3C06
+P 15575 9600
+F 0 "#PWR0137" H 15575 9350 50  0001 C CNN
+F 1 "GND" H 15580 9427 50  0000 C CNN
+F 2 "" H 15575 9600 50  0001 C CNN
+F 3 "" H 15575 9600 50  0001 C CNN
+	1    15575 9600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R66
+U 1 1 5E2F3BFC
+P 15825 9350
+F 0 "R66" H 15895 9396 50  0000 L CNN
+F 1 "10k" H 15895 9305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15755 9350 50  0001 C CNN
+F 3 "~" H 15825 9350 50  0001 C CNN
+	1    15825 9350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R65
+U 1 1 5E2F3BF2
+P 15575 9450
+F 0 "R65" H 15645 9496 50  0000 L CNN
+F 1 "100k" H 15645 9405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15505 9450 50  0001 C CNN
+F 3 "~" H 15575 9450 50  0001 C CNN
+	1    15575 9450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0136
+U 1 1 5E2F3BE8
+P 15100 9000
+F 0 "#PWR0136" H 15100 8750 50  0001 C CNN
+F 1 "GND" H 15105 8827 50  0000 C CNN
+F 2 "" H 15100 9000 50  0001 C CNN
+F 3 "" H 15100 9000 50  0001 C CNN
+	1    15100 9000
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 15100 9450
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0135
+U 1 1 5E2F3BDD
+P 15250 9600
+F 0 "#PWR0135" H 15250 9450 50  0001 C CNN
+F 1 "+3.3V" H 15265 9773 50  0000 C CNN
+F 2 "" H 15250 9600 50  0001 C CNN
+F 3 "" H 15250 9600 50  0001 C CNN
+	1    15250 9600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0134
+U 1 1 5E2F3BD3
+P 15250 8850
+F 0 "#PWR0134" H 15250 8700 50  0001 C CNN
+F 1 "+3.3V" H 15265 9023 50  0000 C CNN
+F 2 "" H 15250 8850 50  0001 C CNN
+F 3 "" H 15250 8850 50  0001 C CNN
+	1    15250 8850
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 15100 8700
+Wire Wire Line
+	11450 9450 11600 9450
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R54
+U 1 1 5E2F3BC7
+P 11300 9450
+F 0 "R54" V 11093 9450 50  0000 C CNN
+F 1 "FILTER" V 11184 9450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 9450 50  0001 C CNN
+F 3 "~" H 11300 9450 50  0001 C CNN
+	1    11300 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R53
+U 1 1 5E2F3BBD
+P 11300 8700
+F 0 "R53" V 11093 8700 50  0000 C CNN
+F 1 "FILTER" V 11184 8700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 8700 50  0001 C CNN
+F 3 "~" H 11300 8700 50  0001 C CNN
+	1    11300 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R56
+U 1 1 5E2F3BB3
+P 11475 9300
+F 0 "R56" V 11268 9300 50  0000 C CNN
+F 1 "1" V 11359 9300 50  0000 C CNN
+F 2 "Mizz_lib:1608_WP" V 11405 9300 50  0001 C CNN
+F 3 "~" H 11475 9300 50  0001 C CNN
+	1    11475 9300
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D2
+U 1 1 5E2F3BA9
+P 11125 9300
+F 0 "D2" H 11125 9108 40  0000 C CNN
+F 1 "DIODE" H 11125 9184 40  0000 C CNN
+F 2 "Mizz_lib:1608_WP" H 11125 9300 60  0001 C CNN
+F 3 "" H 11125 9300 60  0000 C CNN
+	1    11125 9300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C46
+U 1 1 5E2F3B9F
+P 10925 9450
+F 0 "C46" H 11040 9496 50  0000 L CNN
+F 1 "4.7u" H 11040 9405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 9300 50  0001 C CNN
+F 3 "~" H 10925 9450 50  0001 C CNN
+	1    10925 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0133
+U 1 1 5E2F3B95
+P 11625 9300
+F 0 "#PWR0133" H 11625 9150 50  0001 C CNN
+F 1 "+12P" H 11640 9473 50  0000 C CNN
+F 2 "" H 11625 9300 50  0001 C CNN
+F 3 "" H 11625 9300 50  0001 C CNN
+	1    11625 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R55
+U 1 1 5E2F3B8B
+P 11475 8550
+F 0 "R55" V 11268 8550 50  0000 C CNN
+F 1 "1" V 11359 8550 50  0000 C CNN
+F 2 "Mizz_lib:1608_WP" V 11405 8550 50  0001 C CNN
+F 3 "~" H 11475 8550 50  0001 C CNN
+	1    11475 8550
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D1
+U 1 1 5E2F3B81
+P 11125 8550
+F 0 "D1" H 11125 8358 40  0000 C CNN
+F 1 "DIODE" H 11125 8434 40  0000 C CNN
+F 2 "Mizz_lib:1608_WP" H 11125 8550 60  0001 C CNN
+F 3 "" H 11125 8550 60  0000 C CNN
+	1    11125 8550
+	-1   0    0    1   
+$EndComp
+NoConn ~ 10800 9150
+NoConn ~ 10800 9000
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C45
+U 1 1 5E2F3B75
+P 10925 8700
+F 0 "C45" H 11040 8746 50  0000 L CNN
+F 1 "4.7u" H 11040 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 8550 50  0001 C CNN
+F 3 "~" H 10925 8700 50  0001 C CNN
+	1    10925 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0132
+U 1 1 5E2F3B6B
+P 11625 8550
+F 0 "#PWR0132" H 11625 8400 50  0001 C CNN
+F 1 "+12P" H 11640 8723 50  0000 C CNN
+F 2 "" H 11625 8550 50  0001 C CNN
+F 3 "" H 11625 8550 50  0001 C CNN
+	1    11625 8550
+	1    0    0    -1  
+$EndComp
+Text Label 9075 9150 2    50   ~ 0
+EN1
+Text Label 9800 8550 2    50   ~ 0
+PWM1_L
+Wire Wire Line
+	9075 9600 9075 9500
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0131
+U 1 1 5E2F3B5E
+P 9325 9600
+F 0 "#PWR0131" H 9325 9350 50  0001 C CNN
+F 1 "GND" H 9330 9427 50  0000 C CNN
+F 2 "" H 9325 9600 50  0001 C CNN
+F 3 "" H 9325 9600 50  0001 C CNN
+	1    9325 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R2
+U 1 1 5E2F3B54
+P 9075 9350
+F 0 "R2" H 9145 9396 50  0000 L CNN
+F 1 "10k" H 9145 9305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9005 9350 50  0001 C CNN
+F 3 "~" H 9075 9350 50  0001 C CNN
+	1    9075 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R13
+U 1 1 5E2F3B4A
+P 9325 9450
+F 0 "R13" H 9395 9496 50  0000 L CNN
+F 1 "100k" H 9395 9405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9255 9450 50  0001 C CNN
+F 3 "~" H 9325 9450 50  0001 C CNN
+	1    9325 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0130
+U 1 1 5E2F3B40
+P 9800 9000
+F 0 "#PWR0130" H 9800 8750 50  0001 C CNN
+F 1 "GND" H 9805 8827 50  0000 C CNN
+F 2 "" H 9800 9000 50  0001 C CNN
+F 3 "" H 9800 9000 50  0001 C CNN
+	1    9800 9000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9800 9450
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0129
+U 1 1 5E2F3B35
+P 9650 9600
+F 0 "#PWR0129" H 9650 9450 50  0001 C CNN
+F 1 "+3.3V" H 9665 9773 50  0000 C CNN
+F 2 "" H 9650 9600 50  0001 C CNN
+F 3 "" H 9650 9600 50  0001 C CNN
+	1    9650 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0128
+U 1 1 5E2F3B2B
+P 9650 8850
+F 0 "#PWR0128" H 9650 8700 50  0001 C CNN
+F 1 "+3.3V" H 9665 9023 50  0000 C CNN
+F 2 "" H 9650 8850 50  0001 C CNN
+F 3 "" H 9650 8850 50  0001 C CNN
+	1    9650 8850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9800 8700
+Connection ~ 13000 6425
+Wire Wire Line
+	13975 6375 13275 6375
+Connection ~ 13975 6375
+Wire Wire Line
+	13275 6425 13000 6425
+Wire Wire Line
+	13275 6375 13275 6425
+Wire Wire Line
+	14100 6375 13975 6375
+Connection ~ 13975 7125
+Connection ~ 13000 7175
+Wire Wire Line
+	13300 7125 13975 7125
+Wire Wire Line
+	13300 7175 13300 7125
+Wire Wire Line
+	13000 7175 13300 7175
+Wire Wire Line
+	14100 7125 13975 7125
+Connection ~ 13000 6575
+Wire Wire Line
+	13000 6575 13000 6775
+Wire Wire Line
+	13000 6575 13000 6425
+Wire Wire Line
+	12800 6575 13000 6575
+Wire Wire Line
+	11900 6575 11900 6775
+Connection ~ 11900 6575
+Wire Wire Line
+	11900 6575 12100 6575
+Connection ~ 11900 6425
+Wire Wire Line
+	11900 6425 11900 6575
+Connection ~ 12450 6025
+Wire Wire Line
+	12450 6025 13000 6025
+Wire Wire Line
+	12450 5950 12450 6025
+Wire Wire Line
+	12450 6025 11900 6025
+Wire Wire Line
+	15250 6375 15100 6375
+Wire Wire Line
+	15825 6725 15825 6675
+Wire Wire Line
+	15100 6675 15825 6675
+Text Label 15825 6675 0    50   ~ 0
+EN0
+Wire Wire Line
+	15100 6825 15575 6825
+Connection ~ 15575 7125
+Wire Wire Line
+	15100 7125 15250 7125
+$Comp
+L SteerMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue U12
+U 1 1 5DFB7F6D
+P 14600 6625
+F 0 "U12" H 14600 7462 60  0000 C CNN
+F 1 "SI8274" H 14600 7356 60  0000 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 14600 6625 60  0001 C CNN
+F 3 "" H 14600 6625 60  0000 C CNN
+	1    14600 6625
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 7175 13000 7175
+Connection ~ 12450 7175
+Connection ~ 11900 7175
+Wire Wire Line
+	11900 7175 12450 7175
+$Comp
+L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q6
+U 1 1 5DF933DA
+P 13100 6975
+F 0 "Q6" H 13243 7028 60  0000 L CNN
+F 1 "MOSFET_N" H 13243 6922 60  0000 L CNN
+F 2 "Mizz_lib:HSOF-8-1" H 13100 6975 60  0001 C CNN
+F 3 "" H 13100 6975 60  0000 C CNN
+	1    13100 6975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q5
+U 1 1 5DF92975
+P 13100 6225
+F 0 "Q5" H 13243 6278 60  0000 L CNN
+F 1 "MOSFET_N" H 13243 6172 60  0000 L CNN
+F 2 "Mizz_lib:HSOF-8-1" H 13100 6225 60  0001 C CNN
+F 3 "" H 13100 6225 60  0000 C CNN
+	1    13100 6225
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 6225 11600 6225
+Connection ~ 10925 6375
+Wire Wire Line
+	11625 6425 11900 6425
+Wire Wire Line
+	11625 6375 11625 6425
+Wire Wire Line
+	10925 6375 11625 6375
+$Comp
+L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q1
+U 1 1 5DF47111
+P 11800 6225
+F 0 "Q1" H 11944 6278 60  0000 L CNN
+F 1 "MOSFET_N" H 11944 6172 60  0000 L CNN
+F 2 "Mizz_lib:HSOF-8-1" H 11800 6225 60  0001 C CNN
+F 3 "" H 11800 6225 60  0000 C CNN
+	1    11800 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10925 7125 11600 7125
+Connection ~ 10925 7125
+Wire Wire Line
+	11600 7175 11900 7175
+Wire Wire Line
+	11600 7125 11600 7175
+Wire Wire Line
+	10800 7125 10925 7125
+Wire Wire Line
+	10800 6975 11150 6975
+Connection ~ 10925 6825
+Wire Wire Line
+	10925 6825 10800 6825
+Wire Wire Line
+	10800 6375 10925 6375
+Wire Wire Line
+	11150 6225 10800 6225
+Connection ~ 10925 6075
+Wire Wire Line
+	10925 6075 10800 6075
+Wire Wire Line
+	9325 6825 9800 6825
+Wire Wire Line
+	9075 6675 9800 6675
+Wire Wire Line
+	9075 6725 9075 6675
+Connection ~ 9325 7125
+Wire Wire Line
+	9075 7125 9325 7125
+Wire Wire Line
+	9650 7125 9800 7125
+Wire Wire Line
+	9650 6375 9800 6375
+$Comp
+L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q2
+U 1 1 5DD192A7
+P 11800 6975
+F 0 "Q2" H 11944 7028 60  0000 L CNN
+F 1 "MOSFET_N" H 11944 6922 60  0000 L CNN
+F 2 "Mizz_lib:HSOF-8-1" H 11800 6975 60  0001 C CNN
+F 3 "" H 11800 6975 60  0000 C CNN
+	1    11800 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue U4
+U 1 1 5DD10035
+P 10300 6625
+F 0 "U4" H 10300 7462 60  0000 C CNN
+F 1 "SI8274" H 10300 7356 60  0000 C CNN
+F 2 "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" H 10300 6625 60  0001 C CNN
+F 3 "" H 10300 6625 60  0000 C CNN
+	1    10300 6625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 5475 11200 5475
+Connection ~ 11200 5175
+Wire Wire Line
+	11200 5175 11150 5175
+Wire Wire Line
+	11300 5175 11200 5175
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0125
+U 1 1 5D8DCA9C
+P 11600 5475
+F 0 "#PWR0125" H 11600 5325 50  0001 C CNN
+F 1 "+3.3V" H 11615 5648 50  0000 C CNN
+F 2 "" H 11600 5475 50  0001 C CNN
+F 3 "" H 11600 5475 50  0001 C CNN
+	1    11600 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0124
+U 1 1 5D8DC56D
+P 11500 5475
+F 0 "#PWR0124" H 11500 5225 50  0001 C CNN
+F 1 "GND" H 11505 5302 50  0000 C CNN
+F 2 "" H 11500 5475 50  0001 C CNN
+F 3 "" H 11500 5475 50  0001 C CNN
+	1    11500 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C50
+U 1 1 5D8DBF51
+P 11200 5325
+F 0 "C50" H 11315 5371 50  0000 L CNN
+F 1 "470n" H 11315 5280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11238 5175 50  0001 C CNN
+F 3 "~" H 11200 5325 50  0001 C CNN
+	1    11200 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R60
+U 1 1 5D8DB011
+P 11450 5175
+F 0 "R60" V 11243 5175 50  0000 C CNN
+F 1 "4.7k" V 11334 5175 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11380 5175 50  0001 C CNN
+F 3 "~" H 11450 5175 50  0001 C CNN
+	1    11450 5175
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:+BATT-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0123
+U 1 1 5D8D752B
+P 12650 5175
+F 0 "#PWR0123" H 12650 5025 50  0001 C CNN
+F 1 "+BATT" H 12665 5348 50  0000 C CNN
+F 2 "" H 12650 5175 50  0001 C CNN
+F 3 "" H 12650 5175 50  0001 C CNN
+	1    12650 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0122
+U 1 1 5D8D7117
+P 10575 5375
+F 0 "#PWR0122" H 10575 5125 50  0001 C CNN
+F 1 "GND" H 10580 5202 50  0000 C CNN
+F 2 "" H 10575 5375 50  0001 C CNN
+F 3 "" H 10575 5375 50  0001 C CNN
+	1    10575 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0121
+U 1 1 5D8D6E37
+P 10575 5075
+F 0 "#PWR0121" H 10575 4925 50  0001 C CNN
+F 1 "+3.3V" H 10590 5248 50  0000 C CNN
+F 2 "" H 10575 5075 50  0001 C CNN
+F 3 "" H 10575 5075 50  0001 C CNN
+	1    10575 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0114
+U 1 1 5DBAD195
+P 15300 5775
+F 0 "#PWR0114" H 15300 5525 50  0001 C CNN
+F 1 "GND" H 15305 5602 50  0000 C CNN
+F 2 "" H 15300 5775 50  0001 C CNN
+F 3 "" H 15300 5775 50  0001 C CNN
+	1    15300 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C41
+U 1 1 5DBAD18B
+P 15300 5625
+F 0 "C41" H 15415 5671 50  0000 L CNN
+F 1 "0.1u" H 15415 5580 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15338 5475 50  0001 C CNN
+F 3 "~" H 15300 5625 50  0001 C CNN
+	1    15300 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0113
+U 1 1 5DBAD181
+P 15300 5475
+F 0 "#PWR0113" H 15300 5325 50  0001 C CNN
+F 1 "+3.3V" H 15315 5648 50  0000 C CNN
+F 2 "" H 15300 5475 50  0001 C CNN
+F 3 "" H 15300 5475 50  0001 C CNN
+	1    15300 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0112
+U 1 1 5DB982C3
+P 9675 5700
+F 0 "#PWR0112" H 9675 5450 50  0001 C CNN
+F 1 "GND" H 9680 5527 50  0000 C CNN
+F 2 "" H 9675 5700 50  0001 C CNN
+F 3 "" H 9675 5700 50  0001 C CNN
+	1    9675 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C40
+U 1 1 5DB8720C
+P 9675 5550
+F 0 "C40" H 9790 5596 50  0000 L CNN
+F 1 "0.1u" H 9790 5505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9713 5400 50  0001 C CNN
+F 3 "~" H 9675 5550 50  0001 C CNN
+	1    9675 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0111
+U 1 1 5DB86EF2
+P 9675 5400
+F 0 "#PWR0111" H 9675 5250 50  0001 C CNN
+F 1 "+3.3V" H 9690 5573 50  0000 C CNN
+F 2 "" H 9675 5400 50  0001 C CNN
+F 3 "" H 9675 5400 50  0001 C CNN
+	1    9675 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C36
+U 1 1 5E95492A
+P 10575 5225
+F 0 "C36" H 10690 5271 50  0000 L CNN
+F 1 "0.1u" H 10690 5180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10613 5075 50  0001 C CNN
+F 3 "~" H 10575 5225 50  0001 C CNN
+	1    10575 5225
+	1    0    0    -1  
+$EndComp
+Text Label 11150 5175 2    50   ~ 0
+Current0
+Text Label 12650 5475 0    50   ~ 0
+MOTOR0_BATT
+Text Label 12450 5950 0    50   ~ 0
+MOTOR0_BATT
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR060
+U 1 1 5E14A983
+P 12450 7175
+F 0 "#PWR060" H 12450 6975 50  0001 C CNN
+F 1 "GNDPWR" H 12454 7021 50  0000 C CNN
+F 2 "" H 12450 7125 50  0001 C CNN
+F 3 "" H 12450 7125 50  0001 C CNN
+	1    12450 7175
+	1    0    0    -1  
+$EndComp
+Text Label 12800 6575 2    50   ~ 0
+OUT0_R
+Text Label 12100 6575 0    50   ~ 0
+OUT0_L
+Wire Wire Line
+	13450 6975 13300 6975
+Wire Wire Line
+	13450 6225 13300 6225
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R31
+U 1 1 5E1330A9
+P 13600 6975
+F 0 "R31" V 13393 6975 50  0000 C CNN
+F 1 "FILTER" V 13484 6975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 6975 50  0001 C CNN
+F 3 "~" H 13600 6975 50  0001 C CNN
+	1    13600 6975
+	0    -1   1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R30
+U 1 1 5E1330A3
+P 13600 6225
+F 0 "R30" V 13393 6225 50  0000 C CNN
+F 1 "FILTER" V 13484 6225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13530 6225 50  0001 C CNN
+F 3 "~" H 13600 6225 50  0001 C CNN
+	1    13600 6225
+	0    -1   1    0   
+$EndComp
+Connection ~ 13975 6825
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R29
+U 1 1 5E133089
+P 13425 6825
+F 0 "R29" V 13218 6825 50  0000 C CNN
+F 1 "1" V 13309 6825 50  0000 C CNN
+F 2 "Mizz_lib:1608_WP" V 13355 6825 50  0001 C CNN
+F 3 "~" H 13425 6825 50  0001 C CNN
+	1    13425 6825
+	0    -1   1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D20
+U 1 1 5E133083
+P 13775 6825
+F 0 "D20" H 13775 6633 40  0000 C CNN
+F 1 "DIODE" H 13775 6709 40  0000 C CNN
+F 2 "Mizz_lib:1608_WP" H 13775 6825 60  0001 C CNN
+F 3 "" H 13775 6825 60  0000 C CNN
+	1    13775 6825
+	1    0    0    1   
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C31
+U 1 1 5E13307D
+P 13975 6975
+F 0 "C31" H 14090 7021 50  0000 L CNN
+F 1 "4.7u" H 14090 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 6825 50  0001 C CNN
+F 3 "~" H 13975 6975 50  0001 C CNN
+	1    13975 6975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR064
+U 1 1 5E133077
+P 13275 6825
+F 0 "#PWR064" H 13275 6675 50  0001 C CNN
+F 1 "+12P" H 13290 6998 50  0000 C CNN
+F 2 "" H 13275 6825 50  0001 C CNN
+F 3 "" H 13275 6825 50  0001 C CNN
+	1    13275 6825
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R28
+U 1 1 5E133071
+P 13425 6075
+F 0 "R28" V 13218 6075 50  0000 C CNN
+F 1 "1" V 13309 6075 50  0000 C CNN
+F 2 "Mizz_lib:1608_WP" V 13355 6075 50  0001 C CNN
+F 3 "~" H 13425 6075 50  0001 C CNN
+	1    13425 6075
+	0    -1   1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D19
+U 1 1 5E13306B
+P 13775 6075
+F 0 "D19" H 13775 5883 40  0000 C CNN
+F 1 "DIODE" H 13775 5959 40  0000 C CNN
+F 2 "Mizz_lib:1608_WP" H 13775 6075 60  0001 C CNN
+F 3 "" H 13775 6075 60  0000 C CNN
+	1    13775 6075
+	1    0    0    1   
+$EndComp
+NoConn ~ 14100 6675
+NoConn ~ 14100 6525
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C30
+U 1 1 5E133063
+P 13975 6225
+F 0 "C30" H 14090 6271 50  0000 L CNN
+F 1 "4.7u" H 14090 6180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 14013 6075 50  0001 C CNN
+F 3 "~" H 13975 6225 50  0001 C CNN
+	1    13975 6225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR063
+U 1 1 5E13305D
+P 13275 6075
+F 0 "#PWR063" H 13275 5925 50  0001 C CNN
+F 1 "+12P" H 13290 6248 50  0000 C CNN
+F 2 "" H 13275 6075 50  0001 C CNN
+F 3 "" H 13275 6075 50  0001 C CNN
+	1    13275 6075
+	-1   0    0    -1  
+$EndComp
+Text Label 15100 6075 0    50   ~ 0
+PWM0_R
+Wire Wire Line
+	15825 7125 15825 7025
+Wire Wire Line
+	15575 7125 15825 7125
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR078
+U 1 1 5E13304E
+P 15575 7125
+F 0 "#PWR078" H 15575 6875 50  0001 C CNN
+F 1 "GND" H 15580 6952 50  0000 C CNN
+F 2 "" H 15575 7125 50  0001 C CNN
+F 3 "" H 15575 7125 50  0001 C CNN
+	1    15575 7125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R36
+U 1 1 5E133048
+P 15825 6875
+F 0 "R36" H 15895 6921 50  0000 L CNN
+F 1 "10k" H 15895 6830 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15755 6875 50  0001 C CNN
+F 3 "~" H 15825 6875 50  0001 C CNN
+	1    15825 6875
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R35
+U 1 1 5E133042
+P 15575 6975
+F 0 "R35" H 15645 7021 50  0000 L CNN
+F 1 "100k" H 15645 6930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15505 6975 50  0001 C CNN
+F 3 "~" H 15575 6975 50  0001 C CNN
+	1    15575 6975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR076
+U 1 1 5E13303C
+P 15100 6525
+F 0 "#PWR076" H 15100 6275 50  0001 C CNN
+F 1 "GND" H 15105 6352 50  0000 C CNN
+F 2 "" H 15100 6525 50  0001 C CNN
+F 3 "" H 15100 6525 50  0001 C CNN
+	1    15100 6525
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 15100 6975
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR077
+U 1 1 5E133035
+P 15250 7125
+F 0 "#PWR077" H 15250 6975 50  0001 C CNN
+F 1 "+3.3V" H 15265 7298 50  0000 C CNN
+F 2 "" H 15250 7125 50  0001 C CNN
+F 3 "" H 15250 7125 50  0001 C CNN
+	1    15250 7125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR075
+U 1 1 5E13302F
+P 15250 6375
+F 0 "#PWR075" H 15250 6225 50  0001 C CNN
+F 1 "+3.3V" H 15265 6548 50  0000 C CNN
+F 2 "" H 15250 6375 50  0001 C CNN
+F 3 "" H 15250 6375 50  0001 C CNN
+	1    15250 6375
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 15100 6225
+Wire Wire Line
+	11450 6975 11600 6975
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R18
+U 1 1 5E10E3CA
+P 11300 6975
+F 0 "R18" V 11093 6975 50  0000 C CNN
+F 1 "FILTER" V 11184 6975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 6975 50  0001 C CNN
+F 3 "~" H 11300 6975 50  0001 C CNN
+	1    11300 6975
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R17
+U 1 1 5E10D7BB
+P 11300 6225
+F 0 "R17" V 11093 6225 50  0000 C CNN
+F 1 "FILTER" V 11184 6225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11230 6225 50  0001 C CNN
+F 3 "~" H 11300 6225 50  0001 C CNN
+	1    11300 6225
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R20
+U 1 1 5E10432B
+P 11475 6825
+F 0 "R20" V 11268 6825 50  0000 C CNN
+F 1 "1" V 11359 6825 50  0000 C CNN
+F 2 "Mizz_lib:1608_WP" V 11405 6825 50  0001 C CNN
+F 3 "~" H 11475 6825 50  0001 C CNN
+	1    11475 6825
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D14
+U 1 1 5E104321
+P 11125 6825
+F 0 "D14" H 11125 6633 40  0000 C CNN
+F 1 "DIODE" H 11125 6709 40  0000 C CNN
+F 2 "Mizz_lib:1608_WP" H 11125 6825 60  0001 C CNN
+F 3 "" H 11125 6825 60  0000 C CNN
+	1    11125 6825
+	-1   0    0    1   
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C20
+U 1 1 5E104317
+P 10925 6975
+F 0 "C20" H 11040 7021 50  0000 L CNN
+F 1 "4.7u" H 11040 6930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 6825 50  0001 C CNN
+F 3 "~" H 10925 6975 50  0001 C CNN
+	1    10925 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR053
+U 1 1 5E10430D
+P 11625 6825
+F 0 "#PWR053" H 11625 6675 50  0001 C CNN
+F 1 "+12P" H 11640 6998 50  0000 C CNN
+F 2 "" H 11625 6825 50  0001 C CNN
+F 3 "" H 11625 6825 50  0001 C CNN
+	1    11625 6825
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R19
+U 1 1 5E1036DE
+P 11475 6075
+F 0 "R19" V 11268 6075 50  0000 C CNN
+F 1 "1" V 11359 6075 50  0000 C CNN
+F 2 "Mizz_lib:1608_WP" V 11405 6075 50  0001 C CNN
+F 3 "~" H 11475 6075 50  0001 C CNN
+	1    11475 6075
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:DIODE-device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue D13
+U 1 1 5E1032FE
+P 11125 6075
+F 0 "D13" H 11125 5883 40  0000 C CNN
+F 1 "DIODE" H 11125 5959 40  0000 C CNN
+F 2 "Mizz_lib:1608_WP" H 11125 6075 60  0001 C CNN
+F 3 "" H 11125 6075 60  0000 C CNN
+	1    11125 6075
+	-1   0    0    1   
+$EndComp
+NoConn ~ 10800 6675
+NoConn ~ 10800 6525
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C19
+U 1 1 5E101500
+P 10925 6225
+F 0 "C19" H 11040 6271 50  0000 L CNN
+F 1 "4.7u" H 11040 6180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10963 6075 50  0001 C CNN
+F 3 "~" H 10925 6225 50  0001 C CNN
+	1    10925 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+12P-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR052
+U 1 1 5E100999
+P 11625 6075
+F 0 "#PWR052" H 11625 5925 50  0001 C CNN
+F 1 "+12P" H 11640 6248 50  0000 C CNN
+F 2 "" H 11625 6075 50  0001 C CNN
+F 3 "" H 11625 6075 50  0001 C CNN
+	1    11625 6075
+	1    0    0    -1  
+$EndComp
+Text Label 9075 6675 2    50   ~ 0
+EN0
+Text Label 9800 6075 2    50   ~ 0
+PWM0_L
+Wire Wire Line
+	9075 7125 9075 7025
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR035
+U 1 1 5E0FBEC9
+P 9325 7125
+F 0 "#PWR035" H 9325 6875 50  0001 C CNN
+F 1 "GND" H 9330 6952 50  0000 C CNN
+F 2 "" H 9325 7125 50  0001 C CNN
+F 3 "" H 9325 7125 50  0001 C CNN
+	1    9325 7125
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R10
+U 1 1 5E0FB5FA
+P 9075 6875
+F 0 "R10" H 9145 6921 50  0000 L CNN
+F 1 "10k" H 9145 6830 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9005 6875 50  0001 C CNN
+F 3 "~" H 9075 6875 50  0001 C CNN
+	1    9075 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R11
+U 1 1 5E0FADC0
+P 9325 6975
+F 0 "R11" H 9395 7021 50  0000 L CNN
+F 1 "100k" H 9395 6930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9255 6975 50  0001 C CNN
+F 3 "~" H 9325 6975 50  0001 C CNN
+	1    9325 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR037
+U 1 1 5E0FAC66
+P 9800 6525
+F 0 "#PWR037" H 9800 6275 50  0001 C CNN
+F 1 "GND" H 9805 6352 50  0000 C CNN
+F 2 "" H 9800 6525 50  0001 C CNN
+F 3 "" H 9800 6525 50  0001 C CNN
+	1    9800 6525
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9800 6975
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR038
+U 1 1 5E0F9533
+P 9650 7125
+F 0 "#PWR038" H 9650 6975 50  0001 C CNN
+F 1 "+3.3V" H 9665 7298 50  0000 C CNN
+F 2 "" H 9650 7125 50  0001 C CNN
+F 3 "" H 9650 7125 50  0001 C CNN
+	1    9650 7125
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR036
+U 1 1 5E0F8F49
+P 9650 6375
+F 0 "#PWR036" H 9650 6225 50  0001 C CNN
+F 1 "+3.3V" H 9665 6548 50  0000 C CNN
+F 2 "" H 9650 6375 50  0001 C CNN
+F 3 "" H 9650 6375 50  0001 C CNN
+	1    9650 6375
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9800 6225
+$Comp
+L Miz:AQM1602 U17
+U 1 1 5E070EBE
+P 9150 10475
+F 0 "U17" H 9428 10471 50  0000 L CNN
+F 1 "AQM0802" H 9428 10380 50  0000 L CNN
+F 2 "Mizz_lib:AQM0802_original" H 8950 10625 50  0001 C CNN
+F 3 "" H 8950 10625 50  0001 C CNN
+	1    9150 10475
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C62
+U 1 1 5E073989
+P 8550 10225
+F 0 "C62" V 8298 10225 50  0000 C CNN
+F 1 "1u" V 8389 10225 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8588 10075 50  0001 C CNN
+F 3 "~" H 8550 10225 50  0001 C CNN
+	1    8550 10225
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C63
+U 1 1 5E074045
+P 8550 10325
+F 0 "C63" V 8298 10325 50  0000 C CNN
+F 1 "1u" V 8389 10325 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8588 10175 50  0001 C CNN
+F 3 "~" H 8550 10325 50  0001 C CNN
+	1    8550 10325
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue C61
+U 1 1 5E074150
+P 8500 10625
+F 0 "C61" V 8248 10625 50  0000 C CNN
+F 1 "0.1u" V 8339 10625 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8538 10475 50  0001 C CNN
+F 3 "~" H 8500 10625 50  0001 C CNN
+	1    8500 10625
+	0    1    1    0   
+$EndComp
+$Comp
+L SteerMD-rescue:GND-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0168
+U 1 1 5E074549
+P 8675 10625
+F 0 "#PWR0168" H 8675 10375 50  0001 C CNN
+F 1 "GND" H 8680 10452 50  0000 C CNN
+F 2 "" H 8675 10625 50  0001 C CNN
+F 3 "" H 8675 10625 50  0001 C CNN
+	1    8675 10625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 10625 8675 10625
+Connection ~ 8675 10625
+Wire Wire Line
+	8675 10625 8650 10625
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R74
+U 1 1 5E091EF1
+P 8100 10575
+F 0 "R74" H 8170 10621 50  0000 L CNN
+F 1 "10k" H 8170 10530 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8030 10575 50  0001 C CNN
+F 3 "~" H 8100 10575 50  0001 C CNN
+	1    8100 10575
+	1    0    0    -1  
+$EndComp
+$Comp
+L SteerMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue R73
+U 1 1 5E092B3E
+P 7850 10675
+F 0 "R73" H 7920 10721 50  0000 L CNN
+F 1 "10k" H 7920 10630 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7780 10675 50  0001 C CNN
+F 3 "~" H 7850 10675 50  0001 C CNN
+	1    7850 10675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 10325 8400 10425
+Wire Wire Line
+	8400 10425 8700 10425
+NoConn ~ 8700 10125
+$Comp
+L power:+3.3V #PWR0170
+U 1 1 5E0D007E
+P 7850 10225
+F 0 "#PWR0170" H 7850 10075 50  0001 C CNN
+F 1 "+3.3V" H 7865 10398 50  0000 C CNN
+F 2 "" H 7850 10225 50  0001 C CNN
+F 3 "" H 7850 10225 50  0001 C CNN
+	1    7850 10225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 10225 7850 10525
+Wire Wire Line
+	7850 10225 8100 10225
+Connection ~ 7850 10225
+Wire Wire Line
+	8100 10225 8100 10425
+Connection ~ 8100 10225
+Wire Wire Line
+	8100 10225 8225 10225
+Wire Wire Line
+	8100 10725 8700 10725
+Wire Wire Line
+	8700 10525 8350 10525
+Wire Wire Line
+	8350 10525 8350 10625
+Wire Wire Line
+	8350 10525 8350 10225
+Connection ~ 8350 10525
+Connection ~ 8350 10225
+Wire Wire Line
+	8350 10225 8400 10225
+Wire Wire Line
+	7850 10825 8700 10825
+Wire Wire Line
+	8700 10925 8225 10925
+Wire Wire Line
+	8225 10925 8225 10225
+Connection ~ 8225 10225
+Wire Wire Line
+	8225 10225 8350 10225
 $EndSCHEMATC
