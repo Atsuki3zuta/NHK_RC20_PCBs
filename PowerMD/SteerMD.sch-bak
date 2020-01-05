@@ -5171,21 +5171,21 @@ F 3 "" H 6125 10375 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:Jumper_3_Open JP?
+L Jumper:Jumper_3_Open JP3
 U 1 1 5E1AA38D
 P 5850 10875
-F 0 "JP?" H 5850 11099 50  0000 C CNN
+F 0 "JP3" H 5850 11099 50  0000 C CNN
 F 1 "I/O_Vdd" H 5850 11008 50  0000 C CNN
-F 2 "" H 5850 10875 50  0001 C CNN
+F 2 "Mizz_lib:SW_Micro_SPST" H 5850 10875 50  0001 C CNN
 F 3 "~" H 5850 10875 50  0001 C CNN
 	1    5850 10875
 	1    0    0    -1  
 $EndComp
 $Comp
-L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR?
+L SteerMD-rescue:+3.3V-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR0156
 U 1 1 5E1AC741
 P 5600 10875
-F 0 "#PWR?" H 5600 10725 50  0001 C CNN
+F 0 "#PWR0156" H 5600 10725 50  0001 C CNN
 F 1 "+3.3V" H 5615 11048 50  0000 C CNN
 F 2 "" H 5600 10875 50  0001 C CNN
 F 3 "" H 5600 10875 50  0001 C CNN
