@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\3Zuta\OneDrive\デスクトップ\NHK_RC20_PCB\PowerMD\SteerMD.sch)
-    (date "2020/01/07 23:54:30")
+    (date "2020/01/08 11:04:32")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -91,7 +91,7 @@
       (tstamp 5E0EBF6D))
     (comp (ref C12)
       (value 4.7u)
-      (footprint Capacitor_SMD:C_0603_1608Metric)
+      (footprint Mizz_lib:1608_WP)
       (datasheet ~)
       (libsource (lib SteerMD-rescue) (part C-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))

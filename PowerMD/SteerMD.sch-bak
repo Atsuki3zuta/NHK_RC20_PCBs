@@ -2326,9 +2326,9 @@ F 3 "" H 4200 10425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6450 9400
-Text Label 2500 5850 2    50   ~ 0
-PWM0_R
 Text Label 2500 5950 2    50   ~ 0
+PWM0_R
+Text Label 2500 5850 2    50   ~ 0
 PWM0_L
 $Comp
 L Device:Thermistor TH1
