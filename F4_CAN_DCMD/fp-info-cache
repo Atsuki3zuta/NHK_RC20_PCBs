@@ -1,4 +1,4 @@
-16654456501082463
+16679697077530841
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49651,6 +49651,13 @@ AXICOM IM-Series Relay SPDT
 8
 8
 Mizz_lib
+1608_WP
+<b>CAPACITOR</b>
+
+0
+2
+2
+Mizz_lib
 A.Mizuta_logo_8x4.9
 
 
@@ -49721,6 +49728,13 @@ AQM0802_LED
 11
 11
 Mizz_lib
+AQM0802_original
+
+
+0
+9
+9
+Mizz_lib
 AQM1602
 
 
@@ -49757,6 +49771,62 @@ Amethyst_logo5x5.5_silk
 0
 Mizz_lib
 Amethyst_logo10x11_silk
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_30x7
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_40x9.4
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_50x12
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalsuud_silk_40x9.4
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20.3x15.2
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20.3x15.2_onlyStar
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20x20
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_30x30
 
 
 0
@@ -49854,6 +49924,20 @@ capacitor 0805
 2
 2
 Mizz_lib
+C_Radial_D13.0mm_H25.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Mizz_lib
+C_Radial_D13mm_H25.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Mizz_lib
 Cosmos_logo_10.0x8.4_silk
 
 
@@ -49916,6 +50000,13 @@ dfn
 0
 10
 8
+Mizz_lib
+DFPlayer
+
+
+0
+16
+16
 Mizz_lib
 DIP-8_W7.62mm
 8-lead dip package, row spacing 7.62 mm (300 mils)
@@ -50813,6 +50904,13 @@ USB USB_A
 6
 5
 Mizz_lib
+USB_A_Vertical
+USB A vertical female connector, right angle
+USB_A_Vertical female connector angled 73725-0110BLF
+0
+8
+5
+Mizz_lib
 USB_A_noSilk
 USB A connector
 USB USB_A
@@ -50876,6 +50974,13 @@ VYB20W-Q24-S5
 6
 6
 Mizz_lib
+V_BattMeter
+
+
+0
+2
+2
+Mizz_lib
 WSHP2818
 2818
 Resistor
@@ -50936,7 +51041,7 @@ XA_4L
 
 
 0
-4
+5
 4
 Mizz_lib
 XA_4LC
@@ -67989,6 +68094,13 @@ Alps rotary encoder, EC12E..., vertical shaft, mounting holes with circular dril
 rotary encoder
 0
 5
+4
+SamacSys_Parts
+2MS1T1B4M7QES
+2MS1T1B4M7QES-3
+Switch
+0
+4
 4
 SamacSys_Parts
 3522-2
