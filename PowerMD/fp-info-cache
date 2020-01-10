@@ -1,4 +1,4 @@
-16674959609225277
+16679697077530841
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49924,6 +49924,20 @@ capacitor 0805
 2
 2
 Mizz_lib
+C_Radial_D13.0mm_H25.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Mizz_lib
+C_Radial_D13mm_H25.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Mizz_lib
 Cosmos_logo_10.0x8.4_silk
 
 
@@ -68080,6 +68094,13 @@ Alps rotary encoder, EC12E..., vertical shaft, mounting holes with circular dril
 rotary encoder
 0
 5
+4
+SamacSys_Parts
+2MS1T1B4M7QES
+2MS1T1B4M7QES-3
+Switch
+0
+4
 4
 SamacSys_Parts
 3522-2
