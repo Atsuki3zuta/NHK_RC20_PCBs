@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Jetson_Nano_Power-rescue)(type Legacy)(uri ${KIPRJMOD}/Jetson_Nano_Power-rescue.lib)(options "")(descr ""))
+)
