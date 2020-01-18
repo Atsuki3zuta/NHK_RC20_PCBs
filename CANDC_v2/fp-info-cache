@@ -1,4 +1,4 @@
-16662339378332571
+16687596368753313
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49651,6 +49651,13 @@ AXICOM IM-Series Relay SPDT
 8
 8
 Mizz_lib
+1608_WP
+<b>CAPACITOR</b>
+
+0
+2
+2
+Mizz_lib
 A.Mizuta_logo_8x4.9
 
 
@@ -49721,6 +49728,13 @@ AQM0802_LED
 11
 11
 Mizz_lib
+AQM0802_original
+
+
+0
+9
+9
+Mizz_lib
 AQM1602
 
 
@@ -49785,6 +49799,34 @@ Aqualius_Sadalmeric_silk_50x12
 0
 Mizz_lib
 Aqualius_Sadalsuud_silk_40x9.4
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20.3x15.2
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20.3x15.2_onlyStar
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20x20
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_30x30
 
 
 0
@@ -49882,6 +49924,20 @@ capacitor 0805
 2
 2
 Mizz_lib
+C_Radial_D13.0mm_H25.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Mizz_lib
+C_Radial_D13mm_H25.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Mizz_lib
 Cosmos_logo_10.0x8.4_silk
 
 
@@ -49945,6 +50001,13 @@ dfn
 10
 8
 Mizz_lib
+DFPlayer
+
+
+0
+16
+16
+Mizz_lib
 DIP-8_W7.62mm
 8-lead dip package, row spacing 7.62 mm (300 mils)
 dil dip 2.54 300
@@ -49993,6 +50056,34 @@ Pontet Goute de soudure
 0
 2
 2
+Mizz_lib
+Goukazal_10.0x7.5_S.Itoh_silk
+
+
+0
+0
+0
+Mizz_lib
+Goukazal_15.0x11.3_S.Itoh_silk
+
+
+0
+0
+0
+Mizz_lib
+Goukazal_25.0x18.8_S.Itoh_silk
+
+
+0
+0
+0
+Mizz_lib
+Goukazal_30x22.6_S.Itoh_silk
+
+
+0
+0
+0
 Mizz_lib
 HSOF-8-1
 
@@ -50757,6 +50848,13 @@ SPST Button Switch
 4
 2
 Mizz_lib
+Sagittarius_Alnasl_silk_40.0x11.4
+
+
+0
+0
+0
+Mizz_lib
 Si8900
 16-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
 SOIC 1.27
@@ -50910,6 +51008,13 @@ VYB20W-Q24-S5
 0
 6
 6
+Mizz_lib
+V_BattMeter
+
+
+0
+2
+2
 Mizz_lib
 WSHP2818
 2818
@@ -68024,6 +68129,13 @@ Alps rotary encoder, EC12E..., vertical shaft, mounting holes with circular dril
 rotary encoder
 0
 5
+4
+SamacSys_Parts
+2MS1T1B4M7QES
+2MS1T1B4M7QES-3
+Switch
+0
+4
 4
 SamacSys_Parts
 3522-2
