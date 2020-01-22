@@ -1,4 +1,4 @@
-16687596368753313
+16690755563324262
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49749,6 +49749,13 @@ AQM1602_BL_Fad
 11
 11
 Mizz_lib
+ARM_mbed_50x27.5_silk
+
+
+0
+0
+0
+Mizz_lib
 AZ1086H
 
 
@@ -50819,6 +50826,13 @@ STM32F4-Child_Turtle
 0
 66
 66
+Mizz_lib
+STmicro_logo_silk_20x13
+
+
+0
+0
+0
 Mizz_lib
 SW_28x11mm
 

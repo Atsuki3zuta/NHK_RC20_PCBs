@@ -1,4 +1,4 @@
-update=2019/06/29 13:21:09
+update=2020/01/20 11:08:14
 version=1
 last_client=kicad
 [general]
@@ -249,7 +249,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=C:/Users/81906/Documents/Datasheets/回路図/
+PlotDirectoryName=C:/Users/3Zuta/OneDrive/デスクトップ/NHK_RC20_PCB/stm32f4_Centaurus_ver.2.0/stm32f4_Centaurus_ver.2.0/回路図/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
