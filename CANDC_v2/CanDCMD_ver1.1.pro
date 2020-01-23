@@ -1,4 +1,4 @@
-update=2019/11/07 5:52:50
+update=2020/01/23 10:36:18
 version=1
 last_client=kicad
 [cvpcb]
@@ -247,7 +247,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=C:/Users/3Zuta/OneDrive/デスクトップ/NHK_RC20_PCB/CANDC_v2/回路図/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
