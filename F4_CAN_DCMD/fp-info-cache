@@ -1,4 +1,4 @@
-16679697077530841
+16693915080889826
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49749,6 +49749,13 @@ AQM1602_BL_Fad
 11
 11
 Mizz_lib
+ARM_mbed_50x27.5_silk
+
+
+0
+0
+0
+Mizz_lib
 AZ1086H
 
 
@@ -50056,6 +50063,34 @@ Pontet Goute de soudure
 0
 2
 2
+Mizz_lib
+Goukazal_10.0x7.5_S.Itoh_silk
+
+
+0
+0
+0
+Mizz_lib
+Goukazal_15.0x11.3_S.Itoh_silk
+
+
+0
+0
+0
+Mizz_lib
+Goukazal_25.0x18.8_S.Itoh_silk
+
+
+0
+0
+0
+Mizz_lib
+Goukazal_30x22.6_S.Itoh_silk
+
+
+0
+0
+0
 Mizz_lib
 HSOF-8-1
 
@@ -50666,6 +50701,13 @@ resistor 0805
 2
 2
 Mizz_lib
+R_2010_5025Metric
+Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Mizz_lib
 R_2812
 Resistor SMD 2812, reflow soldering, Vishay (see WSL-VISHAY.PDF)
 resistor 2812
@@ -50792,6 +50834,13 @@ STM32F4-Child_Turtle
 66
 66
 Mizz_lib
+STmicro_logo_silk_20x13
+
+
+0
+0
+0
+Mizz_lib
 SW_28x11mm
 
 
@@ -50819,6 +50868,13 @@ SPST Button Switch
 0
 4
 2
+Mizz_lib
+Sagittarius_Alnasl_silk_40.0x11.4
+
+
+0
+0
+0
 Mizz_lib
 Si8900
 16-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
@@ -50966,6 +51022,13 @@ V23134J1052D642
 0
 4
 4
+Mizz_lib
+VR
+
+
+0
+3
+3
 Mizz_lib
 VYB20W-Q24-S5
 
