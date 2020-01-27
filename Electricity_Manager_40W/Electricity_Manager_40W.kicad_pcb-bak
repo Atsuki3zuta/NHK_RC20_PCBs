@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.3)
     (user_trace_width 0.5)
     (user_trace_width 0.8)
@@ -10611,7 +10611,7 @@
   (gr_text Specification: (at 82.25 130.25) (layer B.SilkS) (tstamp 5CB985F5)
     (effects (font (size 1 1) (thickness 0.25) italic) (justify mirror))
   )
-  (gr_text "Electrocity Manager_40W" (at 69.25 144.25) (layer F.SilkS)
+  (gr_text "Electricity Manager_40W" (at 69.25 144.25) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.375)) (justify left))
   )
   (gr_text "Designed by A.Mizuta in 2019/11/18." (at 106 173.75) (layer B.SilkS)
