@@ -635,8 +635,6 @@ F 3 "" H 14775 2975 60  0000 C CNN
 $EndComp
 Text Label 15275 2825 0    50   ~ 0
 Voltage
-Text Label 15275 2925 0    50   ~ 0
-CounterVoltage0
 Text Label 15275 3225 0    50   ~ 0
 ADC_~RST
 Wire Wire Line
@@ -2012,8 +2010,6 @@ F 3 "~" H 4525 13125 50  0001 C CNN
 	1    4525 13125
 	1    0    0    -1  
 $EndComp
-Text Label 15275 3025 0    50   ~ 0
-CounterVoltage1
 $Comp
 L NormalMD-rescue:CONN_01X04-conn-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue P13
 U 1 1 5DD2B244
@@ -5385,4 +5381,40 @@ Wire Wire Line
 Wire Wire Line
 	19100 10925 19100 10775
 Connection ~ 19100 10925
+Text Label 15275 2925 0    50   ~ 0
+Current1
+Text Label 15275 3025 0    50   ~ 0
+Current0
+$Comp
+L NormalMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue #PWR?
+U 1 1 5E311330
+P 17725 7225
+F 0 "#PWR?" H 17725 7025 50  0001 C CNN
+F 1 "GNDPWR" H 17729 7071 50  0000 C CNN
+F 2 "" H 17725 7175 50  0001 C CNN
+F 3 "" H 17725 7175 50  0001 C CNN
+	1    17725 7225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17725 7225 18200 7225
+Wire Wire Line
+	18200 7075 18200 7225
+Connection ~ 18200 7225
+$Comp
+L NormalMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue #PWR?
+U 1 1 5E35D819
+P 17725 10925
+F 0 "#PWR?" H 17725 10725 50  0001 C CNN
+F 1 "GNDPWR" H 17729 10771 50  0000 C CNN
+F 2 "" H 17725 10875 50  0001 C CNN
+F 3 "" H 17725 10875 50  0001 C CNN
+	1    17725 10925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17725 10925 18200 10925
+Wire Wire Line
+	18200 10775 18200 10925
+Connection ~ 18200 10925
 $EndSCHEMATC
