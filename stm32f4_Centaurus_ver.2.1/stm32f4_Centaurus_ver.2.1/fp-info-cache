@@ -1,4 +1,4 @@
-16597777464916055
+16693944198076864
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49630,6 +49630,13 @@ Mizz_lib
 5
 3
 Mizz_lib
+7-1393302-7
+
+
+0
+4
+4
+Mizz_lib
 14_LD_LGAQFN
 
 
@@ -49643,6 +49650,13 @@ AXICOM IM-Series Relay SPDT
 0
 8
 8
+Mizz_lib
+1608_WP
+<b>CAPACITOR</b>
+
+0
+2
+2
 Mizz_lib
 A.Mizuta_logo_8x4.9
 
@@ -49679,12 +49693,26 @@ ACS781
 7
 5
 Mizz_lib
+ACS785xCB
+
+
+0
+5
+5
+Mizz_lib
 ALLEGRO_ACS70331EESATR-005U3
 
 
 0
 12
 12
+Mizz_lib
+AQM0802
+
+
+0
+9
+9
 Mizz_lib
 AQM0802_BackLight
 
@@ -49700,6 +49728,13 @@ AQM0802_LED
 11
 11
 Mizz_lib
+AQM0802_original
+
+
+0
+9
+9
+Mizz_lib
 AQM1602
 
 
@@ -49714,12 +49749,26 @@ AQM1602_BL_Fad
 11
 11
 Mizz_lib
+ARM_mbed_50x27.5_silk
+
+
+0
+0
+0
+Mizz_lib
 AZ1086H
 
 
 0
 4
 3
+Mizz_lib
+AloeSetMeal_Mask_50x5.8
+
+
+0
+0
+0
 Mizz_lib
 Amethyst_logo5x5.5_silk
 
@@ -49729,6 +49778,62 @@ Amethyst_logo5x5.5_silk
 0
 Mizz_lib
 Amethyst_logo10x11_silk
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_30x7
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_40x9.4
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalmeric_silk_50x12
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_Sadalsuud_silk_40x9.4
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20.3x15.2
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20.3x15.2_onlyStar
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_20x20
+
+
+0
+0
+0
+Mizz_lib
+Aqualius_silk_30x30
 
 
 0
@@ -49769,6 +49874,20 @@ Beer_Hall
 0
 1
 0
+Mizz_lib
+BladeFuseHolderFused
+
+
+0
+4
+2
+Mizz_lib
+CAPAE1300X1400N
+EMVH500ARA101MKE0S
+Capacitor
+0
+2
+2
 Mizz_lib
 CCG30-24-xxS
 
@@ -49812,6 +49931,20 @@ capacitor 0805
 2
 2
 Mizz_lib
+C_Radial_D13.0mm_H25.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Mizz_lib
+C_Radial_D13mm_H25.0mm_P5.00mm
+C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor
+C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor
+0
+2
+2
+Mizz_lib
 Cosmos_logo_10.0x8.4_silk
 
 
@@ -49828,6 +49961,13 @@ crystal oscillator quartz SMD SMT 5032
 Mizz_lib
 D2-PAK_123
 SOT404
+
+0
+3
+3
+Mizz_lib
+D2-PAK_compact
+D2Pak_compact
 
 0
 3
@@ -49867,6 +50007,13 @@ dfn
 0
 10
 8
+Mizz_lib
+DFPlayer
+
+
+0
+16
+16
 Mizz_lib
 DIP-8_W7.62mm
 8-lead dip package, row spacing 7.62 mm (300 mils)
@@ -49916,6 +50063,41 @@ Pontet Goute de soudure
 0
 2
 2
+Mizz_lib
+Goukazal_10.0x7.5_S.Itoh_silk
+
+
+0
+0
+0
+Mizz_lib
+Goukazal_15.0x11.3_S.Itoh_silk
+
+
+0
+0
+0
+Mizz_lib
+Goukazal_25.0x18.8_S.Itoh_silk
+
+
+0
+0
+0
+Mizz_lib
+Goukazal_30x22.6_S.Itoh_silk
+
+
+0
+0
+0
+Mizz_lib
+HSOF-8-1
+
+
+0
+3
+3
 Mizz_lib
 Hikozaru_15x15_silk
 
@@ -50071,6 +50253,13 @@ inductor taiyo-yuden nr smd
 2
 2
 Mizz_lib
+Libra_15x15_silk
+
+
+0
+0
+0
+Mizz_lib
 MCW103
 
 
@@ -50078,12 +50267,26 @@ MCW103
 7
 7
 Mizz_lib
+MGFS402412
+
+
+0
+6
+6
+Mizz_lib
 MGS30
 
 
 0
 6
 6
+Mizz_lib
+Mega_Fusigibana_15x9_silk
+
+
+0
+0
+0
 Mizz_lib
 Mini_Monster
 
@@ -50182,6 +50385,13 @@ NVGB1306L
 0
 14
 6
+Mizz_lib
+NVMFD5C446NLWFT1G
+DFN8 5x6 (SO8FL) CASE 506BT
+MOSFET (N-Channel)
+0
+14
+14
 Mizz_lib
 NVMFS6H836N
 
@@ -50435,6 +50645,13 @@ R1370P
 18
 18
 Mizz_lib
+RESC7146X175N
+2818
+Resistor
+0
+2
+2
+Mizz_lib
 RPA60-24xxSFW
 
 
@@ -50450,6 +50667,13 @@ RP_KIT_LOGO_10x10_silk
 0
 Mizz_lib
 RP_KIT_Logo_15.0x15.0
+
+
+0
+0
+0
+Mizz_lib
+RP_KIT_Logo_mask_15.0x15.0
 
 
 0
@@ -50473,6 +50697,13 @@ Mizz_lib
 R_0805
 Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0805
+0
+2
+2
+Mizz_lib
+R_2010_5025Metric
+Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
 0
 2
 2
@@ -50603,6 +50834,13 @@ STM32F4-Child_Turtle
 66
 66
 Mizz_lib
+STmicro_logo_silk_20x13
+
+
+0
+0
+0
+Mizz_lib
 SW_28x11mm
 
 
@@ -50630,6 +50868,13 @@ SPST Button Switch
 0
 4
 2
+Mizz_lib
+Sagittarius_Alnasl_silk_40.0x11.4
+
+
+0
+0
+0
 Mizz_lib
 Si8900
 16-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
@@ -50715,6 +50960,13 @@ USB USB_A
 6
 5
 Mizz_lib
+USB_A_Vertical
+USB A vertical female connector, right angle
+USB_A_Vertical female connector angled 73725-0110BLF
+0
+8
+5
+Mizz_lib
 USB_A_noSilk
 USB A connector
 USB USB_A
@@ -50757,12 +51009,26 @@ V23076-A3001-D142
 6
 4
 Mizz_lib
+V23086-C1001-A403
+
+
+0
+5
+5
+Mizz_lib
 V23134J1052D642
 
 
 0
 4
 4
+Mizz_lib
+VR
+
+
+0
+3
+3
 Mizz_lib
 VYB20W-Q24-S5
 
@@ -50771,9 +51037,23 @@ VYB20W-Q24-S5
 6
 6
 Mizz_lib
+V_BattMeter
+
+
+0
+2
+2
+Mizz_lib
 WSHP2818
 2818
 Resistor
+0
+2
+2
+Mizz_lib
+XA_2L
+
+
 0
 2
 2
@@ -50799,6 +51079,34 @@ XA_2T
 2
 2
 Mizz_lib
+XA_3L
+
+
+0
+4
+3
+Mizz_lib
+XA_3LC
+
+
+0
+4
+3
+Mizz_lib
+XA_3T
+
+
+0
+3
+3
+Mizz_lib
+XA_4L
+
+
+0
+5
+4
+Mizz_lib
 XA_4LC
 
 
@@ -50813,12 +51121,82 @@ XA_4P
 4
 4
 Mizz_lib
+XA_4PR
+
+
+0
+0
+0
+Mizz_lib
 XA_4T
 
 
 0
 4
 4
+Mizz_lib
+XA_5L
+
+
+0
+5
+5
+Mizz_lib
+XA_5LC
+
+
+0
+6
+5
+Mizz_lib
+XA_5T
+
+
+0
+5
+5
+Mizz_lib
+XA_6L
+
+
+0
+6
+6
+Mizz_lib
+XA_6LC
+
+
+0
+7
+6
+Mizz_lib
+XA_6T
+
+
+0
+6
+6
+Mizz_lib
+XH_3L
+Gold-Tek horizontal wafer connector with 2.5mm pitch
+wafer connector horizontal
+0
+3
+3
+Mizz_lib
+XH_7
+Gold-Tek horizontal wafer connector with 2.5mm pitch
+wafer connector horizontal
+0
+7
+7
+Mizz_lib
+XT30_F
+
+
+0
+2
+2
 Mizz_lib
 XT60_F
 
@@ -50834,7 +51212,21 @@ XT60_M
 2
 2
 Mizz_lib
+XT60_T
+
+
+0
+2
+2
+Mizz_lib
 XT90PB
+
+
+0
+2
+2
+Mizz_lib
+ZH_2T
 
 
 0
@@ -50917,6 +51309,20 @@ relay_HSINDA_Y14H
 0
 6
 5
+Mizz_lib
+rotary_0F
+
+
+0
+6
+6
+Mizz_lib
+volmeter01
+
+
+0
+3
+1
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -67753,6 +68159,20 @@ rotary encoder
 5
 4
 SamacSys_Parts
+2MS1T1B4M7QES
+2MS1T1B4M7QES-3
+Switch
+0
+4
+4
+SamacSys_Parts
+3522-2
+3522-2
+Connector
+0
+4
+4
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -67773,6 +68193,13 @@ Resistor
 0
 2
 2
+SamacSys_Parts
+V23086C1001A403EVBLBOX
+V23086C1001A403-EV-BLBOX
+Relay or Contactor
+0
+5
+5
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
