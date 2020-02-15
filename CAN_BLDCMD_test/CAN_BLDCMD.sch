@@ -4220,4 +4220,103 @@ Text Label 5675 10950 2    50   ~ 0
 LED0
 Text Label 6000 10950 2    50   ~ 0
 LED1
+Text Label 2225 5775 2    50   ~ 0
+Drive_U_Temp
+Text Label 2225 5875 2    50   ~ 0
+Drive_V_Temp
+Text Label 2225 5975 2    50   ~ 0
+Drive_W_Temp
+Text Label 2225 6075 2    50   ~ 0
+Subscribe_Temp
+Text Label 7750 6450 2    50   ~ 0
+USARTx_TX
+Text Label 7750 6550 2    50   ~ 0
+USARTx_RX
+Text Label 6525 10800 0    50   ~ 0
+ADRESS_0
+Text Label 6525 10900 0    50   ~ 0
+ADRESS_1
+Text Label 6525 11000 0    50   ~ 0
+ADRESS_2
+Text Label 6525 11100 0    50   ~ 0
+ADRESS_3
+Text Label 7675 7000 0    50   ~ 0
+ADRESS_0
+Text Label 7675 7100 0    50   ~ 0
+ADRESS_1
+Text Label 7675 7200 0    50   ~ 0
+ADRESS_2
+Text Label 7675 7300 0    50   ~ 0
+ADRESS_3
+Text Label 7275 7575 2    50   ~ 0
+LED0
+Text Label 7600 7575 2    50   ~ 0
+LED1
+Text Label 7800 7825 2    50   ~ 0
+TIMx_CH2
+Text Label 7550 7925 2    50   ~ 0
+TIMx_CH1
+Text Label 8150 5400 2    50   ~ 0
+CAN1_TX
+Text Label 8150 5500 2    50   ~ 0
+CAN1_RX
+Text Label 6800 8100 2    50   ~ 0
+IO1_Pin
+Text Label 6775 7950 2    50   ~ 0
+IO0_Pin
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E5C0239
+P 5225 11600
+F 0 "SW?" V 5271 11552 50  0000 R CNN
+F 1 "SW1" V 5180 11552 50  0000 R CNN
+F 2 "" H 5225 11800 50  0001 C CNN
+F 3 "~" H 5225 11800 50  0001 C CNN
+	1    5225 11600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E5C2292
+P 5225 11200
+F 0 "R?" H 5295 11246 50  0000 L CNN
+F 1 "10k" H 5295 11155 50  0000 L CNN
+F 2 "" V 5155 11200 50  0001 C CNN
+F 3 "~" H 5225 11200 50  0001 C CNN
+	1    5225 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5E5C2E44
+P 4875 11600
+F 0 "SW?" V 4921 11552 50  0000 R CNN
+F 1 "SW0" V 4830 11552 50  0000 R CNN
+F 2 "" H 4875 11800 50  0001 C CNN
+F 3 "~" H 4875 11800 50  0001 C CNN
+	1    4875 11600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E5C2E4E
+P 4875 11200
+F 0 "R?" H 4945 11246 50  0000 L CNN
+F 1 "10k" H 4945 11155 50  0000 L CNN
+F 2 "" V 4805 11200 50  0001 C CNN
+F 3 "~" H 4875 11200 50  0001 C CNN
+	1    4875 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP291 U?
+U 1 1 5E5E2AA5
+P 6650 11850
+F 0 "U?" H 6650 12175 50  0000 C CNN
+F 1 "TLP291" H 6650 12084 50  0000 C CNN
+F 2 "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm" H 6450 11650 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291" H 6650 11850 50  0001 L CNN
+	1    6650 11850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-16690755563324262
+16693982251593207
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50701,6 +50701,13 @@ resistor 0805
 2
 2
 Mizz_lib
+R_2010_5025Metric
+Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Mizz_lib
 R_2812
 Resistor SMD 2812, reflow soldering, Vishay (see WSL-VISHAY.PDF)
 resistor 2812
@@ -51015,6 +51022,13 @@ V23134J1052D642
 0
 4
 4
+Mizz_lib
+VR
+
+
+0
+3
+3
 Mizz_lib
 VYB20W-Q24-S5
 
