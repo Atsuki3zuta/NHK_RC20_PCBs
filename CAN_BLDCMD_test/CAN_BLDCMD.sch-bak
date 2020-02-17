@@ -381,23 +381,23 @@ Connection ~ 4725 7975
 $Comp
 L Device:R R?
 U 1 1 5E45521E
-P 7100 5825
-F 0 "R?" H 7170 5871 50  0000 L CNN
-F 1 "10k" H 7170 5780 50  0000 L CNN
-F 2 "" V 7030 5825 50  0001 C CNN
-F 3 "~" H 7100 5825 50  0001 C CNN
-	1    7100 5825
+P 7300 5825
+F 0 "R?" H 7370 5871 50  0000 L CNN
+F 1 "10k" H 7370 5780 50  0000 L CNN
+F 2 "" V 7230 5825 50  0001 C CNN
+F 3 "~" H 7300 5825 50  0001 C CNN
+	1    7300 5825
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E45592F
-P 7100 5675
-F 0 "#PWR?" H 7100 5525 50  0001 C CNN
-F 1 "+3.3V" H 7115 5848 50  0000 C CNN
-F 2 "" H 7100 5675 50  0001 C CNN
-F 3 "" H 7100 5675 50  0001 C CNN
-	1    7100 5675
+P 7300 5675
+F 0 "#PWR?" H 7300 5525 50  0001 C CNN
+F 1 "+3.3V" H 7315 5848 50  0000 C CNN
+F 2 "" H 7300 5675 50  0001 C CNN
+F 3 "" H 7300 5675 50  0001 C CNN
+	1    7300 5675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4220,18 +4220,6 @@ Text Label 5675 10950 2    50   ~ 0
 LED0
 Text Label 6000 10950 2    50   ~ 0
 LED1
-Text Label 2225 5775 2    50   ~ 0
-Drive_U_Temp
-Text Label 2225 5875 2    50   ~ 0
-Drive_V_Temp
-Text Label 2225 5975 2    50   ~ 0
-Drive_W_Temp
-Text Label 2225 6075 2    50   ~ 0
-Subscribe_Temp
-Text Label 7750 6450 2    50   ~ 0
-USARTx_TX
-Text Label 7750 6550 2    50   ~ 0
-USARTx_RX
 Text Label 6525 10800 0    50   ~ 0
 ADRESS_0
 Text Label 6525 10900 0    50   ~ 0
@@ -4240,30 +4228,10 @@ Text Label 6525 11000 0    50   ~ 0
 ADRESS_2
 Text Label 6525 11100 0    50   ~ 0
 ADRESS_3
-Text Label 7675 7000 0    50   ~ 0
-ADRESS_0
-Text Label 7675 7100 0    50   ~ 0
-ADRESS_1
-Text Label 7675 7200 0    50   ~ 0
-ADRESS_2
-Text Label 7675 7300 0    50   ~ 0
-ADRESS_3
-Text Label 7275 7575 2    50   ~ 0
-LED0
-Text Label 7600 7575 2    50   ~ 0
-LED1
-Text Label 7800 7825 2    50   ~ 0
-TIMx_CH2
-Text Label 7550 7925 2    50   ~ 0
-TIMx_CH1
-Text Label 8150 5400 2    50   ~ 0
+Text Label 6625 6575 0    50   ~ 0
 CAN1_TX
-Text Label 8150 5500 2    50   ~ 0
+Text Label 6625 6675 0    50   ~ 0
 CAN1_RX
-Text Label 6800 8100 2    50   ~ 0
-IO1_Pin
-Text Label 6775 7950 2    50   ~ 0
-IO0_Pin
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5E5C0239
@@ -4308,4 +4276,139 @@ F 3 "~" H 4875 11200 50  0001 C CNN
 	1    4875 11200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Isolator:TLP291 U?
+U 1 1 5E5E2AA5
+P 6650 11850
+F 0 "U?" H 6650 12175 50  0000 C CNN
+F 1 "TLP291" H 6650 12084 50  0000 C CNN
+F 2 "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm" H 6450 11650 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291" H 6650 11850 50  0001 L CNN
+	1    6650 11850
+	1    0    0    -1  
+$EndComp
+Text Label 6625 4275 0    50   ~ 0
+USARTx_TX
+Text Label 6625 4375 0    50   ~ 0
+USARTx_RX
+Text Label 6625 4475 0    50   ~ 0
+Drive_U_Temp
+Text Label 6625 4575 0    50   ~ 0
+Drive_V_Temp
+Text Label 6625 4675 0    50   ~ 0
+Drive_W_Temp
+Text Label 6625 4775 0    50   ~ 0
+Subscribe_Temp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5E505829
+P 8950 9675
+F 0 "J?" H 9030 9667 50  0000 L CNN
+F 1 "SERIAL" H 9030 9576 50  0000 L CNN
+F 2 "" H 8950 9675 50  0001 C CNN
+F 3 "~" H 8950 9675 50  0001 C CNN
+	1    8950 9675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E507C46
+P 8750 9575
+F 0 "#PWR?" H 8750 9325 50  0001 C CNN
+F 1 "GND" H 8755 9402 50  0000 C CNN
+F 2 "" H 8750 9575 50  0001 C CNN
+F 3 "" H 8750 9575 50  0001 C CNN
+	1    8750 9575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E50963D
+P 8600 9575
+F 0 "C?" V 8348 9575 50  0000 C CNN
+F 1 "0.1u" V 8439 9575 50  0000 C CNN
+F 2 "" H 8638 9425 50  0001 C CNN
+F 3 "~" H 8600 9575 50  0001 C CNN
+	1    8600 9575
+	0    1    1    0   
+$EndComp
+Connection ~ 8750 9575
+$Comp
+L power:+5V #PWR?
+U 1 1 5E50C235
+P 8450 9575
+F 0 "#PWR?" H 8450 9425 50  0001 C CNN
+F 1 "+5V" H 8465 9748 50  0000 C CNN
+F 2 "" H 8450 9575 50  0001 C CNN
+F 3 "" H 8450 9575 50  0001 C CNN
+	1    8450 9575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 9575 8450 9675
+Wire Wire Line
+	8450 9675 8750 9675
+Connection ~ 8450 9575
+Text Label 8750 9775 2    50   ~ 0
+USARTX_TX
+Text Label 8750 9875 2    50   ~ 0
+USARTX_RX
+Text Label 6625 4975 0    50   ~ 0
+USARTX_TX
+Text Label 6625 5075 0    50   ~ 0
+USARTX_RX
+Text Label 6625 4175 0    50   ~ 0
+ADC_~RST~_Pin
+Text Label 6625 4075 0    50   ~ 0
+PWR_ON_Pin
+Text Label 2225 6275 2    50   ~ 0
+OUT_U_Current
+Text Label 6625 5775 0    50   ~ 0
+OUT_V_Current
+Text Label 6625 5875 0    50   ~ 0
+OUT_W_Current
+Wire Wire Line
+	6625 5975 7300 5975
+Text Label 2225 5875 2    50   ~ 0
+LED0
+Text Label 2225 5975 2    50   ~ 0
+LED1
+Text Label 6625 6275 0    50   ~ 0
+TIMx_CH2
+Text Label 6625 6175 0    50   ~ 0
+TIMx_CH1
+Text Label 5275 11375 0    50   ~ 0
+SW1
+Text Label 4925 11375 0    50   ~ 0
+SW0
+Wire Wire Line
+	4925 11375 4875 11375
+Wire Wire Line
+	4875 11375 4875 11350
+Wire Wire Line
+	4875 11375 4875 11400
+Connection ~ 4875 11375
+Wire Wire Line
+	5225 11400 5225 11375
+Wire Wire Line
+	5225 11375 5275 11375
+Connection ~ 5225 11375
+Wire Wire Line
+	5225 11375 5225 11350
+Text Label 2225 7175 2    50   ~ 0
+SW1
+Text Label 2225 7075 2    50   ~ 0
+SW0
+Text Label 2225 6375 2    50   ~ 0
+ADRESS_0
+Text Label 2225 6475 2    50   ~ 0
+ADRESS_1
+Text Label 2225 6575 2    50   ~ 0
+ADRESS_2
+Text Label 2225 6675 2    50   ~ 0
+ADRESS_3
+Text Label 6625 7175 0    50   ~ 0
+IO0_Pin
+Text Label 6625 7275 0    50   ~ 0
+IO1_Pin
 $EndSCHEMATC
