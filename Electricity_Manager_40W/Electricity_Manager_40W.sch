@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Electrocity_Manager_40W-cache
+LIBS:Electricity_Manager_40W-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR032
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR032
 U 1 1 5C8F8EAE
 P 3725 2200
 F 0 "#PWR032" H 3725 2160 30  0001 C CNN
@@ -57,7 +57,7 @@ Wire Wire Line
 Text Label 2025 2650 2    50   ~ 0
 ~RST
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R8
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R8
 U 1 1 5C8F9883
 P 1875 2850
 F 0 "R8" V 1800 2850 40  0000 C CNN
@@ -68,7 +68,7 @@ F 3 "" H 1875 2850 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR017
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR017
 U 1 1 5C8F993D
 P 1700 2875
 F 0 "#PWR017" H 1700 2875 30  0001 C CNN
@@ -87,7 +87,7 @@ OSC_IN
 Text Label 2025 3350 2    50   ~ 0
 OSC_OUT
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C11
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C11
 U 1 1 5C8F9FBD
 P 4025 6450
 F 0 "C11" H 4050 6525 40  0000 L CNN
@@ -98,7 +98,7 @@ F 3 "" H 4025 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C13
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C13
 U 1 1 5C8FA0FA
 P 4175 6450
 F 0 "C13" H 4200 6525 40  0000 L CNN
@@ -109,7 +109,7 @@ F 3 "" H 4175 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR036
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR036
 U 1 1 5C8FA149
 P 4100 6675
 F 0 "#PWR036" H 4100 6675 30  0001 C CNN
@@ -142,7 +142,7 @@ Wire Wire Line
 	3725 6650 3725 6250
 Connection ~ 3875 6650
 $Comp
-L Electrocity_Manager_40W-rescue:SW_PUSH-device-Electrocity_Manager-rescue SW1
+L Electricity_Manager_40W-rescue:SW_PUSH-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue SW1
 U 1 1 5C8FB47F
 P 1175 2825
 F 0 "SW1" H 1175 3080 50  0000 C CNN
@@ -153,7 +153,7 @@ F 3 "" H 1175 2825 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C3
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C3
 U 1 1 5C8FB56E
 P 1175 3075
 F 0 "C3" H 1200 3150 40  0000 L CNN
@@ -173,7 +173,7 @@ Wire Wire Line
 	875  3075 975  3075
 Connection ~ 875  2825
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR012
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR012
 U 1 1 5C8FC1B5
 P 1475 3100
 F 0 "#PWR012" H 1475 3100 30  0001 C CNN
@@ -191,7 +191,7 @@ Connection ~ 1475 3075
 Wire Wire Line
 	1475 3075 1475 2825
 $Comp
-L Electrocity_Manager_40W-rescue:CRYSTAL-device-Electrocity_Manager-rescue X1
+L Electricity_Manager_40W-rescue:CRYSTAL-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue X1
 U 1 1 5C8FD08B
 P 1175 4075
 F 0 "X1" H 1175 4225 60  0000 C CNN
@@ -202,7 +202,7 @@ F 3 "" H 1175 4075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C1
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C1
 U 1 1 5C8FD174
 P 850 4275
 F 0 "C1" H 875 4350 40  0000 L CNN
@@ -213,7 +213,7 @@ F 3 "" H 850 4275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C5
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C5
 U 1 1 5C8FD1EF
 P 1500 4275
 F 0 "C5" H 1525 4350 40  0000 L CNN
@@ -238,7 +238,7 @@ Connection ~ 850  4075
 Wire Wire Line
 	850  4075 875  4075
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR09
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR09
 U 1 1 5C8FE41E
 P 1175 4500
 F 0 "#PWR09" H 1175 4500 30  0001 C CNN
@@ -256,7 +256,7 @@ Wire Wire Line
 	1175 4475 1500 4475
 Connection ~ 1175 4475
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P9
+L Electricity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P9
 U 1 1 5C902D16
 P 9425 1125
 F 0 "P9" H 9502 1166 50  0000 L CNN
@@ -267,7 +267,7 @@ F 3 "" H 9425 1125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P10
+L Electricity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P10
 U 1 1 5C902F26
 P 8525 1575
 F 0 "P10" H 8602 1616 50  0000 L CNN
@@ -278,7 +278,7 @@ F 3 "" H 8525 1575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P11
+L Electricity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P11
 U 1 1 5C902FA2
 P 8525 1825
 F 0 "P11" H 8602 1866 50  0000 L CNN
@@ -289,7 +289,7 @@ F 3 "" H 8525 1825 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:SPEAKER-device-Electrocity_Manager-rescue SP1
+L Electricity_Manager_40W-rescue:SPEAKER-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue SP1
 U 1 1 5C90361B
 P 10850 9325
 F 0 "SP1" H 11128 9386 70  0000 L CNN
@@ -300,7 +300,7 @@ F 3 "" H 10850 9325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P13
+L Electricity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P13
 U 1 1 5C903965
 P 13175 1375
 F 0 "P13" H 13253 1416 50  0000 L CNN
@@ -311,7 +311,7 @@ F 3 "" H 13175 1375 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P16
+L Electricity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P16
 U 1 1 5C903BB6
 P 14425 1375
 F 0 "P16" H 14503 1416 50  0000 L CNN
@@ -322,7 +322,7 @@ F 3 "" H 14425 1375 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P15
+L Electricity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P15
 U 1 1 5C903EA9
 P 13175 2175
 F 0 "P15" H 13253 2216 50  0000 L CNN
@@ -333,7 +333,7 @@ F 3 "" H 13175 2175 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR082
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR082
 U 1 1 5C90433D
 P 12975 2125
 F 0 "#PWR082" H 12975 2175 40  0001 C CNN
@@ -344,7 +344,7 @@ F 3 "" H 12975 2125 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR079
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR079
 U 1 1 5C904458
 P 12975 1325
 F 0 "#PWR079" H 12975 1375 40  0001 C CNN
@@ -355,7 +355,7 @@ F 3 "" H 12975 1325 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR088
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR088
 U 1 1 5C9044F4
 P 14225 1325
 F 0 "#PWR088" H 14225 1375 40  0001 C CNN
@@ -412,7 +412,7 @@ F 3 "" H 7975 975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:SBR_DIODE-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue D10
+L Electricity_Manager_40W-rescue:SBR_DIODE-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D10
 U 1 1 5C918163
 P 8375 1075
 F 0 "D10" H 8375 1400 50  0000 C CNN
@@ -429,7 +429,7 @@ Wire Wire Line
 Text Label 7825 2075 2    50   ~ 0
 Coil
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR041
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR041
 U 1 1 5C935FF2
 P 10525 9225
 F 0 "#PWR041" H 10525 9185 30  0001 C CNN
@@ -440,7 +440,7 @@ F 3 "" H 10525 9225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D9
+L Electricity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D9
 U 1 1 5C936091
 P 10300 9225
 F 0 "D9" H 10300 9417 40  0000 C CNN
@@ -451,7 +451,7 @@ F 3 "" H 10300 9225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:NPN-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue Q2
+L Electricity_Manager_40W-rescue:NPN-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue Q2
 U 1 1 5C9361BA
 P 10000 9925
 F 0 "Q2" H 10191 10024 50  0000 L CNN
@@ -467,7 +467,7 @@ Wire Wire Line
 	10100 9425 10550 9425
 Connection ~ 10100 9425
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R20
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R20
 U 1 1 5C939B71
 P 9650 9925
 F 0 "R20" V 9575 9925 40  0000 C CNN
@@ -478,7 +478,7 @@ F 3 "" H 9650 9925 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR040
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR040
 U 1 1 5C93A6A6
 P 10100 10125
 F 0 "#PWR040" H 10100 10125 30  0001 C CNN
@@ -491,7 +491,7 @@ $EndComp
 Text Label 9500 9925 2    50   ~ 0
 TIM1_CH1
 $Comp
-L Electrocity_Manager_40W-rescue:NPN-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue Q3
+L Electricity_Manager_40W-rescue:NPN-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue Q3
 U 1 1 5C93B03A
 P 8375 10100
 F 0 "Q3" H 8566 10199 50  0000 L CNN
@@ -502,7 +502,7 @@ F 3 "transistors/bipolar/*.*" H 8566 10009 60  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R29
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R29
 U 1 1 5C93B2FE
 P 8475 9750
 F 0 "R29" V 8400 9750 40  0000 C CNN
@@ -513,7 +513,7 @@ F 3 "" H 8475 9750 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR056
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR056
 U 1 1 5C93B304
 P 8475 10300
 F 0 "#PWR056" H 8475 10300 30  0001 C CNN
@@ -524,7 +524,7 @@ F 3 "" H 8475 10300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R28
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R28
 U 1 1 5C93CFA9
 P 8025 10100
 F 0 "R28" V 7950 10100 40  0000 C CNN
@@ -535,7 +535,7 @@ F 3 "" H 8025 10100 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR055
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR055
 U 1 1 5C93EAFD
 P 8475 9500
 F 0 "#PWR055" H 8475 9460 30  0001 C CNN
@@ -546,7 +546,7 @@ F 3 "" H 8475 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D14
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D14
 U 1 1 5C93FE4E
 P 11000 775
 F 0 "D14" H 11000 990 50  0000 C CNN
@@ -557,7 +557,7 @@ F 3 "" H 11000 775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R33
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R33
 U 1 1 5C940096
 P 10650 775
 F 0 "R33" V 10575 775 40  0000 C CNN
@@ -579,7 +579,7 @@ F 3 "" H 10500 775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R34
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R34
 U 1 1 5C942C0F
 P 10650 1125
 F 0 "R34" V 10575 1125 40  0000 C CNN
@@ -590,7 +590,7 @@ F 3 "" H 10650 1125 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D15
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D15
 U 1 1 5C942CA3
 P 11000 1125
 F 0 "D15" H 11000 1340 50  0000 C CNN
@@ -605,7 +605,7 @@ Text Label 9225 1175 2    50   ~ 0
 Text GLabel 10500 1475 0    50   Input ~ 0
 OUT_A
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D16
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D16
 U 1 1 5C944F69
 P 11000 1475
 F 0 "D16" H 11000 1690 50  0000 C CNN
@@ -616,7 +616,7 @@ F 3 "" H 11000 1475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D17
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D17
 U 1 1 5C945440
 P 11000 1825
 F 0 "D17" H 11000 2040 50  0000 C CNN
@@ -627,7 +627,7 @@ F 3 "" H 11000 1825 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R35
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R35
 U 1 1 5C9459BC
 P 10650 1475
 F 0 "R35" V 10575 1475 40  0000 C CNN
@@ -638,7 +638,7 @@ F 3 "" H 10650 1475 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R36
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R36
 U 1 1 5C945C6D
 P 10650 1825
 F 0 "R36" V 10575 1825 40  0000 C CNN
@@ -654,7 +654,7 @@ Wire Wire Line
 	7975 975  7975 1175
 Connection ~ 7975 975 
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C21
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C21
 U 1 1 5C910C24
 P 8275 8700
 F 0 "C21" H 8300 8775 40  0000 L CNN
@@ -669,7 +669,7 @@ Wire Wire Line
 Wire Wire Line
 	8075 8800 8475 8800
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C19
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C19
 U 1 1 5C912C25
 P 8225 9000
 F 0 "C19" H 8250 9075 40  0000 L CNN
@@ -680,7 +680,7 @@ F 3 "" H 8225 9000 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR054
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR054
 U 1 1 5C912EB2
 P 8450 9025
 F 0 "#PWR054" H 8450 9025 30  0001 C CNN
@@ -698,7 +698,7 @@ Wire Wire Line
 	8450 9000 8475 9000
 Connection ~ 8450 9000
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R27
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R27
 U 1 1 5C917087
 P 7875 8950
 F 0 "R27" V 7800 8950 40  0000 C CNN
@@ -709,7 +709,7 @@ F 3 "" H 7875 8950 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R26
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R26
 U 1 1 5C9172A8
 P 7725 9050
 F 0 "R26" V 7650 9050 40  0000 C CNN
@@ -725,7 +725,7 @@ Connection ~ 10525 9225
 Wire Wire Line
 	10525 9225 10550 9225
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR051
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR051
 U 1 1 5C9199D4
 P 7725 8600
 F 0 "#PWR051" H 7725 8560 30  0001 C CNN
@@ -746,7 +746,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 9200 7725 9200
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C20
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C20
 U 1 1 5C927D40
 P 8275 8600
 F 0 "C20" H 8300 8675 40  0000 L CNN
@@ -789,7 +789,7 @@ Connection ~ 7875 8600
 Wire Wire Line
 	7875 8600 7950 8600
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X01-conn-Electrocity_Manager-rescue P12
+L Electricity_Manager_40W-rescue:CONN_01X01-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P12
 U 1 1 5C9561CE
 P 13175 975
 F 0 "P12" H 13253 1016 50  0000 L CNN
@@ -800,7 +800,7 @@ F 3 "" H 13175 975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR078
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR078
 U 1 1 5C95660E
 P 12975 975
 F 0 "#PWR078" H 12975 1025 40  0001 C CNN
@@ -811,7 +811,7 @@ F 3 "" H 12975 975 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C31
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C31
 U 1 1 5C9586F9
 P 13600 6750
 F 0 "C31" H 13600 6825 40  0000 L CNN
@@ -822,7 +822,7 @@ F 3 "" H 13600 6750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D21
+L Electricity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D21
 U 1 1 5C95935D
 P 13850 6550
 F 0 "D21" H 13850 6742 40  0000 C CNN
@@ -833,7 +833,7 @@ F 3 "" H 13850 6550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:INDUCTOR_SMALL-device-Electrocity_Manager-rescue L2
+L Electricity_Manager_40W-rescue:INDUCTOR_SMALL-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue L2
 U 1 1 5C95972C
 P 14050 6450
 F 0 "L2" H 14050 6550 50  0000 C CNN
@@ -844,7 +844,7 @@ F 3 "" H 14050 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R38
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R38
 U 1 1 5C994E05
 P 10650 2525
 F 0 "R38" V 10575 2525 40  0000 C CNN
@@ -855,7 +855,7 @@ F 3 "" H 10650 2525 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D19
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D19
 U 1 1 5C995AEF
 P 11000 2525
 F 0 "D19" H 11000 2740 50  0000 C CNN
@@ -866,7 +866,7 @@ F 3 "" H 11000 2525 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D18
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D18
 U 1 1 5C99E95A
 P 11000 2175
 F 0 "D18" H 11000 2390 50  0000 C CNN
@@ -877,7 +877,7 @@ F 3 "" H 11000 2175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R37
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R37
 U 1 1 5C99EA14
 P 10650 2175
 F 0 "R37" V 10575 2175 40  0000 C CNN
@@ -892,7 +892,7 @@ Coil
 Text Label 12200 4375 2    50   ~ 0
 Relay_Out
 $Comp
-L Electrocity_Manager_40W-rescue:TLP291-opto-Electrocity_Manager-rescue IC2
+L Electricity_Manager_40W-rescue:TLP291-opto-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue IC2
 U 1 1 5C9C6B51
 P 3250 8850
 F 0 "IC2" H 3250 9144 40  0000 C CNN
@@ -903,7 +903,7 @@ F 3 "http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291_en_datasheet
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R15
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R15
 U 1 1 5C9DD35F
 P 3750 8750
 F 0 "R15" V 3675 8750 40  0000 C CNN
@@ -914,7 +914,7 @@ F 3 "" H 3750 8750 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X04-conn-Electrocity_Manager-rescue P4
+L Electricity_Manager_40W-rescue:CONN_01X04-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P4
 U 1 1 5C9DE8E4
 P 4700 8700
 F 0 "P4" H 4778 8741 50  0000 L CNN
@@ -927,7 +927,7 @@ $EndComp
 Text Label 4500 8850 2    50   ~ 0
 Relay_state
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR033
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR033
 U 1 1 5C9DFFBE
 P 4475 8575
 F 0 "#PWR033" H 4475 8575 30  0001 C CNN
@@ -938,7 +938,7 @@ F 3 "" H 4475 8575 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C7
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C7
 U 1 1 5C9E09D0
 P 4250 8550
 F 0 "C7" H 4275 8625 40  0000 L CNN
@@ -972,7 +972,7 @@ Wire Wire Line
 	4475 8550 4450 8550
 Connection ~ 4475 8550
 $Comp
-L Electrocity_Manager_40W-rescue:TLP291-opto-Electrocity_Manager-rescue IC3
+L Electricity_Manager_40W-rescue:TLP291-opto-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue IC3
 U 1 1 5C9EED65
 P 3250 9375
 F 0 "IC3" H 3250 9669 40  0000 C CNN
@@ -983,7 +983,7 @@ F 3 "http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291_en_datasheet
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R17
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R17
 U 1 1 5C9F4719
 P 4150 8975
 F 0 "R17" V 4075 8975 40  0000 C CNN
@@ -1005,7 +1005,7 @@ F 3 "" H 4300 8975 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR026
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR026
 U 1 1 5C9FAA30
 P 3625 9500
 F 0 "#PWR026" H 3625 9500 30  0001 C CNN
@@ -1022,7 +1022,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 8850 4500 8850
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R11
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R11
 U 1 1 5CA16F40
 P 2900 9625
 F 0 "R11" V 2825 9625 40  0000 C CNN
@@ -1038,7 +1038,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 8750 4500 8750
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR025
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR025
 U 1 1 5CA48C07
 P 3625 8975
 F 0 "#PWR025" H 3625 8975 30  0001 C CNN
@@ -1059,7 +1059,7 @@ Wire Wire Line
 Wire Wire Line
 	3825 8850 4000 8850
 $Comp
-L Electrocity_Manager_40W-rescue:MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue Q1
+L Electricity_Manager_40W-rescue:MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue Q1
 U 1 1 5CA55D0E
 P 2150 8950
 F 0 "Q1" H 2338 9003 60  0000 L CNN
@@ -1070,7 +1070,7 @@ F 3 "" H 2245 8950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R7
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R7
 U 1 1 5CA5B648
 P 2700 9100
 F 0 "R7" V 2625 9100 40  0000 C CNN
@@ -1081,7 +1081,7 @@ F 3 "" H 2700 9100 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR021
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR021
 U 1 1 5CA5C11F
 P 2900 9775
 F 0 "#PWR021" H 2900 9825 40  0001 C CNN
@@ -1092,7 +1092,7 @@ F 3 "" H 2900 9775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR014
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR014
 U 1 1 5CA5C67A
 P 2050 9475
 F 0 "#PWR014" H 2050 9525 40  0001 C CNN
@@ -1110,7 +1110,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 9250 2700 9250
 $Comp
-L Electrocity_Manager_40W-rescue:JUMPER-device-Electrocity_Manager-rescue JP1
+L Electricity_Manager_40W-rescue:JUMPER-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue JP1
 U 1 1 5CA73B01
 P 1650 8950
 F 0 "JP1" V 1688 8851 60  0000 R CNN
@@ -1130,7 +1130,7 @@ Connection ~ 1650 8650
 Wire Wire Line
 	1650 8650 2050 8650
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X04-conn-Electrocity_Manager-rescue P5
+L Electricity_Manager_40W-rescue:CONN_01X04-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P5
 U 1 1 5CA8DB66
 P 4700 9450
 F 0 "P5" H 4778 9491 50  0000 L CNN
@@ -1141,7 +1141,7 @@ F 3 "" H 4700 9450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C14
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C14
 U 1 1 5CA8E6C0
 P 4250 9300
 F 0 "C14" H 4275 9375 40  0000 L CNN
@@ -1152,7 +1152,7 @@ F 3 "" H 4250 9300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR038
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR038
 U 1 1 5CA8E9DA
 P 4475 9325
 F 0 "#PWR038" H 4475 9325 30  0001 C CNN
@@ -1190,7 +1190,7 @@ Fource_shutdown
 Text Label 4500 9600 2    50   ~ 0
 Relay_state
 $Comp
-L Electrocity_Manager_40W-rescue:SI8900-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager-rescue U6
+L Electricity_Manager_40W-rescue:SI8900-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U6
 U 1 1 5CAB6100
 P 14200 8775
 F 0 "U6" H 14200 9412 60  0000 C CNN
@@ -1201,7 +1201,7 @@ F 3 "" H 14200 8775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:BD33FA1-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U15
+L Electricity_Manager_40W-rescue:BD33FA1-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U15
 U 1 1 5CAB6A0D
 P 15250 6500
 F 0 "U15" H 15250 6915 50  0000 C CNN
@@ -1216,7 +1216,7 @@ Text Label 10500 1125 2    50   ~ 0
 Text Label 14050 6550 0    50   ~ 0
 24V
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C37
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C37
 U 1 1 5CABE0BE
 P 14750 6675
 F 0 "C37" H 14750 6750 40  0000 L CNN
@@ -1227,7 +1227,7 @@ F 3 "" H 14750 6675 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C43
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C43
 U 1 1 5CABE47E
 P 15750 6675
 F 0 "C43" H 15750 6750 40  0000 L CNN
@@ -1243,7 +1243,7 @@ Connection ~ 15750 6450
 Wire Wire Line
 	15750 6450 15750 6475
 $Comp
-L Electrocity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0107
+L Electricity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0107
 U 1 1 5CAC4C10
 P 15750 6425
 F 0 "#PWR0107" H 15750 6525 40  0001 C CNN
@@ -1254,7 +1254,7 @@ F 3 "" H 15750 6425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0104
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0104
 U 1 1 5CAC53D4
 P 15250 6925
 F 0 "#PWR0104" H 15250 6975 40  0001 C CNN
@@ -1287,7 +1287,7 @@ Connection ~ 15400 6900
 Wire Wire Line
 	15400 6900 15750 6900
 $Comp
-L Electrocity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR070
+L Electricity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR070
 U 1 1 5CADFA43
 P 10500 2875
 F 0 "#PWR070" H 10500 2975 40  0001 C CNN
@@ -1298,7 +1298,7 @@ F 3 "" H 10500 2875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R39
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R39
 U 1 1 5CAE00D8
 P 10650 2875
 F 0 "R39" V 10575 2875 40  0000 C CNN
@@ -1309,7 +1309,7 @@ F 3 "" H 10650 2875 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D20
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D20
 U 1 1 5CAE0208
 P 11000 2875
 F 0 "D20" H 11000 3090 50  0000 C CNN
@@ -1320,7 +1320,7 @@ F 3 "" H 11000 2875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR075
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR075
 U 1 1 5CAE7BC5
 P 11225 3050
 F 0 "#PWR075" H 11225 3100 40  0001 C CNN
@@ -1367,7 +1367,7 @@ Wire Wire Line
 Text Label 12200 3775 2    50   ~ 0
 Coil
 $Comp
-L Electrocity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR059
+L Electricity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR059
 U 1 1 5CB1F8D1
 P 13675 8425
 F 0 "#PWR059" H 13675 8525 40  0001 C CNN
@@ -1378,7 +1378,7 @@ F 3 "" H 13675 8425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR064
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR064
 U 1 1 5CB20482
 P 14725 8425
 F 0 "#PWR064" H 14725 8385 30  0001 C CNN
@@ -1389,7 +1389,7 @@ F 3 "" H 14725 8425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C27
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C27
 U 1 1 5CB20BB9
 P 14950 8425
 F 0 "C27" H 14950 8500 40  0000 L CNN
@@ -1400,7 +1400,7 @@ F 3 "" H 14950 8425 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C22
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C22
 U 1 1 5CB2154E
 P 13450 8425
 F 0 "C22" H 13450 8500 40  0000 L CNN
@@ -1411,7 +1411,7 @@ F 3 "" H 13450 8425 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR052
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR052
 U 1 1 5CB21B73
 P 13225 8450
 F 0 "#PWR052" H 13225 8500 40  0001 C CNN
@@ -1438,7 +1438,7 @@ Wire Wire Line
 Wire Wire Line
 	13225 8425 13250 8425
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR060
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR060
 U 1 1 5CB4C97B
 P 13675 9250
 F 0 "#PWR060" H 13675 9300 40  0001 C CNN
@@ -1451,7 +1451,7 @@ $EndComp
 Wire Wire Line
 	13675 9125 13700 9125
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR071
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR071
 U 1 1 5CB55E32
 P 15175 9150
 F 0 "#PWR071" H 15175 9150 30  0001 C CNN
@@ -1462,7 +1462,7 @@ F 3 "" H 15175 9150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR065
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR065
 U 1 1 5CB5F82C
 P 14725 9025
 F 0 "#PWR065" H 14725 8985 30  0001 C CNN
@@ -1477,7 +1477,7 @@ USART2_TX
 Text Label 14700 8825 0    50   ~ 0
 USART2_RX
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C28
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C28
 U 1 1 5CB609A6
 P 14950 9025
 F 0 "C28" H 14950 9100 40  0000 L CNN
@@ -1505,7 +1505,7 @@ Wire Wire Line
 	15175 8425 15175 9025
 Connection ~ 15175 9025
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R30
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R30
 U 1 1 5CB8695C
 P 13500 8925
 F 0 "R30" V 13425 8925 40  0000 C CNN
@@ -1516,7 +1516,7 @@ F 3 "" H 13500 8925 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR053
+L Electricity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR053
 U 1 1 5CB908A6
 P 13350 8925
 F 0 "#PWR053" H 13350 9025 40  0001 C CNN
@@ -1538,7 +1538,7 @@ F 3 "" H 12050 1225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R45
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R45
 U 1 1 5CBA4AB4
 P 12050 1375
 F 0 "R45" V 11975 1375 40  0000 C CNN
@@ -1549,7 +1549,7 @@ F 3 "" H 12050 1375 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R46
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R46
 U 1 1 5CBA5110
 P 12050 1725
 F 0 "R46" V 11975 1725 40  0000 C CNN
@@ -1560,7 +1560,7 @@ F 3 "" H 12050 1725 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0101
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0101
 U 1 1 5CBA54EB
 P 12050 1975
 F 0 "#PWR0101" H 12050 2025 40  0001 C CNN
@@ -1578,7 +1578,7 @@ Wire Wire Line
 	12050 1550 12050 1575
 Connection ~ 12050 1550
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C38
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C38
 U 1 1 5CBB9A46
 P 11825 1750
 F 0 "C38" H 11850 1825 40  0000 L CNN
@@ -1607,7 +1607,7 @@ Wire Wire Line
 Wire Wire Line
 	13675 8525 13700 8525
 $Comp
-L Electrocity_Manager_40W-rescue:TLP291-opto-Electrocity_Manager-rescue IC4
+L Electricity_Manager_40W-rescue:TLP291-opto-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue IC4
 U 1 1 5CBED779
 P 13100 9125
 F 0 "IC4" H 13100 9419 40  0000 C CNN
@@ -1623,7 +1623,7 @@ Wire Wire Line
 	13675 9250 13675 9225
 Connection ~ 13675 9225
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R25
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R25
 U 1 1 5CC1850C
 P 12600 9225
 F 0 "R25" V 12525 9225 40  0000 C CNN
@@ -1634,7 +1634,7 @@ F 3 "" H 12600 9225 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR050
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR050
 U 1 1 5CC19767
 P 12450 9225
 F 0 "#PWR050" H 12450 9225 30  0001 C CNN
@@ -1654,7 +1654,7 @@ Connection ~ 13650 9025
 Wire Wire Line
 	13450 9225 13675 9225
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R16
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R16
 U 1 1 5CCB1AA5
 P 2625 10475
 F 0 "R16" V 2550 10475 40  0000 C CNN
@@ -1665,7 +1665,7 @@ F 3 "" H 2625 10475 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R14
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R14
 U 1 1 5CCB2567
 P 2300 10475
 F 0 "R14" V 2225 10475 40  0000 C CNN
@@ -1676,7 +1676,7 @@ F 3 "" H 2300 10475 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R13
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R13
 U 1 1 5CCBD804
 P 1950 10475
 F 0 "R13" V 1875 10475 40  0000 C CNN
@@ -1687,7 +1687,7 @@ F 3 "" H 1950 10475 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R10
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R10
 U 1 1 5CCBD810
 P 1625 10475
 F 0 "R10" V 1550 10475 40  0000 C CNN
@@ -1698,7 +1698,7 @@ F 3 "" H 1625 10475 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR018
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR018
 U 1 1 5CCCA403
 P 1625 11025
 F 0 "#PWR018" H 1625 11025 30  0001 C CNN
@@ -1709,7 +1709,7 @@ F 3 "" H 1625 11025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X04-conn-Electrocity_Manager-rescue P2
+L Electricity_Manager_40W-rescue:CONN_01X04-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P2
 U 1 1 5CD14F94
 P 4300 7850
 F 0 "P2" H 4378 7891 50  0000 L CNN
@@ -1720,7 +1720,7 @@ F 3 "" H 4300 7850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR010
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR010
 U 1 1 5CD15A4D
 P 4075 7725
 F 0 "#PWR010" H 4075 7725 30  0001 C CNN
@@ -1731,7 +1731,7 @@ F 3 "" H 4075 7725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C2
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C2
 U 1 1 5CD16072
 P 3850 7700
 F 0 "C2" H 3875 7775 40  0000 L CNN
@@ -1769,7 +1769,7 @@ CAN_H
 Text Label 4100 8000 2    50   ~ 0
 CAN_L
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X04-conn-Electrocity_Manager-rescue P3
+L Electricity_Manager_40W-rescue:CONN_01X04-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P3
 U 1 1 5CD3EA13
 P 5200 7850
 F 0 "P3" H 5278 7891 50  0000 L CNN
@@ -1780,7 +1780,7 @@ F 3 "" H 5200 7850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR019
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR019
 U 1 1 5CD3EA19
 P 4975 7725
 F 0 "#PWR019" H 4975 7725 30  0001 C CNN
@@ -1791,7 +1791,7 @@ F 3 "" H 4975 7725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C6
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C6
 U 1 1 5CD3EA1F
 P 4750 7700
 F 0 "C6" H 4775 7775 40  0000 L CNN
@@ -1833,7 +1833,7 @@ CAN_H
 Text Label 4900 7325 0    50   ~ 0
 CAN_L
 $Comp
-L Electrocity_Manager_40W-rescue:JUMPER-device-Electrocity_Manager-rescue JP3
+L Electricity_Manager_40W-rescue:JUMPER-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue JP3
 U 1 1 5CD4CFCF
 P 4600 7325
 F 0 "JP3" H 4600 7581 60  0000 C CNN
@@ -1844,7 +1844,7 @@ F 3 "" H 4600 7325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R6
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R6
 U 1 1 5CD4D250
 P 4150 7325
 F 0 "R6" V 4075 7325 40  0000 C CNN
@@ -1855,7 +1855,7 @@ F 3 "" H 4150 7325 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:MAX3051-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U1
+L Electricity_Manager_40W-rescue:MAX3051-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U1
 U 1 1 5CD4F4C2
 P 2350 7725
 F 0 "U1" H 2375 8112 60  0000 C CNN
@@ -1868,7 +1868,7 @@ $EndComp
 Text Label 1950 7625 2    50   ~ 0
 CAN1_TX
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR011
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR011
 U 1 1 5CD50320
 P 1925 7750
 F 0 "#PWR011" H 1925 7750 30  0001 C CNN
@@ -1879,7 +1879,7 @@ F 3 "" H 1925 7750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C4
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C4
 U 1 1 5CD5070A
 P 1700 7725
 F 0 "C4" H 1725 7800 40  0000 L CNN
@@ -1890,7 +1890,7 @@ F 3 "" H 1700 7725 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR08
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR08
 U 1 1 5CD50A52
 P 1500 7725
 F 0 "#PWR08" H 1500 7685 30  0001 C CNN
@@ -1915,7 +1915,7 @@ Connection ~ 1925 7725
 Text Label 1950 7925 2    50   ~ 0
 CAN1_RX
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R12
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R12
 U 1 1 5CD7DAB3
 P 2950 7625
 F 0 "R12" V 2875 7625 40  0000 C CNN
@@ -1926,7 +1926,7 @@ F 3 "" H 2950 7625 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR022
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR022
 U 1 1 5CD7E562
 P 3100 7625
 F 0 "#PWR022" H 3100 7625 30  0001 C CNN
@@ -1942,7 +1942,7 @@ Text Label 2800 7825 0    50   ~ 0
 CAN_L
 NoConn ~ 2800 7925
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R24
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R24
 U 1 1 5C93A058
 P 10100 9575
 F 0 "R24" V 10025 9575 40  0000 C CNN
@@ -1953,7 +1953,7 @@ F 3 "" H 10100 9575 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:CP1-device-Electrocity_Manager-rescue C32
+L Electricity_Manager_40W-rescue:CP1-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C32
 U 1 1 5CD94BB8
 P 7800 4625
 F 0 "C32" H 7825 4725 50  0000 L CNN
@@ -1964,7 +1964,7 @@ F 3 "" H 7800 4625 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR077
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR077
 U 1 1 5CD965DF
 P 8025 4950
 F 0 "#PWR077" H 8025 5000 40  0001 C CNN
@@ -1983,7 +1983,7 @@ Text Label 7550 4425 2    50   ~ 0
 24V
 NoConn ~ 9050 4525
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR087
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR087
 U 1 1 5CDE59FB
 P 9475 4725
 F 0 "#PWR087" H 9475 4725 30  0001 C CNN
@@ -1994,7 +1994,7 @@ F 3 "" H 9475 4725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:CP1-device-Electrocity_Manager-rescue C35
+L Electricity_Manager_40W-rescue:CP1-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C35
 U 1 1 5CDE5C86
 P 9275 4700
 F 0 "C35" H 9275 4600 50  0000 L CNN
@@ -2005,7 +2005,7 @@ F 3 "" H 9275 4700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P6
+L Electricity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P6
 U 1 1 5CE27876
 P 6525 8600
 F 0 "P6" H 6603 8641 50  0000 L CNN
@@ -2016,7 +2016,7 @@ F 3 "" H 6525 8600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR045
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR045
 U 1 1 5CE29468
 P 6300 8575
 F 0 "#PWR045" H 6300 8575 30  0001 C CNN
@@ -2038,7 +2038,7 @@ F 3 "" H 5875 8550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C16
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C16
 U 1 1 5CE2C2EA
 P 6075 8550
 F 0 "C16" H 6100 8625 40  0000 L CNN
@@ -2061,7 +2061,7 @@ Wire Wire Line
 	5875 8650 5875 8550
 Connection ~ 5875 8550
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P7
+L Electricity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P7
 U 1 1 5CE806F8
 P 6525 8975
 F 0 "P7" H 6603 9016 50  0000 L CNN
@@ -2072,7 +2072,7 @@ F 3 "" H 6525 8975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR046
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR046
 U 1 1 5CE806FE
 P 6300 8950
 F 0 "#PWR046" H 6300 8950 30  0001 C CNN
@@ -2094,7 +2094,7 @@ F 3 "" H 5875 8925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C17
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C17
 U 1 1 5CE8070A
 P 6075 8925
 F 0 "C17" H 6100 9000 40  0000 L CNN
@@ -2128,7 +2128,7 @@ F 3 "" H 9575 5025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0103
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0103
 U 1 1 5CF7B24C
 P 10800 4625
 F 0 "#PWR0103" H 10800 4585 30  0001 C CNN
@@ -2139,7 +2139,7 @@ F 3 "" H 10800 4625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C41
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C41
 U 1 1 5CF7B965
 P 11025 4625
 F 0 "C41" H 11050 4700 40  0000 L CNN
@@ -2155,7 +2155,7 @@ Connection ~ 10800 4625
 Wire Wire Line
 	10800 4625 10825 4625
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0105
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0105
 U 1 1 5CF8E453
 P 11350 5350
 F 0 "#PWR0105" H 11350 5350 30  0001 C CNN
@@ -2166,7 +2166,7 @@ F 3 "" H 11350 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR023
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR023
 U 1 1 5CFB5AE6
 P 1950 11025
 F 0 "#PWR023" H 1950 11025 30  0001 C CNN
@@ -2177,7 +2177,7 @@ F 3 "" H 1950 11025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR024
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR024
 U 1 1 5CFB5DF1
 P 2300 11025
 F 0 "#PWR024" H 2300 11025 30  0001 C CNN
@@ -2188,7 +2188,7 @@ F 3 "" H 2300 11025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR027
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR027
 U 1 1 5CFB6586
 P 2625 11025
 F 0 "#PWR027" H 2625 11025 30  0001 C CNN
@@ -2199,7 +2199,7 @@ F 3 "" H 2625 11025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C18
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C18
 U 1 1 5CFFC889
 P 8175 10575
 F 0 "C18" H 8200 10650 40  0000 L CNN
@@ -2214,7 +2214,7 @@ USART1_TX
 Text Label 8425 10950 2    50   ~ 0
 USART1_RX
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR030
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR030
 U 1 1 5D0458DB
 P 3425 11025
 F 0 "#PWR030" H 3425 11025 30  0001 C CNN
@@ -2232,7 +2232,7 @@ Wire Wire Line
 	3425 10400 3425 10375
 Connection ~ 3425 10400
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR035
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR035
 U 1 1 5D06A385
 P 3000 11025
 F 0 "#PWR035" H 3000 11025 30  0001 C CNN
@@ -2250,7 +2250,7 @@ Wire Wire Line
 	3000 10400 3000 10375
 Connection ~ 3000 10400
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D8
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D8
 U 1 1 5D090298
 P 2625 10825
 F 0 "D8" V 2579 10903 50  0000 L CNN
@@ -2261,7 +2261,7 @@ F 3 "" H 2625 10825 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D7
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D7
 U 1 1 5D090ADD
 P 2300 10825
 F 0 "D7" V 2254 10903 50  0000 L CNN
@@ -2272,7 +2272,7 @@ F 3 "" H 2300 10825 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D6
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D6
 U 1 1 5D090C85
 P 1950 10825
 F 0 "D6" V 1904 10903 50  0000 L CNN
@@ -2283,7 +2283,7 @@ F 3 "" H 1950 10825 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D5
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D5
 U 1 1 5D090E37
 P 1625 10825
 F 0 "D5" V 1579 10903 50  0000 L CNN
@@ -2294,7 +2294,7 @@ F 3 "" H 1625 10825 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0106
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0106
 U 1 1 5D092D74
 P 11225 4625
 F 0 "#PWR0106" H 11225 4625 30  0001 C CNN
@@ -2305,7 +2305,7 @@ F 3 "" H 11225 4625 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R47
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R47
 U 1 1 5D093129
 P 10925 4925
 F 0 "R47" V 10850 4925 40  0000 C CNN
@@ -2316,7 +2316,7 @@ F 3 "" H 10925 4925 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C42
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C42
 U 1 1 5D093A60
 P 11100 5125
 F 0 "C42" H 11125 5200 40  0000 L CNN
@@ -2336,7 +2336,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 9250 2050 9150
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR029
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR029
 U 1 1 5D1C3BDA
 P 3425 10075
 F 0 "#PWR029" H 3425 10035 30  0001 C CNN
@@ -2347,7 +2347,7 @@ F 3 "" H 3425 10075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR034
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR034
 U 1 1 5D1C3D02
 P 3000 10075
 F 0 "#PWR034" H 3000 10035 30  0001 C CNN
@@ -2366,7 +2366,7 @@ CAN1_TX
 Text Label 6425 5150 0    50   ~ 0
 CAN1_RX
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR07
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR07
 U 1 1 5D1E2A4A
 P 775 1800
 F 0 "#PWR07" H 775 1800 30  0001 C CNN
@@ -2377,7 +2377,7 @@ F 3 "" H 775 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D1
+L Electricity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D1
 U 1 1 5D1E2BA0
 P 875 2000
 F 0 "D1" V 837 2078 40  0000 L CNN
@@ -2388,7 +2388,7 @@ F 3 "" H 875 2000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:JUMPER-device-Electrocity_Manager-rescue JP2
+L Electricity_Manager_40W-rescue:JUMPER-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue JP2
 U 1 1 5D1F64C4
 P 1175 2200
 F 0 "JP2" H 1175 2456 60  0000 C CNN
@@ -2399,7 +2399,7 @@ F 3 "" H 1175 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR015
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR015
 U 1 1 5D1F7356
 P 1475 2200
 F 0 "#PWR015" H 1475 2160 30  0001 C CNN
@@ -2470,7 +2470,7 @@ ADC12_IN8
 Text Label 12750 9025 2    50   ~ 0
 PB15
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X06-conn-Electrocity_Manager-rescue P1
+L Electricity_Manager_40W-rescue:CONN_01X06-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P1
 U 1 1 5D6DDE04
 P 1025 1600
 F 0 "P1" V 990 1262 50  0000 R CNN
@@ -2482,7 +2482,7 @@ F 3 "" H 1025 1600 50  0000 C CNN
 $EndComp
 NoConn ~ 1275 1800
 $Comp
-L Electrocity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D22
+L Electricity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D22
 U 1 1 5D715A26
 P 12200 4075
 F 0 "D22" V 12238 3997 40  0000 R CNN
@@ -2501,7 +2501,7 @@ Connection ~ 2050 9450
 Wire Wire Line
 	2050 9450 2050 9475
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R48
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R48
 U 1 1 5CB9FA0B
 P 8475 3125
 F 0 "R48" V 8400 3125 40  0000 C CNN
@@ -2512,7 +2512,7 @@ F 3 "" H 8475 3125 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0108
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0108
 U 1 1 5CBA04CC
 P 8650 3450
 F 0 "#PWR0108" H 8650 3450 30  0001 C CNN
@@ -2531,7 +2531,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 9450 2050 9450
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R52
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R52
 U 1 1 5CEA9832
 P 9325 5050
 F 0 "R52" V 9250 5050 40  0000 C CNN
@@ -2542,7 +2542,7 @@ F 3 "" H 9325 5050 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R53
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R53
 U 1 1 5CEAA61F
 P 9325 5400
 F 0 "R53" V 9250 5400 40  0000 C CNN
@@ -2553,7 +2553,7 @@ F 3 "" H 9325 5400 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0113
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0113
 U 1 1 5CEAA79B
 P 9325 5650
 F 0 "#PWR0113" H 9325 5650 30  0001 C CNN
@@ -2564,7 +2564,7 @@ F 3 "" H 9325 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C44
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C44
 U 1 1 5CEABCEF
 P 9100 5425
 F 0 "C44" H 9125 5500 40  0000 L CNN
@@ -2606,7 +2606,7 @@ PB13
 Text Label 6425 5550 0    50   ~ 0
 PB12
 $Comp
-L Electrocity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U17
+L Electricity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U17
 U 1 1 5D1B0D5D
 P 15525 1050
 F 0 "U17" H 15803 1103 60  0000 L CNN
@@ -2617,7 +2617,7 @@ F 3 "" H 15525 1050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U18
+L Electricity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U18
 U 1 1 5D1B1113
 P 15525 1625
 F 0 "U18" H 15803 1678 60  0000 L CNN
@@ -2628,7 +2628,7 @@ F 3 "" H 15525 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:OSRB38C9AA-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U20
+L Electricity_Manager_40W-rescue:OSRB38C9AA-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U20
 U 1 1 5D2FA48F
 P 9750 7875
 F 0 "U20" H 9928 7890 50  0000 L CNN
@@ -2639,7 +2639,7 @@ F 3 "" H 9750 7875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:OSRB38C9AA-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U21
+L Electricity_Manager_40W-rescue:OSRB38C9AA-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U21
 U 1 1 5D2FA78D
 P 10575 7875
 F 0 "U21" H 10753 7890 50  0000 L CNN
@@ -2650,7 +2650,7 @@ F 3 "" H 10575 7875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0118
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0118
 U 1 1 5D31E1DE
 P 9850 8650
 F 0 "#PWR0118" H 9850 8650 30  0001 C CNN
@@ -2672,7 +2672,7 @@ F 3 "" H 9850 8200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C47
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C47
 U 1 1 5D31F9CF
 P 9850 8425
 F 0 "C47" H 9875 8500 40  0000 L CNN
@@ -2710,7 +2710,7 @@ F 3 "" H 10675 8200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C48
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C48
 U 1 1 5D38C34C
 P 10675 8425
 F 0 "C48" H 10700 8500 40  0000 L CNN
@@ -2721,7 +2721,7 @@ F 3 "" H 10675 8425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0121
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0121
 U 1 1 5D38C4E2
 P 10675 8650
 F 0 "#PWR0121" H 10675 8650 30  0001 C CNN
@@ -2758,7 +2758,7 @@ $EndComp
 Wire Wire Line
 	8325 2075 8325 1875
 $Comp
-L Electrocity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D25
+L Electricity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D25
 U 1 1 5D67D877
 P 8600 2475
 F 0 "D25" H 8600 2283 40  0000 C CNN
@@ -2769,7 +2769,7 @@ F 3 "" H 8600 2475 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R18
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R18
 U 1 1 5D7545BB
 P 8650 3275
 F 0 "R18" V 8575 3275 40  0000 C CNN
@@ -2782,7 +2782,7 @@ $EndComp
 Wire Wire Line
 	8075 3425 8075 3325
 $Comp
-L Electrocity_Manager_40W-rescue:MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue Q7
+L Electricity_Manager_40W-rescue:MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue Q7
 U 1 1 5D80C62B
 P 8175 3125
 F 0 "Q7" H 8363 3178 60  0000 L CNN
@@ -2793,7 +2793,7 @@ F 3 "" H 8270 3125 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:USB_B_Micro-Connector-Electrocity_Manager-rescue-Electrocity_Manager-rescue J1
+L Electricity_Manager_40W-rescue:USB_B_Micro-Connector-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue J1
 U 1 1 5D8A59BC
 P 9900 10700
 F 0 "J1" H 9955 11167 50  0000 C CNN
@@ -2804,7 +2804,7 @@ F 3 "~" H 10050 10650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0111
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0111
 U 1 1 5D8A5E48
 P 9900 11100
 F 0 "#PWR0111" H 9900 11100 30  0001 C CNN
@@ -2821,7 +2821,7 @@ Text Label 10200 10800 0    50   ~ 0
 D-
 NoConn ~ 10200 10900
 $Comp
-L Electrocity_Manager_40W-rescue:MCP2221-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U19
+L Electricity_Manager_40W-rescue:MCP2221-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U19
 U 1 1 5D8F19CA
 P 8875 10800
 F 0 "U19" H 8875 11272 60  0000 C CNN
@@ -2847,7 +2847,7 @@ F 3 "" H 10600 10500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D29
+L Electricity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D29
 U 1 1 5D93E25A
 P 10400 10500
 F 0 "D29" H 10400 10692 40  0000 C CNN
@@ -2858,7 +2858,7 @@ F 3 "" H 10400 10500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0122
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0122
 U 1 1 5D93F95F
 P 8400 10575
 F 0 "#PWR0122" H 8400 10535 30  0001 C CNN
@@ -2874,7 +2874,7 @@ Connection ~ 8400 10575
 Wire Wire Line
 	8400 10575 8375 10575
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0123
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0123
 U 1 1 5D963E5A
 P 7975 10575
 F 0 "#PWR0123" H 7975 10575 30  0001 C CNN
@@ -2885,7 +2885,7 @@ F 3 "" H 7975 10575 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0124
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0124
 U 1 1 5D9649FE
 P 9325 10575
 F 0 "#PWR0124" H 9325 10575 30  0001 C CNN
@@ -2896,7 +2896,7 @@ F 3 "" H 9325 10575 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0125
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0125
 U 1 1 5D965659
 P 9325 10800
 F 0 "#PWR0125" H 9325 10760 30  0001 C CNN
@@ -2909,7 +2909,7 @@ $EndComp
 NoConn ~ 9325 10875
 NoConn ~ 9325 10950
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D26
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D26
 U 1 1 5D9B0458
 P 7925 10650
 F 0 "D26" V 7879 10728 50  0000 L CNN
@@ -2920,7 +2920,7 @@ F 3 "" H 7925 10650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D27
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D27
 U 1 1 5D9B0A69
 P 7925 10725
 F 0 "D27" V 7879 10803 50  0000 L CNN
@@ -2931,7 +2931,7 @@ F 3 "" H 7925 10725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R59
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R59
 U 1 1 5D9B0E2C
 P 8275 10800
 F 0 "R59" V 8200 10800 40  0000 C CNN
@@ -2942,7 +2942,7 @@ F 3 "" H 8275 10800 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0126
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0126
 U 1 1 5D9B1164
 P 7725 10625
 F 0 "#PWR0126" H 7725 10585 30  0001 C CNN
@@ -2953,7 +2953,7 @@ F 3 "" H 7725 10625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R19
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R19
 U 1 1 5D9B12E9
 P 8275 10650
 F 0 "R19" V 8200 10650 40  0000 C CNN
@@ -2964,7 +2964,7 @@ F 3 "" H 8275 10650 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R51
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R51
 U 1 1 5D9B1546
 P 8275 10725
 F 0 "R51" V 8200 10725 40  0000 C CNN
@@ -2975,7 +2975,7 @@ F 3 "" H 8275 10725 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D28
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D28
 U 1 1 5D9B16D6
 P 7925 11025
 F 0 "D28" V 7879 11103 50  0000 L CNN
@@ -2986,7 +2986,7 @@ F 3 "" H 7925 11025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R58
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R58
 U 1 1 5D9B193B
 P 8275 11025
 F 0 "R58" V 8200 11025 40  0000 C CNN
@@ -3010,7 +3010,7 @@ Wire Wire Line
 	7725 10800 7725 11025
 Connection ~ 7725 10800
 $Comp
-L Electrocity_Manager_40W-rescue:HSIN_946-relays-Electrocity_Manager-rescue U22
+L Electricity_Manager_40W-rescue:HSIN_946-relays-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U22
 U 1 1 5DAE08B9
 P 8225 2475
 F 0 "U22" V 7925 2600 60  0000 L CNN
@@ -3040,7 +3040,7 @@ Wire Wire Line
 	8075 2900 8075 2925
 Connection ~ 8075 2900
 $Comp
-L Electrocity_Manager_40W-rescue:BD9G101G-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U10
+L Electricity_Manager_40W-rescue:BD9G101G-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U10
 U 1 1 5DC7C0E7
 P 13175 6550
 F 0 "U10" H 13175 6937 60  0000 C CNN
@@ -3063,7 +3063,7 @@ Wire Wire Line
 Connection ~ 13600 6550
 Connection ~ 13625 6550
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR02
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR02
 U 1 1 5DDB8FD1
 P 14325 6975
 F 0 "#PWR02" H 14325 7025 40  0001 C CNN
@@ -3074,7 +3074,7 @@ F 3 "" H 14325 6975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C36
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C36
 U 1 1 5DDBA101
 P 13175 6025
 F 0 "C36" H 13200 6100 40  0000 L CNN
@@ -3085,7 +3085,7 @@ F 3 "" H 13175 6025 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D24
+L Electricity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D24
 U 1 1 5DE09379
 P 13775 6650
 F 0 "D24" H 13775 6842 40  0000 C CNN
@@ -3101,7 +3101,7 @@ Wire Wire Line
 	13775 6450 13600 6450
 Connection ~ 13775 6450
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C46
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C46
 U 1 1 5DE578B9
 P 14325 6650
 F 0 "C46" H 14325 6725 40  0000 L CNN
@@ -3123,7 +3123,7 @@ Wire Wire Line
 Wire Wire Line
 	12775 6025 12975 6025
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR01
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR01
 U 1 1 5DED1004
 P 12775 6550
 F 0 "#PWR01" H 12775 6600 40  0001 C CNN
@@ -3134,7 +3134,7 @@ F 3 "" H 12775 6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R41
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R41
 U 1 1 5DEFB0BB
 P 12750 6800
 F 0 "R41" V 12675 6800 40  0000 C CNN
@@ -3145,7 +3145,7 @@ F 3 "" H 12750 6800 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R42
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R42
 U 1 1 5DEFB725
 P 12350 6800
 F 0 "R42" V 12275 6800 40  0000 C CNN
@@ -3156,7 +3156,7 @@ F 3 "" H 12350 6800 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C30
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C30
 U 1 1 5DEFD3FF
 P 12550 6850
 F 0 "C30" H 12550 6925 40  0000 L CNN
@@ -3190,7 +3190,7 @@ Connection ~ 13775 6950
 Wire Wire Line
 	13775 6950 14325 6950
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0117
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0117
 U 1 1 5E186D6E
 P 12350 6950
 F 0 "#PWR0117" H 12350 7000 40  0001 C CNN
@@ -3239,7 +3239,7 @@ TIM1_CH3
 Text Label 4600 10750 2    50   ~ 0
 TIM1_CH2
 $Comp
-L Electrocity_Manager_40W-rescue:SW_PUSH-device-Electrocity_Manager-rescue SW2
+L Electricity_Manager_40W-rescue:SW_PUSH-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue SW2
 U 1 1 5CCBDE40
 P 3000 10725
 F 0 "SW2" V 3046 10667 50  0000 R CNN
@@ -3250,7 +3250,7 @@ F 3 "" H 3000 10725 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:SW_PUSH-device-Electrocity_Manager-rescue SW3
+L Electricity_Manager_40W-rescue:SW_PUSH-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue SW3
 U 1 1 5CCBE709
 P 3425 10725
 F 0 "SW3" V 3471 10667 50  0000 R CNN
@@ -3261,7 +3261,7 @@ F 3 "" H 3425 10725 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:OSTBABS4C2B-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U3
+L Electricity_Manager_40W-rescue:OSTBABS4C2B-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U3
 U 1 1 5CCC097A
 P 5450 10650
 F 0 "U3" H 5450 10997 60  0000 C CNN
@@ -3272,7 +3272,7 @@ F 3 "" H 5450 10650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R1
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R1
 U 1 1 5CCC10BA
 P 4750 10550
 F 0 "R1" V 4675 10550 40  0000 C CNN
@@ -3283,7 +3283,7 @@ F 3 "" H 4750 10550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R5
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R5
 U 1 1 5CCC1602
 P 4750 10650
 F 0 "R5" V 4675 10650 40  0000 C CNN
@@ -3294,7 +3294,7 @@ F 3 "" H 4750 10650 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R21
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R21
 U 1 1 5CCC19B8
 P 4750 10750
 F 0 "R21" V 4675 10750 40  0000 C CNN
@@ -3305,7 +3305,7 @@ F 3 "" H 4750 10750 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0109
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0109
 U 1 1 5CCC305F
 P 6025 10775
 F 0 "#PWR0109" H 6025 10775 30  0001 C CNN
@@ -3330,7 +3330,7 @@ Wire Wire Line
 	6025 10550 6000 10550
 Connection ~ 6025 10650
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R22
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R22
 U 1 1 5CD297F9
 P 3000 10225
 F 0 "R22" V 2925 10225 40  0000 C CNN
@@ -3341,7 +3341,7 @@ F 3 "" H 3000 10225 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R23
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R23
 U 1 1 5CD29ED0
 P 3425 10225
 F 0 "R23" V 3350 10225 40  0000 C CNN
@@ -3352,7 +3352,7 @@ F 3 "" H 3425 10225 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:AQM0802_BL-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue U4
+L Electricity_Manager_40W-rescue:AQM0802_BL-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U4
 U 1 1 5D0BD13C
 P 8875 8900
 F 0 "U4" H 9102 8803 60  0000 L CNN
@@ -3363,7 +3363,7 @@ F 3 "" V 8675 8950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U16
+L Electricity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U16
 U 1 1 5CD3E880
 P 15525 2200
 F 0 "U16" H 15803 2253 60  0000 L CNN
@@ -3374,7 +3374,7 @@ F 3 "" H 15525 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U23
+L Electricity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U23
 U 1 1 5CD3FB17
 P 15525 2775
 F 0 "U23" H 15803 2828 60  0000 L CNN
@@ -3400,7 +3400,7 @@ Wire Wire Line
 	12350 6650 12550 6650
 Connection ~ 12550 6650
 $Comp
-L Electrocity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U25
+L Electricity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U25
 U 1 1 5CC9B168
 P 15525 3925
 F 0 "U25" H 15803 3978 60  0000 L CNN
@@ -3411,7 +3411,7 @@ F 3 "" H 15525 3925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R43
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R43
 U 1 1 5CCDE331
 P 11350 5075
 F 0 "R43" V 11275 5075 40  0000 C CNN
@@ -3447,7 +3447,7 @@ Wire Wire Line
 	2300 2250 2150 2250
 Connection ~ 2300 2250
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR039
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR039
 U 1 1 5C8F95E3
 P 2950 2300
 F 0 "#PWR039" H 2950 2300 30  0001 C CNN
@@ -3458,7 +3458,7 @@ F 3 "" H 2950 2300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C15
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C15
 U 1 1 5C8F9016
 P 2950 2050
 F 0 "C15" H 2975 2125 40  0000 L CNN
@@ -3469,7 +3469,7 @@ F 3 "" H 2950 2050 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C12
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C12
 U 1 1 5C8F8FF4
 P 2600 2050
 F 0 "C12" H 2625 2125 40  0000 L CNN
@@ -3480,7 +3480,7 @@ F 3 "" H 2600 2050 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C10
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C10
 U 1 1 5C8F8FD4
 P 2450 2050
 F 0 "C10" H 2475 2125 40  0000 L CNN
@@ -3491,7 +3491,7 @@ F 3 "" H 2450 2050 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C9
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C9
 U 1 1 5C8F8FAC
 P 2300 2050
 F 0 "C9" H 2325 2125 40  0000 L CNN
@@ -3502,7 +3502,7 @@ F 3 "" H 2300 2050 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C8
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C8
 U 1 1 5C8F8F20
 P 2150 2050
 F 0 "C8" H 2175 2125 40  0000 L CNN
@@ -3513,7 +3513,7 @@ F 3 "" H 2150 2050 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:STM32F405RG_excerpt-stm32f405rg_excerpt-Electrocity_Manager-rescue-Electrocity_Manager-rescue U2
+L Electricity_Manager_40W-rescue:STM32F405RG_excerpt-stm32f405rg_excerpt-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U2
 U 1 1 5C8F8DE4
 P 4225 4250
 F 0 "U2" H 4225 4350 60  0000 C CNN
@@ -3527,7 +3527,7 @@ Connection ~ 2950 2250
 Wire Wire Line
 	2950 2250 2950 2300
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0112
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0112
 U 1 1 5D3008BB
 P 2150 1825
 F 0 "#PWR0112" H 2150 1785 30  0001 C CNN
@@ -3593,7 +3593,7 @@ F 3 "" H 10800 6225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C29
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C29
 U 1 1 5D3C8825
 P 10800 6475
 F 0 "C29" H 10825 6550 40  0000 L CNN
@@ -3609,7 +3609,7 @@ Connection ~ 10350 6250
 Wire Wire Line
 	10325 6250 10350 6250
 $Comp
-L Electrocity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D13
+L Electricity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D13
 U 1 1 5D3B17B7
 P 10575 6250
 F 0 "D13" H 10575 6442 40  0000 C CNN
@@ -3629,7 +3629,7 @@ Wire Wire Line
 Text Label 10325 6575 2    50   ~ 0
 FB
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R32
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R32
 U 1 1 5D384569
 P 10350 6750
 F 0 "R32" V 10275 6750 40  0000 C CNN
@@ -3651,7 +3651,7 @@ F 3 "" H 10225 6450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D12
+L Electricity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D12
 U 1 1 5D381FD3
 P 10025 6450
 F 0 "D12" H 10025 6258 40  0000 C CNN
@@ -3663,7 +3663,7 @@ F 3 "" H 10025 6450 60  0000 C CNN
 $EndComp
 Connection ~ 9800 6650
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R31
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R31
 U 1 1 5D3814EF
 P 10350 6400
 F 0 "R31" V 10275 6400 40  0000 C CNN
@@ -3676,7 +3676,7 @@ $EndComp
 Text Label 8975 6650 2    50   ~ 0
 FB
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR058
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR058
 U 1 1 5D37FB1B
 P 8975 6450
 F 0 "#PWR058" H 8975 6450 30  0001 C CNN
@@ -3699,7 +3699,7 @@ Wire Wire Line
 Wire Wire Line
 	8975 5850 9800 5850
 $Comp
-L Electrocity_Manager_40W-rescue:INDUCTOR_SMALL-device-Electrocity_Manager-rescue L1
+L Electricity_Manager_40W-rescue:INDUCTOR_SMALL-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue L1
 U 1 1 5D33ED8A
 P 10075 6250
 F 0 "L1" H 10075 6465 50  0000 C CNN
@@ -3710,7 +3710,7 @@ F 3 "" H 10075 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D11
+L Electricity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D11
 U 1 1 5D32973D
 P 10025 5850
 F 0 "D11" H 10025 5658 40  0000 C CNN
@@ -3721,7 +3721,7 @@ F 3 "" H 10025 5850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C23
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C23
 U 1 1 5D328A3B
 P 8975 6050
 F 0 "C23" H 9000 6125 40  0000 L CNN
@@ -3741,7 +3741,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 6450 9800 6650
 $Comp
-L Electrocity_Manager_40W-rescue:AP3211-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U5
+L Electricity_Manager_40W-rescue:AP3211-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U5
 U 1 1 5D2FA928
 P 9375 6450
 F 0 "U5" H 9375 6915 50  0000 C CNN
@@ -3752,7 +3752,7 @@ F 3 "" H 9375 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR074
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR074
 U 1 1 5D43CDAB
 P 11000 7075
 F 0 "#PWR074" H 11000 7075 30  0001 C CNN
@@ -3771,7 +3771,7 @@ Connection ~ 11000 7050
 Wire Wire Line
 	9800 7050 11000 7050
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C25
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C25
 U 1 1 5D2FCA8C
 P 9800 6850
 F 0 "C25" H 9800 6925 40  0000 L CNN
@@ -3793,7 +3793,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 6700 8700 6725
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C49
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C49
 U 1 1 5CB61EA6
 P 8700 6925
 F 0 "C49" H 8700 7000 40  0000 L CNN
@@ -3808,7 +3808,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 6700 8475 6700
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR067
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR067
 U 1 1 5D54FFF2
 P 8700 6700
 F 0 "#PWR067" H 8700 6660 30  0001 C CNN
@@ -3848,7 +3848,7 @@ Wire Wire Line
 Wire Wire Line
 	8025 7175 8025 7150
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR063
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR063
 U 1 1 5D49EFFE
 P 8025 7175
 F 0 "#PWR063" H 8025 7175 30  0001 C CNN
@@ -3859,7 +3859,7 @@ F 3 "" H 8025 7175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C26
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C26
 U 1 1 5D49E992
 P 8500 6925
 F 0 "C26" H 8500 7000 40  0000 L CNN
@@ -3870,7 +3870,7 @@ F 3 "" H 8500 6925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C24
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C24
 U 1 1 5D49DD8C
 P 7550 6925
 F 0 "C24" H 7550 7000 40  0000 L CNN
@@ -3881,7 +3881,7 @@ F 3 "" H 7550 6925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:AZ1086H-myDevice-Electrocity_Manager-rescue U7
+L Electricity_Manager_40W-rescue:AZ1086H-myDevice-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U7
 U 1 1 5D49D5E0
 P 8025 6850
 F 0 "U7" H 8025 7287 60  0000 C CNN
@@ -3906,7 +3906,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 1650 6400 1575
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR013
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR013
 U 1 1 5D2A656B
 P 6400 1650
 F 0 "#PWR013" H 6400 1650 30  0001 C CNN
@@ -3917,7 +3917,7 @@ F 3 "" H 6400 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR05
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR05
 U 1 1 5D2A4A31
 P 5675 1575
 F 0 "#PWR05" H 5675 1535 30  0001 C CNN
@@ -3950,7 +3950,7 @@ F 3 "" H 5675 925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R2
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R2
 U 1 1 5D28F5F0
 P 5825 925
 F 0 "R2" V 5750 925 40  0000 C CNN
@@ -3961,7 +3961,7 @@ F 3 "" H 5825 925 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D2
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D2
 U 1 1 5D28F5EA
 P 6175 925
 F 0 "D2" H 6175 1140 50  0000 C CNN
@@ -3972,7 +3972,7 @@ F 3 "" H 6175 925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R3
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R3
 U 1 1 5D268E76
 P 5825 1250
 F 0 "R3" V 5750 1250 40  0000 C CNN
@@ -3983,7 +3983,7 @@ F 3 "" H 5825 1250 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D3
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D3
 U 1 1 5D268E70
 P 6175 1250
 F 0 "D3" H 6175 1465 50  0000 C CNN
@@ -3994,7 +3994,7 @@ F 3 "" H 6175 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R4
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R4
 U 1 1 5D241698
 P 5825 1575
 F 0 "R4" V 5750 1575 40  0000 C CNN
@@ -4005,7 +4005,7 @@ F 3 "" H 5825 1575 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue D4
+L Electricity_Manager_40W-rescue:LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D4
 U 1 1 5D240E11
 P 6175 1575
 F 0 "D4" H 6175 1790 50  0000 C CNN
@@ -4064,7 +4064,7 @@ Control Voltage Supply
 Text GLabel 12975 1825 0    50   Input ~ 0
 OUT_A
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR090
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR090
 U 1 1 5C9041FE
 P 12975 1725
 F 0 "#PWR090" H 12975 1775 40  0001 C CNN
@@ -4075,7 +4075,7 @@ F 3 "" H 12975 1725 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P17
+L Electricity_Manager_40W-rescue:CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P17
 U 1 1 5C903CDC
 P 13175 1775
 F 0 "P17" H 13252 1816 50  0000 L CNN
@@ -4099,7 +4099,7 @@ $EndComp
 Text GLabel 12300 2875 2    50   Input ~ 0
 OUT_A
 $Comp
-L Electrocity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D23
+L Electricity_Manager_40W-rescue:DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D23
 U 1 1 5D7E8B6A
 P 12200 4800
 F 0 "D23" V 12238 4722 40  0000 R CNN
@@ -4123,7 +4123,7 @@ F 3 "" H 12975 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R44
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R44
 U 1 1 5DA73E38
 P 12300 3350
 F 0 "R44" V 12225 3350 40  0000 C CNN
@@ -4149,7 +4149,7 @@ $EndComp
 Text GLabel 13450 2875 2    50   Input ~ 0
 OUT_B
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R50
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R50
 U 1 1 5DBC096A
 P 13450 3350
 F 0 "R50" V 13375 3350 40  0000 C CNN
@@ -4160,7 +4160,7 @@ F 3 "" H 13450 3350 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0102
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0102
 U 1 1 5DC0475A
 P 12300 3500
 F 0 "#PWR0102" H 12300 3550 40  0001 C CNN
@@ -4171,7 +4171,7 @@ F 3 "" H 12300 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0115
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0115
 U 1 1 5DC0558C
 P 13450 3500
 F 0 "#PWR0115" H 13450 3550 40  0001 C CNN
@@ -4182,7 +4182,7 @@ F 3 "" H 13450 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0116
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0116
 U 1 1 5DC08EA7
 P 12850 3000
 F 0 "#PWR0116" H 12850 2960 30  0001 C CNN
@@ -4193,7 +4193,7 @@ F 3 "" H 12850 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R49
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R49
 U 1 1 5DC0B3D3
 P 12850 3350
 F 0 "R49" V 12775 3350 40  0000 C CNN
@@ -4204,7 +4204,7 @@ F 3 "" H 12850 3350 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R40
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R40
 U 1 1 5DC0D663
 P 11700 3350
 F 0 "R40" V 11625 3350 40  0000 C CNN
@@ -4241,7 +4241,7 @@ OUTB_Current
 Text Label 13700 8625 2    50   ~ 0
 OUTA_Current
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0129
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0129
 U 1 1 5DC4089F
 P 11700 3000
 F 0 "#PWR0129" H 11700 2960 30  0001 C CNN
@@ -4252,7 +4252,7 @@ F 3 "" H 11700 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue Q4
+L Electricity_Manager_40W-rescue:MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue Q4
 U 1 1 5DC314CA
 P 8200 8175
 F 0 "Q4" H 8388 8228 60  0000 L CNN
@@ -4265,7 +4265,7 @@ $EndComp
 Text Label 8050 8175 2    50   ~ 0
 Relay_state
 $Comp
-L Electrocity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0130
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0130
 U 1 1 5DC340DF
 P 8300 8375
 F 0 "#PWR0130" H 8300 8375 30  0001 C CNN
@@ -4276,7 +4276,7 @@ F 3 "" H 8300 8375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue R54
+L Electricity_Manager_40W-rescue:R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R54
 U 1 1 5DC543F3
 P 8300 7775
 F 0 "R54" V 8225 7775 40  0000 C CNN
@@ -4287,7 +4287,7 @@ F 3 "" H 8300 7775 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0131
+L Electricity_Manager_40W-rescue:+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0131
 U 1 1 5DC964EE
 P 8300 7625
 F 0 "#PWR0131" H 8300 7585 30  0001 C CNN
@@ -4429,7 +4429,7 @@ F 3 "~" H 14325 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0136
+L Electricity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0136
 U 1 1 5DFB1E5A
 P 14775 3925
 F 0 "#PWR0136" H 14775 4025 40  0001 C CNN
@@ -4440,7 +4440,7 @@ F 3 "" H 14775 3925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C33
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C33
 U 1 1 5DFB4590
 P 14875 3275
 F 0 "C33" H 14875 3350 40  0000 L CNN
@@ -4469,7 +4469,7 @@ Connection ~ 14775 3100
 Wire Wire Line
 	14775 3100 14775 3475
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0137
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0137
 U 1 1 5E03FE04
 P 14875 4025
 F 0 "#PWR0137" H 14875 4075 40  0001 C CNN
@@ -4489,7 +4489,7 @@ Wire Wire Line
 	14875 3625 14875 3775
 Connection ~ 14875 3775
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0138
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0138
 U 1 1 5E08722C
 P 13875 3800
 F 0 "#PWR0138" H 13875 3850 40  0001 C CNN
@@ -4509,7 +4509,7 @@ OUTA_Current
 Text Label 13875 5200 2    50   ~ 0
 OUTB_Current
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0139
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0139
 U 1 1 5E0AF508
 P 13875 5075
 F 0 "#PWR0139" H 13875 5125 40  0001 C CNN
@@ -4543,7 +4543,7 @@ Connection ~ 14775 4375
 Wire Wire Line
 	14775 4375 14775 4750
 $Comp
-L Electrocity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0140
+L Electricity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0140
 U 1 1 5E164A20
 P 14775 5200
 F 0 "#PWR0140" H 14775 5300 40  0001 C CNN
@@ -4554,7 +4554,7 @@ F 3 "" H 14775 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0141
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0141
 U 1 1 5E1658D9
 P 14875 5300
 F 0 "#PWR0141" H 14875 5350 40  0001 C CNN
@@ -4606,7 +4606,7 @@ Connection ~ 14525 2975
 Wire Wire Line
 	14525 2975 14775 2975
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0142
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0142
 U 1 1 5E29911B
 P 14875 3475
 F 0 "#PWR0142" H 14875 3525 40  0001 C CNN
@@ -4617,7 +4617,7 @@ F 3 "" H 14875 3475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0143
+L Electricity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0143
 U 1 1 5E2995E0
 P 14875 3075
 F 0 "#PWR0143" H 14875 3175 40  0001 C CNN
@@ -4628,7 +4628,7 @@ F 3 "" H 14875 3075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue C34
+L Electricity_Manager_40W-rescue:C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C34
 U 1 1 5E29A4E6
 P 14875 4550
 F 0 "C34" H 14875 4625 40  0000 L CNN
@@ -4639,7 +4639,7 @@ F 3 "" H 14875 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0144
+L Electricity_Manager_40W-rescue:GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0144
 U 1 1 5E29A4F0
 P 14875 4750
 F 0 "#PWR0144" H 14875 4800 40  0001 C CNN
@@ -4650,7 +4650,7 @@ F 3 "" H 14875 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR0145
+L Electricity_Manager_40W-rescue:3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0145
 U 1 1 5E29A4FA
 P 14875 4350
 F 0 "#PWR0145" H 14875 4450 40  0001 C CNN
@@ -4697,7 +4697,7 @@ Connection ~ 7600 4425
 Wire Wire Line
 	7600 4425 8050 4425
 $Comp
-L Electrocity_Manager_40W-rescue:ACS70331EESATR-005U3-ACS70331EESATR-005U3 U8
+L Electricity_Manager_40W-rescue:ACS70331EESATR-005U3-ACS70331EESATR-005U3-Electrocity_Manager_40W-rescue U8
 U 1 1 5DF99AF3
 P 10175 4925
 F 0 "U8" H 10175 5495 50  0000 C CNN
@@ -4768,7 +4768,7 @@ F 3 "" H 15525 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electrocity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U12
+L Electricity_Manager_40W-rescue:LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U12
 U 1 1 5E51D9EB
 P 15525 4500
 F 0 "U12" H 15803 4553 60  0000 L CNN

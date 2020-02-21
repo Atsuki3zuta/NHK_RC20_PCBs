@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# +3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF +3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -40 30 H I C CNN
-F1 "+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 110 30 H V C CNN
+F1 "+3.3V-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 110 30 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -15,11 +15,11 @@ X +3.3V 1 0 0 0 U 30 30 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# 3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# 3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF 3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR 0 0 Y Y 1 F P
+DEF 3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 100 40 H I C CNN
-F1 "3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 125 40 H V C CNN
+F1 "3V3-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 125 40 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -29,11 +29,11 @@ X 3V3 1 0 0 0 U 30 30 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# ACS70331EESATR-005U3-ACS70331EESATR-005U3
+# ACS70331EESATR-005U3-ACS70331EESATR-005U3-Electrocity_Manager_40W-rescue
 #
-DEF ACS70331EESATR-005U3-ACS70331EESATR-005U3 U 0 40 Y Y 1 L N
+DEF ACS70331EESATR-005U3-ACS70331EESATR-005U3-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 L N
 F0 "U" -401 440 50 H V L BNN
-F1 "ACS70331EESATR-005U3-ACS70331EESATR-005U3" -401 -559 50 H V L BNN
+F1 "ACS70331EESATR-005U3-ACS70331EESATR-005U3-Electrocity_Manager_40W-rescue" -401 -559 50 H V L BNN
 F2 "ALLEGRO_ACS70331EESATR-005U3" 0 0 50 H I L BNN
 F3 "None" 0 0 50 H I L BNN
 F4 "ACS70331EESATR-005U3" 0 0 50 H I L BNN
@@ -56,11 +56,11 @@ X GND 5 600 -300 200 L 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
-# AP3211-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# AP3211-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF AP3211-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF AP3211-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "AP3211-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -350 50 H V C CNN
+F1 "AP3211-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -74,11 +74,11 @@ X SW 6 400 200 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# AQM0802_BL-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# AQM0802_BL-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF AQM0802_BL-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF AQM0802_BL-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 550 60 H V C CNN
-F1 "AQM0802_BL-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -850 60 H V C CNN
+F1 "AQM0802_BL-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -850 60 H V C CNN
 F2 "" -200 50 60 V V C CNN
 F3 "" -200 50 60 V V C CNN
 DRAW
@@ -97,11 +97,11 @@ X XRSETB 9 -400 -400 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# AZ1086H-myDevice-Electrocity_Manager-rescue
+# AZ1086H-myDevice-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF AZ1086H-myDevice-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF AZ1086H-myDevice-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 150 -150 60 H V C CNN
-F1 "AZ1086H-myDevice-Electrocity_Manager-rescue" 0 300 60 H V C CNN
+F1 "AZ1086H-myDevice-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 300 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -112,11 +112,11 @@ X V_IN 3 -450 150 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# BD33FA1-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# BD33FA1-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF BD33FA1-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF BD33FA1-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 100 50 H V C CNN
-F1 "BD33FA1-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 300 50 H V C CNN
+F1 "BD33FA1-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 300 50 H V C CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 DRAW
@@ -128,11 +128,11 @@ X Vcc 3 -500 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# BD9G101G-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# BD9G101G-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF BD9G101G-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF BD9G101G-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 -250 60 H V C CNN
-F1 "BD9G101G-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 50 250 60 H V C CNN
+F1 "BD9G101G-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 50 250 60 H V C CNN
 F2 "" 50 350 60 H V C CNN
 F3 "" 50 350 60 H V C CNN
 DRAW
@@ -146,11 +146,11 @@ X Lx 6 400 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# C-device-Electrocity_Manager-rescue
+# C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF C-device-Electrocity_Manager-rescue C 0 10 N Y 1 F N
+DEF C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
-F1 "C-device-Electrocity_Manager-rescue" 6 -85 40 H V L CNN
+F1 "C-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 6 -85 40 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -166,11 +166,11 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CONN_01X01-conn-Electrocity_Manager-rescue
+# CONN_01X01-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF CONN_01X01-conn-Electrocity_Manager-rescue P 0 40 Y N 1 F N
+DEF CONN_01X01-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P 0 40 Y N 1 F N
 F0 "P" 0 100 50 H V C CNN
-F1 "CONN_01X01-conn-Electrocity_Manager-rescue" 100 0 50 V V C CNN
+F1 "CONN_01X01-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -186,11 +186,11 @@ X P1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CONN_01X02-conn-Electrocity_Manager-rescue
+# CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF CONN_01X02-conn-Electrocity_Manager-rescue P 0 40 Y N 1 F N
+DEF CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "CONN_01X02-conn-Electrocity_Manager-rescue" 100 0 50 V V C CNN
+F1 "CONN_01X02-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -208,11 +208,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CONN_01X04-conn-Electrocity_Manager-rescue
+# CONN_01X04-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF CONN_01X04-conn-Electrocity_Manager-rescue P 0 40 Y N 1 F N
+DEF CONN_01X04-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
-F1 "CONN_01X04-conn-Electrocity_Manager-rescue" 100 0 50 V V C CNN
+F1 "CONN_01X04-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -234,11 +234,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CONN_01X06-conn-Electrocity_Manager-rescue
+# CONN_01X06-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF CONN_01X06-conn-Electrocity_Manager-rescue P 0 40 Y N 1 F N
+DEF CONN_01X06-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue P 0 40 Y N 1 F N
 F0 "P" 0 350 50 H V C CNN
-F1 "CONN_01X06-conn-Electrocity_Manager-rescue" 100 0 50 V V C CNN
+F1 "CONN_01X06-conn-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -264,11 +264,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CP1-device-Electrocity_Manager-rescue
+# CP1-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF CP1-device-Electrocity_Manager-rescue C 0 10 N N 1 F N
+DEF CP1-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue C 0 10 N N 1 F N
 F0 "C" 50 100 50 H V L CNN
-F1 "CP1-device-Electrocity_Manager-rescue" 50 -100 50 H V L CNN
+F1 "CP1-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 50 -100 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -284,11 +284,11 @@ X ~ 2 0 -200 180 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CRYSTAL-device-Electrocity_Manager-rescue
+# CRYSTAL-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF CRYSTAL-device-Electrocity_Manager-rescue X 0 40 N N 1 F N
+DEF CRYSTAL-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue X 0 40 N N 1 F N
 F0 "X" 0 150 60 H V C CNN
-F1 "CRYSTAL-device-Electrocity_Manager-rescue" 0 -150 60 H V C CNN
+F1 "CRYSTAL-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -300,11 +300,11 @@ X 2 2 300 0 200 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue D 0 40 Y N 1 F N
+DEF DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 40 H V C CNN
-F1 "DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -100 40 H V C CNN
+F1 "DIODE-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -100 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -319,11 +319,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR 0 0 Y Y 1 F P
+DEF GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 30 H I C CNN
-F1 "GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -70 30 H I C CNN
+F1 "GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -70 30 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -332,11 +332,11 @@ X GND 1 0 0 0 U 30 30 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue #PWR 0 0 N N 1 F P
+DEF GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 50 40 H I C CNN
-F1 "GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -80 40 H V C CNN
+F1 "GNDPWR-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -80 40 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -350,11 +350,11 @@ X GNDPWR 1 0 0 0 U 40 40 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# HSIN_946-relays-Electrocity_Manager-rescue
+# HSIN_946-relays-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF HSIN_946-relays-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF HSIN_946-relays-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 250 60 H V C CNN
-F1 "HSIN_946-relays-Electrocity_Manager-rescue" 50 -600 60 H V C CNN
+F1 "HSIN_946-relays-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 50 -600 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -378,11 +378,11 @@ X A2 5 400 -150 150 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# INDUCTOR_SMALL-device-Electrocity_Manager-rescue
+# INDUCTOR_SMALL-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF INDUCTOR_SMALL-device-Electrocity_Manager-rescue L 0 0 N N 1 F N
+DEF INDUCTOR_SMALL-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue L 0 0 N N 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "INDUCTOR_SMALL-device-Electrocity_Manager-rescue" 0 -50 50 H V C CNN
+F1 "INDUCTOR_SMALL-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -395,11 +395,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# JUMPER-device-Electrocity_Manager-rescue
+# JUMPER-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF JUMPER-device-Electrocity_Manager-rescue JP 0 30 Y N 1 F N
+DEF JUMPER-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue JP 0 30 Y N 1 F N
 F0 "JP" 0 150 60 H V C CNN
-F1 "JUMPER-device-Electrocity_Manager-rescue" 0 -80 40 H V C CNN
+F1 "JUMPER-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -80 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -411,11 +411,11 @@ X 2 2 300 0 165 L 60 60 0 1 P
 ENDDRAW
 ENDDEF
 #
-# LED-device-Electrocity_Manager-rescue
+# LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF LED-device-Electrocity_Manager-rescue D 0 40 Y N 1 F N
+DEF LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED-device-Electrocity_Manager-rescue" 0 -100 50 H V C CNN
+F1 "LED-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -437,11 +437,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 -300 60 H V C CNN
-F1 "LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 300 60 H V C CNN
+F1 "LOGO-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 300 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -449,11 +449,11 @@ S -250 250 250 -250 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# MAX3051-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# MAX3051-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF MAX3051-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF MAX3051-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 50 250 60 H V C CNN
-F1 "MAX3051-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 50 -350 60 H V C CNN
+F1 "MAX3051-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 50 -350 60 H V C CNN
 F2 "" -150 -100 60 H V C CNN
 F3 "" -150 -100 60 H V C CNN
 DRAW
@@ -469,11 +469,11 @@ X RS 8 450 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MCP2221-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# MCP2221-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF MCP2221-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF MCP2221-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 325 60 H V C CNN
-F1 "MCP2221-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -325 60 H V C CNN
+F1 "MCP2221-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -325 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -495,11 +495,11 @@ X SDA 9 450 -150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue Q 0 0 Y Y 1 F N
+DEF MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue Q 0 0 Y Y 1 F N
 F0 "Q" 10 290 60 H V C CNN
-F1 "MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -330 60 H V C CNN
+F1 "MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -330 60 H V C CNN
 F2 "" 95 0 60 H V C CNN
 F3 "" 95 0 60 H V C CNN
 DRAW
@@ -517,11 +517,11 @@ X D 3 100 200 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# NPN-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# NPN-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF NPN-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue Q 0 0 Y Y 1 F N
+DEF NPN-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue Q 0 0 Y Y 1 F N
 F0 "Q" 0 -150 50 H V R CNN
-F1 "NPN-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 150 50 H V R CNN
+F1 "NPN-device-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 150 50 H V R CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -537,11 +537,11 @@ X C 3 100 200 100 D 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OSRB38C9AA-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# OSRB38C9AA-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF OSRB38C9AA-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF OSRB38C9AA-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 400 50 H V C CNN
-F1 "OSRB38C9AA-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 300 50 H V C CNN
+F1 "OSRB38C9AA-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -552,11 +552,11 @@ X Vcc 3 100 -300 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# OSTBABS4C2B-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# OSTBABS4C2B-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF OSTBABS4C2B-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF OSTBABS4C2B-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 -200 60 H V C CNN
-F1 "OSTBABS4C2B-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 200 60 H V C CNN
+F1 "OSTBABS4C2B-myDevice-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -570,11 +570,11 @@ X blue_K 6 550 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# R-device-Electrocity_Manager-rescue
+# R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF R-device-Electrocity_Manager-rescue R 0 0 N Y 1 F N
+DEF R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
-F1 "R-device-Electrocity_Manager-rescue" 7 1 40 V V C CNN
+F1 "R-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 7 1 40 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
 $FPLIST
@@ -591,29 +591,11 @@ X ~ 2 0 -150 50 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RPA60-xxFW-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# SBR_DIODE-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF RPA60-xxFW-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 450 50 H V C CNN
-F1 "RPA60-xxFW-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S 400 400 -400 -200 0 1 0 N
-X +Vin 1 -600 -100 200 R 50 50 1 1 I
-X -Vin 2 -600 50 200 R 50 50 1 1 I
-X CTRL 3 -600 300 200 R 50 50 1 1 I
-X Trim 4 600 300 200 L 50 50 1 1 I
-X -Vout 5 600 100 200 L 50 50 1 1 I
-X +Vout 6 600 -100 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# SBR_DIODE-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue
-#
-DEF SBR_DIODE-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue D 0 40 Y Y 1 F N
+DEF SBR_DIODE-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue D 0 40 Y Y 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "SBR_DIODE-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -200 50 H V C CNN
+F1 "SBR_DIODE-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -200 50 H V C CNN
 F2 "" -100 0 50 H I C CNN
 F3 "" -100 0 50 H I C CNN
 DRAW
@@ -632,11 +614,11 @@ X Kathode 3 400 0 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# SI8900-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# SI8900-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF SI8900-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF SI8900-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 500 60 H V C CNN
-F1 "SI8900-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -500 60 H V C CNN
+F1 "SI8900-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -500 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -660,11 +642,11 @@ X GNDB 9 500 -350 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# SPEAKER-device-Electrocity_Manager-rescue
+# SPEAKER-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF SPEAKER-device-Electrocity_Manager-rescue SP 0 0 N Y 1 F N
+DEF SPEAKER-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue SP 0 0 N Y 1 F N
 F0 "SP" -100 250 70 H V C CNN
-F1 "SPEAKER-device-Electrocity_Manager-rescue" -100 -250 70 H V C CNN
+F1 "SPEAKER-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" -100 -250 70 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -675,11 +657,11 @@ X 2 2 -300 -100 200 R 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# STM32F405RG_excerpt-stm32f405rg_excerpt-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# STM32F405RG_excerpt-stm32f405rg_excerpt-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF STM32F405RG_excerpt-stm32f405rg_excerpt-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF STM32F405RG_excerpt-stm32f405rg_excerpt-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue U 0 40 Y Y 1 F N
 F0 "U" -2000 1900 60 H V C CNN
-F1 "STM32F405RG_excerpt-stm32f405rg_excerpt-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 1750 -1900 60 H V C CNN
+F1 "STM32F405RG_excerpt-stm32f405rg_excerpt-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 1750 -1900 60 H V C CNN
 F2 "LQFP64" 50 0 50 H V C CIN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -751,11 +733,11 @@ X PC1/ADC12_IN11 9 -2200 -200 150 R 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# SW_PUSH-device-Electrocity_Manager-rescue
+# SW_PUSH-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF SW_PUSH-device-Electrocity_Manager-rescue SW 0 40 N N 1 F N
+DEF SW_PUSH-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "SW_PUSH-device-Electrocity_Manager-rescue" 0 -80 50 H V C CNN
+F1 "SW_PUSH-device-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -766,11 +748,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# TLP291-opto-Electrocity_Manager-rescue
+# TLP291-opto-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF TLP291-opto-Electrocity_Manager-rescue IC 0 40 Y Y 1 F N
+DEF TLP291-opto-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue IC 0 40 Y Y 1 F N
 F0 "IC" -213 178 40 H V C CNN
-F1 "TLP291-opto-Electrocity_Manager-rescue" 149 -184 40 H V C CNN
+F1 "TLP291-opto-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" 149 -184 40 H V C CNN
 F2 "SOP4" -164 -174 29 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -795,11 +777,11 @@ X ~ 4 350 100 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB_B_Micro-Connector-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# USB_B_Micro-Connector-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
-DEF USB_B_Micro-Connector-Electrocity_Manager-rescue-Electrocity_Manager-rescue J 0 40 Y Y 1 F N
+DEF USB_B_Micro-Connector-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "USB_B_Micro-Connector-Electrocity_Manager-rescue-Electrocity_Manager-rescue" -200 350 50 H V L CNN
+F1 "USB_B_Micro-Connector-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -827,36 +809,6 @@ X D+ 3 300 0 100 L 50 50 1 1 P
 X ID 4 300 -200 100 L 50 50 1 1 P
 X GND 5 0 -400 100 U 50 50 1 1 w
 X Shield 6 -100 -400 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue
-#
-DEF V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 225 50 H V C CNN
-F1 "V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -225 50 H V C CNN
-F2 "" 0 225 50 H I C CNN
-F3 "" 0 225 50 H I C CNN
-DRAW
-S -100 25 0 -25 0 1 0 N
-S 200 175 -200 -175 0 1 0 N
-P 2 0 1 0 -200 125 -100 125 N
-P 2 0 1 0 -100 -125 -200 -125 N
-P 2 0 1 0 0 25 -100 -25 N
-P 2 0 1 0 50 0 25 0 N
-P 2 0 1 0 75 0 100 0 N
-P 2 0 1 0 100 -125 150 50 N
-P 2 0 1 0 100 125 100 25 N
-P 2 0 1 0 150 -125 100 -125 N
-P 2 0 1 0 150 -125 200 -125 N
-P 2 0 1 0 150 125 100 125 N
-P 2 0 1 0 150 125 200 125 N
-P 3 0 1 0 -100 125 -50 125 -50 25 N
-P 3 0 1 0 -50 -25 -50 -125 -100 -125 N
-X ~ 30 400 -125 200 L 50 50 1 1 I
-X ~ 85 -400 125 200 R 50 50 1 1 I
-X ~ 86 -400 -125 200 R 50 50 1 1 I
-X ~ 87 400 125 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

@@ -4795,7 +4795,7 @@ Wire Wire Line
 	9075 4700 9075 4825
 Connection ~ 9075 4825
 Wire Wire Line
-	9075 4825 9575 4825
+	9075 4825 9325 4825
 Wire Wire Line
 	9475 4725 9475 4700
 Wire Wire Line
@@ -4803,4 +4803,9 @@ Wire Wire Line
 Connection ~ 9475 4700
 Wire Wire Line
 	9475 4700 9475 4275
+Wire Wire Line
+	9325 4900 9325 4825
+Connection ~ 9325 4825
+Wire Wire Line
+	9325 4825 9575 4825
 $EndSCHEMATC
