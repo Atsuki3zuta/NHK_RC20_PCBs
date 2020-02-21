@@ -3145,7 +3145,7 @@ U 1 1 5E5499B4
 P 14400 2000
 F 0 "R34" V 14193 2000 50  0000 C CNN
 F 1 "510" V 14284 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 2000 50  0001 C CNN
+F 2 "Mizz_lib:1608_WP" V 14330 2000 50  0001 C CNN
 F 3 "~" H 14400 2000 50  0001 C CNN
 	1    14400 2000
 	0    1    1    0   
@@ -3344,14 +3344,6 @@ Wire Wire Line
 	13275 8150 13275 8200
 Wire Wire Line
 	14100 8150 13975 8150
-Connection ~ 13975 8900
-Connection ~ 13000 8950
-Wire Wire Line
-	13300 8900 13975 8900
-Wire Wire Line
-	13300 8950 13300 8900
-Wire Wire Line
-	13000 8950 13300 8950
 Wire Wire Line
 	14100 8900 13975 8900
 Connection ~ 13000 8350
@@ -3393,7 +3385,6 @@ F 3 "" H 14600 8400 60  0000 C CNN
 	1    14600 8400
 	-1   0    0    -1  
 $EndComp
-Connection ~ 11900 8950
 $Comp
 L SteerMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue Q8
 U 1 1 5E2F3D6B
@@ -3436,13 +3427,6 @@ F 3 "" H 11800 8000 60  0000 C CNN
 	1    11800 8000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10925 8900 11600 8900
-Connection ~ 10925 8900
-Wire Wire Line
-	11600 8950 11900 8950
-Wire Wire Line
-	11600 8900 11600 8950
 Wire Wire Line
 	10800 8900 10925 8900
 Wire Wire Line
@@ -3997,14 +3981,6 @@ Wire Wire Line
 	13275 5325 13275 5375
 Wire Wire Line
 	14100 5325 13975 5325
-Connection ~ 13975 6075
-Connection ~ 13000 6125
-Wire Wire Line
-	13300 6075 13975 6075
-Wire Wire Line
-	13300 6125 13300 6075
-Wire Wire Line
-	13000 6125 13300 6125
 Wire Wire Line
 	14100 6075 13975 6075
 Connection ~ 13000 5525
@@ -4054,7 +4030,6 @@ $EndComp
 Wire Wire Line
 	12450 6125 13000 6125
 Connection ~ 12450 6125
-Connection ~ 11900 6125
 Wire Wire Line
 	11900 6125 12450 6125
 $Comp
@@ -4099,13 +4074,6 @@ F 3 "" H 11800 5175 60  0000 C CNN
 	1    11800 5175
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10925 6075 11600 6075
-Connection ~ 10925 6075
-Wire Wire Line
-	11600 6125 11900 6125
-Wire Wire Line
-	11600 6075 11600 6125
 Wire Wire Line
 	10800 6075 10925 6075
 Wire Wire Line
@@ -5544,4 +5512,52 @@ Wire Wire Line
 Wire Wire Line
 	13750 4125 13425 4125
 Connection ~ 13425 4125
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR?
+U 1 1 5E53267A
+P 10925 6075
+F 0 "#PWR?" H 10925 5875 50  0001 C CNN
+F 1 "GNDPWR" H 10929 5921 50  0000 C CNN
+F 2 "" H 10925 6025 50  0001 C CNN
+F 3 "" H 10925 6025 50  0001 C CNN
+	1    10925 6075
+	1    0    0    -1  
+$EndComp
+Connection ~ 10925 6075
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR?
+U 1 1 5E536DEE
+P 13975 6075
+F 0 "#PWR?" H 13975 5875 50  0001 C CNN
+F 1 "GNDPWR" H 13979 5921 50  0000 C CNN
+F 2 "" H 13975 6025 50  0001 C CNN
+F 3 "" H 13975 6025 50  0001 C CNN
+	1    13975 6075
+	1    0    0    -1  
+$EndComp
+Connection ~ 13975 6075
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR?
+U 1 1 5E53E4B4
+P 10925 8900
+F 0 "#PWR?" H 10925 8700 50  0001 C CNN
+F 1 "GNDPWR" H 10929 8746 50  0000 C CNN
+F 2 "" H 10925 8850 50  0001 C CNN
+F 3 "" H 10925 8850 50  0001 C CNN
+	1    10925 8900
+	1    0    0    -1  
+$EndComp
+Connection ~ 10925 8900
+$Comp
+L SteerMD-rescue:GNDPWR-power-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue #PWR?
+U 1 1 5E53EA94
+P 13975 8900
+F 0 "#PWR?" H 13975 8700 50  0001 C CNN
+F 1 "GNDPWR" H 13979 8746 50  0000 C CNN
+F 2 "" H 13975 8850 50  0001 C CNN
+F 3 "" H 13975 8850 50  0001 C CNN
+	1    13975 8900
+	1    0    0    -1  
+$EndComp
+Connection ~ 13975 8900
 $EndSCHEMATC

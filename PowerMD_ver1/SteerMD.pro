@@ -1,4 +1,4 @@
-update=2020/01/10 4:31:34
+update=2020/02/22 5:59:36
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=C:/Users/3Zuta/OneDrive/デスクトップ/NHK_RC20_PCB/PowerMD/回路図/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -31,10 +41,11 @@ MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.2
 TrackWidth3=0.3
-TrackWidth4=0.5
-TrackWidth5=0.8
-TrackWidth6=1
-TrackWidth7=1.5
+TrackWidth4=0.4
+TrackWidth5=0.5
+TrackWidth6=0.8
+TrackWidth7=1
+TrackWidth8=1.5
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.5
@@ -250,13 +261,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=C:/Users/3Zuta/OneDrive/デスクトップ/NHK_RC20_PCB/PowerMD/回路図/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
