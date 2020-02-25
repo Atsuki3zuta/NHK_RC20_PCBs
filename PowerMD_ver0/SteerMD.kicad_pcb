@@ -7182,7 +7182,7 @@
     (fp_text reference R19 (at -0.635 -0.635) (layer F.SilkS) hide
       (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
     )
-    (fp_text value 1 (at 0 -0.7) (layer F.SilkS)
+    (fp_text value 10 (at 0 -0.7) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)) (justify bottom))
     )
     (fp_poly (pts (xy -0.1999 0.3) (xy 0.1999 0.3) (xy 0.1999 -0.3) (xy -0.1999 -0.3)) (layer F.Adhes) (width 0))
@@ -7208,7 +7208,7 @@
     (fp_text reference R20 (at -0.635 -0.635) (layer F.SilkS) hide
       (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
     )
-    (fp_text value 1 (at 0 -0.7) (layer F.SilkS)
+    (fp_text value 10 (at 0 -0.7) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)) (justify bottom))
     )
     (fp_line (start -0.356 -0.432) (end 0.356 -0.432) (layer Dwgs.User) (width 0.1016))
@@ -7234,7 +7234,7 @@
     (fp_text reference R28 (at -0.635 -0.635) (layer F.SilkS) hide
       (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
     )
-    (fp_text value 1 (at 0 -0.65) (layer F.SilkS)
+    (fp_text value 10 (at 0 -0.65) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify bottom))
     )
     (fp_line (start -0.356 -0.432) (end 0.356 -0.432) (layer Dwgs.User) (width 0.1016))
@@ -7260,7 +7260,7 @@
     (fp_text reference R29 (at -0.635 -0.635) (layer F.SilkS) hide
       (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
     )
-    (fp_text value 1 (at 0 -0.65) (layer F.SilkS)
+    (fp_text value 10 (at 0 -0.65) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify bottom))
     )
     (fp_poly (pts (xy -0.1999 0.3) (xy 0.1999 0.3) (xy 0.1999 -0.3) (xy -0.1999 -0.3)) (layer F.Adhes) (width 0))
@@ -7286,7 +7286,7 @@
     (fp_text reference R55 (at -0.635 -0.635) (layer F.SilkS) hide
       (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
     )
-    (fp_text value 1 (at 0 -0.65) (layer F.SilkS)
+    (fp_text value 10 (at 0 -0.65) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify bottom))
     )
     (fp_line (start -0.356 -0.432) (end 0.356 -0.432) (layer Dwgs.User) (width 0.1016))
@@ -7312,7 +7312,7 @@
     (fp_text reference R56 (at -0.635 -0.635) (layer F.SilkS) hide
       (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
     )
-    (fp_text value 1 (at 0 -0.65) (layer F.SilkS)
+    (fp_text value 10 (at 0 -0.65) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify bottom))
     )
     (fp_line (start -0.356 -0.432) (end 0.356 -0.432) (layer Dwgs.User) (width 0.1016))
@@ -7338,7 +7338,7 @@
     (fp_text reference R58 (at -0.635 -0.635) (layer F.SilkS) hide
       (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
     )
-    (fp_text value 1 (at 0 -0.65) (layer F.SilkS)
+    (fp_text value 10 (at 0 -0.65) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify bottom))
     )
     (fp_line (start -0.356 -0.432) (end 0.356 -0.432) (layer Dwgs.User) (width 0.1016))
@@ -7364,7 +7364,7 @@
     (fp_text reference R59 (at -0.635 -0.635) (layer F.SilkS) hide
       (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
     )
-    (fp_text value 1 (at 0 -0.65) (layer F.SilkS)
+    (fp_text value 10 (at 0 -0.65) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)) (justify bottom))
     )
     (fp_poly (pts (xy -0.1999 0.3) (xy 0.1999 0.3) (xy 0.1999 -0.3) (xy -0.1999 -0.3)) (layer F.Adhes) (width 0))

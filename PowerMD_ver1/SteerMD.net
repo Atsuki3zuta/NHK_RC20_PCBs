@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\3Zuta\OneDrive\デスクトップ\NHK_RC20_PCBs\PowerMD_ver1\SteerMD.sch)
-    (date "2020/02/22 8:11:11")
+    (date "2020/02/25 23:35:29")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
