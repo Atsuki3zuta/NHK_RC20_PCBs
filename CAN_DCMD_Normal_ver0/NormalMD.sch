@@ -5417,4 +5417,8 @@ F 3 "~" H 6550 1875 50  0001 C CNN
 	1    6550 1875
 	1    0    0    -1  
 $EndComp
+Text Label 4550 7125 2    50   ~ 0
+VALVE1
+Text Label 8950 5925 0    50   ~ 0
+VALVE0
 $EndSCHEMATC
