@@ -1,4 +1,4 @@
-16697146110405807
+16698728779640563
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50661,6 +50661,13 @@ R1370P
 Mizz_lib
 RESC7146X175N
 2818
+Resistor
+0
+2
+2
+Mizz_lib
+RESC10052X137N
+CSS2H-3920R-L500x
 Resistor
 0
 2
