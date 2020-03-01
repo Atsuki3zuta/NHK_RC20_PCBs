@@ -2713,11 +2713,11 @@ BATTERY_VOLTAGE
 Text Label 6775 3075 0    50   ~ 0
 BATTERY_VOLTAGE
 Text Label 6775 3475 0    50   ~ 0
-ADRESS_4
+ADRESS_1
 Text Label 6775 3575 0    50   ~ 0
 ADRESS_8
 Text Label 6775 3675 0    50   ~ 0
-ADRESS_1
+ADRESS_4
 Text Label 6775 5575 0    50   ~ 0
 CAN1_TX
 Text Label 6775 5475 0    50   ~ 0
@@ -3705,7 +3705,7 @@ SW0
 Text Label 6775 3775 0    50   ~ 0
 SW1
 Text Label 2375 4975 2    50   ~ 0
-Current0_Analog
+Current1_Analog
 Text Label 2375 4875 2    50   ~ 0
 Current0_Analog
 Text Label 6775 5175 0    50   ~ 0

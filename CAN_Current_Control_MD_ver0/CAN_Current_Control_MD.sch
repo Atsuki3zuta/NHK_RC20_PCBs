@@ -2619,7 +2619,7 @@ Wire Wire Line
 Connection ~ 8975 4700
 Wire Wire Line
 	8975 4700 8975 4725
-Text Label 6775 3375 0    50   ~ 0
+Text Label 6775 3475 0    50   ~ 0
 Substrate_Temp
 Text Label 6775 3875 0    50   ~ 0
 USART1_TX
@@ -2712,12 +2712,12 @@ Text Label 9025 2450 0    50   ~ 0
 BATTERY_VOLTAGE
 Text Label 6775 3075 0    50   ~ 0
 BATTERY_VOLTAGE
-Text Label 6775 3475 0    50   ~ 0
-ADRESS_4
+Text Label 6775 3375 0    50   ~ 0
+ADRESS_1
 Text Label 6775 3575 0    50   ~ 0
 ADRESS_8
 Text Label 6775 3675 0    50   ~ 0
-ADRESS_1
+ADRESS_4
 Text Label 6775 5575 0    50   ~ 0
 CAN1_TX
 Text Label 6775 5475 0    50   ~ 0
