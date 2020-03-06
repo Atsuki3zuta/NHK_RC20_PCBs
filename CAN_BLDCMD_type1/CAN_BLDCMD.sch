@@ -1179,17 +1179,6 @@ Wire Wire Line
 	17950 4800 18000 4800
 Wire Wire Line
 	18000 5100 18000 5125
-$Comp
-L Device:C C44
-U 1 1 5E78ABA6
-P 18275 5300
-F 0 "C44" H 18160 5254 50  0000 R CNN
-F 1 "0.1u" H 18160 5345 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 18313 5150 50  0001 C CNN
-F 3 "~" H 18275 5300 50  0001 C CNN
-	1    18275 5300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	18000 5125 18275 5125
 Wire Wire Line
@@ -1248,17 +1237,6 @@ Wire Wire Line
 	17950 7000 18000 7000
 Wire Wire Line
 	18000 7300 18000 7325
-$Comp
-L Device:C C45
-U 1 1 5E7F5058
-P 18275 7500
-F 0 "C45" H 18160 7454 50  0000 R CNN
-F 1 "0.1u" H 18160 7545 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 18313 7350 50  0001 C CNN
-F 3 "~" H 18275 7500 50  0001 C CNN
-	1    18275 7500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	18000 7325 18275 7325
 Wire Wire Line
@@ -1317,17 +1295,6 @@ Wire Wire Line
 	17950 9250 18000 9250
 Wire Wire Line
 	18000 9550 18000 9575
-$Comp
-L Device:C C46
-U 1 1 5E81E124
-P 18275 9750
-F 0 "C46" H 18160 9704 50  0000 R CNN
-F 1 "0.1u" H 18160 9795 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 18313 9600 50  0001 C CNN
-F 3 "~" H 18275 9750 50  0001 C CNN
-	1    18275 9750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	18000 9575 18275 9575
 Wire Wire Line
@@ -2064,11 +2031,11 @@ F 3 "~" H 6350 12000 50  0001 C CNN
 	1    6350 12000
 	1    0    0    -1  
 $EndComp
-Text Label 8100 5275 0    50   ~ 0
-Drive_U_Temp
 Text Label 8100 5375 0    50   ~ 0
-Drive_V_Temp
+Drive_U_Temp
 Text Label 8100 5475 0    50   ~ 0
+Drive_V_Temp
+Text Label 3700 7075 2    50   ~ 0
 Drive_W_Temp
 Text Label 8100 5575 0    50   ~ 0
 Subscribe_Temp
@@ -2104,7 +2071,7 @@ Text Label 8100 5775 0    50   ~ 0
 USARTX_TX
 Text Label 8100 5875 0    50   ~ 0
 USARTX_RX
-Text Label 3700 7075 2    50   ~ 0
+Text Label 8100 5275 0    50   ~ 0
 OUT_U_Current
 Text Label 8100 6575 0    50   ~ 0
 OUT_V_Current
@@ -2138,21 +2105,21 @@ Wire Wire Line
 Connection ~ 6700 12175
 Wire Wire Line
 	6700 12175 6700 12150
-Text Label 3700 7975 2    50   ~ 0
-SW1
-Text Label 3700 7875 2    50   ~ 0
-SW0
-Text Label 3700 7175 2    50   ~ 0
-ADRESS_0
-Text Label 3700 7275 2    50   ~ 0
-ADRESS_1
-Text Label 3700 7375 2    50   ~ 0
-ADRESS_2
 Text Label 3700 7475 2    50   ~ 0
-ADRESS_3
+SW1
+Text Label 3700 7375 2    50   ~ 0
+SW0
+Text Label 8100 7875 0    50   ~ 0
+ADRESS_0
+Text Label 8100 7775 0    50   ~ 0
+ADRESS_1
 Text Label 8100 7975 0    50   ~ 0
-IO0_Pin
+ADRESS_2
 Text Label 8100 8075 0    50   ~ 0
+ADRESS_3
+Text Label 3700 7975 2    50   ~ 0
+IO0_Pin
+Text Label 3700 7875 2    50   ~ 0
 IO1_Pin
 Text Label 21850 5475 2    50   ~ 0
 OUT_U
@@ -2431,7 +2398,7 @@ U 1 1 5E962181
 P 21725 4600
 F 0 "D20" H 21718 4345 50  0000 C CNN
 F 1 "3V3P" H 21718 4436 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 21725 4600 50  0001 C CNN
+F 2 "Mizz_lib:1608_WP" H 21725 4600 50  0001 C CNN
 F 3 "~" H 21725 4600 50  0001 C CNN
 	1    21725 4600
 	-1   0    0    1   
@@ -4854,4 +4821,47 @@ $EndComp
 Connection ~ 4725 11050
 Wire Wire Line
 	4725 11050 4725 11300
+$Comp
+L Device:C C45
+U 1 1 5E6412F8
+P 18275 7500
+F 0 "C45" H 18390 7546 50  0000 L CNN
+F 1 "0.1u" H 18390 7455 50  0000 L CNN
+F 2 "Mizz_lib:1608_WP" H 18313 7350 50  0001 C CNN
+F 3 "~" H 18275 7500 50  0001 C CNN
+	1    18275 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C44
+U 1 1 5E642DFD
+P 18275 5300
+F 0 "C44" H 18390 5346 50  0000 L CNN
+F 1 "0.1u" H 18390 5255 50  0000 L CNN
+F 2 "Mizz_lib:1608_WP" H 18313 5150 50  0001 C CNN
+F 3 "~" H 18275 5300 50  0001 C CNN
+	1    18275 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C46
+U 1 1 5E643378
+P 18275 9750
+F 0 "C46" H 18390 9796 50  0000 L CNN
+F 1 "0.1u" H 18390 9705 50  0000 L CNN
+F 2 "Mizz_lib:1608_WP" H 18313 9600 50  0001 C CNN
+F 3 "~" H 18275 9750 50  0001 C CNN
+	1    18275 9750
+	1    0    0    -1  
+$EndComp
+Text Label 8100 7175 0    50   ~ 0
+HALL_2
+Text Label 8100 7275 0    50   ~ 0
+HALL_1
+Text Label 8100 6875 0    50   ~ 0
+HALL_0
+Text Label 3700 7175 2    50   ~ 0
+VALVE0
+Text Label 3700 7275 2    50   ~ 0
+VALVE1
 $EndSCHEMATC
