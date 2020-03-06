@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:stm32f4_Centaurus-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -5431,7 +5432,7 @@ Connection ~ 1975 5900
 Text Label 16425 1350 2    50   ~ 0
 ST-LINK_Vdd
 $Comp
-L Miz:TLP4227G-2 U11
+L stm32f4_Centaurus-rescue:TLP4227G-2-Miz U11
 U 1 1 5EFA93F3
 P 16775 900
 F 0 "U11" H 16775 1275 50  0000 C CNN
