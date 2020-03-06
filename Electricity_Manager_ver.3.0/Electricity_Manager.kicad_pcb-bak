@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 59)
+    (drawings 60)
     (tracks 1584)
     (zones 0)
     (modules 196)
@@ -10150,6 +10150,9 @@
     )
   )
 
+  (gr_text ver.3.0 (at 92 145) (layer F.SilkS) (tstamp 5E6032DA)
+    (effects (font (size 1.5 1.5) (thickness 0.375) italic) (justify left))
+  )
   (gr_text 12V (at 147.3 135.5 90) (layer B.SilkS) (tstamp 5E607B26)
     (effects (font (size 0.8 0.8) (thickness 0.2)) (justify mirror))
   )
@@ -10267,7 +10270,7 @@
   (gr_text Specification: (at 79.75 131.75) (layer B.SilkS) (tstamp 5CB985F5)
     (effects (font (size 1 1) (thickness 0.25) italic) (justify mirror))
   )
-  (gr_text "Electricity Manager ver.2.0" (at 69.25 145) (layer F.SilkS)
+  (gr_text "Electricity Manager" (at 69.25 145) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.375)) (justify left))
   )
   (gr_text "Designed by A.Mizuta in 2020/03/05." (at 101.5 173.5) (layer B.SilkS)
