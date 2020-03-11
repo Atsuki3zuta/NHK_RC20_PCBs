@@ -1,4 +1,4 @@
-update=2020/03/06 15:32:26
+update=2020/03/11 16:44:34
 version=1
 last_client=eeschema
 [general]
@@ -249,7 +249,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=C:/Users/3Zuta/Documents/NHK_RC20_PCBs/stm32f4_Centaurus_ver.3.0/stm32f4_Centaurus_ver.3.0/回路図/
+PlotDirectoryName=回路図/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

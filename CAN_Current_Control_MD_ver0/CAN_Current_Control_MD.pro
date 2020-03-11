@@ -1,6 +1,6 @@
-update=2020/03/02 11:45:14
+update=2020/03/11 16:47:18
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -250,7 +250,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=C:/Users/3Zuta/OneDrive/デスクトップ/NHK_RC20_PCBs/CAN_Current_Control_MD_ver0/回路図/
+PlotDirectoryName=回路図/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
