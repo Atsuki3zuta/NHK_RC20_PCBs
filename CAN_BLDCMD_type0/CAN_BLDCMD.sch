@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:CAN_BLDCMD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -1622,7 +1621,7 @@ U 1 1 5E571D6A
 P 19475 1625
 F 0 "D15" H 19475 1890 50  0000 C CNN
 F 1 "DIODE" H 19475 1799 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 19475 1625 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 19475 1625 50  0001 C CNN
 F 3 "~" H 19475 1625 50  0001 C CNN
 	1    19475 1625
 	1    0    0    -1  
@@ -3261,7 +3260,7 @@ L Device:R R32
 U 1 1 5E8DAA93
 P 15850 3625
 F 0 "R32" V 15643 3625 50  0000 C CNN
-F 1 "4.7k" V 15734 3625 50  0000 C CNN
+F 1 "20k" V 15734 3625 50  0000 C CNN
 F 2 "Mizz_lib:1608_WP" V 15780 3625 50  0001 C CNN
 F 3 "~" H 15850 3625 50  0001 C CNN
 	1    15850 3625
@@ -4133,7 +4132,7 @@ L Device:LED D5
 U 1 1 5EF87599
 P 2875 12050
 F 0 "D5" V 2914 11933 50  0000 R CNN
-F 1 "LED" V 2823 11933 50  0000 R CNN
+F 1 "BUS" V 2823 11933 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 2875 12050 50  0001 C CNN
 F 3 "~" H 2875 12050 50  0001 C CNN
 	1    2875 12050
@@ -4155,7 +4154,7 @@ L Device:LED D6
 U 1 1 5EF888DE
 P 3200 12050
 F 0 "D6" V 3239 11933 50  0000 R CNN
-F 1 "LED" V 3148 11933 50  0000 R CNN
+F 1 "EMG" V 3148 11933 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 3200 12050 50  0001 C CNN
 F 3 "~" H 3200 12050 50  0001 C CNN
 	1    3200 12050
@@ -4254,17 +4253,15 @@ F 3 "~" H 2075 11850 50  0001 C CNN
 	1    2075 11850
 	1    0    0    -1  
 $EndComp
-Text Label 6625 4275 0    50   ~ 0
+Text Label 2225 6775 2    50   ~ 0
 USARTx_TX
-Text Label 6625 4375 0    50   ~ 0
+Text Label 2225 6875 2    50   ~ 0
 USARTx_RX
-Text Label 6625 4475 0    50   ~ 0
-Drive_U_Temp
-Text Label 6625 4575 0    50   ~ 0
+Text Label 2225 5975 2    50   ~ 0
 Drive_V_Temp
-Text Label 6625 4675 0    50   ~ 0
+Text Label 2225 5775 2    50   ~ 0
 Drive_W_Temp
-Text Label 6625 4775 0    50   ~ 0
+Text Label 6625 4375 0    50   ~ 0
 Subscribe_Temp
 $Comp
 L Connector_Generic:Conn_01x04 J7
@@ -4324,21 +4321,19 @@ Text Label 6625 4975 0    50   ~ 0
 USARTX_TX
 Text Label 6625 5075 0    50   ~ 0
 USARTX_RX
-Text Label 6625 4175 0    50   ~ 0
+Text Label 2225 6975 2    50   ~ 0
 ADC_~RST~_Pin
-Text Label 6625 4075 0    50   ~ 0
+Text Label 6625 6075 0    50   ~ 0
 PWR_ON_Pin
-Text Label 2225 6275 2    50   ~ 0
-OUT_U_Current
-Text Label 6625 5775 0    50   ~ 0
+Text Label 2225 6075 2    50   ~ 0
 OUT_V_Current
-Text Label 6625 5875 0    50   ~ 0
+Text Label 2225 5875 2    50   ~ 0
 OUT_W_Current
 Wire Wire Line
 	6625 5975 7300 5975
-Text Label 2225 5875 2    50   ~ 0
+Text Label 6625 5575 0    50   ~ 0
 LED0
-Text Label 2225 5975 2    50   ~ 0
+Text Label 6625 6375 0    50   ~ 0
 LED1
 Text Label 6625 6275 0    50   ~ 0
 TIMx_CH2
@@ -4366,10 +4361,6 @@ Text Label 2225 7175 2    50   ~ 0
 SW1
 Text Label 2225 7075 2    50   ~ 0
 SW0
-Text Label 6625 6775 0    50   ~ 0
-ADRESS_0
-Text Label 6625 6875 0    50   ~ 0
-ADRESS_1
 Text Label 6625 6975 0    50   ~ 0
 ADRESS_2
 Text Label 6625 7075 0    50   ~ 0
@@ -5199,11 +5190,11 @@ F 3 "" H 1725 13775 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1725 13775 1650 13775
-Text Label 2225 6775 2    50   ~ 0
+Text Label 2225 6475 2    50   ~ 0
 HALL_0
-Text Label 2225 6875 2    50   ~ 0
+Text Label 2225 6575 2    50   ~ 0
 HALL_1
-Text Label 2225 6975 2    50   ~ 0
+Text Label 2225 6675 2    50   ~ 0
 HALL_2
 Text Label 2225 6375 2    50   ~ 0
 SW_MODE
@@ -5250,4 +5241,49 @@ F 3 "" H 2250 14575 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 14575 2200 14575
+Text Label 6625 4075 0    50   ~ 0
+Drive_U_Temp
+Text Label 6625 4175 0    50   ~ 0
+OUT_U_Current
+Text Label 6625 6875 0    50   ~ 0
+ADRESS_1
+Text Label 6625 6775 0    50   ~ 0
+ADRESS_0
+Text Label 6625 6475 0    50   ~ 0
+LED2
+$Comp
+L Device:LED D28
+U 1 1 5E9EDAB1
+P 3525 12050
+F 0 "D28" V 3564 11933 50  0000 R CNN
+F 1 "MODE" V 3473 11933 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3525 12050 50  0001 C CNN
+F 3 "~" H 3525 12050 50  0001 C CNN
+	1    3525 12050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R66
+U 1 1 5E9EDABB
+P 3525 11750
+F 0 "R66" H 3595 11796 50  0000 L CNN
+F 1 "330" H 3595 11705 50  0000 L CNN
+F 2 "Mizz_lib:1608_WP" V 3455 11750 50  0001 C CNN
+F 3 "~" H 3525 11750 50  0001 C CNN
+	1    3525 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0250
+U 1 1 5E9EDAC5
+P 3525 12200
+F 0 "#PWR0250" H 3525 11950 50  0001 C CNN
+F 1 "GND" H 3530 12027 50  0000 C CNN
+F 2 "" H 3525 12200 50  0001 C CNN
+F 3 "" H 3525 12200 50  0001 C CNN
+	1    3525 12200
+	1    0    0    -1  
+$EndComp
+Text Label 3525 11600 2    50   ~ 0
+LED2
 $EndSCHEMATC
