@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.5)
@@ -4097,7 +4097,7 @@
   )
 
   (module Mizz_lib:Inductor_Taiyo-Yuden_NR-50xx_HandSoldering (layer F.Cu) (tedit 5C6872D2) (tstamp 5E4AC8E7)
-    (at 251.5 102.975)
+    (at 239.5 99.4 180)
     (descr "Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-50xx, 4.9mmx4.9mm")
     (tags "inductor taiyo-yuden nr smd")
     (path /5E5F33D6)
@@ -4126,9 +4126,9 @@
     (fp_line (start -1.65 -2.45) (end 0 -2.45) (layer F.Fab) (width 0.15))
     (fp_line (start -2.45 -1.65) (end -1.65 -2.45) (layer F.Fab) (width 0.15))
     (fp_line (start -2.45 0) (end -2.45 -1.65) (layer F.Fab) (width 0.15))
-    (pad 2 smd rect (at 2.25 0) (size 2.4 4.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 2.25 0 180) (size 2.4 4.2) (layers F.Cu F.Paste F.Mask)
       (net 34 /FB_12P))
-    (pad 1 smd rect (at -2.25 0) (size 2.4 4.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -2.25 0 180) (size 2.4 4.2) (layers F.Cu F.Paste F.Mask)
       (net 39 "Net-(C47-Pad1)"))
     (model Inductors.3dshapes/Inductor_Taiyo-Yuden_NR-50xx.wrl
       (at (xyz 0 0 0))
