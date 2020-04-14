@@ -1,4 +1,4 @@
-17336872767879085
+17355885827242476
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51947,6 +51947,20 @@ KHS4
 8
 8
 Mizz_lib
+KIT_EMBLEM_10x10_silk
+
+
+0
+0
+0
+Mizz_lib
+KIT_EMBLEM_25x25_silk
+
+
+0
+0
+0
+Mizz_lib
 KIT_RP_NAME
 
 
@@ -52030,6 +52044,13 @@ MGS30
 0
 6
 6
+Mizz_lib
+MPU-6050
+Through hole pin header
+pin header
+0
+8
+8
 Mizz_lib
 Mega_Fusigibana_15x9_silk
 
@@ -52436,6 +52457,20 @@ R1370P
 0
 18
 18
+Mizz_lib
+R3006SB
+
+
+0
+9
+9
+Mizz_lib
+RDC501051A
+RDC501051A-5
+Integrated Circuit
+0
+4
+4
 Mizz_lib
 RESC7146X175N
 2818
@@ -70426,6 +70461,55 @@ rotary encoder
 0
 5
 4
+SamacSys_Parts
+2MS1T1B4M7QES
+2MS1T1B4M7QES-3
+Switch
+0
+4
+4
+SamacSys_Parts
+3522-2
+3522-2
+Connector
+0
+4
+4
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+NVMFD5C446NLWFT1G
+DFN8 5x6 (SO8FL) CASE 506BT
+MOSFET (N-Channel)
+0
+14
+14
+SamacSys_Parts
+RDC501051A
+RDC501051A-5
+Integrated Circuit
+0
+4
+4
+SamacSys_Parts
+RESC7146X175N
+2818
+Resistor
+0
+2
+2
+SamacSys_Parts
+V23086C1001A403EVBLBOX
+V23086C1001A403-EV-BLBOX
+Relay or Contactor
+0
+5
+5
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
