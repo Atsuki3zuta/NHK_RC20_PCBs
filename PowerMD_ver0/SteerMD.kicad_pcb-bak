@@ -5,7 +5,7 @@
     (drawings 59)
     (tracks 2092)
     (zones 0)
-    (modules 220)
+    (modules 216)
     (nets 173)
   )
 
@@ -453,50 +453,6 @@
     (add_net "Net-(U8-Pad13)")
     (add_net "Net-(U8-Pad2)")
     (add_net "Net-(U8-Pad7)")
-  )
-
-  (module Mizz_lib:φ6_holl3 (layer F.Cu) (tedit 5EA5A9F6) (tstamp 5EA5B80F)
-    (at 144.5 136)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value φ6_holl3 (at 0 -0.5) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers *.Cu *.Mask))
-  )
-
-  (module Mizz_lib:φ6_holl3 (layer F.Cu) (tedit 5EA5A9F6) (tstamp 5EA5B807)
-    (at 75.5 136)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value φ6_holl3 (at 0 -0.5) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers *.Cu *.Mask))
-  )
-
-  (module Mizz_lib:φ6_holl3 (layer F.Cu) (tedit 5EA5A9F6) (tstamp 5EA5B7FF)
-    (at 75.5 54)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value φ6_holl3 (at 0 -0.5) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers *.Cu *.Mask))
-  )
-
-  (module Mizz_lib:φ6_holl3 (layer F.Cu) (tedit 5EA5A9F6) (tstamp 5EA5B7EC)
-    (at 144.5 54)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value φ6_holl3 (at 0 -0.5) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers *.Cu *.Mask))
   )
 
   (module Mizz_lib:rotary_0F (layer F.Cu) (tedit 5EA5A946) (tstamp 5E03EC3C)

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:NormalMD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -1006,8 +1005,6 @@ Text Label 7800 13275 2    50   ~ 0
 USART2_TX
 Text Label 7800 13375 2    50   ~ 0
 USART2_RX
-Text Label 13950 4625 0    50   ~ 0
-IO_0
 $Comp
 L NormalMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue R4
 U 1 1 5E3488F0
@@ -1543,7 +1540,7 @@ L NormalMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue
 U 1 1 5E84916E
 P 15050 4375
 F 0 "R40" H 15120 4421 50  0000 L CNN
-F 1 "4.7k" H 15120 4330 50  0000 L CNN
+F 1 "20k" H 15120 4330 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 14980 4375 50  0001 C CNN
 F 3 "~" H 15050 4375 50  0001 C CNN
 	1    15050 4375
@@ -2119,8 +2116,6 @@ Text Notes 3525 6825 0    50   ~ 0
 TIM8CH
 Text Label 8950 5225 0    50   ~ 0
 SW0
-Text Label 13950 4725 0    50   ~ 0
-IO_1
 Text Label 19200 2075 2    50   ~ 0
 OUT0_L
 Text Label 19200 2175 2    50   ~ 0

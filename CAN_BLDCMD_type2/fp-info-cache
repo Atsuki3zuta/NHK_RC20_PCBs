@@ -1,4 +1,4 @@
-17355885827242476
+17356888320091169
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51807,6 +51807,13 @@ Enc_19.3x7.0_silk
 0
 0
 Mizz_lib
+FT232RL_module
+
+
+0
+24
+24
+Mizz_lib
 GS2
 Pontet Goute de soudure
 
@@ -51947,20 +51954,6 @@ KHS4
 8
 8
 Mizz_lib
-KIT_EMBLEM_10x10_silk
-
-
-0
-0
-0
-Mizz_lib
-KIT_EMBLEM_25x25_silk
-
-
-0
-0
-0
-Mizz_lib
 KIT_RP_NAME
 
 
@@ -52044,13 +52037,6 @@ MGS30
 0
 6
 6
-Mizz_lib
-MPU-6050
-Through hole pin header
-pin header
-0
-8
-8
 Mizz_lib
 Mega_Fusigibana_15x9_silk
 
@@ -52457,13 +52443,6 @@ R1370P
 0
 18
 18
-Mizz_lib
-R3006SB
-
-
-0
-9
-9
 Mizz_lib
 RDC501051A
 RDC501051A-5
@@ -53170,6 +53149,13 @@ volmeter01
 
 0
 3
+1
+Mizz_lib
+φ6_holl3
+
+
+0
+1
 1
 Module
 A20_OLINUXINO_LIME2
@@ -68641,6 +68627,20 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+Raspberry-Pi-3-library-for-kicad-master
+raspberrypi2
+RaspberryPi 2
+CONN
+0
+40
+40
+Raspberry-Pi-3-library-for-kicad-master
+raspberrypi_2_3
+RaspberryPi 2
+CONN
+0
+40
+40
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
