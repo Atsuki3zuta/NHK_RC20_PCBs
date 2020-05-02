@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\3Zuta\Documents\NHK_RC20_PCBs\PowerMD_ver0\SteerMD.sch)
-    (date "2020/04/28 4:23:10")
+    (date "2020/05/01 19:02:27")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1439,7 +1439,7 @@
       (tstamp 5E0E8FCA))
     (comp (ref JP3)
       (value I/O_Vdd)
-      (footprint Mizz_lib:SW_Micro_SPST)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Jumper) (part Jumper_3_Open) (description "Jumper, 3-pole, both open"))
       (sheetpath (names /) (tstamps /))
