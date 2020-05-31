@@ -1,4 +1,4 @@
-17335287377302623
+17356888320091169
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51807,6 +51807,13 @@ Enc_19.3x7.0_silk
 0
 0
 Mizz_lib
+FT232RL_module
+
+
+0
+24
+24
+Mizz_lib
 GS2
 Pontet Goute de soudure
 
@@ -52436,6 +52443,13 @@ R1370P
 0
 18
 18
+Mizz_lib
+RDC501051A
+RDC501051A-5
+Integrated Circuit
+0
+4
+4
 Mizz_lib
 RESC7146X175N
 2818
@@ -53123,11 +53137,25 @@ rotary_0F
 6
 6
 Mizz_lib
+screw_safety_silk_24x10
+
+
+0
+0
+0
+Mizz_lib
 volmeter01
 
 
 0
 3
+1
+Mizz_lib
+φ6_holl3
+
+
+0
+1
 1
 Module
 A20_OLINUXINO_LIME2
@@ -68599,6 +68627,20 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+Raspberry-Pi-3-library-for-kicad-master
+raspberrypi2
+RaspberryPi 2
+CONN
+0
+40
+40
+Raspberry-Pi-3-library-for-kicad-master
+raspberrypi_2_3
+RaspberryPi 2
+CONN
+0
+40
+40
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
@@ -70419,6 +70461,55 @@ rotary encoder
 0
 5
 4
+SamacSys_Parts
+2MS1T1B4M7QES
+2MS1T1B4M7QES-3
+Switch
+0
+4
+4
+SamacSys_Parts
+3522-2
+3522-2
+Connector
+0
+4
+4
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+NVMFD5C446NLWFT1G
+DFN8 5x6 (SO8FL) CASE 506BT
+MOSFET (N-Channel)
+0
+14
+14
+SamacSys_Parts
+RDC501051A
+RDC501051A-5
+Integrated Circuit
+0
+4
+4
+SamacSys_Parts
+RESC7146X175N
+2818
+Resistor
+0
+2
+2
+SamacSys_Parts
+V23086C1001A403EVBLBOX
+V23086C1001A403-EV-BLBOX
+Relay or Contactor
+0
+5
+5
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
