@@ -269,12 +269,12 @@ $Comp
 L Electricity_Manager-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P9
 U 1 1 5C902D16
 P 9425 1125
-F 0 "P9" H 9502 1166 50  0000 L CNN
-F 1 "MAIN_SW" H 9502 1075 50  0000 L CNN
+F 0 "P9" H 9500 1075 50  0000 L CNN
+F 1 "MAIN_SW" H 9500 1150 50  0000 L CNN
 F 2 "Mizz_lib:XA_2T" H 9425 1125 50  0001 C CNN
 F 3 "" H 9425 1125 50  0000 C CNN
 	1    9425 1125
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Electricity_Manager-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P10

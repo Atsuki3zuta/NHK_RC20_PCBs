@@ -1,4 +1,4 @@
-17356895384992065
+17358486634285919
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -52611,6 +52611,13 @@ SOIC 1.27
 0
 4
 4
+Mizz_lib
+SOP-14_5.3x10.8mm_P1.27mm
+SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=80), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+14
+14
 Mizz_lib
 SOT-23
 SOT-23, Standard
