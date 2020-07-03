@@ -1,4 +1,4 @@
-update=2020/03/11 16:47:47
+update=2020/03/31 20:25:40
 version=1
 last_client=eeschema
 [general]
@@ -249,7 +249,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=回路図/
+PlotDirectoryName=C:/Users/3Zuta/OneDrive/デスクトップ/NHK_RC20_PCBs/CAN_BLDCMD_type2/回路図/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

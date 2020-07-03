@@ -1,4 +1,4 @@
-16698728779640563
+16714118019123322
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50057,6 +50057,13 @@ Enc_19.3x7.0_silk
 0
 0
 Mizz_lib
+FT232RL_module
+
+
+0
+24
+24
+Mizz_lib
 GS2
 Pontet Goute de soudure
 
@@ -50414,6 +50421,13 @@ NoharaHiroshi_Silk50x53
 0
 0
 Mizz_lib
+OKLCS1212E4001
+
+
+0
+2
+2
+Mizz_lib
 OSL10321-Lx
 
 
@@ -50435,6 +50449,20 @@ OSTBABS4C2B
 6
 6
 Mizz_lib
+Ogawa_30x40_silk
+
+
+0
+0
+0
+Mizz_lib
+Ogawa_reverse_30x40_silk
+
+
+0
+0
+0
+Mizz_lib
 Origin_Logo
 
 
@@ -50443,6 +50471,13 @@ Origin_Logo
 0
 Mizz_lib
 PIN2
+
+
+0
+2
+2
+Mizz_lib
+PKLCS1212E4001
 
 
 0
@@ -50658,6 +50693,13 @@ R1370P
 0
 18
 18
+Mizz_lib
+RDC501051A
+RDC501051A-5
+Integrated Circuit
+0
+4
+4
 Mizz_lib
 RESC7146X175N
 2818
@@ -50959,6 +51001,13 @@ UGCT7525AN4
 0
 3
 3
+Mizz_lib
+UM1515IA
+
+
+0
+4
+2
 Mizz_lib
 USB-A-male
 
@@ -51337,6 +51386,13 @@ rotary_0F
 0
 6
 6
+Mizz_lib
+screw_safety_silk_24x10
+
+
+0
+0
+0
 Mizz_lib
 volmeter01
 
@@ -68207,6 +68263,13 @@ MOSFET (N-Channel)
 0
 14
 14
+SamacSys_Parts
+RDC501051A
+RDC501051A-5
+Integrated Circuit
+0
+4
+4
 SamacSys_Parts
 RESC7146X175N
 2818
