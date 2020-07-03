@@ -274,7 +274,7 @@ F 1 "MAIN_SW" H 9502 1075 50  0000 L CNN
 F 2 "Mizz_lib:XA_2T" H 9425 1125 50  0001 C CNN
 F 3 "" H 9425 1125 50  0000 C CNN
 	1    9425 1125
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Electricity_Manager-rescue:CONN_01X02-conn-Electrocity_Manager-rescue P10
@@ -4794,7 +4794,7 @@ L Electricity_Manager-rescue:Conn_01x03 P8
 U 1 1 5E69BB5E
 P 9350 3300
 F 0 "P8" H 9430 3348 50  0000 L CNN
-F 1 "EXTERNAL_~RST" H 9430 3250 50  0000 L CNN
+F 1 "MAIN_~RST" H 9430 3250 50  0000 L CNN
 F 2 "Mizz_lib:XA_3T" H 9350 3300 50  0001 C CNN
 F 3 "~" H 9350 3300 50  0001 C CNN
 	1    9350 3300
