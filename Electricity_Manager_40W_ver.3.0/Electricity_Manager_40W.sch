@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Electricity_Manager_40W-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -4671,7 +4672,7 @@ F 3 "" H 2900 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Miz:MGS15 DCDC1
+L Electricity_Manager_40W-rescue:MGS15-Miz DCDC1
 U 1 1 5DD7555B
 P 8550 4625
 F 0 "DCDC1" H 8550 5222 60  0000 C CNN

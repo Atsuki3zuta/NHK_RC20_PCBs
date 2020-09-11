@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:stm32f4_Centaurus-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L stm32f4_Centaurus-rescue:PIC24FJ64GB004-pic24fjxxgb IC1
+L stm32f4_Centaurus-rescue:PIC24FJ64GB004-pic24fjxxgb-stm32f4_Centaurus-rescue IC1
 U 1 1 5C554825
 P 18250 14350
 F 0 "IC1" H 19825 17950 60  0000 C CNN

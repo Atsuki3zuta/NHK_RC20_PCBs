@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Slapnir-rescue)(type Legacy)(uri ${KIPRJMOD}/Slapnir-rescue.lib)(options "")(descr ""))
+)

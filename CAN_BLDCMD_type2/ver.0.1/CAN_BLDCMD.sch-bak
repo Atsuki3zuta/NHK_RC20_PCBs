@@ -4864,23 +4864,23 @@ $EndComp
 $Comp
 L Comparator:LM339 U10
 U 1 1 5E976A29
-P 17650 13825
-F 0 "U10" H 17650 14192 50  0000 C CNN
-F 1 "LM339" H 17650 14101 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 17600 13925 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 17700 14025 50  0001 C CNN
-	1    17650 13825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Comparator:LM339 U10
-U 2 1 5E97CA91
 P 17675 13125
 F 0 "U10" H 17675 13492 50  0000 C CNN
 F 1 "LM339" H 17675 13401 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 17625 13225 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 17725 13325 50  0001 C CNN
-	2    17675 13125
+	1    17675 13125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Comparator:LM339 U10
+U 2 1 5E97CA91
+P 17650 14575
+F 0 "U10" H 17650 14942 50  0000 C CNN
+F 1 "LM339" H 17650 14851 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 17600 14675 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 17700 14775 50  0001 C CNN
+	2    17650 14575
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4897,12 +4897,12 @@ $EndComp
 $Comp
 L Comparator:LM339 U10
 U 4 1 5E985454
-P 17650 14575
-F 0 "U10" H 17650 14942 50  0000 C CNN
-F 1 "LM339" H 17650 14851 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 17600 14675 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 17700 14775 50  0001 C CNN
-	4    17650 14575
+P 17650 13825
+F 0 "U10" H 17650 14192 50  0000 C CNN
+F 1 "LM339" H 17650 14101 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 17600 13925 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 17700 14025 50  0001 C CNN
+	4    17650 13825
 	1    0    0    -1  
 $EndComp
 $Comp

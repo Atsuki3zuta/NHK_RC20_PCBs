@@ -851,11 +851,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# V23134J1052D642
 #
-DEF V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF V23134J1052D642 U 0 40 Y Y 1 F N
 F0 "U" 0 225 50 H V C CNN
-F1 "V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -225 50 H V C CNN
+F1 "V23134J1052D642" 0 -225 50 H V C CNN
 F2 "" 0 225 50 H I C CNN
 F3 "" 0 225 50 H I C CNN
 DRAW

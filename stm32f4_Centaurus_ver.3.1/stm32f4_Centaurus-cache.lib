@@ -736,11 +736,11 @@ X blue_K 6 550 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# stm32f4_Centaurus-rescue_PIC24FJ64GB004-pic24fjxxgb
+# stm32f4_Centaurus-rescue_PIC24FJ64GB004-pic24fjxxgb-stm32f4_Centaurus-rescue
 #
-DEF stm32f4_Centaurus-rescue_PIC24FJ64GB004-pic24fjxxgb IC 0 40 Y Y 1 F N
+DEF stm32f4_Centaurus-rescue_PIC24FJ64GB004-pic24fjxxgb-stm32f4_Centaurus-rescue IC 0 40 Y Y 1 F N
 F0 "IC" 100 3200 60 H V C CNN
-F1 "stm32f4_Centaurus-rescue_PIC24FJ64GB004-pic24fjxxgb" 2700 400 60 H V C CNN
+F1 "stm32f4_Centaurus-rescue_PIC24FJ64GB004-pic24fjxxgb-stm32f4_Centaurus-rescue" 2700 400 60 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

@@ -533,6 +533,24 @@ X SDA 9 450 -150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Electricity_Manager_40W-rescue_MGS15-Miz
+#
+DEF Electricity_Manager_40W-rescue_MGS15-Miz DCDC 0 40 Y Y 1 F N
+F0 "DCDC" 0 450 60 H V C CNN
+F1 "Electricity_Manager_40W-rescue_MGS15-Miz" 0 -300 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -300 400 300 -250 0 1 0 N
+X -Vout 1 -500 350 200 R 50 50 1 1 I
+X TRM 2 -500 100 200 R 50 50 1 1 I
+X +Vout 3 -500 -200 200 R 50 50 1 1 I
+X RC 4 500 -200 200 L 50 50 1 1 I
+X -Vin 5 500 0 200 L 50 50 1 1 I
+X +Vin 6 500 200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Electricity_Manager_40W-rescue_MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue
 #
 DEF Electricity_Manager_40W-rescue_MOSFET_N_123-Hori_lib-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue Q 0 0 Y Y 1 F N
@@ -926,24 +944,6 @@ S -250 250 250 -250 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# Miz_MGS15
-#
-DEF Miz_MGS15 DCDC 0 40 Y Y 1 F N
-F0 "DCDC" 0 450 60 H V C CNN
-F1 "Miz_MGS15" 0 -300 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S -300 400 300 -250 0 1 0 N
-X -Vout 1 -500 350 200 R 50 50 1 1 I
-X TRM 2 -500 100 200 R 50 50 1 1 I
-X +Vout 3 -500 -200 200 R 50 50 1 1 I
-X RC 4 500 -200 200 L 50 50 1 1 I
-X -Vin 5 500 0 200 L 50 50 1 1 I
-X +Vin 6 500 200 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # Miz_TSC103
 #
 DEF Miz_TSC103 AMP 0 40 Y Y 1 F N
@@ -952,7 +952,7 @@ F1 "Miz_TSC103" 0 -350 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
-S -250 350 250 -300 0 1 0 N
+S -250 350 250 -300 0 1 0 f
 X Vm 1 -450 250 200 R 50 50 1 1 I
 X SEL1 2 -450 100 200 R 50 50 1 1 I
 X SEL2 3 -450 -50 200 R 50 50 1 1 I

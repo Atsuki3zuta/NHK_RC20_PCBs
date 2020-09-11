@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L NormalMD-rescue:STM32F405RG_excerpt-stm32f405rg_excerpt-Miz-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue U3
+L NormalMD-rescue:STM32F405RG_excerpt-stm32f405rg_excerpt-Miz-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue U3
 U 1 1 5E0DD671
 P 6750 6025
 F 0 "U3" H 4750 8000 60  0000 C CNN
@@ -623,7 +623,7 @@ F 3 "" H 6575 10625 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NormalMD-rescue:SI8900-Hori_lib-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue U5
+L NormalMD-rescue:SI8900-Hori_lib-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue U5
 U 1 1 5E1CE2F1
 P 14775 2975
 F 0 "U5" H 14775 3612 60  0000 C CNN
@@ -1006,8 +1006,6 @@ Text Label 7800 13275 2    50   ~ 0
 USART2_TX
 Text Label 7800 13375 2    50   ~ 0
 USART2_RX
-Text Label 13950 4625 0    50   ~ 0
-IO_0
 $Comp
 L NormalMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue R4
 U 1 1 5E3488F0
@@ -1270,7 +1268,7 @@ $EndComp
 Wire Wire Line
 	18825 3000 18700 3000
 $Comp
-L Miz:AP3211 U2
+L NormalMD-rescue:AP3211-Miz U2
 U 1 1 5E588240
 P 4175 1850
 F 0 "U2" H 4175 2315 50  0000 C CNN
@@ -1543,7 +1541,7 @@ L NormalMD-rescue:R-Device-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue
 U 1 1 5E84916E
 P 15050 4375
 F 0 "R40" H 15120 4421 50  0000 L CNN
-F 1 "4.7k" H 15120 4330 50  0000 L CNN
+F 1 "20k" H 15120 4330 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 14980 4375 50  0001 C CNN
 F 3 "~" H 15050 4375 50  0001 C CNN
 	1    15050 4375
@@ -2119,8 +2117,6 @@ Text Notes 3525 6825 0    50   ~ 0
 TIM8CH
 Text Label 8950 5225 0    50   ~ 0
 SW0
-Text Label 13950 4725 0    50   ~ 0
-IO_1
 Text Label 19200 2075 2    50   ~ 0
 OUT0_L
 Text Label 19200 2175 2    50   ~ 0
@@ -2379,7 +2375,7 @@ Text Label 8950 6425 0    50   ~ 0
 LED3
 Connection ~ 10550 9875
 $Comp
-L Miz:LOGO_Monster #G1
+L NormalMD-rescue:LOGO_Monster-Miz #G1
 U 1 1 5E034095
 P 21725 2025
 F 0 "#G1" H 21706 2741 60  0000 C CNN
@@ -3815,7 +3811,7 @@ L Device:R R57
 U 1 1 5E3D0574
 P 18650 6250
 F 0 "R57" V 18443 6250 50  0000 C CNN
-F 1 "2m" V 18534 6250 50  0000 C CNN
+F 1 "1m" V 18534 6250 50  0000 C CNN
 F 2 "Mizz_lib:R_2010_5025Metric" V 18580 6250 50  0001 C CNN
 F 3 "~" H 18650 6250 50  0001 C CNN
 	1    18650 6250
@@ -3834,7 +3830,7 @@ L Device:R R60
 U 1 1 5E3D056A
 P 18650 6550
 F 0 "R60" V 18443 6550 50  0000 C CNN
-F 1 "2m" V 18534 6550 50  0000 C CNN
+F 1 "1m" V 18534 6550 50  0000 C CNN
 F 2 "Mizz_lib:R_2010_5025Metric" V 18580 6550 50  0001 C CNN
 F 3 "~" H 18650 6550 50  0001 C CNN
 	1    18650 6550
@@ -3891,7 +3887,7 @@ Wire Wire Line
 Wire Wire Line
 	18650 7650 18650 7725
 $Comp
-L Miz:TSC103 AMP2
+L NormalMD-rescue:TSC103-Miz-NormalMD-rescue AMP2
 U 1 1 5E2A539A
 P 18650 10875
 F 0 "AMP2" H 18650 11412 60  0000 C CNN
@@ -3912,7 +3908,7 @@ Connection ~ 18650 12575
 Wire Wire Line
 	18100 12575 18650 12575
 $Comp
-L Miz:TSC103 AMP1
+L NormalMD-rescue:TSC103-Miz-NormalMD-rescue AMP1
 U 1 1 5E1F1A95
 P 18650 7175
 F 0 "AMP1" H 18650 7712 60  0000 C CNN
@@ -4416,7 +4412,7 @@ F 3 "" H 19100 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NormalMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue U4
+L NormalMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue U4
 U 1 1 5DD10035
 P 16500 8325
 F 0 "U4" H 16500 9162 60  0000 C CNN
@@ -4427,7 +4423,7 @@ F 3 "" H 16500 8325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue Q2
+L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue Q2
 U 1 1 5DD192A7
 P 18000 8675
 F 0 "Q2" H 18144 8728 60  0000 L CNN
@@ -4472,7 +4468,7 @@ Connection ~ 17125 8825
 Wire Wire Line
 	17125 8825 17800 8825
 $Comp
-L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue Q1
+L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue Q1
 U 1 1 5DF47111
 P 18000 7925
 F 0 "Q1" H 18144 7978 60  0000 L CNN
@@ -4492,7 +4488,7 @@ Connection ~ 17125 8075
 Wire Wire Line
 	17650 7925 17800 7925
 $Comp
-L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue Q5
+L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue Q5
 U 1 1 5DF92975
 P 19300 7925
 F 0 "Q5" H 19443 7978 60  0000 L CNN
@@ -4503,7 +4499,7 @@ F 3 "" H 19300 7925 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue Q6
+L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue Q6
 U 1 1 5DF933DA
 P 19300 8675
 F 0 "Q6" H 19443 8728 60  0000 L CNN
@@ -4515,7 +4511,7 @@ F 3 "" H 19300 8675 60  0000 C CNN
 $EndComp
 Connection ~ 18100 8875
 $Comp
-L NormalMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue U12
+L NormalMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue U12
 U 1 1 5DFB7F6D
 P 20800 8325
 F 0 "U12" H 20800 9162 60  0000 C CNN
@@ -5050,7 +5046,7 @@ F 3 "" H 21500 11175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NormalMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue U8
+L NormalMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue U8
 U 1 1 5E2F3D2B
 P 16500 12025
 F 0 "U8" H 16500 12862 60  0000 C CNN
@@ -5061,7 +5057,7 @@ F 3 "" H 16500 12025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue Q4
+L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue Q4
 U 1 1 5E2F3D35
 P 18000 12375
 F 0 "Q4" H 18144 12428 60  0000 L CNN
@@ -5106,7 +5102,7 @@ Connection ~ 17125 12525
 Wire Wire Line
 	17125 12525 17800 12525
 $Comp
-L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue Q3
+L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue Q3
 U 1 1 5E2F3D52
 P 18000 11625
 F 0 "Q3" H 18144 11678 60  0000 L CNN
@@ -5126,7 +5122,7 @@ Connection ~ 17125 11775
 Wire Wire Line
 	17650 11625 17800 11625
 $Comp
-L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue Q7
+L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue Q7
 U 1 1 5E2F3D61
 P 19300 11625
 F 0 "Q7" H 19443 11678 60  0000 L CNN
@@ -5137,7 +5133,7 @@ F 3 "" H 19300 11625 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue Q8
+L NormalMD-rescue:MOSFET_N-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue Q8
 U 1 1 5E2F3D6B
 P 19300 12375
 F 0 "Q8" H 19443 12428 60  0000 L CNN
@@ -5149,7 +5145,7 @@ F 3 "" H 19300 12375 60  0000 C CNN
 $EndComp
 Connection ~ 18100 12575
 $Comp
-L NormalMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue U14
+L NormalMD-rescue:SI8274-Miz-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue U14
 U 1 1 5E2F3D79
 P 20800 12025
 F 0 "U14" H 20800 12862 60  0000 C CNN

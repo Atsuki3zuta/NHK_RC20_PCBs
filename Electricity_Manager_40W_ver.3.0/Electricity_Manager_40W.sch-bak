@@ -4808,32 +4808,32 @@ Connection ~ 9325 4825
 Wire Wire Line
 	9325 4825 9575 4825
 $Comp
-L Electricity_Manager_40W-rescue:Conn_01x03 P?
+L Electricity_Manager_40W-rescue:Conn_01x03 P8
 U 1 1 5E7D0D12
-P 9425 3200
-F 0 "P?" H 9505 3248 50  0000 L CNN
-F 1 "MAIN_~RST" H 9505 3150 50  0000 L CNN
-F 2 "" H 9425 3200 50  0001 C CNN
-F 3 "~" H 9425 3200 50  0001 C CNN
-	1    9425 3200
+P 9450 3275
+F 0 "P8" H 9530 3323 50  0000 L CNN
+F 1 "MAIN_~RST" H 9530 3225 50  0000 L CNN
+F 2 "Mizz_lib:XA_3T" H 9450 3275 50  0001 C CNN
+F 3 "~" H 9450 3275 50  0001 C CNN
+	1    9450 3275
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR?
+L Electricity_Manager_40W-rescue:GND-power-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electrocity_Manager_40W-rescue #PWR0147
 U 1 1 5E7D1878
-P 9200 3125
-F 0 "#PWR?" H 9200 3125 30  0001 C CNN
-F 1 "GND" H 9200 3055 30  0001 C CNN
-F 2 "" H 9200 3125 60  0000 C CNN
-F 3 "" H 9200 3125 60  0000 C CNN
-	1    9200 3125
+P 9225 3200
+F 0 "#PWR0147" H 9225 3200 30  0001 C CNN
+F 1 "GND" H 9225 3130 30  0001 C CNN
+F 2 "" H 9225 3200 60  0000 C CNN
+F 3 "" H 9225 3200 60  0000 C CNN
+	1    9225 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 3125 9200 3100
+	9225 3200 9225 3175
 Wire Wire Line
-	9200 3100 9225 3100
-NoConn ~ 9225 3200
-Text Label 9225 3300 2    50   ~ 0
+	9225 3175 9250 3175
+NoConn ~ 9250 3275
+Text Label 9250 3375 2    50   ~ 0
 MAIN_~RST
 $EndSCHEMATC
