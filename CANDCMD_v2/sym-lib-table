@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name CanDCMD_ver1.1-rescue)(type Legacy)(uri ${KIPRJMOD}/CanDCMD_ver1.1-rescue.lib)(options "")(descr ""))
-  (lib (name WSHP28182L000FEB)(type Legacy)(uri C:/Users/3Zuta/Downloads/LIB_WSHP28182L000FEB/WSHP28182L000FEB/KiCad/WSHP28182L000FEB.lib)(options "")(descr ""))
-)
