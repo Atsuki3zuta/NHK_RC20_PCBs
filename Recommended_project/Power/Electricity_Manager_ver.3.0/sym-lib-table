@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Electrocity_Manager-rescue)(type Legacy)(uri ${KIPRJMOD}/Electrocity_Manager-rescue.lib)(options "")(descr ""))
+  (lib (name Electricity_Manager-rescue)(type Legacy)(uri ${KIPRJMOD}/Electricity_Manager-rescue.lib)(options "")(descr ""))
+)
