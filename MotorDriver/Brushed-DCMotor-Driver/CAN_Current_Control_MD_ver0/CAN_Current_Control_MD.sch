@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:CAN_Current_Control_MD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -121,7 +120,7 @@ OSC_OUT
 Wire Wire Line
 	2375 3175 1875 3175
 $Comp
-L Miz:NCP5104 U8
+L CAN_Current_Control_MD-rescue:NCP5104-Miz U8
 U 1 1 5E530EDC
 P 10925 3350
 F 0 "U8" H 10925 3915 50  0000 C CNN
@@ -132,7 +131,7 @@ F 3 "" H 10925 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Miz:NCP5104 U9
+L CAN_Current_Control_MD-rescue:NCP5104-Miz U9
 U 1 1 5E531612
 P 10925 4900
 F 0 "U9" H 10925 5465 50  0000 C CNN
@@ -729,7 +728,7 @@ MD0_OUT
 Wire Wire Line
 	13225 5400 13300 5400
 $Comp
-L Miz:NCP5104 U10
+L CAN_Current_Control_MD-rescue:NCP5104-Miz U10
 U 1 1 5E5FCEBA
 P 10925 6775
 F 0 "U10" H 10925 7340 50  0000 C CNN
@@ -740,7 +739,7 @@ F 3 "" H 10925 6725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Miz:NCP5104 U11
+L CAN_Current_Control_MD-rescue:NCP5104-Miz U11
 U 1 1 5E5FCEC4
 P 10925 8325
 F 0 "U11" H 10925 8890 50  0000 C CNN
@@ -1573,7 +1572,7 @@ F 3 "" H 11175 1775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Miz:PWR_DIODE D23
+L CAN_Current_Control_MD-rescue:PWR_DIODE-Miz D23
 U 1 1 5E561D43
 P 13425 1175
 F 0 "D23" H 13425 910 50  0000 C CNN
@@ -2242,7 +2241,7 @@ F 3 "" H 7075 10425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Miz:SW_ROTARY_16 U4
+L CAN_Current_Control_MD-rescue:SW_ROTARY_16-Miz-CAN_Current_Control_MD-rescue U4
 U 1 1 5E781202
 P 4600 10225
 F 0 "U4" H 4600 10662 60  0000 C CNN

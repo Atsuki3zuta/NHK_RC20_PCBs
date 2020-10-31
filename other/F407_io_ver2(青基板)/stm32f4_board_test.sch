@@ -1,14 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:74xgxx
-LIBS:74xx
-LIBS:audio
-LIBS:device
-LIBS:graphic
-LIBS:interface
-LIBS:power
-LIBS:pspice
-LIBS:video
-LIBS:stm32f4_board_test-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -3265,7 +3255,7 @@ F 3 "~" H 13225 15000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Miz:OSL10321-Lx U7
+L stm32f4_board_test-rescue:OSL10321-Lx-Miz-stm32f4_board_test-rescue U7
 U 1 1 5D27C6DC
 P 12575 14600
 F 0 "U7" H 12575 15465 50  0000 C CNN

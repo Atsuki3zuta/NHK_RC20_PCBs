@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:stm32f4_Centaurus-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535

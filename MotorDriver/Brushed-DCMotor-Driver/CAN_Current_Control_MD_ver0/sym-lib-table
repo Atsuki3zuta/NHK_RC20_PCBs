@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CAN_Current_Control_MD-rescue)(type Legacy)(uri ${KIPRJMOD}/CAN_Current_Control_MD-rescue.lib)(options "")(descr ""))
+)

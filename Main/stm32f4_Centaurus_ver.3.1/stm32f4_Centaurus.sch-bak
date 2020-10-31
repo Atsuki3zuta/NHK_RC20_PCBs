@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:stm32f4_Centaurus-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L stm32f4_Centaurus-rescue:PIC24FJ64GB004-pic24fjxxgb IC1
+L stm32f4_Centaurus-rescue:PIC24FJ64GB004-pic24fjxxgb-stm32f4_Centaurus-rescue IC1
 U 1 1 5C554825
 P 18250 14350
 F 0 "IC1" H 19825 17950 60  0000 C CNN
@@ -29,7 +30,7 @@ L stm32f4_Centaurus-rescue:USB_A-conn P2
 U 1 1 5C554906
 P 22000 10450
 F 0 "P2" H 22026 10775 50  0000 C CNN
-F 1 "Advanced_SBDBT" H 22026 10684 50  0000 C CNN
+F 1 "ADVANCED_SBDBT" H 22026 10684 50  0000 C CNN
 F 2 "Mizz_lib:USB_A" V 21950 10350 50  0001 C CNN
 F 3 "" V 21950 10350 50  0000 C CNN
 	1    22000 10450
