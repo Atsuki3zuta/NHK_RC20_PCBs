@@ -868,11 +868,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Electricity_Manager-rescue_V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue
+# Electricity_Manager-rescue_V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electricity_Manager-rescue
 #
-DEF Electricity_Manager-rescue_V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U 0 40 Y Y 1 F N
+DEF Electricity_Manager-rescue_V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electricity_Manager-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 225 50 H V C CNN
-F1 "Electricity_Manager-rescue_V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue" 0 -225 50 H V C CNN
+F1 "Electricity_Manager-rescue_V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electricity_Manager-rescue" 0 -225 50 H V C CNN
 F2 "" 0 225 50 H I C CNN
 F3 "" 0 225 50 H I C CNN
 DRAW
@@ -937,7 +937,7 @@ F1 "Miz_TSC103" 0 -350 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
-S -250 350 250 -300 0 1 0 N
+S -250 350 250 -300 0 1 0 f
 X Vm 1 -450 250 200 R 50 50 1 1 I
 X SEL1 2 -450 100 200 R 50 50 1 1 I
 X SEL2 3 -450 -50 200 R 50 50 1 1 I

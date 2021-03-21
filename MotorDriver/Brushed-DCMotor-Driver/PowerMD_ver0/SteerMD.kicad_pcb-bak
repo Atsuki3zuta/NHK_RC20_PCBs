@@ -5,7 +5,7 @@
     (drawings 59)
     (tracks 2092)
     (zones 0)
-    (modules 220)
+    (modules 216)
     (nets 173)
   )
 
@@ -493,50 +493,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-  )
-
-  (module Mizz_lib:φ6_holl3 (layer F.Cu) (tedit 5EA5A9F6) (tstamp 5EC73C48)
-    (at 144.5 136)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value φ6_holl3 (at 0 -0.5) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers *.Cu *.Mask))
-  )
-
-  (module Mizz_lib:φ6_holl3 (layer F.Cu) (tedit 5EA5A9F6) (tstamp 5EC73C40)
-    (at 75.5 136)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value φ6_holl3 (at 0 -0.5) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers *.Cu *.Mask))
-  )
-
-  (module Mizz_lib:φ6_holl3 (layer F.Cu) (tedit 5EA5A9F6) (tstamp 5EC73C38)
-    (at 75.5 54)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value φ6_holl3 (at 0 -0.5) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers *.Cu *.Mask))
-  )
-
-  (module Mizz_lib:φ6_holl3 (layer F.Cu) (tedit 5EA5A9F6) (tstamp 5EC73C32)
-    (at 144.5 54)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value φ6_holl3 (at 0 -0.5) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3) (layers *.Cu *.Mask))
   )
 
   (module Mizz_lib:AQM0802_original (layer F.Cu) (tedit 5EABF1B1) (tstamp 5E0C35D8)

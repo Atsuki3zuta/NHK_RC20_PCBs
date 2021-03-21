@@ -1,4 +1,4 @@
-update=2020/03/11 16:46:05
+update=2021/01/20 0:42:54
 version=1
 last_client=eeschema
 [general]
@@ -247,7 +247,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=回路図/
+PlotDirectoryName=C:/Users/3Zuta/Documents/NHK_RC20_PCBs/Power/Electricity_Manager_ver.3.0/回路図/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

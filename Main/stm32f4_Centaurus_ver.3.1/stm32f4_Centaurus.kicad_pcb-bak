@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "C:/Users/3Zuta/Documents/NHK_RC20_PCBs/stm32f4_Centaurus_ver.3.1/加工データ/"))
+      (outputdirectory "C:/Users/3Zuta/OneDrive/デスクトップ/NHK_RC20_PCBs/stm32f4_Centaurus_ver.3.1/加工データ/"))
   )
 
   (net 0 "")
@@ -13945,7 +13945,7 @@
   (segment (start 84.95 103.685) (end 84.9 103.635) (width 0.5) (layer B.Cu) (net 232))
   (segment (start 84.95 107.05) (end 84.95 103.685) (width 0.5) (layer B.Cu) (net 232))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5EEA9F9B) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5EFF6180) (hatch edge 0.508)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -16740,7 +16740,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5EEA9F98) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5EFF617D) (hatch edge 0.508)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))

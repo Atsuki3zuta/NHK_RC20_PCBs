@@ -255,7 +255,7 @@ Wire Wire Line
 	1175 4475 1500 4475
 Connection ~ 1175 4475
 $Comp
-L Electricity_Manager-rescue:V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U8
+L Electricity_Manager-rescue:V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electricity_Manager-rescue U8
 U 1 1 5C902949
 P 13000 4175
 F 0 "U8" H 13000 4525 50  0000 C CNN
@@ -4230,7 +4230,7 @@ F 3 "" H 13400 4925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electricity_Manager-rescue:V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue U12
+L Electricity_Manager-rescue:V23134J1052D642-Miz-Electrocity_Manager-rescue-Electrocity_Manager-rescue-Electricity_Manager-rescue U12
 U 1 1 5C916732
 P 13000 4800
 F 0 "U12" H 13000 5150 50  0000 C CNN
