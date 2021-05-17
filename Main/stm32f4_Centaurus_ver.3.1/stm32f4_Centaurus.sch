@@ -5651,42 +5651,4 @@ Buzzer_Vdd
 Wire Wire Line
 	19500 2450 19375 2450
 Connection ~ 19375 2450
-Wire Wire Line
-	1650 13550 2000 13550
-Wire Wire Line
-	2100 13450 1650 13450
-Wire Wire Line
-	2100 13450 2100 13800
-Wire Wire Line
-	1050 15850 2000 15850
-Wire Wire Line
-	2100 15850 2100 14100
-Wire Wire Line
-	2000 13850 2000 15850
-Connection ~ 2000 15850
-Wire Wire Line
-	2000 15850 2100 15850
-Connection ~ 1050 15850
-$Comp
-L stm32f4_Centaurus-rescue:R-device R83
-U 1 1 606C3CE8
-P 2100 13950
-F 0 "R83" H 2178 13988 40  0000 L CNN
-F 1 "4.7k" H 2178 13912 40  0000 L CNN
-F 2 "Mizz_lib:R_0603" V 2030 13950 30  0001 C CNN
-F 3 "" H 2100 13950 30  0000 C CNN
-	1    2100 13950
-	1    0    0    -1  
-$EndComp
-$Comp
-L stm32f4_Centaurus-rescue:R-device R82
-U 1 1 606C4A2F
-P 2000 13700
-F 0 "R82" H 2078 13738 40  0000 L CNN
-F 1 "4.7k" H 2078 13662 40  0000 L CNN
-F 2 "Mizz_lib:R_0603" V 1930 13700 30  0001 C CNN
-F 3 "" H 2000 13700 30  0000 C CNN
-	1    2000 13700
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

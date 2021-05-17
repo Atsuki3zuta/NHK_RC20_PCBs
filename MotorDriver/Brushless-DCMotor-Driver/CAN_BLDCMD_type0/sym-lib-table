@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CAN_BLDCMD-rescue)(type Legacy)(uri ${KIPRJMOD}/CAN_BLDCMD-rescue.lib)(options "")(descr ""))
+)
