@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:NormalMD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -2213,7 +2212,7 @@ Current1
 Text Label 4275 6425 2    50   ~ 0
 Current0
 $Comp
-L NormalMD-rescue:LOGO-myDevice-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue U16
+L NormalMD-rescue:LOGO-myDevice-MD_Enbarr_x2-rescue-F4_CAN_DCMD-rescue-SteerMD-rescue-NormalMD-rescue U16
 U 1 1 5D9F257F
 P 21750 2850
 F 0 "U16" H 22028 2903 60  0000 L CNN

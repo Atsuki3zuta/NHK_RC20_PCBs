@@ -1678,7 +1678,7 @@ F 1 "GND" H 4775 3455 30  0001 C CNN
 F 2 "" H 4775 3525 60  0000 C CNN
 F 3 "" H 4775 3525 60  0000 C CNN
 	1    4775 3525
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 Text Label 4775 3725 2    50   ~ 0
 FB
@@ -5174,8 +5174,6 @@ Wire Wire Line
 	1650 13750 1650 13850
 Wire Wire Line
 	1650 13950 1650 14050
-NoConn ~ 1650 13450
-NoConn ~ 1650 13550
 NoConn ~ 1650 14250
 NoConn ~ 1650 14350
 NoConn ~ 1650 14550

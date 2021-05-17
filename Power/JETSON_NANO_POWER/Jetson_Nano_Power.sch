@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Jetson_Nano_Power-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Hori_lib:VYB20W-Q24-S5 U1
+L Jetson_Nano_Power-rescue:VYB20W-Q24-S5-Hori_lib U1
 U 1 1 5D081C28
 P 4125 2600
 F 0 "U1" H 4125 2987 60  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "" H 4125 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X02 P4
+L Jetson_Nano_Power-rescue:CONN_01X02-conn P4
 U 1 1 5D04B6F2
 P 2350 2850
 F 0 "P4" H 2428 2891 50  0000 L CNN
@@ -37,7 +36,7 @@ F 3 "" H 2350 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X02 P3
+L Jetson_Nano_Power-rescue:CONN_01X02-conn P3
 U 1 1 5D04BEE5
 P 2350 2550
 F 0 "P3" H 2428 2591 50  0000 L CNN
@@ -114,7 +113,7 @@ F 3 "" H 1975 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X02 P2
+L Jetson_Nano_Power-rescue:CONN_01X02-conn P2
 U 1 1 5D04F214
 P 1700 3575
 F 0 "P2" H 1778 3616 50  0000 L CNN
@@ -136,7 +135,7 @@ F 3 "" H 1050 3375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:SBRDIODE D1
+L Jetson_Nano_Power-rescue:SBRDIODE-device D1
 U 1 1 5D05042A
 P 1250 3425
 F 0 "D1" H 1250 3633 40  0000 C CNN
@@ -344,7 +343,7 @@ F 3 "" H 3950 4075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X02 P1
+L Jetson_Nano_Power-rescue:CONN_01X02-conn P1
 U 1 1 5D059DF5
 P 1200 2550
 F 0 "P1" H 1278 2591 50  0000 L CNN
@@ -377,7 +376,7 @@ F 3 "" H 1000 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:CONN_01X02 P5
+L Jetson_Nano_Power-rescue:CONN_01X02-conn P5
 U 1 1 5D06867F
 P 1200 2850
 F 0 "P5" H 1278 2891 50  0000 L CNN
@@ -630,7 +629,7 @@ F 3 "~" H 2650 3475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X02 P6
+L Jetson_Nano_Power-rescue:CONN_01X02-conn P6
 U 1 1 5D0B465A
 P 1200 1950
 F 0 "P6" H 1278 1991 50  0000 L CNN
@@ -663,7 +662,7 @@ F 3 "" H 1000 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:CONN_01X02 P7
+L Jetson_Nano_Power-rescue:CONN_01X02-conn P7
 U 1 1 5D0B4678
 P 1200 2250
 F 0 "P7" H 1278 2291 50  0000 L CNN

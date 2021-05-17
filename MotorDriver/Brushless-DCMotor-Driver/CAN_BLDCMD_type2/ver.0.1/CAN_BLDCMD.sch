@@ -4916,4 +4916,6 @@ F 3 "https://www.st.com/resource/en/datasheet/lm139.pdf" H 16700 13300 50  0001 
 	5    16650 13100
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6625 6975
+NoConn ~ 6625 7075
 $EndSCHEMATC
