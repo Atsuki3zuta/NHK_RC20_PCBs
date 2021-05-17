@@ -756,23 +756,6 @@ Text Label 21075 8775 2    50   ~ 0
 CAN1_H
 Text Label 21075 8875 2    50   ~ 0
 CAN1_L
-Text Label 1650 13250 0    50   ~ 0
-BUS_5V
-Text Label 1650 13750 0    50   ~ 0
-D-_USB
-Text Label 1650 13950 0    50   ~ 0
-D+_USB
-$Comp
-L stm32f4_Centaurus-rescue:GND-power #PWR014
-U 1 1 5C57B5EE
-P 1050 15850
-F 0 "#PWR014" H 1050 15850 30  0001 C CNN
-F 1 "GND" H 1050 15780 30  0001 C CNN
-F 2 "" H 1050 15850 60  0000 C CNN
-F 3 "" H 1050 15850 60  0000 C CNN
-	1    1050 15850
-	1    0    0    -1  
-$EndComp
 Text Label 3400 6525 2    50   ~ 0
 OSC_IN
 Text Label 3400 7125 2    50   ~ 0
@@ -988,17 +971,6 @@ F 2 "Mizz_lib:C_0603" H 2438 13000 30  0001 C CNN
 F 3 "" H 2400 13150 60  0000 C CNN
 	1    2400 13150
 	0    1    1    0   
-$EndComp
-$Comp
-L stm32f4_Centaurus-rescue:GND-power #PWR03
-U 1 1 5C5A0781
-P 2200 13150
-F 0 "#PWR03" H 2200 13150 30  0001 C CNN
-F 1 "GND" H 2200 13080 30  0001 C CNN
-F 2 "" H 2200 13150 60  0000 C CNN
-F 3 "" H 2200 13150 60  0000 C CNN
-	1    2200 13150
-	1    0    0    -1  
 $EndComp
 $Comp
 L stm32f4_Centaurus-rescue:GND-power #PWR015
@@ -5158,32 +5130,6 @@ F 3 "" H 22375 1225 50  0001 C CNN
 	1    22375 1225
 	1    0    0    -1  
 $EndComp
-NoConn ~ 750  15850
-$Comp
-L stm32f4_Centaurus-rescue:USB_C_Receptacle-Connector J1
-U 1 1 5E5C148D
-P 1050 14250
-F 0 "J1" H 1157 15517 50  0000 C CNN
-F 1 "SERIAL1" H 1157 15426 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1200 14250 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1200 14250 50  0001 C CNN
-	1    1050 14250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 13750 1650 13850
-Wire Wire Line
-	1650 13950 1650 14050
-NoConn ~ 1650 14250
-NoConn ~ 1650 14350
-NoConn ~ 1650 14550
-NoConn ~ 1650 14650
-NoConn ~ 1650 14850
-NoConn ~ 1650 14950
-NoConn ~ 1650 15150
-NoConn ~ 1650 15250
-NoConn ~ 1650 15450
-NoConn ~ 1650 15550
 Wire Notes Line
 	19100 450  19100 1800
 Wire Wire Line
@@ -5651,31 +5597,15 @@ Buzzer_Vdd
 Wire Wire Line
 	19500 2450 19375 2450
 Connection ~ 19375 2450
-Wire Wire Line
-	1650 13550 2000 13550
-Wire Wire Line
-	2100 13450 1650 13450
-Wire Wire Line
-	2100 13450 2100 13800
-Wire Wire Line
-	1050 15850 2000 15850
-Wire Wire Line
-	2100 15850 2100 14100
-Wire Wire Line
-	2000 13850 2000 15850
-Connection ~ 2000 15850
-Wire Wire Line
-	2000 15850 2100 15850
-Connection ~ 1050 15850
 $Comp
-L stm32f4_Centaurus-rescue:R-device R83
-U 1 1 606C3CE8
-P 2100 13950
-F 0 "R83" H 2178 13988 40  0000 L CNN
-F 1 "4.7k" H 2178 13912 40  0000 L CNN
-F 2 "Mizz_lib:R_0603" V 2030 13950 30  0001 C CNN
-F 3 "" H 2100 13950 30  0000 C CNN
-	1    2100 13950
+L stm32f4_Centaurus-rescue:GND-power #PWR03
+U 1 1 5C5A0781
+P 2200 13150
+F 0 "#PWR03" H 2200 13150 30  0001 C CNN
+F 1 "GND" H 2200 13080 30  0001 C CNN
+F 2 "" H 2200 13150 60  0000 C CNN
+F 3 "" H 2200 13150 60  0000 C CNN
+	1    2200 13150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5683,10 +5613,80 @@ L stm32f4_Centaurus-rescue:R-device R82
 U 1 1 606C4A2F
 P 2000 13700
 F 0 "R82" H 2078 13738 40  0000 L CNN
-F 1 "4.7k" H 2078 13662 40  0000 L CNN
+F 1 "5.1k" H 2078 13662 40  0000 L CNN
 F 2 "Mizz_lib:R_0603" V 1930 13700 30  0001 C CNN
 F 3 "" H 2000 13700 30  0000 C CNN
 	1    2000 13700
 	1    0    0    -1  
 $EndComp
+$Comp
+L stm32f4_Centaurus-rescue:R-device R83
+U 1 1 606C3CE8
+P 2100 13950
+F 0 "R83" H 2178 13988 40  0000 L CNN
+F 1 "5.1k" H 2178 13912 40  0000 L CNN
+F 2 "Mizz_lib:R_0603" V 2030 13950 30  0001 C CNN
+F 3 "" H 2100 13950 30  0000 C CNN
+	1    2100 13950
+	1    0    0    -1  
+$EndComp
+Connection ~ 1050 15850
+Wire Wire Line
+	2000 15850 2100 15850
+Connection ~ 2000 15850
+Wire Wire Line
+	2000 13850 2000 15850
+Wire Wire Line
+	2100 15850 2100 14100
+Wire Wire Line
+	1050 15850 2000 15850
+Wire Wire Line
+	2100 13450 2100 13800
+Wire Wire Line
+	2100 13450 1650 13450
+Wire Wire Line
+	1650 13550 2000 13550
+NoConn ~ 1650 15550
+NoConn ~ 1650 15450
+NoConn ~ 1650 15250
+NoConn ~ 1650 15150
+NoConn ~ 1650 14950
+NoConn ~ 1650 14850
+NoConn ~ 1650 14650
+NoConn ~ 1650 14550
+NoConn ~ 1650 14350
+NoConn ~ 1650 14250
+Wire Wire Line
+	1650 13950 1650 14050
+Wire Wire Line
+	1650 13750 1650 13850
+$Comp
+L stm32f4_Centaurus-rescue:USB_C_Receptacle-Connector J1
+U 1 1 5E5C148D
+P 1050 14250
+F 0 "J1" H 1157 15517 50  0000 C CNN
+F 1 "SERIAL1" H 1157 15426 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1200 14250 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1200 14250 50  0001 C CNN
+	1    1050 14250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 750  15850
+$Comp
+L stm32f4_Centaurus-rescue:GND-power #PWR014
+U 1 1 5C57B5EE
+P 1050 15850
+F 0 "#PWR014" H 1050 15850 30  0001 C CNN
+F 1 "GND" H 1050 15780 30  0001 C CNN
+F 2 "" H 1050 15850 60  0000 C CNN
+F 3 "" H 1050 15850 60  0000 C CNN
+	1    1050 15850
+	1    0    0    -1  
+$EndComp
+Text Label 1650 13950 0    50   ~ 0
+D+_USB
+Text Label 1650 13750 0    50   ~ 0
+D-_USB
+Text Label 1650 13250 0    50   ~ 0
+BUS_5V
 $EndSCHEMATC
